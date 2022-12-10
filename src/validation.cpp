@@ -1508,14 +1508,20 @@ bool CheckProofOfWork(const CBlockHeader& block, const Consensus::Params& params
 
 CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 {
+    if(nHeight == 0) return 0;
     int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
-    // Force block reward to zero when right shift is undefined.
-    if (halvings >= 64)
-        return 0;
 
-    CAmount nSubsidy = 50 * COIN;
-    // Subsidy is cut in half every 210,000 blocks which will occur approximately every 4 years.
-    nSubsidy >>= halvings;
+    CAmount nSubsidy = 210000 * COIN;
+    
+    CAmount temp_nSubsidy = nSubsidy;
+
+    for(int i = 0; i<halvings; i++){
+        if(nSubsidy <= 0) break;
+        nSubsidy -= (nSubsidy * 1) / 100;
+        if(nSubsidy == temp_nSubsidy) nSubsidy -= 1;
+        temp_nSubsidy = nSubsidy;
+    }
+
     return nSubsidy;
 }
 

@@ -19,7 +19,7 @@ public:
     {
         CreateAndProcessBlock({}, {});
         wallet = CreateSyncedWallet(*m_node.chain, m_node.chainman->ActiveChain(), m_args, coinbaseKey);
-        /* With legacy as default address type (which is the default in Namecoin),
+        /* With legacy as default address type (which is the default in Lyncoin),
            the output address type matching is disabled and all change is sent
            to legacy addresses.  */
         wallet->m_default_address_type = OutputType::BECH32M;
