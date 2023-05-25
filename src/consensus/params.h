@@ -154,6 +154,10 @@ struct Params {
     int nAuxpowStartHeight;
     bool fStrictChainId;
     int nLegacyBlocksBefore; // -1 for "always allow"
+    uint32_t n2023Height;
+    uint32_t n2023Window;
+    uint32_t n2023Timespan;
+	uint32_t n2023Bits;
 
     /**
      * Check whether or not to allow legacy blocks at the given height.

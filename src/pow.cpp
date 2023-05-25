@@ -15,30 +15,62 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     assert(pindexLast != nullptr);
     unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
 
-    // Only change once per difficulty adjustment interval
-    if ((pindexLast->nHeight+1) % params.DifficultyAdjustmentInterval() != 0)
-    {
-        if (params.fPowAllowMinDifficultyBlocks)
-        {
-            // Special difficulty rule for testnet:
-            // If the new block's timestamp is more than 2* 10 minutes
-            // then allow mining of a min-difficulty block.
-            if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*2)
-                return nProofOfWorkLimit;
-            else
-            {
-                // Return the last non-special-min-difficulty-rules-block
-                const CBlockIndex* pindex = pindexLast;
-                while (pindex->pprev && pindex->nHeight % params.DifficultyAdjustmentInterval() != 0 && pindex->nBits == nProofOfWorkLimit)
-                    pindex = pindex->pprev;
-                return pindex->nBits;
-            }
-        }
-        return pindexLast->nBits;
+	if((pindexLast->nHeight+1) == params.n2023Height) return params.n2023Bits;
+
+	if((pindexLast->nHeight+1) < params.n2023Height) {
+		// Only change once per difficulty adjustment interval
+		if ((pindexLast->nHeight+1) % params.DifficultyAdjustmentInterval() != 0)
+		{
+			if (params.fPowAllowMinDifficultyBlocks)
+			{
+				// Special difficulty rule for testnet:
+				// If the new block's timestamp is more than 2* 10 minutes
+				// then allow mining of a min-difficulty block.
+				if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*2)
+					return nProofOfWorkLimit;
+				else
+				{
+					// Return the last non-special-min-difficulty-rules-block
+					const CBlockIndex* pindex = pindexLast;
+					while (pindex->pprev && pindex->nHeight % params.DifficultyAdjustmentInterval() != 0 && pindex->nBits == nProofOfWorkLimit)
+						pindex = pindex->pprev;
+					return pindex->nBits;
+				}
+			}
+			return pindexLast->nBits;
+		}
+	} else {
+		// Only change once per difficulty adjustment interval
+		if ((pindexLast->nHeight+1) % params.n2023Window != 0)
+		{
+			if (params.fPowAllowMinDifficultyBlocks)
+			{
+				// Special difficulty rule for testnet:
+				// If the new block's timestamp is more than 2* 10 minutes
+				// then allow mining of a min-difficulty block.
+				if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*2)
+					return nProofOfWorkLimit;
+				else
+				{
+					// Return the last non-special-min-difficulty-rules-block
+					const CBlockIndex* pindex = pindexLast;
+					while (pindex->pprev && pindex->nHeight % params.n2023Window != 0 && pindex->nBits == nProofOfWorkLimit)
+						pindex = pindex->pprev;
+					return pindex->nBits;
+				}
+			}
+			return pindexLast->nBits;
+		}
+	}
+
+    int nHeightFirst;
+    if((pindexLast->nHeight+1) < params.n2023Height) {
+        // Go back by what we want to be 14 days worth of blocks
+        nHeightFirst = pindexLast->nHeight - (params.DifficultyAdjustmentInterval()-1);
+    } else {
+        nHeightFirst = pindexLast->nHeight - (params.n2023Window-1);
     }
 
-    // Go back by what we want to be 14 days worth of blocks
-    int nHeightFirst = pindexLast->nHeight - (params.DifficultyAdjustmentInterval()-1);
     assert(nHeightFirst >= 0);
     const CBlockIndex* pindexFirst = pindexLast->GetAncestor(nHeightFirst);
     assert(pindexFirst);
@@ -53,17 +85,29 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
 
     // Limit adjustment step
     int64_t nActualTimespan = pindexLast->GetBlockTime() - nFirstBlockTime;
-    if (nActualTimespan < params.nPowTargetTimespan/4)
-        nActualTimespan = params.nPowTargetTimespan/4;
-    if (nActualTimespan > params.nPowTargetTimespan*4)
-        nActualTimespan = params.nPowTargetTimespan*4;
+
+	if((pindexLast->nHeight+1) < params.n2023Height) {
+		if (nActualTimespan < params.nPowTargetTimespan/4)
+			nActualTimespan = params.nPowTargetTimespan/4;
+		if (nActualTimespan > params.nPowTargetTimespan*4)
+			nActualTimespan = params.nPowTargetTimespan*4;
+	} else {
+		if (nActualTimespan < params.n2023Timespan/1.014)
+			nActualTimespan = params.n2023Timespan/1.014;
+		if (nActualTimespan > params.n2023Timespan*1.014)
+			nActualTimespan = params.n2023Timespan*1.014;
+	}
 
     // Retarget
     const arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
     arith_uint256 bnNew;
     bnNew.SetCompact(pindexLast->nBits);
     bnNew *= nActualTimespan;
-    bnNew /= params.nPowTargetTimespan;
+    if((pindexLast->nHeight+1) < params.n2023Height) {
+        bnNew /= params.nPowTargetTimespan;
+    } else {
+        bnNew /= params.n2023Timespan;
+    }
 
     if (bnNew > bnPowLimit)
         bnNew = bnPowLimit;

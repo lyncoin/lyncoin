@@ -2326,6 +2326,30 @@ bool Chainstate::ConnectBlock(const CBlock& block, BlockValidationState& state, 
         return state.Invalid(BlockValidationResult::BLOCK_CONSENSUS, "bad-cb-amount");
     }
 
+    const Consensus::Params& consensusParams = params.GetConsensus();
+    if ( pindex->nHeight >= consensusParams.n2023Height) {
+	   CTransactionRef cb = block.vtx[0];
+       CScript devScript = CScript() << OP_0 << ParseHex("e278645407a9c322b0becef0b31762f32ec03a66");
+       int64_t nDevOutCount = 0;
+	   for (int i = 0; i < cb->vout.size(); ++i) {
+		   if ((cb->vout[i].scriptPubKey == devScript)) {
+			   nDevOutCount++;
+               CAmount devReward = blockReward * 0.1;
+               if(cb->vout[i].nValue < devReward) {
+                   LogPrintf("ERROR: %s: Developer reward output has wrong value\n", __func__);
+                   return state.Invalid(BlockValidationResult::BLOCK_CONSENSUS, "devreward-wrong-value");
+               }
+		   }
+       }
+       if (nDevOutCount<1) {
+            LogPrintf("ERROR: %s: Developer reward script was not found\n", __func__);
+            return state.Invalid(BlockValidationResult::BLOCK_CONSENSUS, "devreward-not-found");
+       } else if (nDevOutCount>1) {
+            LogPrintf("ERROR: %s: Duplicate developer reward script was found\n", __func__);
+            return state.Invalid(BlockValidationResult::BLOCK_CONSENSUS, "duplicate-devreward");
+       }
+    }
+
     if (!control.Wait()) {
         LogPrintf("ERROR: %s: CheckQueue failed\n", __func__);
         return state.Invalid(BlockValidationResult::BLOCK_CONSENSUS, "block-validation-failed");

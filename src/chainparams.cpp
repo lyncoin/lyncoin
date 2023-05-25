@@ -89,13 +89,18 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_TAPROOT].nTimeout = Consensus::BIP9Deployment::NO_TIMEOUT;
         consensus.vDeployments[Consensus::DEPLOYMENT_TAPROOT].min_activation_height = 0; // No activation delay
 
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000100010001");
-        consensus.defaultAssumeValid = uint256{};
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000005ae5c476ef28b9ba0bc");
+        consensus.defaultAssumeValid = uint256S("0x28eb514a185f5dd2faf3ed70decae45dc06b86dd9656bfff7f5bb197b238a0b3");
 
         consensus.nAuxpowChainId = 0x0b0d;
         consensus.nAuxpowStartHeight = 0;
         consensus.fStrictChainId = true;
         consensus.nLegacyBlocksBefore = 0;
+
+		consensus.n2023Height = 48950;
+		consensus.n2023Window = 10;
+		consensus.n2023Timespan = 10 * 10 * 60;
+		consensus.n2023Bits = 0x1908cf19;
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -140,7 +145,13 @@ public:
 
         checkpointData = {
             {
-                { 0, uint256S("0x000000002b8761c63862f5047afb9ac5fdd1c67e87cd376c387628bc772bb39d")},
+                {     0, uint256S("0x000000002b8761c63862f5047afb9ac5fdd1c67e87cd376c387628bc772bb39d")},
+                {  1000, uint256S("0xfad7864364b1bd1fa259b72ce7fbe29830615412f77675781f4e90f0996f607d")},
+                { 10000, uint256S("0x000000000002ce00fce2f53c833902878c457c7ad04c411c7cb7c484e91327b5")},
+                { 20000, uint256S("0x2ed35f5d1e12679cb9ee0761e055c84d6d9f016489732ef275a0bf8f0f6b1a30")},
+                { 30000, uint256S("0x5427dbfe4804300d7a8f5a73ec1bda71ca1cdc0bbbba5e7518a6fa42358534e9")},
+                { 40000, uint256S("0xff3c7d78cb9054a3602867f23958f441aacc87d29ec0968df4904ae9dc85c184")},
+                { 48829, uint256S("0x28eb514a185f5dd2faf3ed70decae45dc06b86dd9656bfff7f5bb197b238a0b3")},
             }
         };
 
@@ -149,10 +160,10 @@ public:
         };
 
         chainTxData = ChainTxData{
-            // Data from RPC: getchaintxstats 4096
-            .nTime    = 0,
-            .nTxCount = 0,
-            .dTxRate  = 0,
+            // Data from RPC: getchaintxstats 4096 28eb514a185f5dd2faf3ed70decae45dc06b86dd9656bfff7f5bb197b238a0b3
+            .nTime    = 1684951120,
+            .nTxCount = 50808,
+            .dTxRate  = 0.002088307314019846,
         };
     }
 };
@@ -199,6 +210,11 @@ public:
         consensus.nAuxpowStartHeight = 0;
         consensus.fStrictChainId = false;
         consensus.nLegacyBlocksBefore = 0;
+
+		consensus.n2023Height = 0; // No activation delay
+		consensus.n2023Window = 10;
+		consensus.n2023Timespan = 10 * 10 * 60;
+		consensus.n2023Bits = 0x1d00ffff;
 
         pchMessageStart[0] = 0x17;
         pchMessageStart[1] = 0x3a;
@@ -335,6 +351,11 @@ public:
         consensus.fStrictChainId = true;
         consensus.nLegacyBlocksBefore = 0;
 
+		consensus.n2023Height = 0; // No activation delay
+		consensus.n2023Window = 10;
+		consensus.n2023Timespan = 10 * 10 * 60;
+		consensus.n2023Bits = 0x1e0377ae;
+
         // message start is defined as the first 4 bytes of the sha256d of the block script
         HashWriter h{};
         h << consensus.signet_challenge;
@@ -409,6 +430,11 @@ public:
         consensus.nAuxpowStartHeight = 0;
         consensus.fStrictChainId = true;
         consensus.nLegacyBlocksBefore = 0;
+
+		consensus.n2023Height = 0; // No activation delay
+		consensus.n2023Window = 10;
+		consensus.n2023Timespan = 10 * 10 * 60;
+		consensus.n2023Bits = 0x207fffff;
 
         pchMessageStart[0] = 0xa8;
         pchMessageStart[1] = 0xc4;

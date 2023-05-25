@@ -156,6 +156,13 @@ AuxpowMiner::createAuxBlock (const JSONRPCRequest& request,
   result.pushKV ("previousblockhash", pblock->hashPrevBlock.GetHex ());
   result.pushKV ("coinbasevalue",
                  static_cast<int64_t> (pblock->vtx[0]->vout[0].nValue));
+
+  UniValue devreward(UniValue::VOBJ);
+  devreward.pushKV("value", static_cast<int64_t> (pblock->vtx[0]->vout[1].nValue));
+  devreward.pushKV("address", "lc1qufuxg4q848pj9v97emctx9mz7vhvqwnxzxvywj");
+  devreward.pushKV("scriptpubkey", "0014e278645407a9c322b0becef0b31762f32ec03a66");
+  result.pushKV("coinbasedevreward", devreward);
+
   result.pushKV ("bits", strprintf ("%08x", pblock->nBits));
   result.pushKV ("height", static_cast<int64_t> (pindexPrev->nHeight + 1));
   result.pushKV ("_target", HexStr (target));
