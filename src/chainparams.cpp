@@ -89,8 +89,8 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_TAPROOT].nTimeout = Consensus::BIP9Deployment::NO_TIMEOUT;
         consensus.vDeployments[Consensus::DEPLOYMENT_TAPROOT].min_activation_height = 0; // No activation delay
 
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000005ae5c476ef28b9ba0bc");
-        consensus.defaultAssumeValid = uint256S("0x28eb514a185f5dd2faf3ed70decae45dc06b86dd9656bfff7f5bb197b238a0b3");
+        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000116553bc1b975d49fd12");
+        consensus.defaultAssumeValid = uint256S("0xf76860d0cc2fcb30aebed573c022819cd245da7e14d05253e2e914d379312407");
 
         consensus.nAuxpowChainId = 0x0b0d;
         consensus.nAuxpowStartHeight = 0;
@@ -151,7 +151,11 @@ public:
                 { 20000, uint256S("0x2ed35f5d1e12679cb9ee0761e055c84d6d9f016489732ef275a0bf8f0f6b1a30")},
                 { 30000, uint256S("0x5427dbfe4804300d7a8f5a73ec1bda71ca1cdc0bbbba5e7518a6fa42358534e9")},
                 { 40000, uint256S("0xff3c7d78cb9054a3602867f23958f441aacc87d29ec0968df4904ae9dc85c184")},
-                { 48829, uint256S("0x28eb514a185f5dd2faf3ed70decae45dc06b86dd9656bfff7f5bb197b238a0b3")},
+                { 50000, uint256S("0x7aa3a580745059f06694d2b3e91037d7b764a48c49d39a6463e8ebb94460ef74")},
+                { 51000, uint256S("0x4b97026fa9dbdf259d118debb3a3c8f204864cb4dcf122f8d2d78fd833dd6dee")},
+                { 52000, uint256S("0x4b4e74108725fae068c26840d1b8944e1b86a999d15786af34b103a58a695cd1")},
+                { 53000, uint256S("0x9d61d38271f4887c28f387ae96150ba3ccfdbad29b450469d5c38a5bca7f51bd")},
+                { 53743, uint256S("0xf76860d0cc2fcb30aebed573c022819cd245da7e14d05253e2e914d379312407")},
             }
         };
 
@@ -160,10 +164,10 @@ public:
         };
 
         chainTxData = ChainTxData{
-            // Data from RPC: getchaintxstats 4096 28eb514a185f5dd2faf3ed70decae45dc06b86dd9656bfff7f5bb197b238a0b3
-            .nTime    = 1684951120,
-            .nTxCount = 50808,
-            .dTxRate  = 0.002088307314019846,
+            // Data from RPC: getchaintxstats 4096 f76860d0cc2fcb30aebed573c022819cd245da7e14d05253e2e914d379312407
+            .nTime    = 1689977643,
+            .nTxCount = 57322,
+            .dTxRate  = 0.001240342630070727,
         };
     }
 };
