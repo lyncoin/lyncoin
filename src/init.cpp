@@ -671,13 +671,13 @@ void InitParameterInteraction(ArgsManager& args)
             LogPrintf("%s: parameter interaction: -whitebind set -> setting -listen=1\n", __func__);
     }
 
-/*     if (args.IsArgSet("-connect")) {
+    if (args.IsArgSet("-connect")) {
         // when only connecting to trusted nodes, do not seed via DNS, or listen by default
         if (args.SoftSetBoolArg("-dnsseed", false))
             LogPrintf("%s: parameter interaction: -connect set -> setting -dnsseed=0\n", __func__);
         if (args.SoftSetBoolArg("-listen", false))
             LogPrintf("%s: parameter interaction: -connect set -> setting -listen=0\n", __func__);
-    } */
+    }
 
     std::string proxy_arg = args.GetArg("-proxy", "");
     if (proxy_arg != "" && proxy_arg != "0") {

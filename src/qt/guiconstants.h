@@ -47,7 +47,7 @@ static const int TOOLTIP_WRAP_THRESHOLD = 80;
 #define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "Lyncoin"
-#define QAPP_ORG_DOMAIN "lyncoin.net"
+#define QAPP_ORG_DOMAIN "lyncoin.com"
 #define QAPP_APP_NAME_DEFAULT "Lyncoin-Qt"
 #define QAPP_APP_NAME_TESTNET "Lyncoin-Qt-testnet"
 #define QAPP_APP_NAME_SIGNET "Lyncoin-Qt-signet"

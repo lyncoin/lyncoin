@@ -89,8 +89,8 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_TAPROOT].nTimeout = Consensus::BIP9Deployment::NO_TIMEOUT;
         consensus.vDeployments[Consensus::DEPLOYMENT_TAPROOT].min_activation_height = 0; // No activation delay
 
-        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000116553bc1b975d49fd12");
-        consensus.defaultAssumeValid = uint256S("0xf76860d0cc2fcb30aebed573c022819cd245da7e14d05253e2e914d379312407");
+        consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000001bed720af4e19c87f471");
+        consensus.defaultAssumeValid = uint256S("0x5525117c1007f39149ce09ac5f93c6212d92e2521733793fb128cb414943e62d");
 
         consensus.nAuxpowChainId = 0x0b0d;
         consensus.nAuxpowStartHeight = 0;
@@ -126,7 +126,7 @@ public:
         // This is fine at runtime as we'll fall back to using them as an addrfetch if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        vSeeds.emplace_back("seed.lyncoin.net.");
+        vSeeds.emplace_back("seed.lyncoin.com");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,234);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,55);
@@ -155,7 +155,8 @@ public:
                 { 51000, uint256S("0x4b97026fa9dbdf259d118debb3a3c8f204864cb4dcf122f8d2d78fd833dd6dee")},
                 { 52000, uint256S("0x4b4e74108725fae068c26840d1b8944e1b86a999d15786af34b103a58a695cd1")},
                 { 53000, uint256S("0x9d61d38271f4887c28f387ae96150ba3ccfdbad29b450469d5c38a5bca7f51bd")},
-                { 53743, uint256S("0xf76860d0cc2fcb30aebed573c022819cd245da7e14d05253e2e914d379312407")},
+                { 55000, uint256S("0x219351656afbc273ca4cd631c05ead4733833272ae880714bea3c9d2df9e5758")},
+                { 57030, uint256S("0x5525117c1007f39149ce09ac5f93c6212d92e2521733793fb128cb414943e62d")},
             }
         };
 
@@ -164,10 +165,10 @@ public:
         };
 
         chainTxData = ChainTxData{
-            // Data from RPC: getchaintxstats 4096 f76860d0cc2fcb30aebed573c022819cd245da7e14d05253e2e914d379312407
-            .nTime    = 1689977643,
-            .nTxCount = 57322,
-            .dTxRate  = 0.001240342630070727,
+            // Data from RPC: getchaintxstats 4096 5525117c1007f39149ce09ac5f93c6212d92e2521733793fb128cb414943e62d
+            .nTime    = 1692885133,
+            .nTxCount = 61302,
+            .dTxRate  = 0.001308854511781673,
         };
     }
 };
@@ -237,7 +238,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.emplace_back("testnet-seed.lyncoin.net.");
+        vSeeds.emplace_back("testnet-seed.lyncoin.com");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,168);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,15);
@@ -285,7 +286,7 @@ public:
         if (!args.IsArgSet("-signetchallenge")) {
             bin = ParseHex("512103ad5e0edad18cb1f0fc0d28a3d4f1f3e445640337489abb10404f2d1e086be430210359ef5021964fe22d6f8e05b2463c9540ce96883fe3b278760f048f5189f2e6c452ae");
 
-            vSeeds.emplace_back("signet-seed.lyncoin.net.");
+            vSeeds.emplace_back("signet-seed.lyncoin.com");
 
             consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000100010001");
             consensus.defaultAssumeValid = uint256{};
