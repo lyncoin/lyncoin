@@ -1509,17 +1509,36 @@ bool CheckProofOfWork(const CBlockHeader& block, const Consensus::Params& params
 CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 {
     if(nHeight == 0) return 0;
-    int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
 
+    int nReduceBlocks = 0;
+    int nReduceBlocks2 = 0;
     CAmount nSubsidy = 210000 * COIN;
-    
-    CAmount temp_nSubsidy = nSubsidy;
+    CAmount nTempSubsidy = nSubsidy;
 
-    for(int i = 0; i<halvings; i++){
-        if(nSubsidy <= 0) break;
-        nSubsidy -= (nSubsidy * 1) / 100;
-        if(nSubsidy == temp_nSubsidy) nSubsidy -= 1;
-        temp_nSubsidy = nSubsidy;
+    if(nHeight < consensusParams.n2023Height2){
+        nReduceBlocks = nHeight / consensusParams.nSubsidyHalvingInterval;
+        for(int i = 0; i<nReduceBlocks; i++){
+            if(nSubsidy <= 0) break;
+            nSubsidy -= nSubsidy / 100;
+            if(nSubsidy == nTempSubsidy) nSubsidy -= 1;
+            nTempSubsidy = nSubsidy;
+        }
+    } else {
+        nReduceBlocks = consensusParams.n2023Height2 / consensusParams.nSubsidyHalvingInterval;
+        nReduceBlocks2 = (nHeight - consensusParams.n2023Height2) / consensusParams.nSubsidyHalvingInterval2;
+        for(int i = 0; i<nReduceBlocks; i++){
+            if(nSubsidy <= 0) break;
+            nSubsidy -= nSubsidy / 100;
+            if(nSubsidy == nTempSubsidy) nSubsidy -= 1;
+            nTempSubsidy = nSubsidy;
+        }
+        for(int i = 0; i<nReduceBlocks2; i++){
+            if(nSubsidy <= 0) break;
+            nSubsidy -= nSubsidy / 100;
+            if(nSubsidy == nTempSubsidy) nSubsidy -= 1;
+            nTempSubsidy = nSubsidy;
+        }
+        nSubsidy /= 10;
     }
 
     return nSubsidy;
@@ -2328,18 +2347,18 @@ bool Chainstate::ConnectBlock(const CBlock& block, BlockValidationState& state, 
 
     const Consensus::Params& consensusParams = params.GetConsensus();
     if ( pindex->nHeight >= consensusParams.n2023Height) {
-	   CTransactionRef cb = block.vtx[0];
+       CTransactionRef cb = block.vtx[0];
        CScript devScript = CScript() << OP_0 << ParseHex("e278645407a9c322b0becef0b31762f32ec03a66");
        int64_t nDevOutCount = 0;
-	   for (int i = 0; i < cb->vout.size(); ++i) {
-		   if ((cb->vout[i].scriptPubKey == devScript)) {
-			   nDevOutCount++;
+       for (int i = 0; i < cb->vout.size(); ++i) {
+           if ((cb->vout[i].scriptPubKey == devScript)) {
+               nDevOutCount++;
                CAmount devReward = blockReward * 0.1;
                if(cb->vout[i].nValue < devReward) {
                    LogPrintf("ERROR: %s: Developer reward output has wrong value\n", __func__);
                    return state.Invalid(BlockValidationResult::BLOCK_CONSENSUS, "devreward-wrong-value");
                }
-		   }
+           }
        }
        if (nDevOutCount<1) {
             LogPrintf("ERROR: %s: Developer reward script was not found\n", __func__);

@@ -74,6 +74,7 @@ struct BIP9Deployment {
 struct Params {
     uint256 hashGenesisBlock;
     int nSubsidyHalvingInterval;
+    int nSubsidyHalvingInterval2;
     /**
      * Hashes of blocks that
      * - are known to be consensus valid, and
@@ -154,10 +155,12 @@ struct Params {
     int nAuxpowStartHeight;
     bool fStrictChainId;
     int nLegacyBlocksBefore; // -1 for "always allow"
-    uint32_t n2023Height;
-    uint32_t n2023Window;
-    uint32_t n2023Timespan;
-	uint32_t n2023Bits;
+    uint64_t n2023Height;
+    uint64_t n2023Window;
+    uint64_t n2023Timespan;
+    uint64_t n2023Bits;
+    uint64_t n2023Height2;
+    uint64_t n2023Bits2;
 
     /**
      * Check whether or not to allow legacy blocks at the given height.

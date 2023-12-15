@@ -16,6 +16,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
 
 	if((pindexLast->nHeight+1) == params.n2023Height) return params.n2023Bits;
+	if((pindexLast->nHeight+1) == params.n2023Height2) return params.n2023Bits2;
 
 	if((pindexLast->nHeight+1) < params.n2023Height) {
 		// Only change once per difficulty adjustment interval
@@ -39,7 +40,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
 			}
 			return pindexLast->nBits;
 		}
-	} else {
+	} else if((pindexLast->nHeight+1) < params.n2023Height2) {
 		// Only change once per difficulty adjustment interval
 		if ((pindexLast->nHeight+1) % params.n2023Window != 0)
 		{
@@ -61,15 +62,29 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
 			}
 			return pindexLast->nBits;
 		}
+	} else {
+		if (params.fPowAllowMinDifficultyBlocks)
+		{
+			if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*2)
+				return nProofOfWorkLimit;
+			else
+			{
+				const CBlockIndex* pindex = pindexLast;
+				pindex = pindex->pprev;
+				return pindex->nBits;
+			}
+		}
 	}
 
     int nHeightFirst;
     if((pindexLast->nHeight+1) < params.n2023Height) {
         // Go back by what we want to be 14 days worth of blocks
         nHeightFirst = pindexLast->nHeight - (params.DifficultyAdjustmentInterval()-1);
-    } else {
+    } else if((pindexLast->nHeight+1) < params.n2023Height2) {
         nHeightFirst = pindexLast->nHeight - (params.n2023Window-1);
-    }
+    } else {
+        nHeightFirst = pindexLast->nHeight - 1;
+	}
 
     assert(nHeightFirst >= 0);
     const CBlockIndex* pindexFirst = pindexLast->GetAncestor(nHeightFirst);
@@ -91,11 +106,16 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
 			nActualTimespan = params.nPowTargetTimespan/4;
 		if (nActualTimespan > params.nPowTargetTimespan*4)
 			nActualTimespan = params.nPowTargetTimespan*4;
-	} else {
+	} else if((pindexLast->nHeight+1) < params.n2023Height2) {
 		if (nActualTimespan < params.n2023Timespan/1.014)
 			nActualTimespan = params.n2023Timespan/1.014;
 		if (nActualTimespan > params.n2023Timespan*1.014)
 			nActualTimespan = params.n2023Timespan*1.014;
+	} else {
+        if (nActualTimespan < 37)
+            nActualTimespan = 37;
+        if (nActualTimespan > 39)
+            nActualTimespan = 39;
 	}
 
     // Retarget
@@ -105,9 +125,11 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
     bnNew *= nActualTimespan;
     if((pindexLast->nHeight+1) < params.n2023Height) {
         bnNew /= params.nPowTargetTimespan;
-    } else {
+    } else if((pindexLast->nHeight+1) < params.n2023Height2) {
         bnNew /= params.n2023Timespan;
-    }
+    } else {
+        bnNew /= 38;
+	}
 
     if (bnNew > bnPowLimit)
         bnNew = bnPowLimit;
@@ -120,96 +142,75 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
 bool PermittedDifficultyTransition(const Consensus::Params& params, int64_t height, uint32_t old_nbits, uint32_t new_nbits)
 {
     if (params.fPowAllowMinDifficultyBlocks) return true;
-	
+
 	if(height == params.n2023Height) return params.n2023Bits == new_nbits;
+	if(height == params.n2023Height2) return params.n2023Bits2 == new_nbits;
+
+	int64_t smallest_timespan;
+	int64_t largest_timespan;
+	int64_t timespan;
+	bool fDiffChange = false;
 
 	if(height < params.n2023Height) {
 		if (height % params.DifficultyAdjustmentInterval() == 0) {
-			int64_t smallest_timespan = params.nPowTargetTimespan/4;
-			int64_t largest_timespan = params.nPowTargetTimespan*4;
-
-			const arith_uint256 pow_limit = UintToArith256(params.powLimit);
-			arith_uint256 observed_new_target;
-			observed_new_target.SetCompact(new_nbits);
-
-			// Calculate the largest difficulty value possible:
-			arith_uint256 largest_difficulty_target;
-			largest_difficulty_target.SetCompact(old_nbits);
-			largest_difficulty_target *= largest_timespan;
-			largest_difficulty_target /= params.nPowTargetTimespan;
-
-			if (largest_difficulty_target > pow_limit) {
-				largest_difficulty_target = pow_limit;
-			}
-
-			// Round and then compare this new calculated value to what is
-			// observed.
-			arith_uint256 maximum_new_target;
-			maximum_new_target.SetCompact(largest_difficulty_target.GetCompact());
-			if (maximum_new_target < observed_new_target) return false;
-
-			// Calculate the smallest difficulty value possible:
-			arith_uint256 smallest_difficulty_target;
-			smallest_difficulty_target.SetCompact(old_nbits);
-			smallest_difficulty_target *= smallest_timespan;
-			smallest_difficulty_target /= params.nPowTargetTimespan;
-
-			if (smallest_difficulty_target > pow_limit) {
-				smallest_difficulty_target = pow_limit;
-			}
-
-			// Round and then compare this new calculated value to what is
-			// observed.
-			arith_uint256 minimum_new_target;
-			minimum_new_target.SetCompact(smallest_difficulty_target.GetCompact());
-			if (minimum_new_target > observed_new_target) return false;
-		} else if (old_nbits != new_nbits) {
-			return false;
+			fDiffChange = true;
+			timespan = params.nPowTargetTimespan;
+			smallest_timespan = timespan/4;
+			largest_timespan = timespan*4;
+		}
+	} else if (height < params.n2023Height2) {
+		if (height % params.n2023Window == 0) {
+			fDiffChange = true;
+			timespan = params.n2023Timespan;
+			smallest_timespan = timespan/1.014;
+			largest_timespan = timespan*1.014;
 		}
 	} else {
-		if (height % params.n2023Window == 0) {
-			int64_t smallest_timespan = params.n2023Timespan/1.014;
-			int64_t largest_timespan = params.n2023Timespan*1.014;
-
-			const arith_uint256 pow_limit = UintToArith256(params.powLimit);
-			arith_uint256 observed_new_target;
-			observed_new_target.SetCompact(new_nbits);
-
-			// Calculate the largest difficulty value possible:
-			arith_uint256 largest_difficulty_target;
-			largest_difficulty_target.SetCompact(old_nbits);
-			largest_difficulty_target *= largest_timespan;
-			largest_difficulty_target /= params.n2023Timespan;
-
-			if (largest_difficulty_target > pow_limit) {
-				largest_difficulty_target = pow_limit;
-			}
-
-			// Round and then compare this new calculated value to what is
-			// observed.
-			arith_uint256 maximum_new_target;
-			maximum_new_target.SetCompact(largest_difficulty_target.GetCompact());
-			if (maximum_new_target < observed_new_target) return false;
-
-			// Calculate the smallest difficulty value possible:
-			arith_uint256 smallest_difficulty_target;
-			smallest_difficulty_target.SetCompact(old_nbits);
-			smallest_difficulty_target *= smallest_timespan;
-			smallest_difficulty_target /= params.n2023Timespan;
-
-			if (smallest_difficulty_target > pow_limit) {
-				smallest_difficulty_target = pow_limit;
-			}
-
-			// Round and then compare this new calculated value to what is
-			// observed.
-			arith_uint256 minimum_new_target;
-			minimum_new_target.SetCompact(smallest_difficulty_target.GetCompact());
-			if (minimum_new_target > observed_new_target) return false;
-		} else if (old_nbits != new_nbits) {
-			return false;
-		}
+		fDiffChange = true;
+		timespan = 38;
+		smallest_timespan = 37;
+		largest_timespan = 39;
 	}
+
+    if (fDiffChange) {
+        const arith_uint256 pow_limit = UintToArith256(params.powLimit);
+        arith_uint256 observed_new_target;
+        observed_new_target.SetCompact(new_nbits);
+
+        // Calculate the largest difficulty value possible:
+        arith_uint256 largest_difficulty_target;
+        largest_difficulty_target.SetCompact(old_nbits);
+        largest_difficulty_target *= largest_timespan;
+        largest_difficulty_target /= timespan;
+
+        if (largest_difficulty_target > pow_limit) {
+            largest_difficulty_target = pow_limit;
+        }
+
+        // Round and then compare this new calculated value to what is
+        // observed.
+        arith_uint256 maximum_new_target;
+        maximum_new_target.SetCompact(largest_difficulty_target.GetCompact());
+        if (maximum_new_target < observed_new_target) return false;
+
+        // Calculate the smallest difficulty value possible:
+        arith_uint256 smallest_difficulty_target;
+        smallest_difficulty_target.SetCompact(old_nbits);
+        smallest_difficulty_target *= smallest_timespan;
+        smallest_difficulty_target /= timespan;
+
+        if (smallest_difficulty_target > pow_limit) {
+            smallest_difficulty_target = pow_limit;
+        }
+
+        // Round and then compare this new calculated value to what is
+        // observed.
+        arith_uint256 minimum_new_target;
+        minimum_new_target.SetCompact(smallest_difficulty_target.GetCompact());
+        if (minimum_new_target > observed_new_target) return false;
+    } else if (old_nbits != new_nbits) {
+        return false;
+    }
     return true;
 }
 

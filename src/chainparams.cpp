@@ -64,6 +64,7 @@ public:
         consensus.signet_blocks = false;
         consensus.signet_challenge.clear();
         consensus.nSubsidyHalvingInterval = 4320;
+        consensus.nSubsidyHalvingInterval2 = 43200;
         consensus.BIP16Height = 0;
         consensus.BIP34Height = 0;
         consensus.BIP65Height = 0;
@@ -89,18 +90,20 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_TAPROOT].nTimeout = Consensus::BIP9Deployment::NO_TIMEOUT;
         consensus.vDeployments[Consensus::DEPLOYMENT_TAPROOT].min_activation_height = 0; // No activation delay
 
-        consensus.nMinimumChainWork = uint256S("0x000000000000000000000000000000000000000000001bed720af4e19c87f471");
-        consensus.defaultAssumeValid = uint256S("0x5525117c1007f39149ce09ac5f93c6212d92e2521733793fb128cb414943e62d");
+        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000007cd286a3a1317726d3c55");
+        consensus.defaultAssumeValid = uint256S("0xd0daae07f4ed48f0d8bd5c3b2a7611eef32745786e3802f87a0caeaecb7cf1b2");
 
         consensus.nAuxpowChainId = 0x0b0d;
         consensus.nAuxpowStartHeight = 0;
         consensus.fStrictChainId = true;
         consensus.nLegacyBlocksBefore = 0;
 
-		consensus.n2023Height = 48950;
-		consensus.n2023Window = 10;
-		consensus.n2023Timespan = 10 * 10 * 60;
-		consensus.n2023Bits = 0x1908cf19;
+        consensus.n2023Height = 48950;
+        consensus.n2023Window = 10;
+        consensus.n2023Timespan = 10 * 10 * 60;
+        consensus.n2023Bits = 0x1908cf19;
+        consensus.n2023Height2 = 71700;
+        consensus.n2023Bits2 = 0x185c7bae;
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -152,11 +155,9 @@ public:
                 { 30000, uint256S("0x5427dbfe4804300d7a8f5a73ec1bda71ca1cdc0bbbba5e7518a6fa42358534e9")},
                 { 40000, uint256S("0xff3c7d78cb9054a3602867f23958f441aacc87d29ec0968df4904ae9dc85c184")},
                 { 50000, uint256S("0x7aa3a580745059f06694d2b3e91037d7b764a48c49d39a6463e8ebb94460ef74")},
-                { 51000, uint256S("0x4b97026fa9dbdf259d118debb3a3c8f204864cb4dcf122f8d2d78fd833dd6dee")},
-                { 52000, uint256S("0x4b4e74108725fae068c26840d1b8944e1b86a999d15786af34b103a58a695cd1")},
-                { 53000, uint256S("0x9d61d38271f4887c28f387ae96150ba3ccfdbad29b450469d5c38a5bca7f51bd")},
-                { 55000, uint256S("0x219351656afbc273ca4cd631c05ead4733833272ae880714bea3c9d2df9e5758")},
-                { 57030, uint256S("0x5525117c1007f39149ce09ac5f93c6212d92e2521733793fb128cb414943e62d")},
+                { 60000, uint256S("0x9eb558eb1779eeda5ad1cac490acc82f866754756da22e0db0806e540538a13c")},
+                { 70000, uint256S("0x84f0df6fbcfeb6d864af1ba85ac62ab6bda03adc6ad54008b26a0bba702a7d35")},
+                { 71300, uint256S("0xd0daae07f4ed48f0d8bd5c3b2a7611eef32745786e3802f87a0caeaecb7cf1b2")},
             }
         };
 
@@ -165,10 +166,10 @@ public:
         };
 
         chainTxData = ChainTxData{
-            // Data from RPC: getchaintxstats 4096 5525117c1007f39149ce09ac5f93c6212d92e2521733793fb128cb414943e62d
-            .nTime    = 1692885133,
-            .nTxCount = 61302,
-            .dTxRate  = 0.001308854511781673,
+            // Data from RPC: getchaintxstats 4096 d0daae07f4ed48f0d8bd5c3b2a7611eef32745786e3802f87a0caeaecb7cf1b2
+            .nTime    = 1702651903,
+            .nTxCount = 80223,
+            .dTxRate  = 0.002070820901925996,
         };
     }
 };
@@ -183,6 +184,7 @@ public:
         consensus.signet_blocks = false;
         consensus.signet_challenge.clear();
         consensus.nSubsidyHalvingInterval = 4320;
+        consensus.nSubsidyHalvingInterval2 = 43200;
         consensus.BIP16Height = 0;
         consensus.BIP34Height = 0;
         consensus.BIP65Height = 0;
@@ -216,10 +218,12 @@ public:
         consensus.fStrictChainId = false;
         consensus.nLegacyBlocksBefore = 0;
 
-		consensus.n2023Height = 0; // No activation delay
-		consensus.n2023Window = 10;
-		consensus.n2023Timespan = 10 * 10 * 60;
-		consensus.n2023Bits = 0x1d00ffff;
+        consensus.n2023Height = 0; // No activation delay
+        consensus.n2023Window = 10;
+        consensus.n2023Timespan = 10 * 10 * 60;
+        consensus.n2023Bits = 0x1d00ffff;
+        consensus.n2023Height2 = 0; // No activation delay
+        consensus.n2023Bits2 = 0x1d00ffff;
 
         pchMessageStart[0] = 0x17;
         pchMessageStart[1] = 0x3a;
@@ -325,6 +329,7 @@ public:
         consensus.signet_blocks = true;
         consensus.signet_challenge.assign(bin.begin(), bin.end());
         consensus.nSubsidyHalvingInterval = 4320;
+        consensus.nSubsidyHalvingInterval2 = 43200;
         consensus.BIP16Height = 1;
         consensus.BIP34Height = 1;
         consensus.BIP34Hash = uint256{};
@@ -356,10 +361,12 @@ public:
         consensus.fStrictChainId = true;
         consensus.nLegacyBlocksBefore = 0;
 
-		consensus.n2023Height = 0; // No activation delay
-		consensus.n2023Window = 10;
-		consensus.n2023Timespan = 10 * 10 * 60;
-		consensus.n2023Bits = 0x1e0377ae;
+        consensus.n2023Height = 0; // No activation delay
+        consensus.n2023Window = 10;
+        consensus.n2023Timespan = 10 * 10 * 60;
+        consensus.n2023Bits = 0x1e0377ae;
+        consensus.n2023Height2 = 0; // No activation delay
+        consensus.n2023Bits2 = 0x1e0377ae;
 
         // message start is defined as the first 4 bytes of the sha256d of the block script
         HashWriter h{};
@@ -403,6 +410,7 @@ public:
         consensus.signet_blocks = false;
         consensus.signet_challenge.clear();
         consensus.nSubsidyHalvingInterval = 150;
+        consensus.nSubsidyHalvingInterval2 = 1500;
         consensus.BIP16Height = 0;
         consensus.BIP34Height = 1; // Always active unless overridden
         consensus.BIP65Height = 1;  // Always active unless overridden
@@ -436,10 +444,12 @@ public:
         consensus.fStrictChainId = true;
         consensus.nLegacyBlocksBefore = 0;
 
-		consensus.n2023Height = 0; // No activation delay
-		consensus.n2023Window = 10;
-		consensus.n2023Timespan = 10 * 10 * 60;
-		consensus.n2023Bits = 0x207fffff;
+        consensus.n2023Height = 0; // No activation delay
+        consensus.n2023Window = 10;
+        consensus.n2023Timespan = 10 * 10 * 60;
+        consensus.n2023Bits = 0x207fffff;
+        consensus.n2023Height2 = 0; // No activation delay
+        consensus.n2023Bits2 = 0x207fffff;
 
         pchMessageStart[0] = 0xa8;
         pchMessageStart[1] = 0xc4;
