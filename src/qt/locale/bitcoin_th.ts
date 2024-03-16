@@ -94,7 +94,7 @@
         <translation type="unfinished">กำลังเชื่อมต่อไปยัง peers…</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and lyncoin: URIs)</source>
         <translation type="unfinished">ขอการชำระเงิน (สร้างรหัส QR และ bitcoin: URIs)</translation>
     </message>
     <message>
@@ -214,7 +214,7 @@
         <translation type="unfinished">&amp;แสดง</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform>%n เครือข่ายที่สามารถใช้เชื่อมต่อไปยังเครือข่ายบิตคอยน์ได้</numerusform>
@@ -433,7 +433,7 @@
         <translation type="unfinished">แก้ไข แอดเดรส การส่ง</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Lyncoin address.</source>
         <translation type="unfinished">แอดเดรส ที่ป้อน "%1" เป็น Bitcoin แอดเดรส ที่ ไม่ ถูกต้อง</translation>
     </message>
     <message>
@@ -500,7 +500,7 @@
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Lyncoin block chain.</source>
         <translation type="unfinished">%1 จะดาวน์โหลดและจัดเก็บสำเนาของบล็อกเชน Bitcoin</translation>
     </message>
     <message>

@@ -1,0 +1,1 @@
+* Fixed pre-syncing headers issue with new fork

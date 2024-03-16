@@ -10,7 +10,7 @@
         <translation type="unfinished">Skep ’n nuwe adres</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">
 Hierdie is die adresse waar u Bitcoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
@@ -141,11 +141,11 @@ Hierdie is die adresse waar u Bitcoins sal ontvang. Ons beveel aan dat u 'n nuwe
         <translation type="unfinished">Herstel beursie</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n active connection(s) to Bitcoin network.</numerusform>
-            <numerusform>%n active connection(s) to Bitcoin network.</numerusform>
+            <numerusform>%n active connection(s) to Lyncoin network.</numerusform>
+            <numerusform>%n active connection(s) to Lyncoin network.</numerusform>
         </translation>
     </message>
     <message>

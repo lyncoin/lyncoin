@@ -93,8 +93,9 @@ std::shared_ptr<CBlock> MinerTestingSetup::FinalizeBlock(std::shared_ptr<CBlock>
 
     pblock->hashMerkleRoot = BlockMerkleRoot(*pblock);
 
-    while (!CheckProofOfWork(pblock->GetHash(), pblock->nBits, Params().GetConsensus())) {
-        ++(pblock->nNonce);
+    auto& miningHeader = CAuxPow::initAuxPow(*pblock);
+    while (!CheckProofOfWork(miningHeader.GetHash(), pblock->nBits, Params().GetConsensus())) {
+        ++(miningHeader.nNonce);
     }
 
     // submit block header, so that miner can get the block height from the

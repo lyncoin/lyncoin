@@ -46,7 +46,7 @@
         <translation type="unfinished">Elige quam peram mittere pecuniam</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">Hae sunt inscriptiones mittendi pensitationes.  Semper inspice quantitatem et inscriptionem accipiendi antequam nummos mittis.</translation>
     </message>
     <message>
@@ -124,7 +124,7 @@
         <translation type="unfinished">Confirma cifrationem cassidilis</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
         <translation type="unfinished">Monitio: Si cassidile tuum cifras et tesseram amittis, tu &lt;b&gt;AMITTES OMNES TUOS NUMMOS BITOS&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -271,7 +271,7 @@
         <translation type="unfinished">Creare novum cassidilium</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Lyncoin address</source>
         <translation type="unfinished">Mitte nummos ad inscriptionem Bitcoin</translation>
     </message>
     <message>
@@ -295,11 +295,11 @@
         <translation type="unfinished">Cifra claves privatas quae cassidili tui sunt</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Lyncoin addresses to prove you own them</source>
         <translation type="unfinished">Signa nuntios cum tuis inscriptionibus Bitcoin ut demonstres te eas possidere</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
         <translation type="unfinished">Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Bitcoin</translation>
     </message>
     <message>
@@ -358,7 +358,7 @@
         <translation type="unfinished">&amp;Fenestra</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -447,7 +447,7 @@
         <translation type="unfinished">Muta inscriptionem mittendi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Lyncoin address.</source>
         <translation type="unfinished">Inscriptio inserta "%1" non valida inscriptio Bitcoin est.</translation>
     </message>
     <message>
@@ -548,7 +548,7 @@
         <translation type="unfinished">Cassidile</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished">Aperi per se portam clientis Bitcoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
     </message>
     <message>
@@ -624,7 +624,7 @@
         <translation type="unfinished">Schema</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished">Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Bitcoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
     </message>
     <message>
@@ -646,7 +646,7 @@
 <context>
     <name>PaymentServer</name>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start lyncoin: click-to-pay handler</source>
         <translation type="unfinished">Bitcoin incipere non potest: cliccare-ad-pensandum handler</translation>
     </message>
     <message>
@@ -931,7 +931,7 @@
         <translation type="unfinished">Copia signationem in latibulum systematis</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Lyncoin address</source>
         <translation type="unfinished">Signa nuntium ut demonstres hanc inscriptionem Bitcoin a te possessa esse</translation>
     </message>
     <message>
@@ -951,7 +951,7 @@
         <translation type="unfinished">&amp;Verifica Nuntium</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
         <translation type="unfinished">Verifica nuntium ut cures signatum esse cum specifica inscriptione Bitcoin</translation>
     </message>
     <message>

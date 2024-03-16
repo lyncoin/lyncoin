@@ -58,7 +58,7 @@
         <translation type="unfinished">Т&amp;аңдау</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">Бұл сіздің төлем жіберетін Bitcoin мекенжайларыңыз. Тиын жібермес бұрын, әрқашан сома мен алушы мекенжайды тексеріңіз.</translation>
     </message>
     <message>
@@ -150,7 +150,7 @@
         <translation type="unfinished">Әмиян шифрлауды растау</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
         <translation type="unfinished">Ескерту: әмияныңызды шифрлап, құпиясөйлеміңізден айырылып қалсаңыз, &lt;b&gt;БАРЛЫҚ BITCOIN-ІҢІЗДЕН ДЕ АЙЫРЫЛАСЫЗ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -170,7 +170,7 @@
         <translation type="unfinished">Әмияныңыздың ескі құпиясөйлемі мен жаңа құпиясөйлемін енгізіңіз.</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished">Шифрлау биткоиніңізді компьютер жұқтырған зиянды БЖ-дан толығымен қорғай алмайтынын есіңізде сақтаңыз.</translation>
     </message>
     <message>
@@ -357,7 +357,7 @@
         <translation type="unfinished">Прокси &lt;b&gt;қосулы&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Lyncoin address</source>
         <translation type="unfinished">Bitcoin мекенжайына тиын жіберу</translation>
     </message>
     <message>
@@ -401,7 +401,7 @@
         <translation type="unfinished">Хатқа &amp;қол қою…</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Lyncoin addresses to prove you own them</source>
         <translation type="unfinished">Хатқа Bitcoin мекенжайларын қосып, олар сізге тиесілі екенін дәлелдеу</translation>
     </message>
     <message>
@@ -409,7 +409,7 @@
         <translation type="unfinished">&amp;Хат тексеру…</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
         <translation type="unfinished">Хат тексеріп, берілген Bitcoin мекенжайлары қосылғанына көз жеткізу</translation>
     </message>
     <message>
@@ -461,7 +461,7 @@
         <translation type="unfinished">Дискідегі блоктар инедекстелуде...</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and lyncoin: URIs)</source>
         <translation type="unfinished">Төлем талап ету (QR кодтары мен биткоин құрады: URI)</translation>
     </message>
     <message>
@@ -520,7 +520,7 @@
         <translation type="unfinished">&amp;Терезе</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -599,7 +599,7 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
+        <source>Lyncoin</source>
         <translation type="unfinished">Биткоин</translation>
     </message>
     <message numerus="yes">
@@ -632,7 +632,7 @@
         </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Lyncoin block chain.</source>
         <translation type="unfinished">%1 Bitcoin блокчейнінің көшірмесін жүктеп сақтайды.</translation>
     </message>
     <message>

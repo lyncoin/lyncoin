@@ -34,7 +34,7 @@
         <translation type="unfinished">Fidio ny adiresy handraisana vola</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">Ireto ny adiresy Bitcoin natokana handefasanao vola. Hamarino hatrany ny tarehimarika sy ny adiresy handefasana alohan'ny handefa vola.</translation>
     </message>
     <message>
@@ -200,7 +200,7 @@
         <translation type="unfinished">&amp;Afeno</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />

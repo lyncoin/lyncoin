@@ -29,6 +29,8 @@
 #include <node/transaction.h>
 #include <node/utxo_snapshot.h>
 #include <primitives/transaction.h>
+#include <rpc/rawtransaction.h>
+#include <rpc/request.h>
 #include <rpc/server.h>
 #include <rpc/server_util.h>
 #include <rpc/util.h>
@@ -46,6 +48,7 @@
 #include <validation.h>
 #include <validationinterface.h>
 #include <versionbits.h>
+#include <wallet/context.h>
 #include <warnings.h>
 
 #include <stdint.h>
@@ -73,13 +76,14 @@ static CUpdatedBlock latestblock GUARDED_BY(cs_blockchange);
 
 /* Calculate the difficulty for a given block index.
  */
-double GetDifficulty(const CBlockIndex* blockindex)
+double GetDifficultyForBits(const uint32_t nBits)
 {
-    CHECK_NONFATAL(blockindex);
+    const uint32_t mantissa = nBits & 0x00ffffff;
+    if (mantissa == 0)
+        return 0.0;
 
-    int nShift = (blockindex->nBits >> 24) & 0xff;
-    double dDiff =
-        (double)0x0000ffff / (double)(blockindex->nBits & 0x00ffffff);
+    int nShift = (nBits >> 24) & 0xff;
+    double dDiff = (double)0x0000ffff / (double)mantissa;
 
     while (nShift < 29)
     {
@@ -133,30 +137,54 @@ static const CBlockIndex* ParseHashOrHeight(const UniValue& param, ChainstateMan
     }
 }
 
-UniValue blockheaderToJSON(const CBlockIndex* tip, const CBlockIndex* blockindex)
+/** The RPC result type for "auxpow" subobjects.  */
+const RPCResult AUXPOW_RESULT{RPCResult::Type::OBJ, "auxpow", /*optional=*/true, "The auxpow object attached to this block",
+    {
+        {RPCResult::Type::OBJ, "tx", "The parent chain coinbase tx of this auxpow",
+            {{RPCResult::Type::ELISION, "", "Same format as for decoded raw transactions"}}},
+        {RPCResult::Type::ARR, "merklebranch", "Merkle branch of the parent coinbase",
+            {{RPCResult::Type::STR_HEX, "", "The Merkle branch hash"}}},
+        {RPCResult::Type::NUM, "chainindex", "Index in the auxpow Merkle tree"},
+        {RPCResult::Type::ARR, "chainmerklebranch", "Branch in the auxpow Merkle tree",
+            {{RPCResult::Type::STR_HEX, "", "The Merkle branch hash"}}},
+        {RPCResult::Type::ELISION, "parentblock", "The parent block serialised as hex string or JSON object"},
+    }};
+
+/** Converts the base data, excluding any contextual information,
+ * in a block header to JSON.  */
+static UniValue blockheaderToJSON(const CPureBlockHeader& header)
+{
+    UniValue result(UniValue::VOBJ);
+    result.pushKV("hash", header.GetHash().GetHex());
+    result.pushKV("version", header.nVersion);
+    result.pushKV("versionHex", strprintf("%08x", header.nVersion));
+    result.pushKV("merkleroot", header.hashMerkleRoot.GetHex());
+    result.pushKV("time", (int64_t)header.nTime);
+    result.pushKV("nonce", (uint64_t)header.nNonce);
+    result.pushKV("bits", strprintf("%08x", header.nBits));
+    result.pushKV("difficulty", GetDifficultyForBits(header.nBits));
+
+    if (!header.hashPrevBlock.IsNull())
+        result.pushKV("previousblockhash", header.hashPrevBlock.GetHex());
+
+    return result;
+}
+
+UniValue blockheaderToJSON(const BlockManager& blockman, const CBlockIndex* tip, const CBlockIndex* blockindex)
 {
     // Serialize passed information without accessing chain state of the active chain!
     AssertLockNotHeld(cs_main); // For performance reasons
 
-    UniValue result(UniValue::VOBJ);
-    result.pushKV("hash", blockindex->GetBlockHash().GetHex());
+    auto result = blockheaderToJSON(blockindex->GetBlockHeader(blockman));
+
     const CBlockIndex* pnext;
     int confirmations = ComputeNextBlockAndDepth(tip, blockindex, pnext);
     result.pushKV("confirmations", confirmations);
     result.pushKV("height", blockindex->nHeight);
-    result.pushKV("version", blockindex->nVersion);
-    result.pushKV("versionHex", strprintf("%08x", blockindex->nVersion));
-    result.pushKV("merkleroot", blockindex->hashMerkleRoot.GetHex());
-    result.pushKV("time", (int64_t)blockindex->nTime);
     result.pushKV("mediantime", (int64_t)blockindex->GetMedianTimePast());
-    result.pushKV("nonce", (uint64_t)blockindex->nNonce);
-    result.pushKV("bits", strprintf("%08x", blockindex->nBits));
-    result.pushKV("difficulty", GetDifficulty(blockindex));
     result.pushKV("chainwork", blockindex->nChainWork.GetHex());
     result.pushKV("nTx", (uint64_t)blockindex->nTx);
 
-    if (blockindex->pprev)
-        result.pushKV("previousblockhash", blockindex->pprev->GetBlockHash().GetHex());
     if (pnext)
         result.pushKV("nextblockhash", pnext->GetBlockHash().GetHex());
     return result;
@@ -164,7 +192,7 @@ UniValue blockheaderToJSON(const CBlockIndex* tip, const CBlockIndex* blockindex
 
 UniValue blockToJSON(BlockManager& blockman, const CBlock& block, const CBlockIndex* tip, const CBlockIndex* blockindex, TxVerbosity verbosity)
 {
-    UniValue result = blockheaderToJSON(tip, blockindex);
+    UniValue result = blockheaderToJSON(blockman, tip, blockindex);
 
     result.pushKV("strippedsize", (int)::GetSerializeSize(block, PROTOCOL_VERSION | SERIALIZE_TRANSACTION_NO_WITNESS));
     result.pushKV("size", (int)::GetSerializeSize(block, PROTOCOL_VERSION));
@@ -196,6 +224,46 @@ UniValue blockToJSON(BlockManager& blockman, const CBlock& block, const CBlockIn
     }
 
     result.pushKV("tx", txs);
+
+    return result;
+}
+
+UniValue AuxpowToJSON(const CAuxPow& auxpow, const bool verbose, Chainstate& active_chainstate)
+{
+    UniValue result(UniValue::VOBJ);
+
+    {
+        UniValue tx(UniValue::VOBJ);
+        tx.pushKV("hex", EncodeHexTx(*auxpow.coinbaseTx));
+        TxToJSON(*auxpow.coinbaseTx, auxpow.parentBlock.GetHash(), tx, active_chainstate);
+        result.pushKV("tx", tx);
+    }
+
+    result.pushKV("chainindex", auxpow.nChainIndex);
+
+    {
+        UniValue branch(UniValue::VARR);
+        for (const auto& node : auxpow.vMerkleBranch)
+            branch.push_back(node.GetHex());
+        result.pushKV("merklebranch", branch);
+    }
+
+    {
+        UniValue branch(UniValue::VARR);
+        for (const auto& node : auxpow.vChainMerkleBranch)
+            branch.push_back(node.GetHex());
+        result.pushKV("chainmerklebranch", branch);
+    }
+
+    if (verbose)
+        result.pushKV("parentblock", blockheaderToJSON(auxpow.parentBlock));
+    else
+    {
+        CDataStream ssParent(SER_NETWORK, PROTOCOL_VERSION);
+        ssParent << auxpow.parentBlock;
+        const std::string strHex = HexStr(ssParent);
+        result.pushKV("parentblock", strHex);
+    }
 
     return result;
 }
@@ -418,7 +486,7 @@ static RPCHelpMan getdifficulty()
 {
     ChainstateManager& chainman = EnsureAnyChainman(request.context);
     LOCK(cs_main);
-    return GetDifficulty(chainman.ActiveChain().Tip());
+    return GetDifficultyForBits(chainman.ActiveChain().Tip()->nBits);
 },
     };
 }
@@ -550,10 +618,11 @@ static RPCHelpMan getblockheader()
     if (!request.params[1].isNull())
         fVerbose = request.params[1].get_bool();
 
+    ChainstateManager& chainman = EnsureAnyChainman(request.context);
+
     const CBlockIndex* pblockindex;
     const CBlockIndex* tip;
     {
-        ChainstateManager& chainman = EnsureAnyChainman(request.context);
         LOCK(cs_main);
         pblockindex = chainman.m_blockman.LookupBlockIndex(hash);
         tip = chainman.ActiveChain().Tip();
@@ -563,15 +632,21 @@ static RPCHelpMan getblockheader()
         throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Block not found");
     }
 
+    const auto header = pblockindex->GetBlockHeader(chainman.m_blockman);
+
     if (!fVerbose)
     {
         DataStream ssBlock{};
-        ssBlock << pblockindex->GetBlockHeader();
+        ssBlock << header;
         std::string strHex = HexStr(ssBlock);
         return strHex;
     }
 
-    return blockheaderToJSON(tip, pblockindex);
+    auto result = blockheaderToJSON(chainman.m_blockman, tip, pblockindex);
+    if (header.auxpow)
+        result.pushKV("auxpow", AuxpowToJSON(*header.auxpow, fVerbose, chainman.ActiveChainstate()));
+
+    return result;
 },
     };
 }
@@ -633,7 +708,7 @@ const RPCResult getblock_vin{
                     {RPCResult::Type::STR, "asm", "Disassembly of the public key script"},
                     {RPCResult::Type::STR, "desc", "Inferred descriptor for the output"},
                     {RPCResult::Type::STR_HEX, "hex", "The raw public key script bytes, hex-encoded"},
-                    {RPCResult::Type::STR, "address", /*optional=*/true, "The Bitcoin address (only if a well-defined address exists)"},
+                    {RPCResult::Type::STR, "address", /*optional=*/true, "The Lyncoin address (only if a well-defined address exists)"},
                     {RPCResult::Type::STR, "type", "The type (one of: " + GetAllOutputTypes() + ")"},
                 }},
             }},
@@ -679,6 +754,18 @@ static RPCHelpMan getblock()
                     {RPCResult::Type::NUM, "nTx", "The number of transactions in the block"},
                     {RPCResult::Type::STR_HEX, "previousblockhash", /*optional=*/true, "The hash of the previous block (if available)"},
                     {RPCResult::Type::STR_HEX, "nextblockhash", /*optional=*/true, "The hash of the next block (if available)"},
+                    {RPCResult::Type::OBJ, "auxpow", "The auxpow object attached to this block",
+                        {
+                            {RPCResult::Type::OBJ, "tx", "The parent chain coinbase tx of this auxpow",
+                                {{RPCResult::Type::ELISION, "", "Same format as for decoded raw transactions"}}},
+                            {RPCResult::Type::NUM, "index", "Merkle index of the parent coinbase"},
+                            {RPCResult::Type::ARR, "merklebranch", "Merkle branch of the parent coinbase",
+                                {{RPCResult::Type::STR_HEX, "", "The Merkle branch hash"}}},
+                            {RPCResult::Type::NUM, "chainindex", "Index in the auxpow Merkle tree"},
+                            {RPCResult::Type::ARR, "chainmerklebranch", "Branch in the auxpow Merkle tree",
+                                {{RPCResult::Type::STR_HEX, "", "The Merkle branch hash"}}},
+                            {RPCResult::Type::STR_HEX, "parentblock", "The parent block serialised as hex string"},
+                        }},
                 }},
                     RPCResult{"for verbosity = 2",
                 RPCResult::Type::OBJ, "", "",
@@ -755,7 +842,12 @@ static RPCHelpMan getblock()
         tx_verbosity = TxVerbosity::SHOW_DETAILS_AND_PREVOUT;
     }
 
-    return blockToJSON(chainman.m_blockman, block, tip, pblockindex, tx_verbosity);
+    auto result = blockToJSON(chainman.m_blockman, block, tip, pblockindex, tx_verbosity);
+
+    if (block.auxpow)
+        result.pushKV("auxpow", AuxpowToJSON(*block.auxpow, verbosity >= 1, chainman.ActiveChainstate()));
+
+    return result;
 },
     };
 }
@@ -1036,7 +1128,7 @@ static RPCHelpMan gettxout()
                     {RPCResult::Type::STR, "desc", "Inferred descriptor for the output"},
                     {RPCResult::Type::STR_HEX, "hex", "The raw public key script bytes, hex-encoded"},
                     {RPCResult::Type::STR, "type", "The type, eg pubkeyhash"},
-                    {RPCResult::Type::STR, "address", /*optional=*/true, "The Bitcoin address (only if a well-defined address exists)"},
+                    {RPCResult::Type::STR, "address", /*optional=*/true, "The Lyncoin address (only if a well-defined address exists)"},
                 }},
                 {RPCResult::Type::BOOL, "coinbase", "Coinbase or not"},
             }},
@@ -1145,6 +1237,9 @@ static void SoftForkDescPushBack(const CBlockIndex* blockindex, UniValue& softfo
 
 static void SoftForkDescPushBack(const CBlockIndex* blockindex, UniValue& softforks, const ChainstateManager& chainman, Consensus::DeploymentPos id)
 {
+    // FIXME: For now, BIP9 is not used until we can do always-auxpow.
+    return;
+
     // For BIP9 deployments.
 
     if (!DeploymentEnabled(chainman, id)) return;
@@ -1257,7 +1352,7 @@ RPCHelpMan getblockchaininfo()
     obj.pushKV("blocks", height);
     obj.pushKV("headers", chainman.m_best_header ? chainman.m_best_header->nHeight : -1);
     obj.pushKV("bestblockhash", tip.GetBlockHash().GetHex());
-    obj.pushKV("difficulty", GetDifficulty(&tip));
+    obj.pushKV("difficulty", GetDifficultyForBits(tip.nBits));
     obj.pushKV("time", tip.GetBlockTime());
     obj.pushKV("mediantime", tip.GetMedianTimePast());
     obj.pushKV("verificationprogress", GuessVerificationProgress(chainman.GetParams().TxData(), &tip));
@@ -1312,6 +1407,7 @@ UniValue DeploymentInfo(const CBlockIndex* blockindex, const ChainstateManager& 
 {
     UniValue softforks(UniValue::VOBJ);
     SoftForkDescPushBack(blockindex, softforks, chainman, Consensus::DEPLOYMENT_HEIGHTINCB);
+    SoftForkDescPushBack(blockindex, softforks, chainman, Consensus::DEPLOYMENT_P2SH);
     SoftForkDescPushBack(blockindex, softforks, chainman, Consensus::DEPLOYMENT_DERSIG);
     SoftForkDescPushBack(blockindex, softforks, chainman, Consensus::DEPLOYMENT_CLTV);
     SoftForkDescPushBack(blockindex, softforks, chainman, Consensus::DEPLOYMENT_CSV);
@@ -2302,7 +2398,7 @@ static RPCHelpMan scanblocks()
 {
     return RPCHelpMan{"scanblocks",
         "\nReturn relevant blockhashes for given descriptors (requires blockfilterindex).\n"
-        "This call may take several minutes. Make sure to use no RPC timeout (bitcoin-cli -rpcclienttimeout=0)",
+        "This call may take several minutes. Make sure to use no RPC timeout (lyncoin-cli -rpcclienttimeout=0)",
         {
             scan_action_arg_desc,
             scan_objects_arg_desc,
@@ -2845,7 +2941,7 @@ return RPCHelpMan{
 
         data.pushKV("blocks",                (int)chain.Height());
         data.pushKV("bestblockhash",         tip->GetBlockHash().GetHex());
-        data.pushKV("difficulty",            (double)GetDifficulty(tip));
+        data.pushKV("difficulty",            GetDifficultyForBits(tip->nBits));
         data.pushKV("verificationprogress",  GuessVerificationProgress(Params().TxData(), tip));
         data.pushKV("coins_db_cache_bytes",  cs.m_coinsdb_cache_size_bytes);
         data.pushKV("coins_tip_cache_bytes", cs.m_coinstip_cache_size_bytes);

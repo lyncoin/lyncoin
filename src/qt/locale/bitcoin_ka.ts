@@ -58,11 +58,11 @@
         <translation type="unfinished">&amp;არჩევა</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">ეს არის თქვენი ბიტკოინ-მისამართები გადარიცხვებისათვის. აუცილებლად შეამოწმეთ მითითებული თანხა და მიმღები მისამართი კოინების გადარიცხვამდე.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">ეს თქვენი ბიტკოინის მიმღები მიმსამართებია. ისარგებლეთ ღილაკით "შექმენით ახალი მიმღები მისამართები", როემლიც მოცემულია მიმღების ჩანართში ახალი მისამართების შესაქმნელად.
 ხელმოწერა მხოლოდ "მემკვიდრეობის" ტიპის მისამართებთანაა შესაძლებელი.</translation>
@@ -156,7 +156,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">საფულის დაშიფრვის დადასტურება</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
         <translation type="unfinished">გაფრთხილება: თუ თქვენ დაშიფრავთ თქვენს საფულეს და ამის შემდეგ დაკარგავთ გასაშიფრ ფრაზას, &lt;b&gt;თქვენ დაკარგავთ ყველა ბიტკოინს!&lt;/b&gt;</translation>
     </message>
     <message>
@@ -176,7 +176,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">შეიყვანეთ ძველი საიდუმლო ფრაზა და ახალი საიდუმლო ფრაზა საფულისთვის</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished">გახსოვდეთ, რომ თქვენი საფულის დაშიფვრა ვერ უზრუნველყოფს სრულად დაიცვას თქვენი ბიტკოინების მოპარვა კომპიუტერში მავნე პროგრამებით.</translation>
     </message>
     <message>
@@ -433,7 +433,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">ქსელური აქტივობა გათიშულია.</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Lyncoin address</source>
         <translation type="unfinished">მონეტების გაგზავნა Bitcoin-მისამართზე</translation>
     </message>
     <message>
@@ -477,7 +477,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">ხელმოწერა &amp;შეტყობინება…</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Lyncoin addresses to prove you own them</source>
         <translation type="unfinished">მესიჯებზე ხელმოწერა თქვენი Bitcoin-მისამართებით იმის დასტურად, რომ ის თქვენია</translation>
     </message>
     <message>
@@ -485,7 +485,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished"> &amp;შეტყობინების შემოწმება…</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
         <translation type="unfinished">შეამოწმეთ, რომ მესიჯები ხელმოწერილია მითითებული Bitcoin-მისამართით</translation>
     </message>
     <message>
@@ -541,7 +541,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">მიმდინარეობს ბლოკების დამუშავება დისკზე…</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and lyncoin: URIs)</source>
         <translation type="unfinished">გადახდის მოთხოვნა (შეიქმნება QR-კოდები და bitcoin: ბმულები)</translation>
     </message>
     <message>
@@ -592,7 +592,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">განახლებულია</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
+        <source>Load Partially Signed Lyncoin Transaction</source>
         <translation type="unfinished">ნაწილობრივ ხელმოწერილი ბიტკოინის ტრანზაქციის ჩატვირთვა</translation>
     </message>
     <message>
@@ -612,7 +612,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">მისამართების მიღება</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
+        <source>Open a lyncoin: URI</source>
         <translation type="unfinished">გახსენით ბიტკოინი: URI</translation>
     </message>
     <message>
@@ -685,7 +685,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;დამალვა</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -1009,7 +1009,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">გაგზავნის მისამართის შეცვლა</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Lyncoin address.</source>
         <translation type="unfinished">შეყვანილი მისამართი "%1" არ არის ვალიდური Bitcoin-მისამართი.</translation>
     </message>
     <message>
@@ -1192,7 +1192,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
+        <source>Open lyncoin URI</source>
         <translation type="unfinished">გახსენით ბიტკოინის URI</translation>
     </message>
     <message>
@@ -1252,7 +1252,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">დაუდასტურებელი ხურდის გამოყენების აკრძალვის შემდეგ მათი გამოყენება შეუძლებელი იქნება, სანამ ტრანსაქციას არ ექნება ერთი დასტური მაინც. ეს აისახება თქვენი ნაშთის დათვლაზეც.</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished">როუტერში Bitcoin-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
     </message>
     <message>
@@ -1362,7 +1362,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">ფორმა</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished">ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება Bitcoin-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
     </message>
     <message>
@@ -1533,7 +1533,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">გადახდის მოთხოვნის შეცდომა</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start lyncoin: click-to-pay handler</source>
         <translation type="unfinished">ვერ გაიშვა bitcoin: click-to-pay</translation>
     </message>
     <message>
@@ -1541,11 +1541,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">URI-ების დამუშავება</translation>
     </message>
     <message>
-        <source>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</source>
+        <source>'lyncoin://' is not a valid URI. Use 'lyncoin:' instead.</source>
         <translation type="unfinished">„bitcoin://“ არ არის სწორი URI. ამის ნაცვლად გამოიყენეთ „bitcoin:“.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Lyncoin address or malformed URI parameters.</source>
         <translation type="unfinished">URI შეუძლებელია გაანალიზდეს! ეს შეიძლება გამოწვეული იყოს არასწორი Bitcoin მისამართით ან ცუდად ფორმირებული URI პარამეტრებით.</translation>
     </message>
     <message>
@@ -1857,7 +1857,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;მესიჯი:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lyncoin network.</source>
         <translation type="unfinished">არააუცილებელი მესიჯი, რომელიც ერთვის გადახდის მოთხოვნას და ნაჩვენები იქნება მოთხოვნის გახსნისას. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
     </message>
     <message>
@@ -2192,7 +2192,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Lyncoin address</source>
         <translation type="unfinished">ყურადღება: არასწორია Bitcoin-მისამართი</translation>
     </message>
     <message>
@@ -2243,7 +2243,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">შეიყვანეთ ამ მისამართის ნიშნული გამოყენებული მისამართების სიაში დასამატებლად</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the lyncoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lyncoin network.</source>
         <translation type="unfinished">მესიჯი, რომელიც თან ერთვის მონეტებს:  URI, რომელიც შეინახება ტრანსაქციასთან ერთად თქვენთვის. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
     </message>
 </context>
@@ -2289,7 +2289,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">მიმდინარე ხელმოწერის კოპირება კლიპბორდში</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Lyncoin address</source>
         <translation type="unfinished">მოაწერეთ ხელი იმის დასადასტურებლად, რომ ეს მისამართი თქვენია</translation>
     </message>
     <message>
@@ -2309,7 +2309,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">მესიჯის &amp;ვერიფიკაცია</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
         <translation type="unfinished">შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Bitcoin-მისამართით</translation>
     </message>
     <message>

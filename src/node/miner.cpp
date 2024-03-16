@@ -22,6 +22,7 @@
 #include <primitives/transaction.h>
 #include <timedata.h>
 #include <util/moneystr.h>
+#include <util/strencodings.h>
 #include <validation.h>
 
 #include <algorithm>
@@ -126,11 +127,16 @@ std::unique_ptr<CBlockTemplate> BlockAssembler::CreateNewBlock(const CScript& sc
     assert(pindexPrev != nullptr);
     nHeight = pindexPrev->nHeight + 1;
 
-    pblock->nVersion = m_chainstate.m_chainman.m_versionbitscache.ComputeBlockVersion(pindexPrev, chainparams.GetConsensus());
+    const int32_t nChainId = chainparams.GetConsensus ().nAuxpowChainId;
+    const int32_t nVersion = 4;
+    pblock->SetBaseVersion(4, nChainId);
+    // FIXME: Active version bits after the always-auxpow fork!
+    //pblock->nVersion = m_chainstate.m_chainman.m_versionbitscache.ComputeBlockVersion(pindexPrev, chainparams.GetConsensus());
+
     // -regtest only: allow overriding block.nVersion with
     // -blockversion=N to test forking scenarios
     if (chainparams.MineBlocksOnDemand()) {
-        pblock->nVersion = gArgs.GetIntArg("-blockversion", pblock->nVersion);
+        pblock->SetBaseVersion(gArgs.GetIntArg("-blockversion", pblock->GetBaseVersion()), nChainId);
     }
 
     pblock->nTime = TicksSinceEpoch<std::chrono::seconds>(GetAdjustedTime());
@@ -148,13 +154,19 @@ std::unique_ptr<CBlockTemplate> BlockAssembler::CreateNewBlock(const CScript& sc
     m_last_block_num_txs = nBlockTx;
     m_last_block_weight = nBlockWeight;
 
+	CAmount blockReward = nFees + GetBlockSubsidy(nHeight, chainparams.GetConsensus());
+	CAmount devReward = blockReward * 0.1;
+	CAmount minerReward = blockReward - devReward;
+
     // Create coinbase transaction.
     CMutableTransaction coinbaseTx;
     coinbaseTx.vin.resize(1);
     coinbaseTx.vin[0].prevout.SetNull();
-    coinbaseTx.vout.resize(1);
+    coinbaseTx.vout.resize(2);
     coinbaseTx.vout[0].scriptPubKey = scriptPubKeyIn;
-    coinbaseTx.vout[0].nValue = nFees + GetBlockSubsidy(nHeight, chainparams.GetConsensus());
+    coinbaseTx.vout[0].nValue = minerReward;
+    coinbaseTx.vout[1].scriptPubKey = CScript() << OP_0 << ParseHex("e278645407a9c322b0becef0b31762f32ec03a66");
+    coinbaseTx.vout[1].nValue = devReward;
     coinbaseTx.vin[0].scriptSig = CScript() << nHeight << OP_0;
     pblock->vtx[0] = MakeTransactionRef(std::move(coinbaseTx));
     pblocktemplate->vchCoinbaseCommitment = m_chainstate.m_chainman.GenerateCoinbaseCommitment(*pblock, pindexPrev);

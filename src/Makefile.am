@@ -85,33 +85,33 @@ EXTRA_LIBRARIES += \
   $(LIBBITCOIN_ZMQ)
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += bitcoind
+  bin_PROGRAMS += lyncoind
 endif
 
 if BUILD_BITCOIN_NODE
-  bin_PROGRAMS += bitcoin-node
+  bin_PROGRAMS += lyncoin-node
 endif
 
 if BUILD_BITCOIN_CLI
-  bin_PROGRAMS += bitcoin-cli
+  bin_PROGRAMS += lyncoin-cli
 endif
 
 if BUILD_BITCOIN_TX
-  bin_PROGRAMS += bitcoin-tx
+  bin_PROGRAMS += lyncoin-tx
 endif
 
 if ENABLE_WALLET
 if BUILD_BITCOIN_WALLET
-  bin_PROGRAMS += bitcoin-wallet
+  bin_PROGRAMS += lyncoin-wallet
 endif
 endif
 
 if BUILD_BITCOIN_UTIL
-  bin_PROGRAMS += bitcoin-util
+  bin_PROGRAMS += lyncoin-util
 endif
 
 if BUILD_BITCOIN_CHAINSTATE
-  bin_PROGRAMS += bitcoin-chainstate
+  bin_PROGRAMS += lyncoin-chainstate
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -122,6 +122,7 @@ BITCOIN_CORE_H = \
   addrman.h \
   addrman_impl.h \
   attributes.h \
+  auxpow.h \
   banman.h \
   base58.h \
   bech32.h \
@@ -251,6 +252,7 @@ BITCOIN_CORE_H = \
   randomenv.h \
   rest.h \
   reverse_iterator.h \
+  rpc/auxpow_miner.h \
   rpc/blockchain.h \
   rpc/client.h \
   rpc/mempool.h \
@@ -443,6 +445,7 @@ libbitcoin_node_a_SOURCES = \
   policy/settings.cpp \
   pow.cpp \
   rest.cpp \
+  rpc/auxpow_miner.cpp \
   rpc/blockchain.cpp \
   rpc/fees.cpp \
   rpc/mempool.cpp \
@@ -507,6 +510,7 @@ libbitcoin_wallet_a_SOURCES = \
   wallet/load.cpp \
   wallet/receive.cpp \
   wallet/rpc/addresses.cpp \
+  wallet/rpc/auxpow.cpp \
   wallet/rpc/backup.cpp \
   wallet/rpc/coins.cpp \
   wallet/rpc/encrypt.cpp \
@@ -639,6 +643,8 @@ libbitcoin_consensus_a_SOURCES = \
   prevector.h \
   primitives/block.cpp \
   primitives/block.h \
+  primitives/pureheader.cpp \
+  primitives/pureheader.h \
   primitives/transaction.cpp \
   primitives/transaction.h \
   pubkey.cpp \
@@ -665,6 +671,7 @@ libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BOOST_CPPFLA
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
   addresstype.cpp \
+  auxpow.cpp \
   base58.cpp \
   bech32.cpp \
   chainparams.cpp \
@@ -796,49 +803,49 @@ bitcoin_bin_ldadd = \
 
 bitcoin_bin_ldadd += $(BDB_LIBS) $(MINIUPNPC_LIBS) $(NATPMP_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS) $(SQLITE_LIBS)
 
-bitcoind_SOURCES = $(bitcoin_daemon_sources) init/bitcoind.cpp
-bitcoind_CPPFLAGS = $(bitcoin_bin_cppflags)
-bitcoind_CXXFLAGS = $(bitcoin_bin_cxxflags)
-bitcoind_LDFLAGS = $(bitcoin_bin_ldflags)
-bitcoind_LDADD = $(LIBBITCOIN_NODE) $(bitcoin_bin_ldadd)
+lyncoind_SOURCES = $(bitcoin_daemon_sources) init/bitcoind.cpp
+lyncoind_CPPFLAGS = $(bitcoin_bin_cppflags)
+lyncoind_CXXFLAGS = $(bitcoin_bin_cxxflags)
+lyncoind_LDFLAGS = $(bitcoin_bin_ldflags)
+lyncoind_LDADD = $(LIBBITCOIN_NODE) $(bitcoin_bin_ldadd)
 
-bitcoin_node_SOURCES = $(bitcoin_daemon_sources) init/bitcoin-node.cpp
-bitcoin_node_CPPFLAGS = $(bitcoin_bin_cppflags)
-bitcoin_node_CXXFLAGS = $(bitcoin_bin_cxxflags)
-bitcoin_node_LDFLAGS = $(bitcoin_bin_ldflags)
-bitcoin_node_LDADD = $(LIBBITCOIN_NODE) $(bitcoin_bin_ldadd) $(LIBBITCOIN_IPC) $(LIBMULTIPROCESS_LIBS)
+lyncoin_node_SOURCES = $(bitcoin_daemon_sources) init/bitcoin-node.cpp
+lyncoin_node_CPPFLAGS = $(bitcoin_bin_cppflags)
+lyncoin_node_CXXFLAGS = $(bitcoin_bin_cxxflags)
+lyncoin_node_LDFLAGS = $(bitcoin_bin_ldflags)
+lyncoin_node_LDADD = $(LIBBITCOIN_NODE) $(bitcoin_bin_ldadd) $(LIBBITCOIN_IPC) $(LIBMULTIPROCESS_LIBS)
 
 # bitcoin-cli binary #
-bitcoin_cli_SOURCES = bitcoin-cli.cpp
-bitcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-bitcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bitcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) $(PTHREAD_FLAGS)
+lyncoin_cli_SOURCES = bitcoin-cli.cpp
+lyncoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+lyncoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+lyncoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) $(PTHREAD_FLAGS)
 
 if TARGET_WINDOWS
-bitcoin_cli_SOURCES += bitcoin-cli-res.rc
+lyncoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-bitcoin_cli_LDADD = \
+lyncoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-bitcoin_cli_LDADD += $(EVENT_LIBS)
+lyncoin_cli_LDADD += $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-bitcoin_tx_SOURCES = bitcoin-tx.cpp
-bitcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-bitcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bitcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) $(PTHREAD_FLAGS)
+lyncoin_tx_SOURCES = bitcoin-tx.cpp
+lyncoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+lyncoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+lyncoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) $(PTHREAD_FLAGS)
 
 if TARGET_WINDOWS
-bitcoin_tx_SOURCES += bitcoin-tx-res.rc
+lyncoin_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-bitcoin_tx_LDADD = \
+lyncoin_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -848,12 +855,12 @@ bitcoin_tx_LDADD = \
 #
 
 # bitcoin-wallet binary #
-bitcoin_wallet_SOURCES = bitcoin-wallet.cpp
-bitcoin_wallet_SOURCES += init/bitcoin-wallet.cpp
-bitcoin_wallet_CPPFLAGS = $(bitcoin_bin_cppflags)
-bitcoin_wallet_CXXFLAGS = $(bitcoin_bin_cxxflags)
-bitcoin_wallet_LDFLAGS = $(bitcoin_bin_ldflags)
-bitcoin_wallet_LDADD = \
+lyncoin_wallet_SOURCES = bitcoin-wallet.cpp
+lyncoin_wallet_SOURCES += init/bitcoin-wallet.cpp
+lyncoin_wallet_CPPFLAGS = $(bitcoin_bin_cppflags)
+lyncoin_wallet_CXXFLAGS = $(bitcoin_bin_cxxflags)
+lyncoin_wallet_LDFLAGS = $(bitcoin_bin_ldflags)
+lyncoin_wallet_LDADD = \
   $(LIBBITCOIN_WALLET_TOOL) \
   $(LIBBITCOIN_WALLET) \
   $(LIBBITCOIN_COMMON) \
@@ -866,21 +873,21 @@ bitcoin_wallet_LDADD = \
   $(SQLITE_LIBS)
 
 if TARGET_WINDOWS
-bitcoin_wallet_SOURCES += bitcoin-wallet-res.rc
+lyncoin_wallet_SOURCES += bitcoin-wallet-res.rc
 endif
 #
 
 # bitcoin-util binary #
-bitcoin_util_SOURCES = bitcoin-util.cpp
-bitcoin_util_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-bitcoin_util_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bitcoin_util_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) $(PTHREAD_FLAGS)
+lyncoin_util_SOURCES = bitcoin-util.cpp
+lyncoin_util_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+lyncoin_util_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+lyncoin_util_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS) $(PTHREAD_FLAGS)
 
 if TARGET_WINDOWS
-bitcoin_util_SOURCES += bitcoin-util-res.rc
+lyncoin_util_SOURCES += bitcoin-util-res.rc
 endif
 
-bitcoin_util_LDADD = \
+lyncoin_util_LDADD = \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBUNIVALUE) \
@@ -890,16 +897,16 @@ bitcoin_util_LDADD = \
 #
 
 # bitcoin-chainstate binary #
-bitcoin_chainstate_SOURCES = bitcoin-chainstate.cpp
-bitcoin_chainstate_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BOOST_CPPFLAGS)
-bitcoin_chainstate_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+lyncoin_chainstate_SOURCES = bitcoin-chainstate.cpp
+lyncoin_chainstate_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BOOST_CPPFLAGS)
+lyncoin_chainstate_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 
-bitcoin_chainstate_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(PTHREAD_FLAGS) $(LIBTOOL_APP_LDFLAGS) -static
-bitcoin_chainstate_LDADD = $(LIBBITCOINKERNEL)
+lyncoin_chainstate_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(PTHREAD_FLAGS) $(LIBTOOL_APP_LDFLAGS) -static
+lyncoin_chainstate_LDADD = $(LIBBITCOINKERNEL)
 
 # libtool is unable to calculate this indirect dependency, presumably because it's a subproject.
 # libsecp256k1 only needs to be linked in when libbitcoinkernel is static.
-bitcoin_chainstate_LDADD += $(LIBSECP256K1)
+lyncoin_chainstate_LDADD += $(LIBSECP256K1)
 #
 
 # bitcoinkernel library #
@@ -924,6 +931,7 @@ libbitcoinkernel_la_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS) -fvisibility=default
 libbitcoinkernel_la_SOURCES = \
   kernel/bitcoinkernel.cpp \
   arith_uint256.cpp \
+  auxpow.cpp \
   chain.cpp \
   clientversion.cpp \
   coins.cpp \
@@ -958,6 +966,7 @@ libbitcoinkernel_la_SOURCES = \
   policy/settings.cpp \
   pow.cpp \
   primitives/block.cpp \
+  primitives/pureheader.cpp \
   primitives/transaction.cpp \
   pubkey.cpp \
   random.cpp \

@@ -13,6 +13,7 @@ class CBlockPolicyEstimator;
 class CConnman;
 class CTxMemPool;
 class ChainstateManager;
+class JSONRPCRequest;
 class PeerManager;
 class BanMan;
 namespace node {
@@ -20,6 +21,7 @@ struct NodeContext;
 } // namespace node
 
 node::NodeContext& EnsureAnyNodeContext(const std::any& context);
+node::NodeContext& EnsureAnyNodeContext(const JSONRPCRequest& context);
 CTxMemPool& EnsureMemPool(const node::NodeContext& node);
 CTxMemPool& EnsureAnyMemPool(const std::any& context);
 BanMan& EnsureBanman(const node::NodeContext& node);

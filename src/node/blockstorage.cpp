@@ -121,9 +121,10 @@ bool BlockTreeDB::LoadBlockIndexGuts(const Consensus::Params& consensusParams, s
                 pindexNew->nStatus        = diskindex.nStatus;
                 pindexNew->nTx            = diskindex.nTx;
 
-                if (!CheckProofOfWork(pindexNew->GetBlockHash(), pindexNew->nBits, consensusParams)) {
-                    return error("%s: CheckProofOfWork failed: %s", __func__, pindexNew->ToString());
-                }
+                /* Bitcoin checks the PoW here.  We don't do this because
+                   the CDiskBlockIndex does not contain the auxpow.
+                   This check isn't important, since the data on disk should
+                   already be valid and can be trusted.  */
 
                 pcursor->Next();
             } else {
@@ -1011,12 +1012,19 @@ bool BlockManager::WriteUndoDataForBlock(const CBlockUndo& blockundo, BlockValid
     return true;
 }
 
-bool BlockManager::ReadBlockFromDisk(CBlock& block, const FlatFilePos& pos) const
+namespace
+{
+
+/* Generic implementation of block reading that can handle
+   both a block and its header.  */
+
+template<typename T>
+bool ReadBlockOrHeader(T& block, const FlatFilePos& pos, const BlockManager& blockman)
 {
     block.SetNull();
 
     // Open history file to read
-    CAutoFile filein{OpenBlockFile(pos, true)};
+    CAutoFile filein{blockman.OpenBlockFile(pos, true)};
     if (filein.IsNull()) {
         return error("ReadBlockFromDisk: OpenBlockFile failed for %s", pos.ToString());
     }
@@ -1029,23 +1037,24 @@ bool BlockManager::ReadBlockFromDisk(CBlock& block, const FlatFilePos& pos) cons
     }
 
     // Check the header
-    if (!CheckProofOfWork(block.GetHash(), block.nBits, GetConsensus())) {
+    if (!CheckProofOfWork(block, blockman.GetConsensus())) {
         return error("ReadBlockFromDisk: Errors in block header at %s", pos.ToString());
     }
 
     // Signet only: check block solution
-    if (GetConsensus().signet_blocks && !CheckSignetBlockSolution(block, GetConsensus())) {
+    if (blockman.GetConsensus().signet_blocks && !CheckSignetBlockSolution(block, blockman.GetConsensus())) {
         return error("ReadBlockFromDisk: Errors in block solution at %s", pos.ToString());
     }
 
     return true;
 }
 
-bool BlockManager::ReadBlockFromDisk(CBlock& block, const CBlockIndex& index) const
+template<typename T>
+bool ReadBlockOrHeader(T& block, const CBlockIndex& index, const BlockManager& blockman)
 {
     const FlatFilePos block_pos{WITH_LOCK(cs_main, return index.GetBlockPos())};
 
-    if (!ReadBlockFromDisk(block, block_pos)) {
+    if (!ReadBlockOrHeader(block, block_pos, blockman)) {
         return false;
     }
     if (block.GetHash() != index.GetBlockHash()) {
@@ -1053,6 +1062,23 @@ bool BlockManager::ReadBlockFromDisk(CBlock& block, const CBlockIndex& index) co
                      index.ToString(), block_pos.ToString());
     }
     return true;
+}
+
+} // anonymous namespace
+
+bool BlockManager::ReadBlockFromDisk(CBlock& block, const FlatFilePos& pos) const
+{
+    return ReadBlockOrHeader(block, pos, *this);
+}
+
+bool BlockManager::ReadBlockFromDisk(CBlock& block, const CBlockIndex& index) const
+{
+    return ReadBlockOrHeader(block, index, *this);
+}
+
+bool BlockManager::ReadBlockHeaderFromDisk(CBlockHeader& block, const CBlockIndex& index) const
+{
+    return ReadBlockOrHeader(block, index, *this);
 }
 
 bool BlockManager::ReadRawBlockFromDisk(std::vector<uint8_t>& block, const FlatFilePos& pos) const
@@ -1072,13 +1098,13 @@ bool BlockManager::ReadRawBlockFromDisk(std::vector<uint8_t>& block, const FlatF
 
         if (blk_start != GetParams().MessageStart()) {
             return error("%s: Block magic mismatch for %s: %s versus expected %s", __func__, pos.ToString(),
-                         HexStr(blk_start),
-                         HexStr(GetParams().MessageStart()));
+                    HexStr(blk_start),
+                    HexStr(GetParams().MessageStart()));
         }
 
         if (blk_size > MAX_SIZE) {
             return error("%s: Block data is larger than maximum deserialization size for %s: %s versus %s", __func__, pos.ToString(),
-                         blk_size, MAX_SIZE);
+                    blk_size, MAX_SIZE);
         }
 
         block.resize(blk_size); // Zeroing of memory is intentional here

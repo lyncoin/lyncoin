@@ -58,13 +58,13 @@
         <translation type="unfinished">&amp;Elekti</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Jen viaj Bitmon-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
+        <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation type="unfinished">Jen viaj Linmon-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Jen viaj bitmonaj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
+        <translation type="unfinished">Jen viaj linmonaj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -155,8 +155,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Konfirmo de ĉifrado de la monujo</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Atentu! Se vi ĉifras vian monujon kaj perdas la pasfrazon, vi &lt;b&gt;PERDOS LA TUTON DE VIA BITMONO&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
+        <translation type="unfinished">Atentu! Se vi ĉifras vian monujon kaj perdas la pasfrazon, vi &lt;b&gt;PERDOS LA TUTON DE VIA LINMONO&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -362,8 +362,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Retaj agadoj malebliĝas.</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation type="unfinished">Sendi monon al Bitmon-adreso</translation>
+        <source>Send coins to a Lyncoin address</source>
+        <translation type="unfinished">Sendi monon al Linmon-adreso</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -386,12 +386,12 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Ĉifri la privatajn ŝlosilojn de via monujo</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation type="unfinished">Subskribi mesaĝojn per via Bitmon-adresoj por pravigi, ke vi estas la posedanto</translation>
+        <source>Sign messages with your Lyncoin addresses to prove you own them</source>
+        <translation type="unfinished">Subskribi mesaĝojn per via Linmon-adresoj por pravigi, ke vi estas la posedanto</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation type="unfinished">Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Bitmon-adresoj</translation>
+        <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
+        <translation type="unfinished">Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Linmon-adresoj</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -410,8 +410,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Langeto-breto</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished">Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso bitcoin:)</translation>
+        <source>Request payments (generates QR codes and lyncoin: URIs)</source>
+        <translation type="unfinished">Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso lyncoin:)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -498,7 +498,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Ĉefa Fenestro</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform />
@@ -790,8 +790,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Redakti adreson por sendi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation type="unfinished">La adreso enigita "%1" ne estas valida Bitmon-adreso.</translation>
+        <source>The entered address "%1" is not a valid Lyncoin address.</source>
+        <translation type="unfinished">La adreso enigita "%1" ne estas valida Linmon-adreso.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -828,8 +828,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin</source>
-        <translation type="unfinished">Bitmono</translation>
+        <source>Lyncoin</source>
+        <translation type="unfinished">Linmono</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of space available</source>
@@ -937,8 +937,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
-        <translation type="unfinished">Malfermi na la URI de bitmono</translation>
+        <source>Open lyncoin URI</source>
+        <translation type="unfinished">Malfermi na la URI de linmono</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -997,8 +997,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Fakulo</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Aŭtomate malfermi la kursilan pordon por Bitmono. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
+        <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation type="unfinished">Aŭtomate malfermi la kursilan pordon por Linmono. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1046,7 +1046,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished">Elekti la defaŭltan manieron por montri bitmonajn sumojn en la interfaco, kaj kiam vi sendos bitmonon.</translation>
+        <translation type="unfinished">Elekti la defaŭltan manieron por montri linmonajn sumojn en la interfaco, kaj kiam vi sendos linmonon.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1089,8 +1089,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Formularo</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la bitmona reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
+        <translation type="unfinished">Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la linmona reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1159,7 +1159,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Eraro dum pagopeto</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start lyncoin: click-to-pay handler</source>
         <translation type="unfinished">Ne eblas lanĉi la ilon 'klaki-por-pagi'</translation>
     </message>
     <message>
@@ -1459,7 +1459,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Sendi Bitmonon</translation>
+        <translation type="unfinished">Sendi Linmonon</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1571,7 +1571,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation type="unfinished">Konfirmi sendon de bitmono</translation>
+        <translation type="unfinished">Konfirmi sendon de Linmono</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -1597,8 +1597,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         </translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished">Averto: Nevalida Bitmon-adreso</translation>
+        <source>Warning: Invalid Lyncoin address</source>
+        <translation type="unfinished">Averto: Nevalida Linmon-adreso</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1678,8 +1678,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Kopii la aktualan subskribon al la tondejo</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation type="unfinished">Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Bitmon-adreso</translation>
+        <source>Sign the message to prove you own this Lyncoin address</source>
+        <translation type="unfinished">Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Linmon-adreso</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1698,8 +1698,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">&amp;Kontroli Mesaĝon</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation type="unfinished">Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Bitmon-adreso</translation>
+        <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
+        <translation type="unfinished">Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Linmon-adreso</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2055,7 +2055,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Sendi Bitmonon</translation>
+        <translation type="unfinished">Sendi Linmonon</translation>
     </message>
     <message>
         <source>default wallet</source>

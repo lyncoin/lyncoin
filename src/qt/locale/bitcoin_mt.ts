@@ -58,11 +58,11 @@
         <translation type="unfinished">Agħżel</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished">Dawn huma l-indirizzi Bitcoin tiegħek biex tibgħat il-ħlasijiet. Dejjem iċċekkja l-ammont u l-indirizz li tirċievi qabel ma tibgħat muniti.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Dawn huma l-indirizzi Bitcoin tiegħek biex tirċievi ħlasijiet. Uża l-buttuna 'Oħloq indirizz riċevitur ġdid' fit-tab tar-riċeviment biex toħloq indirizzi ġodda.
 L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
@@ -156,7 +156,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
         <translation type="unfinished">Ikkonferma l-kriptaġġ tal-kartiera</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
         <translation type="unfinished">Twissija: Jekk tikkodifika l-kartiera tiegħek u titlef il-passphrase tiegħek, int se &lt;b&gt;TILEF IL-BITCOINS KOLLHA TIEGĦEK&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -176,7 +176,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
         <translation type="unfinished">Daħħal il-passphrase l-antika u l-passphrase ġdida għall-kartiera.</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished">Ftakar li l-kriptaġġ tal-kartiera tiegħek ma jistax jipproteġi bis-sħiħ il-bitcoins tiegħek milli jinsterqu minn malware li jinfetta l-kompjuter tiegħek.</translation>
     </message>
     <message>
@@ -409,7 +409,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
         <translation type="unfinished">Proxy huwa &lt;b&gt;attivat&lt;/b&gt;:%1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Lyncoin address</source>
         <translation type="unfinished">Ibgħat muniti f'indirizz Bitcoin</translation>
     </message>
     <message>
@@ -453,7 +453,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
         <translation type="unfinished">Iffirma &amp;messaġġ...</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Lyncoin addresses to prove you own them</source>
         <translation type="unfinished">Iffirma messaġġi bl-indirizzi Bitcoin tiegħek biex tipprova li inti stess</translation>
     </message>
     <message>
@@ -461,7 +461,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
         <translation type="unfinished">&amp;Ivverifika l-messaġġ...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
         <translation type="unfinished">Ivverifika l-messaġġi biex tiżgura li ġew iffirmati b'indirizzi Bitcoin speċifikati</translation>
     </message>
     <message>
@@ -513,7 +513,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
         <translation type="unfinished">Konnessjoni ma' sħabhom...</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and lyncoin: URIs)</source>
         <translation type="unfinished">Itlob ħlasijiet (jiġġenera kodiċijiet QR u bitcoin: URIs)</translation>
     </message>
     <message>
@@ -570,7 +570,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
         <translation type="unfinished">Aġġornat</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction</source>
+        <source>Load Partially Signed Lyncoin Transaction</source>
         <translation type="unfinished">Tagħbija Transazzjoni Bitcoin iffirmata parzjalment</translation>
     </message>
     <message>
@@ -578,7 +578,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
         <translation type="unfinished">Tagħbija PSBT minn &amp;clipboard...</translation>
     </message>
     <message>
-        <source>Load Partially Signed Bitcoin Transaction from clipboard</source>
+        <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
         <translation type="unfinished">Tagħbija Transazzjoni Bitcoin iffirmata parzjalment mill-clipboard</translation>
     </message>
     <message>
@@ -598,7 +598,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
         <translation type="unfinished">&amp;Riċeviment indirizzi</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
+        <source>Open a lyncoin: URI</source>
         <translation type="unfinished">Iftaħ bitcoin: URI</translation>
     </message>
     <message>
@@ -628,7 +628,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
         <translation type="unfinished">Agħlaq il-kartieri kollha</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Lyncoin command-line options</source>
         <translation type="unfinished">Uri %1l-messaġġ ta 'għajnuna biex tikseb lista b'għażliet possibbli tal-linja tal-kmand Bitcoin</translation>
     </message>
     <message>
@@ -688,7 +688,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
         <translation type="unfinished">Uri</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
             <numerusform>%nkonnessjoni(jiet) attiva(i) man-netwerk Bitcoin.</numerusform>

@@ -10,6 +10,7 @@
 #include <prevector.h>
 #include <script/script.h>
 #include <serialize.h>
+#include <streams.h>
 #include <uint256.h>
 
 #include <cstddef>
@@ -215,7 +216,7 @@ struct CMutableTransaction;
  */
 template<typename Stream, typename TxType>
 inline void UnserializeTransaction(TxType& tx, Stream& s) {
-    const bool fAllowWitness = !(s.GetVersion() & SERIALIZE_TRANSACTION_NO_WITNESS);
+    const bool fAllowWitness = !(GetVersionOrProtocol(s) & SERIALIZE_TRANSACTION_NO_WITNESS);
 
     s >> tx.nVersion;
     unsigned char flags = 0;
@@ -254,7 +255,7 @@ inline void UnserializeTransaction(TxType& tx, Stream& s) {
 
 template<typename Stream, typename TxType>
 inline void SerializeTransaction(const TxType& tx, Stream& s) {
-    const bool fAllowWitness = !(s.GetVersion() & SERIALIZE_TRANSACTION_NO_WITNESS);
+    const bool fAllowWitness = !(GetVersionOrProtocol(s) & SERIALIZE_TRANSACTION_NO_WITNESS);
 
     s << tx.nVersion;
     unsigned char flags = 0;
@@ -295,7 +296,10 @@ class CTransaction
 {
 public:
     // Default transaction version.
-    static const int32_t CURRENT_VERSION=2;
+    // FIXME: Upstream Bitcoin has default version set to 2 already.  Do this
+    // once we forked to make the tx version irrelevant for Namecoin.
+    static const int32_t CURRENT_VERSION=1;
+    static const int32_t NAMECOIN_VERSION=0x7100;
 
     // The local variables are made const to prevent unintended modification
     // without updating the cached hash value. However, CTransaction is not
@@ -350,6 +354,11 @@ public:
     bool IsCoinBase() const
     {
         return (vin.size() == 1 && vin[0].prevout.IsNull());
+    }
+
+    bool IsNamecoin() const
+    {
+        return nVersion == NAMECOIN_VERSION;
     }
 
     friend bool operator==(const CTransaction& a, const CTransaction& b)
@@ -416,6 +425,12 @@ struct CMutableTransaction
         }
         return false;
     }
+
+    /**
+     * Turn this into a Namecoin version transaction.  It is assumed
+     * that it isn't already.
+     */
+    void SetNamecoin();
 };
 
 typedef std::shared_ptr<const CTransaction> CTransactionRef;
