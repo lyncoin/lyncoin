@@ -140,7 +140,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Digniin: Haddii aad jeebka jeebkaaga qarisid, Oo aad lumiso ereygii,Adigaa sameyn doontaa&lt;b&gt;Lumin oo dhan BITCOINS AAD&lt;/b&gt;!</translation>
+        <translation type="unfinished">Digniin: Haddii aad jeebka jeebkaaga qarisid, Oo aad lumiso ereygii,Adigaa sameyn doontaa&lt;b&gt;Lumin oo dhan LYNCOINS AAD&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -156,7 +156,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Xusuusnow in encrypting jeebka si buuxda ma uu ilaalin karo bitcoins aad ka xado by furin qaadsiinaya aad computer.</translation>
+        <translation type="unfinished">Xusuusnow in encrypting jeebka si buuxda ma uu ilaalin karo lyncoins aad ka xado by furin qaadsiinaya aad computer.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -185,6 +185,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>The supplied passphrases do not match.</source>
         <translation type="unfinished">Supplied passrases ma u dhigma.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock failed</source>
+        <translation type="unfinished">Wallet Unlock failed</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
@@ -244,43 +248,43 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -289,16 +293,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -314,30 +318,30 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -365,8 +369,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -379,8 +383,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>

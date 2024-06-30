@@ -59,7 +59,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <extracomment>Expanded name of the CSV file format. See: https://en.wikipedia.org/wiki/Comma-separated_values.</extracomment>
         <translation type="unfinished">কমা দিয়ে আলাদা করা ফাইল</translation>
     </message>
-    </context>
+    <message>
+        <source>Exporting Failed</source>
+        <translation type="unfinished">রপ্তানি ব্যর্থ হয়েছে৷</translation>
+    </message>
+</context>
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -70,7 +74,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>Address</source>
         <translation type="unfinished">ঠিকানা</translation>
     </message>
-    </context>
+    <message>
+        <source>(no label)</source>
+        <translation type="unfinished">(কোন লেবেল নেই)</translation>
+    </message>
+</context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -138,43 +146,43 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -255,8 +263,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -265,11 +273,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">আংশিক স্বাক্ষরিত বিটকয়েন লেনদেন লোড করুন</translation>
+        <translation type="unfinished">আংশিক স্বাক্ষরিত লিনকয়েন লেনদেন লোড করুন</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">ক্লিপবোর্ড থেকে আংশিক স্বাক্ষরিত বিটকয়েন লেনদেন লোড করুন</translation>
+        <translation type="unfinished">ক্লিপবোর্ড থেকে আংশিক স্বাক্ষরিত লিনকয়েন লেনদেন লোড করুন</translation>
     </message>
     <message>
         <source>Close all wallets</source>
@@ -287,8 +295,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -400,8 +408,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
@@ -422,8 +430,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -517,8 +525,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -538,8 +546,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -604,6 +612,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>ID</source>
         <translation type="unfinished">আইডি</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation type="unfinished">রপ্তানি ব্যর্থ হয়েছে৷</translation>
     </message>
     <message>
         <source>Exporting Successful</source>

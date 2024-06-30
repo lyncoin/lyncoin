@@ -29,7 +29,7 @@ static CAmount GetReceived(const CWallet& wallet, const UniValue& params, bool b
         // Get the address
         CTxDestination dest = DecodeDestination(params[0].get_str());
         if (!IsValidDestination(dest)) {
-            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Bitcoin address");
+            throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Lyncoin address");
         }
         addresses.emplace_back(dest);
     }
@@ -320,7 +320,7 @@ RPCHelpMan lockunspent()
                 {"vout", UniValueType(UniValue::VNUM)},
             });
 
-        const uint256 txid(ParseHashO(o, "txid"));
+        const Txid txid = Txid::FromUint256(ParseHashO(o, "txid"));
         const int nOutput = o.find_value("vout").getInt<int>();
         if (nOutput < 0) {
             throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid parameter, vout cannot be negative");
@@ -583,7 +583,7 @@ RPCHelpMan listunspent()
             const UniValue& input = inputs[idx];
             CTxDestination dest = DecodeDestination(input.get_str());
             if (!IsValidDestination(dest)) {
-                throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, std::string("Invalid Bitcoin address: ") + input.get_str());
+                throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, std::string("Invalid Lyncoin address: ") + input.get_str());
             }
             if (!destinations.insert(dest).second) {
                 throw JSONRPCError(RPC_INVALID_PARAMETER, std::string("Invalid parameter, duplicated address: ") + input.get_str());

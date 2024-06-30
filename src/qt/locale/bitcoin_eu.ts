@@ -59,12 +59,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Hauek dira zuk dirua jaso dezaketen Bitcoin helbideak. Egiaztatu beti diru-kopurua eta dirua jasoko duen helbidea zuzen egon daitezen, txanponak bidali baino lehen.</translation>
+        <translation type="unfinished">Hauek dira zuk dirua jaso dezaketen Lyncoin helbideak. Egiaztatu beti diru-kopurua eta dirua jasoko duen helbidea zuzen egon daitezen, txanponak bidali baino lehen.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Hauek dira ordainketak jasotzeko zure Bitcoin helbideak. Jaso taulako 'Jasotzeko helbide berri bat sortu' botoia erabili helbide berri bat sortzeko.
+        <translation type="unfinished">Hauek dira ordainketak jasotzeko zure Lyncoin helbideak. Jaso taulako 'Jasotzeko helbide berri bat sortu' botoia erabili helbide berri bat sortzeko.
 Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
     </message>
     <message>
@@ -157,7 +157,7 @@ Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Abisua: Diruzorroa enkriptatzen baduzu eta zure pasahitza galtzen baduzu, &lt;b&gt;BITCOIN GUZTIAK GALDUKO DITUZU&lt;/b&gt;!</translation>
+        <translation type="unfinished">Abisua: Diruzorroa enkriptatzen baduzu eta zure pasahitza galtzen baduzu, &lt;b&gt;LYNCOIN GUZTIAK GALDUKO DITUZU&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -177,7 +177,7 @@ Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Gogoan izan diruzorroaren enkripzioak ezin dituela zure bitcoinak zure ordenagailuan izan dezakezun malware batengandik lapurtuak izatetik guztiz babestu .</translation>
+        <translation type="unfinished">Gogoan izan diruzorroaren enkripzioak ezin dituela zure lyncoinak zure ordenagailuan izan dezakezun malware batengandik lapurtuak izatetik guztiz babestu .</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -271,43 +271,43 @@ Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -380,7 +380,7 @@ Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Bidali txanponak Bitcoin helbide batera</translation>
+        <translation type="unfinished">Bidali txanponak Lyncoin helbide batera</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -424,7 +424,7 @@ Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Sinatu mezuak Bitcoinen helbideekin, jabetza frogatzeko.</translation>
+        <translation type="unfinished">Sinatu mezuak Lyncoinen helbideekin, jabetza frogatzeko.</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -432,7 +432,7 @@ Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Egiaztatu mesua Bitcoin helbide espezifikoarekin erregistratu direla ziurtatzeko</translation>
+        <translation type="unfinished">Egiaztatu mesua Lyncoin helbide espezifikoarekin erregistratu direla ziurtatzeko</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -501,8 +501,8 @@ Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -539,7 +539,7 @@ Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">Partzialki sinatutako Bitcoin transakzioa kargatu</translation>
+        <translation type="unfinished">Partzialki sinatutako Lyncoin transakzioa kargatu</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
@@ -547,7 +547,7 @@ Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">Partzialki sinatutako Bitcoin transakzioa kargatu arbeletik</translation>
+        <translation type="unfinished">Partzialki sinatutako Lyncoin transakzioa kargatu arbeletik</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -563,7 +563,7 @@ Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">Ireki bitcoin bat: URI</translation>
+        <translation type="unfinished">Ireki lyncoin bat: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -622,8 +622,8 @@ Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -987,30 +987,30 @@ Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1099,7 +1099,7 @@ Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
     <name>OpenURIDialog</name>
     <message>
         <source>Open lyncoin URI</source>
-        <translation type="unfinished">Ireki bitcoin URIa</translation>
+        <translation type="unfinished">Ireki lyncoin URIa</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -1782,8 +1782,8 @@ Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1937,8 +1937,8 @@ Sinatzea 'legacy' motako helbideekin soilik da posible</translation>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>

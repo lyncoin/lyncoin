@@ -59,12 +59,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">これらは、あなたが知っている送信先の Bitcoin アドレスです。コインを送る前に必ず、金額と受取用アドレスを確認してください。</translation>
+        <translation type="unfinished">これらは、あなたが知っている送信先の Lyncoin アドレスです。コインを送る前に必ず、金額と受取用アドレスを確認してください。</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">これらは支払いを受け取るための、あなたの Bitcoin アドレスです。新しいアドレスを作成するには受取タブ内の「新しい受取用アドレスを作成」ボタンを使用します。
+        <translation type="unfinished">これらは支払いを受け取るための、あなたの Lyncoin アドレスです。新しいアドレスを作成するには受取タブ内の「新しい受取用アドレスを作成」ボタンを使用します。
 署名は、タイプが「レガシー」のアドレスのみ可能です。</translation>
     </message>
     <message>
@@ -165,7 +165,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">警告: ウォレットの暗号化後にパスフレーズを忘れてしまった場合、&lt;b&gt;あなたの Bitcoin はすべて失われます&lt;/b&gt;！</translation>
+        <translation type="unfinished">警告: ウォレットの暗号化後にパスフレーズを忘れてしまった場合、&lt;b&gt;あなたの Lyncoin はすべて失われます&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -185,7 +185,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">ウォレットを暗号化しても、コンピュータに感染したマルウェアなどによる Bitcoin の盗難を完全に防ぐことはできないことにご注意ください。</translation>
+        <translation type="unfinished">ウォレットを暗号化しても、コンピュータに感染したマルウェアなどによる Lyncoin の盗難を完全に防ぐことはできないことにご注意ください。</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -303,12 +303,24 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">不明</translation>
     </message>
     <message>
+        <source>Embedded "%1"</source>
+        <translation type="unfinished">埋込み "%1"</translation>
+    </message>
+    <message>
+        <source>Default system font "%1"</source>
+        <translation type="unfinished">デフォルトシステムフォント "%1"</translation>
+    </message>
+    <message>
+        <source>Custom…</source>
+        <translation type="unfinished">カスタム…</translation>
+    </message>
+    <message>
         <source>Amount</source>
         <translation type="unfinished">金額</translation>
     </message>
     <message>
         <source>Enter a Lyncoin address (e.g. %1)</source>
-        <translation type="unfinished">Bitcoin アドレスを入力してください (例: %1)</translation>
+        <translation type="unfinished">Lyncoin アドレスを入力してください (例: %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -413,6 +425,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
             <numerusform>%n 年</numerusform>
         </translation>
     </message>
+    <message>
+        <source>%1 kB</source>
+        <translation type="unfinished">%1 KB</translation>
+    </message>
     </context>
 <context>
     <name>BitcoinGUI</name>
@@ -483,7 +499,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Bitcoin アドレスにコインを送る</translation>
+        <translation type="unfinished">Lyncoin アドレスにコインを送る</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -527,7 +543,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Bitcoin アドレスでメッセージに署名することで、そのアドレスの所有権を証明する</translation>
+        <translation type="unfinished">Lyncoin アドレスでメッセージに署名することで、そのアドレスの所有権を証明する</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -535,7 +551,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">メッセージを検証して、指定された Bitcoin アドレスで署名されたことを確認する</translation>
+        <translation type="unfinished">メッセージを検証して、指定された Lyncoin アドレスで署名されたことを確認する</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -595,7 +611,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">支払いをリクエストする（QRコードと bitcoin:で始まるURIを生成する）</translation>
+        <translation type="unfinished">支払いをリクエストする（QRコードと lyncoin:で始まるURIを生成する）</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -649,7 +665,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">部分的に署名されたBitcoinの取引を読み込む</translation>
+        <translation type="unfinished">部分的に署名されたLyncoinの取引を読み込む</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
@@ -657,7 +673,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">部分的に署名されたBitcoinの取引をクリップボードから読み込む</translation>
+        <translation type="unfinished">部分的に署名されたLyncoinの取引をクリップボードから読み込む</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -677,7 +693,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">bitcoin: URIを開く</translation>
+        <translation type="unfinished">lyncoin: URIを開く</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -715,7 +731,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Lyncoin command-line options</source>
-        <translation type="unfinished">%1 のヘルプ メッセージを表示し、使用可能な Bitcoin のコマンドラインオプション一覧を見る。</translation>
+        <translation type="unfinished">%1 のヘルプ メッセージを表示し、使用可能な Lyncoin のコマンドラインオプション一覧を見る。</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -781,7 +797,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>Bitcoinネットワークへの %n のアクティブな接続。</numerusform>
+            <numerusform>Lyncoinネットワークへの %n のアクティブな接続。</numerusform>
         </translation>
     </message>
     <message>
@@ -1112,12 +1128,12 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">ウォレット '%1' の移行が完了しました。</translation>
     </message>
     <message>
-        <source> Watchonly scripts have been migrated to a new wallet named '%1'.</source>
-        <translation type="unfinished">監視専用スクリプトは新しいウォレット '%1' に移行しました。</translation>
+        <source>Watchonly scripts have been migrated to a new wallet named '%1'.</source>
+        <translation type="unfinished">監視専用スクリプトは’%1’という名前の新しいウォレットに移行されました。</translation>
     </message>
     <message>
-        <source> Solvable but not watched scripts have been migrated to a new wallet named '%1'.</source>
-        <translation type="unfinished">解決可能だが監視されないスクリプトは新しいウォレット '%1' に移行しました。</translation>
+        <source>Solvable but not watched scripts have been migrated to a new wallet named '%1'.</source>
+        <translation type="unfinished">解決可能だが監視されないスクリプトは '%1' という名前の新しいウォレットに移行されました。</translation>
     </message>
     <message>
         <source>Migration failed</source>
@@ -1308,7 +1324,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">入力されたアドレス "%1" は無効な Bitcoin アドレスです。</translation>
+        <translation type="unfinished">入力されたアドレス "%1" は無効な Lyncoin アドレスです。</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1391,7 +1407,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>%1 will download and store a copy of the Lyncoin block chain.</source>
-        <translation type="unfinished">%1 は Bitcoin ブロックチェーンのコピーをダウンロードし保存します。</translation>
+        <translation type="unfinished">%1 は Lyncoin ブロックチェーンのコピーをダウンロードし保存します。</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1480,11 +1496,11 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the lyncoin network, as detailed below.</source>
-        <translation type="unfinished">最近の取引がまだ表示されていない可能性があります。そのため、ウォレットの残高が正しく表示されていないかもしれません。この情報は、ウォレットが Bitcoin ネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
+        <translation type="unfinished">最近の取引がまだ表示されていない可能性があります。そのため、ウォレットの残高が正しく表示されていないかもしれません。この情報は、ウォレットが Lyncoin ネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
     </message>
     <message>
         <source>Attempting to spend lyncoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">まだ表示されていない取引が関係する Bitcoin の使用を試みた場合、ネットワークから認証を受けられません。</translation>
+        <translation type="unfinished">まだ表示されていない取引が関係する Lyncoin の使用を試みた場合、ネットワークから認証を受けられません。</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1535,7 +1551,7 @@ The migration process will create a backup of the wallet before migrating. This 
     <name>OpenURIDialog</name>
     <message>
         <source>Open lyncoin URI</source>
-        <translation type="unfinished">bitcoin URIを開く</translation>
+        <translation type="unfinished">lyncoin URIを開く</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -1588,6 +1604,10 @@ The migration process will create a backup of the wallet before migrating. This 
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
         <translation type="unfinished">ウィンドウが閉じられたとき、アプリケーションを終了するのではなく最小化します。このオプションが有効の場合、メニューから終了が選択されたときのみアプリケーションが終了します。</translation>
+    </message>
+    <message>
+        <source>Font in the Overview tab: </source>
+        <translation type="unfinished">概要タブのフォント</translation>
     </message>
     <message>
         <source>Options set in this dialog are overridden by the command line:</source>
@@ -1695,7 +1715,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">自動的にルーター上の Bitcoin クライアントのポートを開放します。あなたのルーターが UPnP に対応していて、それが有効になっている場合のみ動作します。</translation>
+        <translation type="unfinished">自動的にルーター上の Lyncoin クライアントのポートを開放します。あなたのルーターが UPnP に対応していて、それが有効になっている場合のみ動作します。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1703,7 +1723,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">自動的にルーター上の Bitcoin クライアントのポートを開放します。あなたのルーターが NAT-PMP に対応していて、それが有効になっている場合のみ動作します。外部ポートはランダムで構いません。</translation>
+        <translation type="unfinished">自動的にルーター上の Lyncoin クライアントのポートを開放します。あなたのルーターが NAT-PMP に対応していて、それが有効になっている場合のみ動作します。外部ポートはランダムで構いません。</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -1719,7 +1739,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Connect to the Lyncoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">SOCKS5 プロキシ経由で Bitcoin ネットワークに接続する。</translation>
+        <translation type="unfinished">SOCKS5 プロキシ経由で Lyncoin ネットワークに接続する。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1799,23 +1819,11 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Connect to the Lyncoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Tor onion service用の別のSOCKS5プロキシを介してBitcoinネットワークに接続します。</translation>
+        <translation type="unfinished">Tor onion service用の別のSOCKS5プロキシを介してLyncoinネットワークに接続します。</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
         <translation type="unfinished">Tor onion serviceを介してピアに到達するために別のSOCKS&amp;5プロキシを使用する(&amp;5):</translation>
-    </message>
-    <message>
-        <source>Monospaced font in the Overview tab:</source>
-        <translation type="unfinished">概要タブの等幅フォント: </translation>
-    </message>
-    <message>
-        <source>embedded "%1"</source>
-        <translation type="unfinished">埋込み "%1"</translation>
-    </message>
-    <message>
-        <source>closest matching "%1"</source>
-        <translation type="unfinished">最もマッチする  "%1"</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
@@ -1904,7 +1912,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">表示されている情報は古い可能性があります。ウォレットは接続確立後に Bitcoin ネットワークと自動的に同期しますが、同期処理はまだ完了していません。</translation>
+        <translation type="unfinished">表示されている情報は古い可能性があります。ウォレットは接続確立後に Lyncoin ネットワークと自動的に同期しますが、同期処理はまだ完了していません。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -2055,8 +2063,8 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">PSBTはディスクに保存されました。</translation>
     </message>
     <message>
-        <source> * Sends %1 to %2</source>
-        <translation type="unfinished"> * %1 を %2 へ送金</translation>
+        <source>Sends %1 to %2</source>
+        <translation type="unfinished">%1を%2に送信</translation>
     </message>
     <message>
         <source>own address</source>
@@ -2119,7 +2127,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Cannot start lyncoin: click-to-pay handler</source>
-        <translation type="unfinished">Bitcoin を起動できません: click-to-pay handler</translation>
+        <translation type="unfinished">Lyncoin を起動できません: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2127,7 +2135,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>'lyncoin://' is not a valid URI. Use 'lyncoin:' instead.</source>
-        <translation type="unfinished">'bitcoin://' は正しいURIではありません｡ 'bitcoin:'を使用してください｡</translation>
+        <translation type="unfinished">'lyncoin://' は正しいURIではありません｡ 'lyncoin:'を使用してください｡</translation>
     </message>
     <message>
         <source>Cannot process payment request because BIP70 is not supported.
@@ -2139,7 +2147,7 @@ BIP70には広範なセキュリティー上の問題があるので、ウォレ
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Lyncoin address or malformed URI parameters.</source>
-        <translation type="unfinished">URIを解析できませんでした！ Bitcoin アドレスが無効であるか、URIパラメーターが不正な形式である可能性があります。</translation>
+        <translation type="unfinished">URIを解析できませんでした！ Lyncoin アドレスが無効であるか、URIパラメーターが不正な形式である可能性があります。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2176,7 +2184,7 @@ BIP70には広範なセキュリティー上の問題があるので、ウォレ
     <message>
         <source>Received</source>
         <extracomment>Title of Peers Table column which indicates the total amount of network information we have received from the peer.</extracomment>
-        <translation type="unfinished">受信</translation>
+        <translation type="unfinished">受信済</translation>
     </message>
     <message>
         <source>Address</source>
@@ -2316,7 +2324,7 @@ BIP70には広範なセキュリティー上の問題があるので、ウォレ
     </message>
     <message>
         <source>Sent</source>
-        <translation type="unfinished">送信済</translation>
+        <translation type="unfinished">送信</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
@@ -2645,6 +2653,10 @@ BIP70には広範なセキュリティー上の問題があるので、ウォレ
         <translation type="unfinished">どのウォレットも使わずにコマンドを実行しています</translation>
     </message>
     <message>
+        <source>Node window - [%1]</source>
+        <translation type="unfinished">ノードウィンドウ - [%1]</translation>
+    </message>
+    <message>
         <source>Executing command using "%1" wallet</source>
         <translation type="unfinished">"%1" ウォレットを使ってコマンドを実行しています</translation>
     </message>
@@ -2688,7 +2700,7 @@ For more information on using this console, type %6.
     </message>
     <message>
         <source>To</source>
-        <translation type="unfinished">外向き</translation>
+        <translation type="unfinished">送金先</translation>
     </message>
     <message>
         <source>From</source>
@@ -2723,7 +2735,7 @@ For more information on using this console, type %6.
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lyncoin network.</source>
-        <translation type="unfinished">支払いリクエストに添付する任意のメッセージで、支払リクエストの開封時に表示されます。注意: メッセージは Bitcoin ネットワーク上へ送信されません。</translation>
+        <translation type="unfinished">支払いリクエストに添付する任意のメッセージで、支払リクエストの開封時に表示されます。注意: メッセージは Lyncoin ネットワーク上へ送信されません。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2893,7 +2905,7 @@ For more information on using this console, type %6.
     </message>
     <message>
         <source>(no label)</source>
-        <translation type="unfinished">(ラベル無し)</translation>
+        <translation type="unfinished">(ラベルなし)</translation>
     </message>
     <message>
         <source>(no message)</source>
@@ -3109,10 +3121,6 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">オフラインの %1 ウォレット、あるいはPSBTに対応したハードウェアウォレットで使用するためのPSBT(部分的に署名された取引)を作成します。</translation>
     </message>
     <message>
-        <source> from wallet '%1'</source>
-        <translation type="unfinished"> ウォレット '%1' から</translation>
-    </message>
-    <message>
         <source>%1 to '%2'</source>
         <translation type="unfinished">%1 → '%2'</translation>
     </message>
@@ -3167,7 +3175,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Please, review your transaction proposal. This will produce a Partially Signed Lyncoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">取引の提案を確認してください。これにより、部分的に署名されたBitcoin取引（PSBT）が作成されます。これを保存するかコピーして例えばオフラインの %1 ウォレットやPSBTを扱えるハードウェアウォレットで残りの署名が出来ます。</translation>
+        <translation type="unfinished">取引の提案を確認してください。これにより、部分的に署名されたLyncoin取引（PSBT）が作成されます。これを保存するかコピーして例えばオフラインの %1 ウォレットやPSBTを扱えるハードウェアウォレットで残りの署名が出来ます。</translation>
+    </message>
+    <message>
+        <source>%1 from wallet '%2'</source>
+        <translation type="unfinished"> ウォレット '%2' の%1</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
@@ -3177,7 +3189,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Lyncoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">取引を確認してください。 この取引を作成して送信するか、部分的に署名されたBitcoin取引（Partially Signed Bitcoin Transaction: PSBT）を作成できます。これを保存またはコピーして、オフラインの %1 ウォレットやPSBT互換のハードウェアウォレットなどで署名できます。</translation>
+        <translation type="unfinished">取引を確認してください。 この取引を作成して送信するか、部分的に署名されたLyncoin取引（Partially Signed Lyncoin Transaction: PSBT）を作成できます。これを保存またはコピーして、オフラインの %1 ウォレットやPSBT互換のハードウェアウォレットなどで署名できます。</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -3187,6 +3199,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Transaction fee</source>
         <translation type="unfinished">取引手数料</translation>
+    </message>
+    <message>
+        <source>%1 kvB</source>
+        <comment>PSBT transaction creation</comment>
+        <extracomment>When reviewing a newly created PSBT (via Send flow), the transaction fee is shown, with "virtual size" of the transaction displayed for context</extracomment>
+        <translation type="unfinished"> %1 kvB</translation>
     </message>
     <message>
         <source>Not signalling Replace-By-Fee, BIP-125.</source>
@@ -3246,6 +3264,10 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
         <translation type="unfinished">%1 よりも高い手数料は、法外に高い手数料と判定されます。</translation>
     </message>
+    <message>
+        <source>%1/kvB</source>
+        <translation type="unfinished">%1 /kvB</translation>
+    </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
@@ -3254,7 +3276,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">警告: 無効な Bitcoin アドレスです</translation>
+        <translation type="unfinished">警告: 無効な Lyncoin アドレスです</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3270,7 +3292,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>(no label)</source>
-        <translation type="unfinished">(ラベル無し)</translation>
+        <translation type="unfinished">(ラベルなし)</translation>
     </message>
 </context>
 <context>
@@ -3293,7 +3315,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The Lyncoin address to send the payment to</source>
-        <translation type="unfinished">送金先 Bitcoin アドレス</translation>
+        <translation type="unfinished">送金先 Lyncoin アドレス</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -3309,7 +3331,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less lyncoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation type="unfinished">手数料は送金する金額から差し引かれます。送金先には金額欄で指定した額よりも少ない Bitcoin が送られます。送金先が複数ある場合は、手数料は均等に分けられます。</translation>
+        <translation type="unfinished">手数料は送金する金額から差し引かれます。送金先には金額欄で指定した額よりも少ない Lyncoin が送られます。送金先が複数ある場合は、手数料は均等に分けられます。</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -3329,7 +3351,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>A message that was attached to the lyncoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lyncoin network.</source>
-        <translation type="unfinished">bitcoin URIに添付されていたメッセージです。これは参照用として取引とともに保存されます。注意: メッセージは Bitcoin ネットワーク上へ送信されません。</translation>
+        <translation type="unfinished">lyncoin URIに添付されていたメッセージです。これは参照用として取引とともに保存されます。注意: メッセージは Lyncoin ネットワーク上へ送信されません。</translation>
     </message>
 </context>
 <context>
@@ -3355,11 +3377,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive lyncoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">あなたが所有しているアドレスでメッセージや契約書に署名をすることで、それらのアドレスへ送られた Bitcoin を受け取ることができることを証明できます。フィッシング攻撃者があなたを騙して、あなたの身分情報に署名させようとしている可能性があるため、よくわからないものやランダムな文字列に対して署名しないでください。あなたが同意した、よく詳細の記された文言にのみ署名するようにしてください。</translation>
+        <translation type="unfinished">あなたが所有しているアドレスでメッセージや契約書に署名をすることで、それらのアドレスへ送られた Lyncoin を受け取ることができることを証明できます。フィッシング攻撃者があなたを騙して、あなたの身分情報に署名させようとしている可能性があるため、よくわからないものやランダムな文字列に対して署名しないでください。あなたが同意した、よく詳細の記された文言にのみ署名するようにしてください。</translation>
     </message>
     <message>
         <source>The Lyncoin address to sign the message with</source>
-        <translation type="unfinished">メッセージの署名に使用する Bitcoin アドレス</translation>
+        <translation type="unfinished">メッセージの署名に使用する Lyncoin アドレス</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3383,7 +3405,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Sign the message to prove you own this Lyncoin address</source>
-        <translation type="unfinished">メッセージに署名してこの Bitcoin アドレスを所有していることを証明</translation>
+        <translation type="unfinished">メッセージに署名してこの Lyncoin アドレスを所有していることを証明</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3407,7 +3429,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The Lyncoin address the message was signed with</source>
-        <translation type="unfinished">メッセージの署名に使われた Bitcoin アドレス</translation>
+        <translation type="unfinished">メッセージの署名に使われた Lyncoin アドレス</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -3419,7 +3441,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">メッセージを検証して指定された Bitcoin アドレスで署名されたことを確認</translation>
+        <translation type="unfinished">メッセージを検証して指定された Lyncoin アドレスで署名されたことを確認</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3554,7 +3576,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>From</source>
-        <translation type="unfinished">送金元</translation>
+        <translation type="unfinished">内向き</translation>
     </message>
     <message>
         <source>unknown</source>
@@ -3635,8 +3657,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">アウトプット番号</translation>
     </message>
     <message>
-        <source> (Certificate was not verified)</source>
-        <translation type="unfinished"> (証明書は未検証)</translation>
+        <source>%1 (Certificate was not verified)</source>
+        <translation type="unfinished">%1 (証明書は未検証)</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -4035,7 +4057,7 @@ Go to File &gt; Open Wallet to load a wallet.
     </message>
     <message>
         <source>default wallet</source>
-        <translation type="unfinished">デフォルトのウォレット</translation>
+        <translation type="unfinished">デフォルトウォレット</translation>
     </message>
 </context>
 <context>
@@ -4055,7 +4077,7 @@ Go to File &gt; Open Wallet to load a wallet.
     <message>
         <source>Wallet Data</source>
         <extracomment>Name of the wallet data file format.</extracomment>
-        <translation type="unfinished">ウォレットのデータ</translation>
+        <translation type="unfinished">ウォレットデータ</translation>
     </message>
     <message>
         <source>Backup Failed</source>
@@ -4086,7 +4108,7 @@ Go to File &gt; Open Wallet to load a wallet.
     </message>
     <message>
         <source>%s corrupt. Try using the wallet tool lyncoin-wallet to salvage or restoring a backup.</source>
-        <translation type="unfinished">%sが破損しています。ウォレットのツールbitcoin-walletを使って復旧するか、バックアップから復元してみてください。</translation>
+        <translation type="unfinished">%sが破損しています。ウォレットのツールlyncoin-walletを使って復旧するか、バックアップから復元してみてください。</translation>
     </message>
     <message>
         <source>%s failed to validate the -assumeutxo snapshot state. This indicates a hardware problem, or a bug in the software, or a bad software modification that allowed an invalid snapshot to be loaded. As a result of this, the node will shut down and stop using any state that was built on the snapshot, resetting the chain height from %d to %d. On the next restart, the node will resume syncing from %d without using any snapshot data. Please report this incident to %s, including how you obtained the snapshot. The invalid snapshot chainstate will be left on disk in case it is helpful in diagnosing the issue that caused this error.</source>
@@ -4134,7 +4156,7 @@ Go to File &gt; Open Wallet to load a wallet.
     </message>
     <message>
         <source>Error: Dumpfile version is not supported. This version of lyncoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
-        <translation type="unfinished">エラー: ダンプファイルのバージョンがサポート外です。このバージョンの Bitcoin ウォレットは、バージョン 1 のダンプファイルのみをサポートします。バージョン%sのダンプファイルでした。</translation>
+        <translation type="unfinished">エラー: ダンプファイルのバージョンがサポート外です。このバージョンの Lyncoin ウォレットは、バージョン 1 のダンプファイルのみをサポートします。バージョン%sのダンプファイルでした。</translation>
     </message>
     <message>
         <source>Error: Legacy wallets only support the "legacy", "p2sh-segwit", and "bech32" address types</source>
@@ -4455,6 +4477,10 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">ダンプファイル %s が存在しません。</translation>
     </message>
     <message>
+        <source>Error committing db txn for wallet transactions removal</source>
+        <translation type="unfinished">ウォレットトランザクションの削除のためdb txnのコミット中にエラーが発生しました</translation>
+    </message>
+    <message>
         <source>Error creating %s</source>
         <translation type="unfinished">%sの作成エラー</translation>
     </message>
@@ -4503,16 +4529,12 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">ウォレットデータベースから次のレコードの読み取りでエラー</translation>
     </message>
     <message>
+        <source>Error starting db txn for wallet transactions removal</source>
+        <translation type="unfinished">ウォレットトランザクションの削除のためのdb txnの開始でエラーが発生しました</translation>
+    </message>
+    <message>
         <source>Error: Cannot extract destination from the generated scriptpubkey</source>
         <translation type="unfinished">エラー: 生成されたscriptpubkeyから宛先を抽出できません</translation>
-    </message>
-    <message>
-        <source>Error: Could not add watchonly tx to watchonly wallet</source>
-        <translation type="unfinished">エラー:  監視対象取引を監視専用ウォレットに追加できませんでした</translation>
-    </message>
-    <message>
-        <source>Error: Could not delete watchonly transactions</source>
-        <translation type="unfinished">エラー:  監視対象取引を削除できませんでした</translation>
     </message>
     <message>
         <source>Error: Couldn't create cursor into database</source>
@@ -4551,10 +4573,6 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">エラー:  %sアドレスは使えません。</translation>
     </message>
     <message>
-        <source>Error: Not all watchonly txs could be deleted</source>
-        <translation type="unfinished">エラー: 一部の監視対象取引を削除できませんでした</translation>
-    </message>
-    <message>
         <source>Error: This wallet already uses SQLite</source>
         <translation type="unfinished">エラー: このウォレットはすでに SQLite を使用しています</translation>
     </message>
@@ -4579,12 +4597,32 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">エラー: データベース内のすべてのレコードを読み取ることができません</translation>
     </message>
     <message>
+        <source>Error: Unable to read wallet's best block locator record</source>
+        <translation type="unfinished">エラー：ウォレットのベストブロックロケーターレコードを読み込めません</translation>
+    </message>
+    <message>
         <source>Error: Unable to remove watchonly address book data</source>
         <translation type="unfinished">エラー:  監視専用アドレス帳データを削除できません</translation>
     </message>
     <message>
         <source>Error: Unable to write record to new wallet</source>
         <translation type="unfinished">エラー: 新しいウォレットにレコードを書き込めません</translation>
+    </message>
+    <message>
+        <source>Error: Unable to write solvable wallet best block locator record</source>
+        <translation type="unfinished">エラー：解決可能なウォレットのベストブロックロケーターレコードを書き込めません</translation>
+    </message>
+    <message>
+        <source>Error: Unable to write watchonly wallet best block locator record</source>
+        <translation type="unfinished">エラー：監視専用ウォレットのベストブロックロケーターレコードを書き込めません</translation>
+    </message>
+    <message>
+        <source>Error: address book copy failed for wallet %s</source>
+        <translation type="unfinished">エラー: ウォレット%sのアドレス帳のコピーに失敗しました</translation>
+    </message>
+    <message>
+        <source>Error: database transaction cannot be executed for wallet %s</source>
+        <translation type="unfinished">エラー: ウォレット%sに対してデータベーストランザクションを実行できません</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -4601,6 +4639,10 @@ Unable to restore backup of wallet.</source>
     <message>
         <source>Failed to verify database</source>
         <translation type="unfinished">データベースの検証に失敗しました</translation>
+    </message>
+    <message>
+        <source>Failure removing transaction: %s</source>
+        <translation type="unfinished">取引の削除に失敗: %s</translation>
     </message>
     <message>
         <source>Fee rate (%s) is lower than the minimum fee rate setting (%s)</source>
@@ -4823,6 +4865,10 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">これは、取引を送信する場合に支払う取引手数料です。</translation>
     </message>
     <message>
+        <source>Transaction %s does not belong to this wallet</source>
+        <translation type="unfinished">取引%sはこのウォレットのものではありません</translation>
+    </message>
+    <message>
         <source>Transaction amount too small</source>
         <translation type="unfinished">取引の金額が小さすぎます</translation>
     </message>
@@ -4833,10 +4879,6 @@ Unable to restore backup of wallet.</source>
     <message>
         <source>Transaction change output index out of range</source>
         <translation type="unfinished">取引のお釣りのアウトプットインデックスが規定の範囲外です</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">取引のメモリープールチェーンが長すぎます</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
@@ -4919,12 +4961,24 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">未サポートのログレベル %s=%s。 正しい値は: %s。</translation>
     </message>
     <message>
+        <source>Wallet file creation failed: %s</source>
+        <translation type="unfinished">ウォレットファイルの作成に失敗しました：%s</translation>
+    </message>
+    <message>
         <source>acceptstalefeeestimates is not supported on %s chain.</source>
         <translation type="unfinished">%s チェーンでは acceptstalefeeestimates はサポートされていません。</translation>
     </message>
     <message>
         <source>Unsupported logging category %s=%s.</source>
         <translation type="unfinished">サポートされていないログカテゴリ %s=%s 。</translation>
+    </message>
+    <message>
+        <source>Error: Could not add watchonly tx %s to watchonly wallet</source>
+        <translation type="unfinished">エラー:  監視対象取引%sを監視専用ウォレットに追加できませんでした</translation>
+    </message>
+    <message>
+        <source>Error: Could not delete watchonly transactions. </source>
+        <translation type="unfinished">エラー:  監視対象取引を削除できませんでした</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>

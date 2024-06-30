@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation type="unfinished">I-right click ban alilan ing address o libel</translation>
+        <translation type="unfinished">I-right click ban alilan ing address o label</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">Kopyan me ing salukuyan at makipiling address keng system clipboard</translation>
+        <translation type="unfinished">Kopyan me ing makalage address king system clipboard</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,11 +27,11 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">Ilako ya ing kasalungsungan makapiling address keng listahan</translation>
+        <translation type="unfinished">Ilako me ing kasalungsungang makalage address king listaan</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation type="unfinished">Magpalub kang address o label para pantunan</translation>
+        <translation type="unfinished">Mangana kang address o label ban panintunan</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -47,11 +47,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation type="unfinished">Pilinan ing address a magpadalang coins kang</translation>
+        <translation type="unfinished">Mamili kang address a mamarlang coins</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation type="unfinished">Pilinan ing address a tumanggap coins a atin</translation>
+        <translation type="unfinished">Mamili kang address a tumanggap coins</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -59,7 +59,7 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Reni reng kekang Bitcoin address king pamagpadalang kabayaran. Lawan mulang masalese reng alaga ampo ing address na ning tumanggap bayu ka magpadalang barya.</translation>
+        <translation type="unfinished">Oreni ring Lyncoin address mu king pamamarla karing bayad. Lawan mong masalese ring ulaga ra ampon ing address na ning mananggapan bayad bayu ka mamarla.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -121,7 +121,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Kapabaluan: Istung in-encrypt me ing kekang wallet at meala ya ing passphrase na, ma-&lt;b&gt;ALA NO NGAN RING KEKANG BITCOINS&lt;/b&gt;</translation>
+        <translation type="unfinished">Kapabaluan: Istung in-encrypt me ing kekang wallet at meala ya ing passphrase na, ma-&lt;b&gt;ALA NO NGAN RING KEKANG LYNCOINS&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -177,37 +177,37 @@
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -243,7 +243,7 @@
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Magpadalang barya king Bitcoin address</translation>
+        <translation type="unfinished">Magpadalang barya king Lyncoin address</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -272,7 +272,7 @@
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -307,7 +307,7 @@
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -374,7 +374,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">Ing pepalub yung address "%1" ali ya katanggap-tanggap a Bitcoin address.</translation>
+        <translation type="unfinished">Ing pepalub yung address "%1" ali ya katanggap-tanggap a Lyncoin address.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -390,26 +390,26 @@
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -459,7 +459,7 @@
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Ibuklat yang antimanu ing Bitcoin client port king router. Gagana yamu ini istung ing router mu susuporta yang UPnP at magsilbi ya.</translation>
+        <translation type="unfinished">Ibuklat yang antimanu ing Lyncoin client port king router. Gagana yamu ini istung ing router mu susuporta yang UPnP at magsilbi ya.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -518,7 +518,7 @@
     <name>OverviewPage</name>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Ing makaltong impormasion mapalyaring luma ne. Ing kekang wallet otomatiku yang mag-synchronize keng Bitcoin network istung mekakonekta ne king network, oneng ing prosesung ini ali ya pa kumpletu.</translation>
+        <translation type="unfinished">Ing makaltong impormasion mapalyaring luma ne. Ing kekang wallet otomatiku yang mag-synchronize keng Lyncoin network istung mekakonekta ne king network, oneng ing prosesung ini ali ya pa kumpletu.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -705,7 +705,7 @@
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -760,7 +760,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Lyncoin address</source>
-        <translation type="unfinished">Pirman ing mensayi ban patune na keka ya ining Bitcoin address</translation>
+        <translation type="unfinished">Pirman ing mensayi ban patune na keka ya ining Lyncoin address</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -780,7 +780,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">Beripikan ing mensayi ban asiguradu a me pirma ya ini gamit ing mepiling Bitcoin address</translation>
+        <translation type="unfinished">Beripikan ing mensayi ban asiguradu a me pirma ya ini gamit ing mepiling Lyncoin address</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -890,7 +890,7 @@
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>

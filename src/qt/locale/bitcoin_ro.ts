@@ -55,12 +55,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Acestea sunt adresele tale Bitcoin pentru efectuarea platilor. Intotdeauna verifica atent suma de plata si adresa beneficiarului inainte de a trimite monede.</translation>
+        <translation type="unfinished">Acestea sunt adresele tale Lyncoin pentru efectuarea platilor. Intotdeauna verifica atent suma de plata si adresa beneficiarului inainte de a trimite monede.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Acestea sunt adresele Bitcoin pentru primirea plăților. Folosiți butonul " Creați o nouă adresă de primire" din fila de primire pentru a crea noi adrese.
+        <translation type="unfinished">Acestea sunt adresele Lyncoin pentru primirea plăților. Folosiți butonul " Creați o nouă adresă de primire" din fila de primire pentru a crea noi adrese.
 Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
@@ -161,7 +161,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Atenţie: Dacă va criptati portofelul si ulterior pierdeti parola, &lt;b&gt;VEŢI PIERDE TOTI BITCOINII&lt;/b&gt;!</translation>
+        <translation type="unfinished">Atenţie: Dacă va criptati portofelul si ulterior pierdeti parola, &lt;b&gt;VEŢI PIERDE TOTI LYNCOINII&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -182,7 +182,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Reţineti: criptarea portofelului dvs. nu vă poate proteja în totalitate bitcoin-urile împotriva furtului de malware care vă infectează computerul.</translation>
+        <translation type="unfinished">Reţineti: criptarea portofelului dvs. nu vă poate proteja în totalitate lyncoin-urile împotriva furtului de malware care vă infectează computerul.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -223,6 +223,10 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation type="unfinished">Parola portofelului a fost schimbata.</translation>
+    </message>
+    <message>
+        <source>Passphrase change failed</source>
+        <translation type="unfinished">Schimbarea frazei de acces a esuat</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -289,7 +293,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>Enter a Lyncoin address (e.g. %1)</source>
-        <translation type="unfinished">Introduceţi o adresă Bitcoin (de exemplu %1)</translation>
+        <translation type="unfinished">Introduceţi o adresă Lyncoin (de exemplu %1)</translation>
     </message>
     <message>
         <source>Inbound</source>
@@ -316,41 +320,41 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -360,10 +364,14 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
+    </message>
+    <message>
+        <source>%1 kB</source>
+        <translation type="unfinished">%1kB</translation>
     </message>
     </context>
 <context>
@@ -417,6 +425,10 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <translation type="unfinished">Crează un portofel nou</translation>
     </message>
     <message>
+        <source>&amp;Minimize</source>
+        <translation type="unfinished">&amp;Reduce</translation>
+    </message>
+    <message>
         <source>Wallet:</source>
         <translation type="unfinished">Portofel:</translation>
     </message>
@@ -431,7 +443,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Trimite monede către o adresă Bitcoin</translation>
+        <translation type="unfinished">Trimite monede către o adresă Lyncoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -475,7 +487,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Semnaţi mesaje cu adresa dvs. Bitcoin pentru a dovedi că vă aparţin</translation>
+        <translation type="unfinished">Semnaţi mesaje cu adresa dvs. Lyncoin pentru a dovedi că vă aparţin</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -483,7 +495,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa Bitcoin specificată</translation>
+        <translation type="unfinished">Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa Lyncoin specificată</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -543,7 +555,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">Cereţi plăţi (generează coduri QR şi bitcoin-uri: URls)</translation>
+        <translation type="unfinished">Cereţi plăţi (generează coduri QR şi lyncoin-uri: URls)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -560,9 +572,9 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -598,12 +610,20 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <translation type="unfinished">Actualizat</translation>
     </message>
     <message>
+        <source>Ctrl+Q</source>
+        <translation type="unfinished">Ctr+Q</translation>
+    </message>
+    <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">Încărcați Tranzacția Bitcoin Parțial Semnată</translation>
+        <translation type="unfinished">Încărcați Tranzacția Lyncoin Parțial Semnată</translation>
+    </message>
+    <message>
+        <source>Load PSBT from &amp;clipboard…</source>
+        <translation type="unfinished">Incarca PSBT din &amp;notite</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">Încărcați Tranzacția Bitcoin Parțial Semnată din clipboard</translation>
+        <translation type="unfinished">Încărcați Tranzacția Lyncoin Parțial Semnată din clipboard</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -623,7 +643,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">Deschidere bitcoin: o adresa URI sau o cerere de plată</translation>
+        <translation type="unfinished">Deschidere lyncoin: o adresa URI sau o cerere de plată</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -638,12 +658,30 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <translation type="unfinished">Inchide portofel</translation>
     </message>
     <message>
+        <source>Restore Wallet…</source>
+        <extracomment>Name of the menu item that restores wallet from a backup file.</extracomment>
+        <translation type="unfinished">Recupereaza Portofelul...</translation>
+    </message>
+    <message>
+        <source>Restore a wallet from a backup file</source>
+        <extracomment>Status tip for Restore Wallet menu item</extracomment>
+        <translation type="unfinished">Recupereaza Portofelul din fisierele rezerva</translation>
+    </message>
+    <message>
         <source>Close all wallets</source>
         <translation type="unfinished">Închideți toate portofelele</translation>
     </message>
     <message>
+        <source>Migrate Wallet</source>
+        <translation type="unfinished">Transfera Portofelul</translation>
+    </message>
+    <message>
+        <source>Migrate a wallet</source>
+        <translation type="unfinished">Transfera un portofel</translation>
+    </message>
+    <message>
         <source>Show the %1 help message to get a list with possible Lyncoin command-line options</source>
-        <translation type="unfinished">Arată mesajul de ajutor %1 pentru a obţine o listă cu opţiunile posibile de linii de comandă Bitcoin</translation>
+        <translation type="unfinished">Arată mesajul de ajutor %1 pentru a obţine o listă cu opţiunile posibile de linii de comandă Lyncoin</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -686,6 +724,10 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <translation type="unfinished">&amp;Fereastră</translation>
     </message>
     <message>
+        <source>Ctrl+M</source>
+        <translation type="unfinished">Ctr+M</translation>
+    </message>
+    <message>
         <source>Main Window</source>
         <translation type="unfinished">Fereastra principală</translation>
     </message>
@@ -693,19 +735,31 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <source>%1 client</source>
         <translation type="unfinished">Client %1</translation>
     </message>
+    <message>
+        <source>&amp;Hide</source>
+        <translation type="unfinished">&amp;Ascunde</translation>
+    </message>
+    <message>
+        <source>S&amp;how</source>
+        <translation type="unfinished">A&amp;rata</translation>
+    </message>
     <message numerus="yes">
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
         <source>Click for more actions.</source>
         <extracomment>A substring of the tooltip. "More actions" are available via the context menu.</extracomment>
         <translation type="unfinished">Pulsează pentru mai multe acțiuni.</translation>
+    </message>
+    <message>
+        <source>Error creating wallet</source>
+        <translation type="unfinished">Eroare creare portofel</translation>
     </message>
     <message>
         <source>Error: %1</source>
@@ -862,6 +916,22 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <translation type="unfinished">Copiază suma</translation>
     </message>
     <message>
+        <source>&amp;Copy address</source>
+        <translation type="unfinished">&amp;Copiaza adresa</translation>
+    </message>
+    <message>
+        <source>Copy &amp;label</source>
+        <translation type="unfinished">Copiaza si eticheteaza</translation>
+    </message>
+    <message>
+        <source>Copy &amp;amount</source>
+        <translation type="unfinished">copiaza &amp;valoarea</translation>
+    </message>
+    <message>
+        <source>Copy transaction &amp;ID and output index</source>
+        <translation type="unfinished">copiaza ID-ul de tranzactie si indexul de iesire</translation>
+    </message>
+    <message>
         <source>Copy quantity</source>
         <translation type="unfinished">Copiază cantitea</translation>
     </message>
@@ -910,6 +980,11 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <translation type="unfinished">Crează portofel</translation>
     </message>
     <message>
+        <source>Creating Wallet &lt;b&gt;%1&lt;/b&gt;…</source>
+        <extracomment>Descriptive text of the create wallet progress window which indicates to the user which wallet is currently being created.</extracomment>
+        <translation type="unfinished">Creeaza Protofel&lt;b&gt;%1&lt;/b&gt;</translation>
+    </message>
+    <message>
         <source>Create wallet failed</source>
         <translation type="unfinished">Crearea portofelului a eşuat</translation>
     </message>
@@ -929,6 +1004,29 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <source>Loading wallets…</source>
         <extracomment>Descriptive text of the load wallets progress window which indicates to the user that wallets are currently being loaded.</extracomment>
         <translation type="unfinished">Încărcând portmonee</translation>
+    </message>
+</context>
+<context>
+    <name>MigrateWalletActivity</name>
+    <message>
+        <source>Migrate wallet</source>
+        <translation type="unfinished">Muta portofelul</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to migrate the wallet &lt;i&gt;%1&lt;/i&gt;?</source>
+        <translation type="unfinished">Esti sigur ca vrei sa muti portofelul &lt;i&gt;%1&lt;/i&gt;?</translation>
+    </message>
+    <message>
+        <source>Migrate Wallet</source>
+        <translation type="unfinished">Transfera Portofelul</translation>
+    </message>
+    <message>
+        <source>Migration failed</source>
+        <translation type="unfinished">Mutare esuata</translation>
+    </message>
+    <message>
+        <source>Migration Successful</source>
+        <translation type="unfinished">Mutarea s-a efectuat cu succes</translation>
     </message>
 </context>
 <context>
@@ -1002,6 +1100,10 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <message>
         <source>Create Wallet</source>
         <translation type="unfinished">Crează portofel</translation>
+    </message>
+    <message>
+        <source>You are one step away from creating your new wallet!</source>
+        <translation type="unfinished">Esti la un pas distanta pentru a-ti crea noul tau portofel!</translation>
     </message>
     <message>
         <source>Wallet Name</source>
@@ -1084,7 +1186,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">Adresa introdusă "%1" nu este o adresă Bitcoin validă.</translation>
+        <translation type="unfinished">Adresa introdusă "%1" nu este o adresă Lyncoin validă.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1131,9 +1233,9 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
@@ -1147,9 +1249,9 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1168,14 +1270,14 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Lyncoin block chain.</source>
-        <translation type="unfinished">%1 va descarca si stoca o copie a blockchainului Bitcoin</translation>
+        <translation type="unfinished">%1 va descarca si stoca o copie a blockchainului Lyncoin</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1248,6 +1350,10 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
+        <source>%1 is shutting down…</source>
+        <translation type="unfinished">%1 se închide</translation>
+    </message>
+    <message>
         <source>Do not shut down the computer until this window disappears.</source>
         <translation type="unfinished">Nu închide calculatorul pînă ce această fereastră nu dispare.</translation>
     </message>
@@ -1256,11 +1362,11 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <name>ModalOverlay</name>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the lyncoin network, as detailed below.</source>
-        <translation type="unfinished">Tranzactiile recente pot sa nu fie inca vizibile, de aceea balanta portofelului poate fi incorecta. Aceasta informatie va fi corecta de indata ce portofelul va fi complet sincronizat cu reteaua Bitcoin, asa cum este detaliat mai jos.</translation>
+        <translation type="unfinished">Tranzactiile recente pot sa nu fie inca vizibile, de aceea balanta portofelului poate fi incorecta. Aceasta informatie va fi corecta de indata ce portofelul va fi complet sincronizat cu reteaua Lyncoin, asa cum este detaliat mai jos.</translation>
     </message>
     <message>
         <source>Attempting to spend lyncoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">Incercarea de a cheltui bitcoini care sunt afectati de tranzactii ce inca nu sunt afisate nu va fi acceptata de retea.</translation>
+        <translation type="unfinished">Incercarea de a cheltui lyncoini care sunt afectati de tranzactii ce inca nu sunt afisate nu va fi acceptata de retea.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1303,7 +1409,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <name>OpenURIDialog</name>
     <message>
         <source>Open lyncoin URI</source>
-        <translation type="unfinished">DeschidețI Bitcoin URI</translation>
+        <translation type="unfinished">DeschidețI Lyncoin URI</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -1413,7 +1519,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Deschide automat în router portul aferent clientului Bitcoin. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
+        <translation type="unfinished">Deschide automat în router portul aferent clientului Lyncoin. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1429,7 +1535,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>Connect to the Lyncoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Conectare la reţeaua Bitcoin printr-un proxy SOCKS5.</translation>
+        <translation type="unfinished">Conectare la reţeaua Lyncoin printr-un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1481,7 +1587,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished">Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de bitcoin.</translation>
+        <translation type="unfinished">Alegeţi subdiviziunea folosită la afişarea interfeţei şi la trimiterea de lyncoin.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1489,7 +1595,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>Connect to the Lyncoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Conectați-vă la rețeaua Bitcoin printr-un proxy SOCKS5 separat pentru serviciile Tor onion.</translation>
+        <translation type="unfinished">Conectați-vă la rețeaua Lyncoin printr-un proxy SOCKS5 separat pentru serviciile Tor onion.</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
@@ -1550,14 +1656,21 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished">Adresa bitcoin pe care aţi specificat-o nu este validă.</translation>
+        <translation type="unfinished">Adresa lyncoin pe care aţi specificat-o nu este validă.</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsModel</name>
+    <message>
+        <source>Could not read setting "%1", %2.</source>
+        <translation type="unfinished">nu s-a putut citi setarea "%1", %2</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua Bitcoin după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
+        <translation type="unfinished">Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua Lyncoin după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1635,12 +1748,28 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <translation type="unfinished">Inchide</translation>
     </message>
     <message>
+        <source>Failed to load transaction: %1</source>
+        <translation type="unfinished">Nu s-a reusit incarcarea tranzactiei: %1</translation>
+    </message>
+    <message>
+        <source>Failed to sign transaction: %1</source>
+        <translation type="unfinished">Nu s-a reusit semnarea tranzactiei: %1</translation>
+    </message>
+    <message>
         <source>Save Transaction Data</source>
         <translation type="unfinished">Salvați datele tranzacției</translation>
     </message>
     <message>
         <source>own address</source>
         <translation type="unfinished">adresa proprie</translation>
+    </message>
+    <message>
+        <source>Unable to calculate transaction fee or total transaction amount.</source>
+        <translation type="unfinished">Nu s-a putut calcula comisionul de tranzactie sau suma totala al tranzactiei.</translation>
+    </message>
+    <message>
+        <source>Pays transaction fee: </source>
+        <translation type="unfinished">Plateste comisionul de tranzactie: </translation>
     </message>
     <message>
         <source>Total Amount</source>
@@ -1663,7 +1792,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>Cannot start lyncoin: click-to-pay handler</source>
-        <translation type="unfinished">Bitcoin nu poate porni: click-to-pay handler</translation>
+        <translation type="unfinished">Lyncoin nu poate porni: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1671,11 +1800,11 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>'lyncoin://' is not a valid URI. Use 'lyncoin:' instead.</source>
-        <translation type="unfinished">'bitcoin://' nu este un URI valid. Folositi 'bitcoin:' in loc.</translation>
+        <translation type="unfinished">'lyncoin://' nu este un URI valid. Folositi 'lyncoin:' in loc.</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Lyncoin address or malformed URI parameters.</source>
-        <translation type="unfinished">URI nu poate fi analizat! Acest lucru poate fi cauzat de o adresă Bitcoin invalidă sau parametri URI deformaţi.</translation>
+        <translation type="unfinished">URI nu poate fi analizat! Acest lucru poate fi cauzat de o adresă Lyncoin invalidă sau parametri URI deformaţi.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1688,6 +1817,11 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <source>User Agent</source>
         <extracomment>Title of Peers Table column which contains the peer's User Agent string.</extracomment>
         <translation type="unfinished">Agent utilizator</translation>
+    </message>
+    <message>
+        <source>Age</source>
+        <extracomment>Title of Peers Table column which indicates the duration (length of time) since the peer connection started.</extracomment>
+        <translation type="unfinished">Ani</translation>
     </message>
     <message>
         <source>Direction</source>
@@ -1733,6 +1867,10 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
 <context>
     <name>QRImageWidget</name>
     <message>
+        <source>&amp;Save Image…</source>
+        <translation type="unfinished">&amp;Salveaza Imaginea...</translation>
+    </message>
+    <message>
         <source>&amp;Copy Image</source>
         <translation type="unfinished">&amp;Copiaza Imaginea</translation>
     </message>
@@ -1752,7 +1890,12 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <source>Save QR Code</source>
         <translation type="unfinished">Salvează codul QR</translation>
     </message>
-    </context>
+    <message>
+        <source>PNG Image</source>
+        <extracomment>Expanded name of the PNG file format. See: https://en.wikipedia.org/wiki/Portable_Network_Graphics.</extracomment>
+        <translation type="unfinished">Imagine PNG</translation>
+    </message>
+</context>
 <context>
     <name>RPCConsole</name>
     <message>
@@ -1836,6 +1979,10 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <translation type="unfinished">Selectaţi un partener pentru a vedea informaţiile detaliate.</translation>
     </message>
     <message>
+        <source>Session ID</source>
+        <translation type="unfinished">ID-ul Sesiunii</translation>
+    </message>
+    <message>
         <source>Version</source>
         <translation type="unfinished">Versiune</translation>
     </message>
@@ -1850,6 +1997,10 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <message>
         <source>Synced Blocks</source>
         <translation type="unfinished">Blocuri Sincronizate</translation>
+    </message>
+    <message>
+        <source>Last Transaction</source>
+        <translation type="unfinished">Ultima Tranzactie</translation>
     </message>
     <message>
         <source>User Agent</source>
@@ -1870,6 +2021,14 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <message>
         <source>Increase font size</source>
         <translation type="unfinished">Mareste fontul</translation>
+    </message>
+    <message>
+        <source>Permissions</source>
+        <translation type="unfinished">Permisiuni</translation>
+    </message>
+    <message>
+        <source>Direction/Type</source>
+        <translation type="unfinished">Directie/Tip</translation>
     </message>
     <message>
         <source>Services</source>
@@ -1940,6 +2099,11 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <translation type="unfinished">Ieşire:</translation>
     </message>
     <message>
+        <source>&amp;Copy address</source>
+        <extracomment>Context menu action to copy the address of a peer.</extracomment>
+        <translation type="unfinished">&amp;Copiaza adresa</translation>
+    </message>
+    <message>
         <source>&amp;Disconnect</source>
         <translation type="unfinished">&amp;Deconectare</translation>
     </message>
@@ -1962,6 +2126,10 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <message>
         <source>Executing command without any wallet</source>
         <translation type="unfinished">Executarea comenzii fara nici un portofel.</translation>
+    </message>
+    <message>
+        <source>Ctrl+I</source>
+        <translation type="unfinished">Ctrl+l</translation>
     </message>
     <message>
         <source>Executing command using "%1" wallet</source>
@@ -1988,6 +2156,10 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <translation type="unfinished">Interzicere pentru</translation>
     </message>
     <message>
+        <source>Never</source>
+        <translation type="unfinished">Niciodata</translation>
+    </message>
+    <message>
         <source>Unknown</source>
         <translation type="unfinished">Necunoscut</translation>
     </message>
@@ -2008,7 +2180,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lyncoin network.</source>
-        <translation type="unfinished">Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua Bitcoin.</translation>
+        <translation type="unfinished">Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua Lyncoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2055,6 +2227,18 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <translation type="unfinished">Copiază &amp;URl</translation>
     </message>
     <message>
+        <source>&amp;Copy address</source>
+        <translation type="unfinished">&amp;Copiaza adresa</translation>
+    </message>
+    <message>
+        <source>Copy &amp;label</source>
+        <translation type="unfinished">Copiaza si eticheteaza</translation>
+    </message>
+    <message>
+        <source>Copy &amp;amount</source>
+        <translation type="unfinished">copiaza &amp;valoarea</translation>
+    </message>
+    <message>
         <source>Could not unlock wallet.</source>
         <translation type="unfinished">Portofelul nu a putut fi deblocat.</translation>
     </message>
@@ -2084,6 +2268,14 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <message>
         <source>Copy &amp;Address</source>
         <translation type="unfinished">Copiază &amp;adresa</translation>
+    </message>
+    <message>
+        <source>&amp;Verify</source>
+        <translation type="unfinished">&amp;Verifica</translation>
+    </message>
+    <message>
+        <source>&amp;Save Image…</source>
+        <translation type="unfinished">&amp;Salveaza Imaginea...</translation>
     </message>
     <message>
         <source>Payment information</source>
@@ -2216,6 +2408,10 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <translation type="unfinished">Şterge toate câmpurile formularului.</translation>
     </message>
     <message>
+        <source>Choose…</source>
+        <translation type="unfinished">Alege...</translation>
+    </message>
+    <message>
         <source>Confirmation time target:</source>
         <translation type="unfinished">Timp confirmare tinta:</translation>
     </message>
@@ -2272,12 +2468,12 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <translation type="unfinished">%1(%2 blocuri)</translation>
     </message>
     <message>
-        <source> from wallet '%1'</source>
-        <translation type="unfinished">din portofelul '%1'</translation>
-    </message>
-    <message>
         <source>%1 to %2</source>
         <translation type="unfinished">%1 la %2</translation>
+    </message>
+    <message>
+        <source>Sign failed</source>
+        <translation type="unfinished">Semnatura esuata</translation>
     </message>
     <message>
         <source>Save Transaction Data</source>
@@ -2343,14 +2539,14 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">Atenţie: Adresa bitcoin nevalidă!</translation>
+        <translation type="unfinished">Atenţie: Adresa lyncoin nevalidă!</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2389,7 +2585,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>The Lyncoin address to send the payment to</source>
-        <translation type="unfinished">Adresa bitcoin către care se face plata</translation>
+        <translation type="unfinished">Adresa lyncoin către care se face plata</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -2401,7 +2597,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less lyncoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation type="unfinished">Taxa va fi scazuta in suma trimisa. Destinatarul va primi mai putini bitcoin decat ati specificat in campul sumei trimise. Daca au fost selectati mai multi destinatari, taxa se va imparti in mod egal.</translation>
+        <translation type="unfinished">Taxa va fi scazuta in suma trimisa. Destinatarul va primi mai putini lyncoin decat ati specificat in campul sumei trimise. Daca au fost selectati mai multi destinatari, taxa se va imparti in mod egal.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2421,7 +2617,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>A message that was attached to the lyncoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lyncoin network.</source>
-        <translation type="unfinished">un mesaj a fost ataşat la bitcoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua bitcoin.</translation>
+        <translation type="unfinished">un mesaj a fost ataşat la lyncoin: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua lyncoin.</translation>
     </message>
 </context>
 <context>
@@ -2443,7 +2639,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive lyncoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">Puteţi semna mesaje/contracte cu adresele dvs. pentru a demostra ca puteti primi bitcoini trimisi la ele. Aveţi grijă să nu semnaţi nimic vag sau aleator, deoarece atacurile de tip phishing vă pot păcăli să le transferaţi identitatea. Semnaţi numai declaraţiile detaliate cu care sînteti de acord.</translation>
+        <translation type="unfinished">Puteţi semna mesaje/contracte cu adresele dvs. pentru a demostra ca puteti primi lyncoini trimisi la ele. Aveţi grijă să nu semnaţi nimic vag sau aleator, deoarece atacurile de tip phishing vă pot păcăli să le transferaţi identitatea. Semnaţi numai declaraţiile detaliate cu care sînteti de acord.</translation>
     </message>
     <message>
         <source>The Lyncoin address to sign the message with</source>
@@ -2471,7 +2667,7 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Lyncoin address</source>
-        <translation type="unfinished">Semnează mesajul pentru a dovedi ca deţineţi acestă adresă Bitcoin</translation>
+        <translation type="unfinished">Semnează mesajul pentru a dovedi ca deţineţi acestă adresă Lyncoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2495,11 +2691,11 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     </message>
     <message>
         <source>The Lyncoin address the message was signed with</source>
-        <translation type="unfinished">Introduceţi o adresă Bitcoin</translation>
+        <translation type="unfinished">Introduceţi o adresă Lyncoin</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa Bitcoin specificată</translation>
+        <translation type="unfinished">Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa Lyncoin specificată</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2631,9 +2827,9 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -2671,10 +2867,6 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <message>
         <source>Output index</source>
         <translation type="unfinished">Index debit</translation>
-    </message>
-    <message>
-        <source> (Certificate was not verified)</source>
-        <translation type="unfinished">(Certificatul nu a fost verificat)</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -2866,6 +3058,31 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <translation type="unfinished">Suma minimă</translation>
     </message>
     <message>
+        <source>&amp;Copy address</source>
+        <translation type="unfinished">&amp;Copiaza adresa</translation>
+    </message>
+    <message>
+        <source>Copy &amp;label</source>
+        <translation type="unfinished">Copiaza si eticheteaza</translation>
+    </message>
+    <message>
+        <source>Copy &amp;amount</source>
+        <translation type="unfinished">copiaza &amp;valoarea</translation>
+    </message>
+    <message>
+        <source>Copy transaction &amp;ID</source>
+        <translation type="unfinished">Copiaza ID-ul de tranzactie</translation>
+    </message>
+    <message>
+        <source>Copy full transaction &amp;details</source>
+        <translation type="unfinished">Copiaza toate detaliile tranzacţiei</translation>
+    </message>
+    <message>
+        <source>Show in %1</source>
+        <extracomment>Transactions table context menu action to show the selected transaction in a third-party block explorer. %1 is a stand-in argument for the URL of the explorer.</extracomment>
+        <translation type="unfinished">Arata in %1</translation>
+    </message>
+    <message>
         <source>Export Transaction History</source>
         <translation type="unfinished">Export istoric tranzacţii</translation>
     </message>
@@ -2926,12 +3143,24 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
 <context>
     <name>WalletFrame</name>
     <message>
+        <source>No wallet has been loaded.
+Go to File &gt; Open Wallet to load a wallet.
+- OR -</source>
+        <translation type="unfinished">Nu a fost incarcat nici un portofel.
+Mergi la Fisiere&gt;Deschide Portofel ca sa incarci un portofel.
+-SAU-</translation>
+    </message>
+    <message>
         <source>Create a new wallet</source>
         <translation type="unfinished">Crează un portofel nou</translation>
     </message>
     <message>
         <source>Error</source>
         <translation type="unfinished">Eroare</translation>
+    </message>
+    <message>
+        <source>Load Transaction Data</source>
+        <translation type="unfinished">Incarca datele tranzactiei</translation>
     </message>
     </context>
 <context>
@@ -2970,12 +3199,21 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
         <translation type="unfinished">Confirma cresterea comisionului</translation>
     </message>
     <message>
+        <source>Copied to clipboard</source>
+        <comment>Fee-bump PSBT saved</comment>
+        <translation type="unfinished">Copiat in Notite</translation>
+    </message>
+    <message>
         <source>Can't sign transaction.</source>
         <translation type="unfinished">Nu s-a reuşit semnarea tranzacţiei</translation>
     </message>
     <message>
         <source>Could not commit transaction</source>
         <translation type="unfinished">Tranzactia nu a putut fi consemnata.</translation>
+    </message>
+    <message>
+        <source>Can't display address</source>
+        <translation type="unfinished">Nu se poate afisa adresa</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -3267,10 +3505,6 @@ Semnarea este posibilă numai cu adrese de tip "legacy".</translation>
     <message>
         <source>Transaction amounts must not be negative</source>
         <translation type="unfinished">Sumele tranzactionate nu pot fi negative</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">Tranzacţia are o  lungime prea mare in lantul mempool</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>

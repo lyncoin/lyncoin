@@ -32,6 +32,6 @@ bool CheckProofOfWork(uint256 hash, unsigned int nBits, const Consensus::Params&
  * Always returns true on networks where min difficulty blocks are allowed,
  * such as regtest/testnet.
  */
-bool PermittedDifficultyTransition(const Consensus::Params& params, int64_t height, uint32_t old_nbits, uint32_t new_nbits);
+bool PermittedDifficultyTransition(const Consensus::Params& params, int64_t height, uint32_t old_nbits, uint32_t new_nbits, uint32_t old_ntime, uint32_t new_ntime, int32_t old_nversion, int32_t new_nversion);
 
 #endif // BITCOIN_POW_H

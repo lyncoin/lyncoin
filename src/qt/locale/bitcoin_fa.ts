@@ -1,5 +1,24 @@
 <TS version="2.1" language="fa">
 <context>
+    <name>AddressBookPage</name>
+    <message>
+        <source>Right-click to edit address or label</source>
+        <translation type="unfinished">برای ویرایش آدرس یا برچسب زدن کلیک ‌راست کنید</translation>
+    </message>
+    <message>
+        <source>Create a new address</source>
+        <translation type="unfinished">یک آدرس جدید ایجاد کنید</translation>
+    </message>
+    <message>
+        <source>Copy the currently selected address to the system clipboard</source>
+        <translation type="unfinished">کپی آدرسی که اکنون انتخاب کردید در کلیپ بورد سیستم</translation>
+    </message>
+    <message>
+        <source>Receiving addresses - %1</source>
+        <translation type="unfinished">آدرس‌های گیرنده - %1</translation>
+    </message>
+    </context>
+<context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Your wallet is about to be encrypted. </source>
@@ -67,7 +86,7 @@
     </message>
     <message>
         <source>Runaway exception</source>
-        <translation type="unfinished">استثناء فراری (این استثناء نشان دهنده این است که هسته لینکوین نتوانست چیزی را در کیف(والت) بنویسد.)</translation>
+        <translation type="unfinished">استثناء فراری (این استثناء نشان دهنده این است که هسته لین‌کوین نتوانست چیزی را در کیف(والت) بنویسد.)</translation>
     </message>
     <message>
         <source>Internal error</source>
@@ -104,7 +123,7 @@
     </message>
     <message>
         <source>Enter a Lyncoin address (e.g. %1)</source>
-        <translation type="unfinished">آدرس لین کوین را وارد کنید (به طور مثال %1)</translation>
+        <translation type="unfinished">آدرس لین‌کوین را وارد کنید (به طور مثال %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -293,7 +312,7 @@
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">ارسال کوین به آدرس لین کوین</translation>
+        <translation type="unfinished">ارسال کوین به آدرس لین‌کوین</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -508,6 +527,14 @@
         <translation type="unfinished">همه‌ی کیف پول‌ها را ببند</translation>
     </message>
     <message>
+        <source>Migrate Wallet</source>
+        <translation type="unfinished">انتقال کیف پول</translation>
+    </message>
+    <message>
+        <source>Migrate a wallet</source>
+        <translation type="unfinished">انتقال یک کیف پول</translation>
+    </message>
+    <message>
         <source>default wallet</source>
         <translation type="unfinished">کیف پول پیش فرض
  </translation>
@@ -586,6 +613,14 @@
     <message>
         <source>Pre-syncing Headers (%1%)…</source>
         <translation type="unfinished">پیش‌همگام‌سازی سرصفحه‌ها (%1%)…</translation>
+    </message>
+    <message>
+        <source>Error creating wallet</source>
+        <translation type="unfinished">خطا در ایجاد کیف پول</translation>
+    </message>
+    <message>
+        <source>Cannot create new wallet, the software was compiled without sqlite support (required for descriptor wallets)</source>
+        <translation type="unfinished">نمی‌توان کیف پول جدیدی ایجاد کرد، نرم‌افزار بدون پشتیبانی sqlite کامپایل شده است (برای کیف پول‌های توصیف‌گر این ویژگی لازم است)</translation>
     </message>
     <message>
         <source>Error: %1</source>
@@ -804,6 +839,37 @@
     </message>
 </context>
 <context>
+    <name>MigrateWalletActivity</name>
+    <message>
+        <source>Migrate wallet</source>
+        <translation type="unfinished">انتقال کیف پول</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to migrate the wallet &lt;i&gt;%1&lt;/i&gt;?</source>
+        <translation type="unfinished">آیا برای انتقال کیف پول مطمئن هستید &lt;i&gt;%1&lt;/i&gt;؟</translation>
+    </message>
+    <message>
+        <source>Migrate Wallet</source>
+        <translation type="unfinished">انتقال کیف پول</translation>
+    </message>
+    <message>
+        <source>Migrating Wallet &lt;b&gt;%1&lt;/b&gt;…</source>
+        <translation type="unfinished">در حال انتقال کیف پول &lt;b&gt;%1&lt;/b&gt;... </translation>
+    </message>
+    <message>
+        <source>The wallet '%1' was migrated successfully.</source>
+        <translation type="unfinished">کیف پول '%1' با موفقیت منتقل گردید.</translation>
+    </message>
+    <message>
+        <source>Migration failed</source>
+        <translation type="unfinished">انتقال موفق نبود</translation>
+    </message>
+    <message>
+        <source>Migration Successful</source>
+        <translation type="unfinished">انتقال موفق بود</translation>
+    </message>
+</context>
+<context>
     <name>OpenWalletActivity</name>
     <message>
         <source>Open wallet failed</source>
@@ -879,6 +945,10 @@
         <source>Create Wallet</source>
         <translation type="unfinished">ایجاد کیف پول
  </translation>
+    </message>
+    <message>
+        <source>You are one step away from creating your new wallet!</source>
+        <translation type="unfinished">تنها یک قدم با ایجاد کیف پول جدیدتان فاصله دارید!</translation>
     </message>
     <message>
         <source>Wallet Name</source>
@@ -970,7 +1040,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">آدرس وارد شده "%1" آدرس معتبر لین کوین نیست.</translation>
+        <translation type="unfinished">آدرس وارد شده "%1" آدرس معتبر لین‌کوین نیست.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book with label "%2".</source>
@@ -1009,7 +1079,7 @@
     <name>Intro</name>
     <message>
         <source>Lyncoin</source>
-        <translation type="unfinished">لین کوین</translation>
+        <translation type="unfinished">لین‌کوین</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of space available</source>
@@ -1133,7 +1203,7 @@
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the lyncoin network, as detailed below.</source>
-        <translation type="unfinished">معاملات اخیر ممکن است هنوز قابل مشاهده نباشند ، بنابراین ممکن است موجودی کیف پول شما نادرست باشد. به محض اینکه همگام سازی کیف پول شما با شبکه لین کوین به پایان رسید ، این اطلاعات درست خواهد بود ، همانطور که در زیر توضیح داده شده است.
+        <translation type="unfinished">معاملات اخیر ممکن است هنوز قابل مشاهده نباشند ، بنابراین ممکن است موجودی کیف پول شما نادرست باشد. به محض اینکه همگام سازی کیف پول شما با شبکه لین‌کوین به پایان رسید ، این اطلاعات درست خواهد بود ، همانطور که در زیر توضیح داده شده است.
  </translation>
     </message>
     <message>
@@ -1217,7 +1287,7 @@
     </message>
     <message>
         <source>Full path to a %1 compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
-        <translation type="unfinished">مسیر کامل به یک %1 اسکریپت سازگار ( مانند C:\Downloads\hwi.exe یا  /Users/you/Downloads/hwi.py ) اخطار: بدافزار میتواند لینکوین های شما را به سرقت ببرد!</translation>
+        <translation type="unfinished">مسیر کامل به یک %1 اسکریپت سازگار ( مانند C:\Downloads\hwi.exe یا  /Users/you/Downloads/hwi.py ) اخطار: بدافزار میتواند لین‌کوین های شما را به سرقت ببرد!</translation>
     </message>
     <message>
         <source>Options set in this dialog are overridden by the command line:</source>
@@ -1334,7 +1404,7 @@
     </message>
     <message>
         <source>Connect to the Lyncoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">از طریق یک پروکسی SOCKS5 به شبکه لین کوین متصل شوید.</translation>
+        <translation type="unfinished">از طریق یک پروکسی SOCKS5 به شبکه لین‌کوین متصل شوید.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1411,18 +1481,6 @@
         <source>Whether to show coin control features or not.</source>
         <translation type="unfinished">آیا ویژگی های کنترل سکه را نشان می دهد یا خیر.
  </translation>
-    </message>
-    <message>
-        <source>Monospaced font in the Overview tab:</source>
-        <translation type="unfinished">فونت تک فضا(منو اسپیس) در برگه مرور کلی </translation>
-    </message>
-    <message>
-        <source>embedded "%1"</source>
-        <translation type="unfinished">تعبیه شده%1</translation>
-    </message>
-    <message>
-        <source>closest matching "%1"</source>
-        <translation type="unfinished">%1نزدیک ترین تطابق</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1518,7 +1576,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">اطلاعات نمایش داده شده ممکن است قدیمی باشد. کیف پول شما پس از برقراری اتصال به طور خودکار با شبکه Bitcoin همگام سازی می شود ، اما این روند هنوز کامل نشده است.
+        <translation type="unfinished">اطلاعات نمایش داده شده ممکن است قدیمی باشد. کیف پول شما پس از برقراری اتصال به طور خودکار با شبکه Lyncoin همگام سازی می شود ، اما این روند هنوز کامل نشده است.
  </translation>
     </message>
     <message>
@@ -1655,7 +1713,7 @@
     </message>
     <message>
         <source>Cannot start lyncoin: click-to-pay handler</source>
-        <translation type="unfinished">نمی توان لین کوین را شروع کرد: کنترل کننده کلیک برای پرداخت
+        <translation type="unfinished">نمی توان لین‌کوین را شروع کرد: کنترل کننده کلیک برای پرداخت
  </translation>
     </message>
     <message>
@@ -1843,6 +1901,10 @@ If you are receiving this error you should request the merchant provide a BIP21 
     <message>
         <source>Select a peer to view detailed information.</source>
         <translation type="unfinished">انتخاب همتا یا جفت برای جزییات اطلاعات</translation>
+    </message>
+    <message>
+        <source>Transport</source>
+        <translation type="unfinished">جابه‌جایی</translation>
     </message>
     <message>
         <source>Version</source>
@@ -2164,7 +2226,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lyncoin network.</source>
-        <translation type="unfinished">یک پیام اختیاری برای پیوست به درخواست پرداخت ، که با باز شدن درخواست نمایش داده می شود. توجه: پیام با پرداخت از طریق شبکه لین کوین ارسال نمی شود.
+        <translation type="unfinished">یک پیام اختیاری برای پیوست به درخواست پرداخت ، که با باز شدن درخواست نمایش داده می شود. توجه: پیام با پرداخت از طریق شبکه لین‌کوین ارسال نمی شود.
  </translation>
     </message>
     <message>
@@ -2360,6 +2422,10 @@ If you are receiving this error you should request the merchant provide a BIP21 
     <message>
         <source>Insufficient funds!</source>
         <translation type="unfinished">وجوه ناکافی</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation type="unfinished">مقدار</translation>
     </message>
     <message>
         <source>Bytes:</source>
@@ -2567,7 +2633,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Lyncoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">لطفا معامله خود را بررسی کنید  می توانید این تراکنش را ایجاد و ارسال کنید یا یک تراکنش لین کوین با امضای جزئی (PSBT) ایجاد کنید، که می توانید آن را ذخیره یا کپی کنید و سپس با آن امضا کنید، به عنوان مثال، یک کیف پول آفلاین %1، یا یک کیف پول سخت افزاری سازگار با PSBT.</translation>
+        <translation type="unfinished">لطفا معامله خود را بررسی کنید  می توانید این تراکنش را ایجاد و ارسال کنید یا یک تراکنش لین‌کوین با امضای جزئی (PSBT) ایجاد کنید، که می توانید آن را ذخیره یا کپی کنید و سپس با آن امضا کنید، به عنوان مثال، یک کیف پول آفلاین %1، یا یک کیف پول سخت افزاری سازگار با PSBT.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -2590,7 +2656,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The PSBT has been copied to the clipboard. You can also save it.</source>
-        <translation type="unfinished">تراکنش لین کوین با امضای جزئی (PSBT) در کلیپ بورد کپی شده است. همچنین شما می‌توانید آن را ذخیره کنید.</translation>
+        <translation type="unfinished">تراکنش لین‌کوین با امضای جزئی (PSBT) در کلیپ بورد کپی شده است. همچنین شما می‌توانید آن را ذخیره کنید.</translation>
     </message>
     <message>
         <source>PSBT saved to disk</source>
@@ -2641,7 +2707,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">هشدار: آدرس لین کوین نامعتبر</translation>
+        <translation type="unfinished">هشدار: آدرس لین‌کوین نامعتبر</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2677,7 +2743,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The Lyncoin address to send the payment to</source>
-        <translation type="unfinished">آدرس Bitcoin برای ارسال پرداخت به
+        <translation type="unfinished">آدرس Lyncoin برای ارسال پرداخت به
  </translation>
     </message>
     <message>
@@ -2769,7 +2835,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">پیام را تأیید کنید تا مطمئن شوید با آدرس Bitcoin مشخص شده امضا شده است
+        <translation type="unfinished">پیام را تأیید کنید تا مطمئن شوید با آدرس Lyncoin مشخص شده امضا شده است
  </translation>
     </message>
     <message>
@@ -3317,7 +3383,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Error: Dumpfile version is not supported. This version of lyncoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
-        <translation type="unfinished">خطا: نسخه Dumpfile پشتیبانی نمی شود.  این نسخه کیف پول لین کوین فقط از فایل های dumpfiles نسخه 1 پشتیبانی می کند.  Dumpfile با نسخه %s دریافت شد</translation>
+        <translation type="unfinished">خطا: نسخه Dumpfile پشتیبانی نمی شود.  این نسخه کیف پول لین‌کوین فقط از فایل های dumpfiles نسخه 1 پشتیبانی می کند.  Dumpfile با نسخه %s دریافت شد</translation>
     </message>
     <message>
         <source>Error: Legacy wallets only support the "legacy", "p2sh-segwit", and "bech32" address types</source>
@@ -3416,7 +3482,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The preselected coins total amount does not cover the transaction target. Please allow other inputs to be automatically selected or include more coins manually</source>
-        <translation type="unfinished">مقدار کل لینکوینی که از پیش انتخاب کردید کمتر از مبلغ مورد نظر برای انجام تراکنش است .  لطفاً اجازه دهید ورودی های دیگر به طور خودکار انتخاب شوند یا مقدار لینکوین های بیشتری را به صورت دستی اضافه کنید</translation>
+        <translation type="unfinished">مقدار کل لین‌کوینی که از پیش انتخاب کردید کمتر از مبلغ مورد نظر برای انجام تراکنش است .  لطفاً اجازه دهید ورودی های دیگر به طور خودکار انتخاب شوند یا مقدار لین‌کوین های بیشتری را به صورت دستی اضافه کنید</translation>
     </message>
     <message>
         <source>Unexpected legacy entry in descriptor wallet found. Loading wallet %s
@@ -3426,6 +3492,10 @@ The wallet might have been tampered with or created with malicious intent.
         <translation type="unfinished">ورودی خارج از دستور از نوع legacy  در کیف پول مورد نظر پیدا شد.  در حال بارگیری کیف پول %s
 کیف پول ممکن است دستکاری شده یا با اهداف مخرب ایجاد شده باشد.
 </translation>
+    </message>
+    <message>
+        <source>Block verification was interrupted</source>
+        <translation type="unfinished">تايید بلوک دچار قطعی شد</translation>
     </message>
     <message>
         <source>Copyright (C) %i-%i</source>
@@ -3466,6 +3536,10 @@ The wallet might have been tampered with or created with malicious intent.
     <message>
         <source>Error opening block database</source>
         <translation type="unfinished">خطا در بازکردن پایگاه داده بلاک block</translation>
+    </message>
+    <message>
+        <source>Error reading configuration file: %s</source>
+        <translation type="unfinished">خطا در خواندن فایل تنظیمات: %s</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3655,11 +3729,6 @@ The wallet might have been tampered with or created with malicious intent.
     <message>
         <source>Transaction amounts must not be negative</source>
         <translation type="unfinished">مقدار تراکنش نمی‌تواند منفی باشد.</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">معاملات بسیار طولانی از یک زنجیره ممپول است
- </translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>

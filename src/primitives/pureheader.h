@@ -59,6 +59,10 @@ public:
     }
 
     uint256 GetHash() const;
+    uint256 GetHash(int32_t nBlockVersion) const;
+    uint256 GetHash2() const;
+    uint256 GetPoWHash() const;
+    uint256 GetPoWHash(int32_t nBlockVersion) const;
 
     NodeSeconds Time() const
     {

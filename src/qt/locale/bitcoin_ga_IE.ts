@@ -59,12 +59,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Seo iad do sheoltaí Bitcoin chun íocaíochtaí a sheoladh. Seiceáil i gcónaí an méid agus an seoladh glactha sula seoltar boinn.</translation>
+        <translation type="unfinished">Seo iad do sheoltaí Lyncoin chun íocaíochtaí a sheoladh. Seiceáil i gcónaí an méid agus an seoladh glactha sula seoltar boinn.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Seo iad do sheoltaí Bitcoin chun glacadh le híocaíochtaí. Úsáid an cnaipe ‘Cruthaigh seoladh glactha nua’ sa cluaisín glactha chun seoltaí nua a chruthú.
+        <translation type="unfinished">Seo iad do sheoltaí Lyncoin chun glacadh le híocaíochtaí. Úsáid an cnaipe ‘Cruthaigh seoladh glactha nua’ sa cluaisín glactha chun seoltaí nua a chruthú.
 Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
@@ -152,7 +152,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Rabhadh: Má chriptíonn tú do sparán agus má chailleann tú do pasfhrása, &lt;b&gt;caillfidh tú GACH CEANN DE DO BITCOIN&lt;/b&gt;!</translation>
+        <translation type="unfinished">Rabhadh: Má chriptíonn tú do sparán agus má chailleann tú do pasfhrása, &lt;b&gt;caillfidh tú GACH CEANN DE DO LYNCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -172,7 +172,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Cuimhnigh nach dtugann chriptiú do sparán cosaint go hiomlán do do bitcoins ó bheith goidte ag bogearraí mailíseacha atá ag ionfhabhtú do ríomhaire.</translation>
+        <translation type="unfinished">Cuimhnigh nach dtugann chriptiú do sparán cosaint go hiomlán do do lyncoins ó bheith goidte ag bogearraí mailíseacha atá ag ionfhabhtú do ríomhaire.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -253,7 +253,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Enter a Lyncoin address (e.g. %1)</source>
-        <translation type="unfinished">Iontráil seoladh Bitcoin (m.sh.%1)</translation>
+        <translation type="unfinished">Iontráil seoladh Lyncoin (m.sh.%1)</translation>
     </message>
     <message>
         <source>Inbound</source>
@@ -288,41 +288,41 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -332,9 +332,9 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -381,6 +381,10 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">Cruthaigh sparán nua</translation>
     </message>
     <message>
+        <source>&amp;Minimize</source>
+        <translation type="unfinished">&amp;Íoslaghdaigh</translation>
+    </message>
+    <message>
         <source>Wallet:</source>
         <translation type="unfinished">Sparán:</translation>
     </message>
@@ -395,7 +399,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Seol boinn chuig seoladh Bitcoin</translation>
+        <translation type="unfinished">Seol boinn chuig seoladh Lyncoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -419,11 +423,11 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Sínigh teachtaireachtaí le do sheoltaí Bitcoin chun a chruthú gur leat iad</translation>
+        <translation type="unfinished">Sínigh teachtaireachtaí le do sheoltaí Lyncoin chun a chruthú gur leat iad</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Teachtaireachtaí a fhíorú lena chinntiú go raibh siad sínithe le seoltaí sainithe Bitcoin</translation>
+        <translation type="unfinished">Teachtaireachtaí a fhíorú lena chinntiú go raibh siad sínithe le seoltaí sainithe Lyncoin</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -443,7 +447,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">Iarr íocaíochtaí (gineann cóid QR agus bitcoin: URIs)</translation>
+        <translation type="unfinished">Iarr íocaíochtaí (gineann cóid QR agus lyncoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -460,9 +464,9 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -495,11 +499,11 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">Lódáil Idirbheart Bitcoin Sínithe go Páirteach</translation>
+        <translation type="unfinished">Lódáil Idirbheart Lyncoin Sínithe go Páirteach</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">Lódáil Idirbheart Bitcoin Sínithe go Páirteach ón gearrthaisce</translation>
+        <translation type="unfinished">Lódáil Idirbheart Lyncoin Sínithe go Páirteach ón gearrthaisce</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -519,7 +523,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">Oscail bitcoin: URI</translation>
+        <translation type="unfinished">Oscail lyncoin: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -539,7 +543,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Lyncoin command-line options</source>
-        <translation type="unfinished">Taispeáin an %1 teachtaireacht chabhrach chun liosta a fháil de roghanna Bitcoin líne na n-orduithe féideartha</translation>
+        <translation type="unfinished">Taispeáin an %1 teachtaireacht chabhrach chun liosta a fháil de roghanna Lyncoin líne na n-orduithe féideartha</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -582,9 +586,9 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -972,9 +976,9 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
@@ -1005,14 +1009,14 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Lyncoin block chain.</source>
-        <translation type="unfinished">Íoslódáileafar %1 and stórálfaidh cóip de bhlocshlabhra Bitcoin.</translation>
+        <translation type="unfinished">Íoslódáileafar %1 and stórálfaidh cóip de bhlocshlabhra Lyncoin.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1089,11 +1093,11 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the lyncoin network, as detailed below.</source>
-        <translation type="unfinished">B’fhéidir nach mbeidh idirbhearta dheireanacha le feiceáil fós, agus dá bhrí sin d’fhéadfadh go mbeadh iarmhéid do sparán mícheart. Beidh an faisnéis seo ceart nuair a bheidh do sparán críochnaithe ag sioncrónú leis an líonra bitcoin, mar atá luaite thíos.</translation>
+        <translation type="unfinished">B’fhéidir nach mbeidh idirbhearta dheireanacha le feiceáil fós, agus dá bhrí sin d’fhéadfadh go mbeadh iarmhéid do sparán mícheart. Beidh an faisnéis seo ceart nuair a bheidh do sparán críochnaithe ag sioncrónú leis an líonra lyncoin, mar atá luaite thíos.</translation>
     </message>
     <message>
         <source>Attempting to spend lyncoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">Ní ghlacfaidh an líonra le hiarrachtí bitcoins a chaitheamh a mbaineann le hidirbhearta nach bhfuil ar taispeáint go fóill.</translation>
+        <translation type="unfinished">Ní ghlacfaidh an líonra le hiarrachtí lyncoins a chaitheamh a mbaineann le hidirbhearta nach bhfuil ar taispeáint go fóill.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1128,7 +1132,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     <name>OpenURIDialog</name>
     <message>
         <source>Open lyncoin URI</source>
-        <translation type="unfinished">Oscail URI bitcoin</translation>
+        <translation type="unfinished">Oscail URI lyncoin</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -1228,7 +1232,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Oscail port cliant Bitcoin go huathoibríoch ar an ródaire. Ní oibríonn sé seo ach nuair a thacaíonn do ródaire le UPnP agus nuair a chumasaítear é.</translation>
+        <translation type="unfinished">Oscail port cliant Lyncoin go huathoibríoch ar an ródaire. Ní oibríonn sé seo ach nuair a thacaíonn do ródaire le UPnP agus nuair a chumasaítear é.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1244,7 +1248,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Connect to the Lyncoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Ceangail leis an líonra Bitcoin trí sheachfhreastalaí SOCKS5.</translation>
+        <translation type="unfinished">Ceangail leis an líonra Lyncoin trí sheachfhreastalaí SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1304,7 +1308,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Connect to the Lyncoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Ceangail le líonra Bitcoin trí seachfhreastalaí SOCKS5 ar leith do sheirbhísí Tor oinniún.</translation>
+        <translation type="unfinished">Ceangail le líonra Lyncoin trí seachfhreastalaí SOCKS5 ar leith do sheirbhísí Tor oinniún.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
@@ -1380,7 +1384,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Féadfaidh an fhaisnéis a thaispeántar a bheith as dáta. Déanann do sparán sioncrónú go huathoibríoch leis an líonra Bitcoin tar éis nasc a bhunú, ach níl an próiseas seo críochnaithe fós.</translation>
+        <translation type="unfinished">Féadfaidh an fhaisnéis a thaispeántar a bheith as dáta. Déanann do sparán sioncrónú go huathoibríoch leis an líonra Lyncoin tar éis nasc a bhunú, ach níl an próiseas seo críochnaithe fós.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1514,10 +1518,6 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <translation type="unfinished">IBSP sábháilte ar dhiosca.</translation>
     </message>
     <message>
-        <source> * Sends %1 to %2</source>
-        <translation type="unfinished"> * Seolann %1 chuig %2</translation>
-    </message>
-    <message>
         <source>own address</source>
         <translation type="unfinished">seoladh féin</translation>
     </message>
@@ -1574,7 +1574,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Cannot start lyncoin: click-to-pay handler</source>
-        <translation type="unfinished">Ní féidir bitcoin a thosú: láimhseálaí cliceáil-chun-íoc</translation>
+        <translation type="unfinished">Ní féidir lyncoin a thosú: láimhseálaí cliceáil-chun-íoc</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1582,11 +1582,11 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>'lyncoin://' is not a valid URI. Use 'lyncoin:' instead.</source>
-        <translation type="unfinished">Ní URI bailí é 'bitcoin://'. Úsáid 'bitcoin:' ina ionad.</translation>
+        <translation type="unfinished">Ní URI bailí é 'lyncoin://'. Úsáid 'lyncoin:' ina ionad.</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Lyncoin address or malformed URI parameters.</source>
-        <translation type="unfinished">Ní féidir URI a pharsáil! Is féidir le seoladh neamhbhailí Bitcoin nó paraiméadair URI drochfhoirmithe a bheith mar an chúis.</translation>
+        <translation type="unfinished">Ní féidir URI a pharsáil! Is féidir le seoladh neamhbhailí Lyncoin nó paraiméadair URI drochfhoirmithe a bheith mar an chúis.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1599,6 +1599,11 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
         <source>User Agent</source>
         <extracomment>Title of Peers Table column which contains the peer's User Agent string.</extracomment>
         <translation type="unfinished">Gníomhaire Úsáideora</translation>
+    </message>
+    <message>
+        <source>Age</source>
+        <extracomment>Title of Peers Table column which indicates the duration (length of time) since the peer connection started.</extracomment>
+        <translation type="unfinished">Aois</translation>
     </message>
     <message>
         <source>Direction</source>
@@ -1963,7 +1968,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lyncoin network.</source>
-        <translation type="unfinished">Teachtaireacht roghnach le ceangal leis an iarratas íocaíocht, a thaispeánfar nuair a osclaítear an iarraidh. Nóta: Ní sheolfar an teachtaireacht leis an íocaíocht thar líonra Bitcoin.</translation>
+        <translation type="unfinished">Teachtaireacht roghnach le ceangal leis an iarratas íocaíocht, a thaispeánfar nuair a osclaítear an iarraidh. Nóta: Ní sheolfar an teachtaireacht leis an íocaíocht thar líonra Lyncoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2196,7 +2201,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for lyncoin transactions than the network can process.</source>
-        <translation type="unfinished">Nuair a bhíonn méid idirbhirt níos lú ná spás sna bloic, féadfaidh mianadóirí chomh maith le nóid athsheachadadh táille íosta a fhorfheidhmiú. Tá sé sách maith an táille íosta seo a íoc, ach bíodh a fhios agat go bhféadfadh idirbheart nach ndeimhnítear riamh a bheith mar thoradh air seo a nuair a bhíonn níos mó éilimh ar idirbhearta bitcoin ná mar is féidir leis an líonra a phróiseáil.</translation>
+        <translation type="unfinished">Nuair a bhíonn méid idirbhirt níos lú ná spás sna bloic, féadfaidh mianadóirí chomh maith le nóid athsheachadadh táille íosta a fhorfheidhmiú. Tá sé sách maith an táille íosta seo a íoc, ach bíodh a fhios agat go bhféadfadh idirbheart nach ndeimhnítear riamh a bheith mar thoradh air seo a nuair a bhíonn níos mó éilimh ar idirbhearta lyncoin ná mar is féidir leis an líonra a phróiseáil.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -2264,11 +2269,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Creates a Partially Signed Lyncoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation type="unfinished">Cruthaíonn Idirbheart Bitcoin Sínithe go Páirteach (IBSP) le húsáid le e.g. sparán as líne %1, nó sparán crua-earraí atá comhoiriúnach le IBSP.</translation>
-    </message>
-    <message>
-        <source> from wallet '%1'</source>
-        <translation type="unfinished">ó sparán '%1'</translation>
+        <translation type="unfinished">Cruthaíonn Idirbheart Lyncoin Sínithe go Páirteach (IBSP) le húsáid le e.g. sparán as líne %1, nó sparán crua-earraí atá comhoiriúnach le IBSP.</translation>
     </message>
     <message>
         <source>%1 to '%2'</source>
@@ -2298,7 +2299,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     <message>
         <source>Please, review your transaction proposal. This will produce a Partially Signed Lyncoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">Le do thoil, déan athbhreithniú ar do thogra idirbhirt. Tabharfaidh sé seo Idirbheart Bitcoin Sínithe go Páirteach (IBSP) ar féidir leat a shábháil nó a chóipeáil agus a shíniú ansin le m.sh. sparán as líne %1, nó sparán crua-earraí atá comhoiriúnach le IBSP.</translation>
+        <translation type="unfinished">Le do thoil, déan athbhreithniú ar do thogra idirbhirt. Tabharfaidh sé seo Idirbheart Lyncoin Sínithe go Páirteach (IBSP) ar féidir leat a shábháil nó a chóipeáil agus a shíniú ansin le m.sh. sparán as líne %1, nó sparán crua-earraí atá comhoiriúnach le IBSP.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -2356,14 +2357,14 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">Rabhadh: Seoladh neamhbhailí Bitcoin</translation>
+        <translation type="unfinished">Rabhadh: Seoladh neamhbhailí Lyncoin</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2402,7 +2403,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>The Lyncoin address to send the payment to</source>
-        <translation type="unfinished">Seoladh Bitcoin chun an íocaíocht a sheoladh chuig</translation>
+        <translation type="unfinished">Seoladh Lyncoin chun an íocaíocht a sheoladh chuig</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -2418,7 +2419,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less lyncoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation type="unfinished">Bainfear an táille ón méid a sheolfar. Gheobhaidh an faighteoir níos lú bitcoins ná mar a iontrálann tú sa réimse méid. Má roghnaítear faighteoirí iolracha, roinntear an táille go cothrom.</translation>
+        <translation type="unfinished">Bainfear an táille ón méid a sheolfar. Gheobhaidh an faighteoir níos lú lyncoins ná mar a iontrálann tú sa réimse méid. Má roghnaítear faighteoirí iolracha, roinntear an táille go cothrom.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2438,7 +2439,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>A message that was attached to the lyncoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lyncoin network.</source>
-        <translation type="unfinished">Teachtaireacht a bhí ceangailte leis an bitcoin: URI a stórálfar leis an idirbheart le haghaidh do thagairt. Nóta: Ní sheolfar an teachtaireacht seo thar líonra Bitcoin.</translation>
+        <translation type="unfinished">Teachtaireacht a bhí ceangailte leis an lyncoin: URI a stórálfar leis an idirbheart le haghaidh do thagairt. Nóta: Ní sheolfar an teachtaireacht seo thar líonra Lyncoin.</translation>
     </message>
 </context>
 <context>
@@ -2464,11 +2465,11 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive lyncoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">Féadfaidh tú teachtaireachtaí / comhaontuithe a shíniú le do sheoltaí chun a chruthú gur féidir leat bitcoins a sheoltear chucu a fháil. Bí cúramach gan aon rud doiléir nó randamach a shíniú, mar d’fhéadfadh ionsaithe fioscaireachta iarracht ar d’aitheantas a shíniú chucu. Ná sínigh ach ráitis lán-mhionsonraithe a aontaíonn tú leo.</translation>
+        <translation type="unfinished">Féadfaidh tú teachtaireachtaí / comhaontuithe a shíniú le do sheoltaí chun a chruthú gur féidir leat lyncoins a sheoltear chucu a fháil. Bí cúramach gan aon rud doiléir nó randamach a shíniú, mar d’fhéadfadh ionsaithe fioscaireachta iarracht ar d’aitheantas a shíniú chucu. Ná sínigh ach ráitis lán-mhionsonraithe a aontaíonn tú leo.</translation>
     </message>
     <message>
         <source>The Lyncoin address to sign the message with</source>
-        <translation type="unfinished">An seoladh Bitcoin chun an teachtaireacht a shíniú le</translation>
+        <translation type="unfinished">An seoladh Lyncoin chun an teachtaireacht a shíniú le</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2492,7 +2493,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Lyncoin address</source>
-        <translation type="unfinished">Sínigh an teachtaireacht chun a chruthú gur leat an seoladh Bitcoin seo</translation>
+        <translation type="unfinished">Sínigh an teachtaireacht chun a chruthú gur leat an seoladh Lyncoin seo</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2516,7 +2517,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>The Lyncoin address the message was signed with</source>
-        <translation type="unfinished">An seoladh Bitcoin a síníodh an teachtaireacht leis</translation>
+        <translation type="unfinished">An seoladh Lyncoin a síníodh an teachtaireacht leis</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -2528,7 +2529,7 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">Fíoraigh an teachtaireacht lena chinntiú go raibh sí sínithe leis an seoladh Bitcoin sainithe </translation>
+        <translation type="unfinished">Fíoraigh an teachtaireacht lena chinntiú go raibh sí sínithe leis an seoladh Lyncoin sainithe </translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2664,9 +2665,9 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -2716,10 +2717,6 @@ Ní féidir síniú ach le seoltaí 'oidhreachta'.</translation>
     <message>
         <source>Output index</source>
         <translation type="unfinished">Innéacs aschuir</translation>
-    </message>
-    <message>
-        <source> (Certificate was not verified)</source>
-        <translation type="unfinished">(Níor fíoraíodh teastas)</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -3102,7 +3099,7 @@ Téigh go Comhad &gt; Oscail Sparán chun sparán a lódáil.
     </message>
     <message>
         <source>%s corrupt. Try using the wallet tool lyncoin-wallet to salvage or restoring a backup.</source>
-        <translation type="unfinished">Tá %s truaillithe. Triail an uirlis sparán bitcoin-wallet a úsáid chun tharrtháil nó chun cúltaca a athbhunú.</translation>
+        <translation type="unfinished">Tá %s truaillithe. Triail an uirlis sparán lyncoin-wallet a úsáid chun tharrtháil nó chun cúltaca a athbhunú.</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
@@ -3427,10 +3424,6 @@ Téigh go Comhad &gt; Oscail Sparán chun sparán a lódáil.
     <message>
         <source>Transaction amounts must not be negative</source>
         <translation type="unfinished">Níor cheart go mbeadh suimeanna idirbhirt diúltach</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">Tá slabhra mempool ró-fhada ag an idirbheart</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>

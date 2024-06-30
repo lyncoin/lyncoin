@@ -299,6 +299,18 @@ Ondertekenen is alleen mogelijk met adressen van het type 'legacy'.</translation
         <translation type="unfinished">onbekend</translation>
     </message>
     <message>
+        <source>Embedded "%1"</source>
+        <translation type="unfinished">Ingebed "%1"</translation>
+    </message>
+    <message>
+        <source>Default system font "%1"</source>
+        <translation type="unfinished">Standaard systeemlettertype "%1"</translation>
+    </message>
+    <message>
+        <source>Custom…</source>
+        <translation type="unfinished">Aangepast...</translation>
+    </message>
+    <message>
         <source>Amount</source>
         <translation type="unfinished">Bedrag</translation>
     </message>
@@ -801,6 +813,10 @@ Ondertekenen is alleen mogelijk met adressen van het type 'legacy'.</translation
         <translation type="unfinished">Fout bij wallet maken</translation>
     </message>
     <message>
+        <source>Cannot create new wallet, the software was compiled without sqlite support (required for descriptor wallets)</source>
+        <translation type="unfinished">Kan geen nieuwe wallet maken, de software werd gecompileerd zonder sqlite-ondersteuning (nodig voor descriptor wallets)</translation>
+    </message>
+    <message>
         <source>Error: %1</source>
         <translation type="unfinished">Fout: %1</translation>
     </message>
@@ -1074,11 +1090,11 @@ Het migratieproces maakt voorafgaand aan het migreren een backup van de wallet. 
         <translation type="unfinished">De wallet '%1' werd succesvol gemigreerd.</translation>
     </message>
     <message>
-        <source> Watchonly scripts have been migrated to a new wallet named '%1'.</source>
+        <source>Watchonly scripts have been migrated to a new wallet named '%1'.</source>
         <translation type="unfinished">Alleen lezen scripts zijn gemigreerd naar een nieuwe wallet met de naam '%1'.</translation>
     </message>
     <message>
-        <source> Solvable but not watched scripts have been migrated to a new wallet named '%1'.</source>
+        <source>Solvable but not watched scripts have been migrated to a new wallet named '%1'.</source>
         <translation type="unfinished">Oplosbare maar ongemonitorde scripts zijn gemigreerd naar een nieuwe wallet met de naam '%1'.</translation>
     </message>
     <message>
@@ -1552,6 +1568,10 @@ Het migratieproces maakt voorafgaand aan het migreren een backup van de wallet. 
         <translation type="unfinished">Minimaliseren in plaats van de applicatie af te sluiten wanneer het venster is afgesloten. Als deze optie is ingeschakeld, zal de toepassing pas worden afgesloten na het selecteren van Exit in het menu.</translation>
     </message>
     <message>
+        <source>Font in the Overview tab: </source>
+        <translation type="unfinished">Lettertype in het Overzicht tab:</translation>
+    </message>
+    <message>
         <source>Options set in this dialog are overridden by the command line:</source>
         <translation type="unfinished">Gekozen opties in dit dialoogvenster worden overschreven door de command line:</translation>
     </message>
@@ -1757,18 +1777,6 @@ Ongebruikte mempool geheugen is gedeeld voor deze cache.</translation>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
         <translation type="unfinished">Gebruik afzonderlijke SOCKS &amp; 5-proxy om peers te bereiken via Tor Onion-services:</translation>
-    </message>
-    <message>
-        <source>Monospaced font in the Overview tab:</source>
-        <translation type="unfinished">Monospaced lettertype in het Overzicht tab:</translation>
-    </message>
-    <message>
-        <source>embedded "%1"</source>
-        <translation type="unfinished">ingebed "%1"</translation>
-    </message>
-    <message>
-        <source>closest matching "%1"</source>
-        <translation type="unfinished">best overeenkomende "%1"</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -2012,8 +2020,8 @@ Ongebruikte mempool geheugen is gedeeld voor deze cache.</translation>
         <translation type="unfinished">PSBT opgeslagen op de schijf</translation>
     </message>
     <message>
-        <source> * Sends %1 to %2</source>
-        <translation type="unfinished">Verstuur %1 naar %2</translation>
+        <source>Sends %1 to %2</source>
+        <translation type="unfinished">Verzenden %1 van %2</translation>
     </message>
     <message>
         <source>own address</source>
@@ -2551,6 +2559,10 @@ Als je deze fout ziet zou je de aanbieder moeten verzoeken om een BIP21-compatib
         <translation type="unfinished">Uitvoeren van commando zonder gebruik van een wallet</translation>
     </message>
     <message>
+        <source>Node window - [%1]</source>
+        <translation type="unfinished">Nodevenster - [%1]</translation>
+    </message>
+    <message>
         <source>Executing command using "%1" wallet</source>
         <translation type="unfinished">Uitvoeren van commando met wallet "%1"</translation>
     </message>
@@ -2894,7 +2906,7 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
     </message>
     <message>
         <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for lyncoin transactions than the network can process.</source>
-        <translation type="unfinished">De minimale toeslag betalen is prima mits het transactievolume kleiner is dan de ruimte in de blokken. Let wel op dat dit tot gevolg kan hebben dat een transactie nooit wordt bevestigd als er meer vraag is naar lyncoin transacties dan het netwerk kan verwerken.</translation>
+        <translation type="unfinished">De minimale toeslag betalen is prima mits het transactievolume kleiner is dan de ruimte in de blokken. Let wel op dat dit tot gevolg kan hebben dat een transactie nooit wordt bevestigd als er meer vraag is naar lyncointransacties dan het netwerk kan verwerken.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -2983,10 +2995,6 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation type="unfinished">Creëert een Gedeeltelijk Getekende Lyncoin Transactie (PSBT) om te gebruiken met b.v. een offline %1 wallet, of een PSBT-compatibele hardware wallet.</translation>
     </message>
     <message>
-        <source> from wallet '%1'</source>
-        <translation type="unfinished">van wallet '%1'</translation>
-    </message>
-    <message>
         <source>%1 to '%2'</source>
         <translation type="unfinished">%1 naar %2</translation>
     </message>
@@ -3042,6 +3050,10 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <source>Please, review your transaction proposal. This will produce a Partially Signed Lyncoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
         <translation type="unfinished">Controleer aub je transactievoorstel. Dit zal een Gedeeltelijk Getekende Lyncoin Transactie (PSBT) produceren die je kan opslaan of kopiëren en vervolgens ondertekenen met bijv. een offline %1 wallet, of een PSBT-combatibele hardware wallet.</translation>
+    </message>
+    <message>
+        <source>%1 from wallet '%2'</source>
+        <translation type="unfinished">%1 van wallet '%2'</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
@@ -3484,8 +3496,8 @@ Notitie: Omdat de vergoeding per byte wordt gerekend, zal een vergoeding van "10
         <translation type="unfinished">Transactie virtuele grootte</translation>
     </message>
     <message>
-        <source> (Certificate was not verified)</source>
-        <translation type="unfinished">(Certificaat kon niet worden geverifieerd)</translation>
+        <source>%1 (Certificate was not verified)</source>
+        <translation type="unfinished">%1 (Certificaat kon niet worden geverifieerd)</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -3967,7 +3979,7 @@ Ga naar Bestand &gt; Wallet openen om een wallet te laden.
     </message>
     <message>
         <source>Error: Dumpfile version is not supported. This version of lyncoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
-        <translation type="unfinished">Fout: Dumpbestandsversie wordt niet ondersteund. Deze versie lyncoin-wallet ondersteunt alleen versie 1 dumpbestanden. Dumpbestand met versie %s gekregen</translation>
+        <translation type="unfinished">Fout: Dumpbestandsversie wordt niet ondersteund. Deze versie lyncoinwallet ondersteunt alleen versie 1 dumpbestanden. Dumpbestand met versie %s gekregen</translation>
     </message>
     <message>
         <source>Error: Legacy wallets only support the "legacy", "p2sh-segwit", and "bech32" address types</source>
@@ -4286,6 +4298,10 @@ Kan mislukte migratie niet opschonen</translation>
         <translation type="unfinished">Dumpbestand %s bestaat niet.</translation>
     </message>
     <message>
+        <source>Error committing db txn for wallet transactions removal</source>
+        <translation type="unfinished">Fout bij db txn verwerking voor verwijderen wallet transacties</translation>
+    </message>
+    <message>
         <source>Error creating %s</source>
         <translation type="unfinished">Fout bij het maken van %s</translation>
     </message>
@@ -4334,16 +4350,12 @@ Kan mislukte migratie niet opschonen</translation>
         <translation type="unfinished">Fout bij het lezen van het volgende record in de walletdatabase</translation>
     </message>
     <message>
+        <source>Error starting db txn for wallet transactions removal</source>
+        <translation type="unfinished">Fout bij starten db txn voor verwijderen wallet transacties</translation>
+    </message>
+    <message>
         <source>Error: Cannot extract destination from the generated scriptpubkey</source>
         <translation type="unfinished">Fout: Kan de bestemming niet extraheren uit de gegenereerde scriptpubkey</translation>
-    </message>
-    <message>
-        <source>Error: Could not add watchonly tx to watchonly wallet</source>
-        <translation type="unfinished">Fout: kon alleen-bekijkbaar transactie niet toevoegen aan alleen-bekijkbaar portemonnee</translation>
-    </message>
-    <message>
-        <source>Error: Could not delete watchonly transactions</source>
-        <translation type="unfinished">Fout: Kan alleen-bekijkbare transacties niet verwijderen</translation>
     </message>
     <message>
         <source>Error: Couldn't create cursor into database</source>
@@ -4382,10 +4394,6 @@ Kan mislukte migratie niet opschonen</translation>
         <translation type="unfinished">Fout: Geen %s adressen beschikbaar</translation>
     </message>
     <message>
-        <source>Error: Not all watchonly txs could be deleted</source>
-        <translation type="unfinished">Fout: niet alle alleen-bekijkbare transacties konden worden verwijderd</translation>
-    </message>
-    <message>
         <source>Error: This wallet already uses SQLite</source>
         <translation type="unfinished">Fout: deze portemonnee gebruikt al SQLite</translation>
     </message>
@@ -4410,12 +4418,32 @@ Kan mislukte migratie niet opschonen</translation>
         <translation type="unfinished">Fout: Kan niet alle records in de database lezen</translation>
     </message>
     <message>
+        <source>Error: Unable to read wallet's best block locator record</source>
+        <translation type="unfinished">Fout: Onleesbare beste block locatie aanduiding in wallet</translation>
+    </message>
+    <message>
         <source>Error: Unable to remove watchonly address book data</source>
         <translation type="unfinished">Fout: kan alleen-bekijkbaar adresboekgegevens niet verwijderen</translation>
     </message>
     <message>
         <source>Error: Unable to write record to new wallet</source>
         <translation type="unfinished">Fout: Kan record niet naar nieuwe wallet schrijven</translation>
+    </message>
+    <message>
+        <source>Error: Unable to write solvable wallet best block locator record</source>
+        <translation type="unfinished">Fout: Kan beste block locatie aanduiding niet opslaan in wallet</translation>
+    </message>
+    <message>
+        <source>Error: Unable to write watchonly wallet best block locator record</source>
+        <translation type="unfinished">Fout: Kan beste block locatie aanduiding niet opslaan in alleen lezen wallet</translation>
+    </message>
+    <message>
+        <source>Error: address book copy failed for wallet %s</source>
+        <translation type="unfinished">Fout: Kopiëren adresboek mislukt voor wallet %s</translation>
+    </message>
+    <message>
+        <source>Error: database transaction cannot be executed for wallet %s</source>
+        <translation type="unfinished">Fout: Kan databasetransactie niet uitvoeren voor wallet %s</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -4432,6 +4460,10 @@ Kan mislukte migratie niet opschonen</translation>
     <message>
         <source>Failed to verify database</source>
         <translation type="unfinished">Mislukt om de databank te controleren</translation>
+    </message>
+    <message>
+        <source>Failure removing transaction: %s</source>
+        <translation type="unfinished">Verwijderen transactie mislukt: %s</translation>
     </message>
     <message>
         <source>Fee rate (%s) is lower than the minimum fee rate setting (%s)</source>
@@ -4654,6 +4686,10 @@ Kan mislukte migratie niet opschonen</translation>
         <translation type="unfinished">Dit is de transactievergoeding dat je betaalt wanneer je een transactie verstuurt.</translation>
     </message>
     <message>
+        <source>Transaction %s does not belong to this wallet</source>
+        <translation type="unfinished">Transactie %s behoort niet tot deze wallet</translation>
+    </message>
+    <message>
         <source>Transaction amount too small</source>
         <translation type="unfinished">Transactiebedrag te klein</translation>
     </message>
@@ -4664,10 +4700,6 @@ Kan mislukte migratie niet opschonen</translation>
     <message>
         <source>Transaction change output index out of range</source>
         <translation type="unfinished">Transactie change output is buiten bereik</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">Transactie heeft een te lange mempoolketen</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
@@ -4750,12 +4782,24 @@ Kan mislukte migratie niet opschonen</translation>
         <translation type="unfinished">Niet-ondersteund globaal logniveau %s=%s. Geldige waarden: %s.</translation>
     </message>
     <message>
+        <source>Wallet file creation failed: %s</source>
+        <translation type="unfinished">Walletbestand maken mislukt: %s</translation>
+    </message>
+    <message>
         <source>acceptstalefeeestimates is not supported on %s chain.</source>
         <translation type="unfinished">acceptstalefeeestimates worden niet ondersteund in de %s keten.</translation>
     </message>
     <message>
         <source>Unsupported logging category %s=%s.</source>
         <translation type="unfinished">Niet-ondersteunde logcategorie %s=%s.</translation>
+    </message>
+    <message>
+        <source>Error: Could not add watchonly tx %s to watchonly wallet</source>
+        <translation type="unfinished">Fout: Kon alleen lezen tx %s niet toevoegen aan alleen lezen wallet</translation>
+    </message>
+    <message>
+        <source>Error: Could not delete watchonly transactions. </source>
+        <translation type="unfinished">Fout: Kon alleen-lezen transacties niet verwijderen</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>

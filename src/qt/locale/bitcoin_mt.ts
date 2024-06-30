@@ -59,12 +59,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Dawn huma l-indirizzi Bitcoin tiegħek biex tibgħat il-ħlasijiet. Dejjem iċċekkja l-ammont u l-indirizz li tirċievi qabel ma tibgħat muniti.</translation>
+        <translation type="unfinished">Dawn huma l-indirizzi Lyncoin tiegħek biex tibgħat il-ħlasijiet. Dejjem iċċekkja l-ammont u l-indirizz li tirċievi qabel ma tibgħat muniti.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Dawn huma l-indirizzi Bitcoin tiegħek biex tirċievi ħlasijiet. Uża l-buttuna 'Oħloq indirizz riċevitur ġdid' fit-tab tar-riċeviment biex toħloq indirizzi ġodda.
+        <translation type="unfinished">Dawn huma l-indirizzi Lyncoin tiegħek biex tirċievi ħlasijiet. Uża l-buttuna 'Oħloq indirizz riċevitur ġdid' fit-tab tar-riċeviment biex toħloq indirizzi ġodda.
 L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
     </message>
     <message>
@@ -157,7 +157,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Twissija: Jekk tikkodifika l-kartiera tiegħek u titlef il-passphrase tiegħek, int se &lt;b&gt;TILEF IL-BITCOINS KOLLHA TIEGĦEK&lt;/b&gt;!</translation>
+        <translation type="unfinished">Twissija: Jekk tikkodifika l-kartiera tiegħek u titlef il-passphrase tiegħek, int se &lt;b&gt;TILEF IL-LYNCOINS KOLLHA TIEGĦEK&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -177,7 +177,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Ftakar li l-kriptaġġ tal-kartiera tiegħek ma jistax jipproteġi bis-sħiħ il-bitcoins tiegħek milli jinsterqu minn malware li jinfetta l-kompjuter tiegħek.</translation>
+        <translation type="unfinished">Ftakar li l-kriptaġġ tal-kartiera tiegħek ma jistax jipproteġi bis-sħiħ il-lyncoins tiegħek milli jinsterqu minn malware li jinfetta l-kompjuter tiegħek.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -289,55 +289,55 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -410,7 +410,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Ibgħat muniti f'indirizz Bitcoin</translation>
+        <translation type="unfinished">Ibgħat muniti f'indirizz Lyncoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -454,7 +454,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Iffirma messaġġi bl-indirizzi Bitcoin tiegħek biex tipprova li inti stess</translation>
+        <translation type="unfinished">Iffirma messaġġi bl-indirizzi Lyncoin tiegħek biex tipprova li inti stess</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -462,7 +462,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Ivverifika l-messaġġi biex tiżgura li ġew iffirmati b'indirizzi Bitcoin speċifikati</translation>
+        <translation type="unfinished">Ivverifika l-messaġġi biex tiżgura li ġew iffirmati b'indirizzi Lyncoin speċifikati</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -514,7 +514,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">Itlob ħlasijiet (jiġġenera kodiċijiet QR u bitcoin: URIs)</translation>
+        <translation type="unfinished">Itlob ħlasijiet (jiġġenera kodiċijiet QR u lyncoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -571,7 +571,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">Tagħbija Transazzjoni Bitcoin iffirmata parzjalment</translation>
+        <translation type="unfinished">Tagħbija Transazzjoni Lyncoin iffirmata parzjalment</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
@@ -579,7 +579,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">Tagħbija Transazzjoni Bitcoin iffirmata parzjalment mill-clipboard</translation>
+        <translation type="unfinished">Tagħbija Transazzjoni Lyncoin iffirmata parzjalment mill-clipboard</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -599,7 +599,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">Iftaħ bitcoin: URI</translation>
+        <translation type="unfinished">Iftaħ lyncoin: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -629,7 +629,7 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Lyncoin command-line options</source>
-        <translation type="unfinished">Uri %1l-messaġġ ta 'għajnuna biex tikseb lista b'għażliet possibbli tal-linja tal-kmand Bitcoin</translation>
+        <translation type="unfinished">Uri %1l-messaġġ ta 'għajnuna biex tikseb lista b'għażliet possibbli tal-linja tal-kmand Lyncoin</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -691,10 +691,10 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%nkonnessjoni(jiet) attiva(i) man-netwerk Bitcoin.</numerusform>
-            <numerusform>%nkonnessjoni(jiet) attiva(i) man-netwerk Bitcoin.</numerusform>
-            <numerusform>%nkonnessjoni(jiet) attiva(i) man-netwerk Bitcoin.</numerusform>
-            <numerusform>%nkonnessjoni(jiet) attiva(i) man-netwerk Bitcoin.</numerusform>
+            <numerusform>%nkonnessjoni(jiet) attiva(i) man-netwerk Lyncoin.</numerusform>
+            <numerusform>%nkonnessjoni(jiet) attiva(i) man-netwerk Lyncoin.</numerusform>
+            <numerusform>%nkonnessjoni(jiet) attiva(i) man-netwerk Lyncoin.</numerusform>
+            <numerusform>%nkonnessjoni(jiet) attiva(i) man-netwerk Lyncoin.</numerusform>
         </translation>
     </message>
     <message>
@@ -879,38 +879,38 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -991,10 +991,10 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1007,10 +1007,10 @@ L-iffirmar huwa possibbli biss b'indirizzi tat-tip 'legacy'.</translation>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>

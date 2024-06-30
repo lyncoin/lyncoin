@@ -2,10 +2,6 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation type="unfinished">Ünvana və ya etiketə düzəliş etmək üçün sağ düyməni klikləyin</translation>
-    </message>
-    <message>
         <source>Create a new address</source>
         <translation type="unfinished">Yeni ünvan yaradın</translation>
     </message>
@@ -59,12 +55,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Bunlar ödənişləri göndərmək üçün Bitcoin ünvanlarınızdır. pul göndərməzdən əvvəl həmişə miqdarı və göndəriləcək ünvanı yoxlayın.</translation>
+        <translation type="unfinished">Bunlar ödənişləri göndərmək üçün Lyncoin ünvanlarınızdır. pul göndərməzdən əvvəl həmişə miqdarı və göndəriləcək ünvanı yoxlayın.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Bunlar ödəniş almaq üçün Bitcoin ünvanlarınızdır. Yeni ünvan yaratmaq üçün alacaqlar vərəqində 'Yeni alacaq ünvan yarat' düyməsini istifadə edin.
+        <translation type="unfinished">Bunlar ödəniş almaq üçün Lyncoin ünvanlarınızdır. Yeni ünvan yaratmaq üçün alacaqlar vərəqində 'Yeni alacaq ünvan yarat' düyməsini istifadə edin.
 Daxil olma, yalnız 'qanuni' tipli ünvanlar ilə mümkündür.</translation>
     </message>
     <message>
@@ -177,7 +173,7 @@ Daxil olma, yalnız 'qanuni' tipli ünvanlar ilə mümkündür.</translation>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Unutmayın ki, pulqabınızın şifrələməsi bitcoinlərinizi kompüterinizə zərərli proqram tərəfindən oğurlanmaqdan tamamilə qoruya bilməz.</translation>
+        <translation type="unfinished">Unutmayın ki, pulqabınızın şifrələməsi lyncoinlərinizi kompüterinizə zərərli proqram tərəfindən oğurlanmaqdan tamamilə qoruya bilməz.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -285,43 +281,43 @@ Daxil olma, yalnız 'qanuni' tipli ünvanlar ilə mümkündür.</translation>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n second(s)</numerusform>
+            <numerusform>%n second(s)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n minute(s)</numerusform>
+            <numerusform>%n minute(s)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n hour(s)</numerusform>
+            <numerusform>%n hour(s)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n day(s)</numerusform>
+            <numerusform>%n day(s)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n week(s)</numerusform>
+            <numerusform>%n week(s)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n year(s)</numerusform>
+            <numerusform>%n year(s)</numerusform>
         </translation>
     </message>
     </context>
@@ -394,7 +390,7 @@ Daxil olma, yalnız 'qanuni' tipli ünvanlar ilə mümkündür.</translation>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Pulları Bitcoin ünvanına göndərin</translation>
+        <translation type="unfinished">Pulları Lyncoin ünvanına göndərin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -438,7 +434,7 @@ Daxil olma, yalnız 'qanuni' tipli ünvanlar ilə mümkündür.</translation>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Bitcoin ünvanlarınızın sahibi olduğunuzu sübut etmək üçün ismarıcları imzalayın</translation>
+        <translation type="unfinished">Lyncoin ünvanlarınızın sahibi olduğunuzu sübut etmək üçün ismarıcları imzalayın</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -446,7 +442,7 @@ Daxil olma, yalnız 'qanuni' tipli ünvanlar ilə mümkündür.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Göstərilmiş Bitcoin ünvanları ilə imzalandıqlarına əmin olmaq üçün ismarıcları doğrulayın</translation>
+        <translation type="unfinished">Göstərilmiş Lyncoin ünvanları ilə imzalandıqlarına əmin olmaq üçün ismarıcları doğrulayın</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -506,7 +502,7 @@ Daxil olma, yalnız 'qanuni' tipli ünvanlar ilə mümkündür.</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">Ödəmə tələbi (QR-kodlar və Bitcoin URI-ləri yaradılır)^</translation>
+        <translation type="unfinished">Ödəmə tələbi (QR-kodlar və Lyncoin URI-ləri yaradılır)^</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -561,7 +557,7 @@ Daxil olma, yalnız 'qanuni' tipli ünvanlar ilə mümkündür.</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">Qismən imzalanmış Bitcoin köçürmələrini yükləyin</translation>
+        <translation type="unfinished">Qismən imzalanmış Lyncoin köçürmələrini yükləyin</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
@@ -569,7 +565,7 @@ Daxil olma, yalnız 'qanuni' tipli ünvanlar ilə mümkündür.</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">Qismən İmzalanmış Bitcoin Köçürməsini (PSBT) mübadilə yaddaşından yükləmək</translation>
+        <translation type="unfinished">Qismən İmzalanmış Lyncoin Köçürməsini (PSBT) mübadilə yaddaşından yükləmək</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -589,7 +585,7 @@ Daxil olma, yalnız 'qanuni' tipli ünvanlar ilə mümkündür.</translation>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">Bitcoin açın: URI</translation>
+        <translation type="unfinished">Lyncoin açın: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -619,7 +615,7 @@ Daxil olma, yalnız 'qanuni' tipli ünvanlar ilə mümkündür.</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Lyncoin command-line options</source>
-        <translation type="unfinished">Mümkün Bitcoin əmr sətri əməliyyatları siyahısını almaq üçün %1 kömək ismarıcı göstərilsin</translation>
+        <translation type="unfinished">Mümkün Lyncoin əmr sətri əməliyyatları siyahısını almaq üçün %1 kömək ismarıcı göstərilsin</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -685,8 +681,8 @@ Daxil olma, yalnız 'qanuni' tipli ünvanlar ilə mümkündür.</translation>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>Bitcoin şəbəkəsinə %n aktiv bağlantı.</numerusform>
-            <numerusform>Bitcoin şəbəkəsinə %n aktiv bağlantı.</numerusform>
+            <numerusform>Lyncoin şəbəkəsinə %n aktiv bağlantı.</numerusform>
+            <numerusform>Lyncoin şəbəkəsinə %n aktiv bağlantı.</numerusform>
         </translation>
     </message>
     <message>
@@ -1140,30 +1136,30 @@ Daxil olma, yalnız 'qanuni' tipli ünvanlar ilə mümkündür.</translation>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n GB of space available</numerusform>
+            <numerusform>%n GB of space available</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>(of %n GB needed)</numerusform>
+            <numerusform>(of %n GB needed)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>(%n GB needed for full chain)</numerusform>
+            <numerusform>(%n GB needed for full chain)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>(sufficient to restore backups %n day(s) old)</numerusform>
+            <numerusform>(sufficient to restore backups %n day(s) old)</numerusform>
         </translation>
     </message>
     <message>
@@ -1461,8 +1457,8 @@ Daxil olma, yalnız 'qanuni' tipli ünvanlar ilə mümkündür.</translation>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>Estimated to begin confirmation within %n block(s).</numerusform>
+            <numerusform>Estimated to begin confirmation within %n block(s).</numerusform>
         </translation>
     </message>
     <message>
@@ -1483,8 +1479,8 @@ Daxil olma, yalnız 'qanuni' tipli ünvanlar ilə mümkündür.</translation>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>matures in %n more block(s)</numerusform>
+            <numerusform>matures in %n more block(s)</numerusform>
         </translation>
     </message>
     <message>

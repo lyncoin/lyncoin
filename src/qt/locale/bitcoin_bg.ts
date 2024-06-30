@@ -164,7 +164,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">ВНИМАНИЕ: Ако шифрирате вашият портфейл и изгубите паролата си, &lt;b&gt;ЩЕ ИЗГУБИТЕ ВСИЧКИТЕ СИ БИТКОИНИ&lt;/b&gt;!</translation>
+        <translation type="unfinished">ВНИМАНИЕ: Ако шифрирате вашият портфейл и изгубите паролата си, &lt;b&gt;ЩЕ ИЗГУБИТЕ ВСИЧКИТЕ СИ ЛИНКОИНИ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -342,36 +342,36 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -381,8 +381,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -467,7 +467,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Изпращане към Биткоин адрес</translation>
+        <translation type="unfinished">Изпращане към Линкоин адрес</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -638,7 +638,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">Заредете частично подписана Bitcoin трансакция</translation>
+        <translation type="unfinished">Заредете частично подписана Lyncoin трансакция</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
@@ -646,7 +646,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">Заредете частично подписана Bitcoin трансакция от клипборд</translation>
+        <translation type="unfinished">Заредете частично подписана Lyncoin трансакция от клипборд</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -666,7 +666,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">Отвори bitcoin: URI</translation>
+        <translation type="unfinished">Отвори lyncoin: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -774,7 +774,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n свързани активно към Bitcoin мрежата.</numerusform>
+            <numerusform>%n свързани активно към Lyncoin мрежата.</numerusform>
             <numerusform>%n активно свързани към Биткойн мрежата. </numerusform>
         </translation>
     </message>
@@ -1274,7 +1274,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">"%1" не е валиден Биткоин адрес.</translation>
+        <translation type="unfinished">"%1" не е валиден Линкоин адрес.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1320,7 +1320,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>Intro</name>
     <message>
         <source>Lyncoin</source>
-        <translation type="unfinished">Биткоин</translation>
+        <translation type="unfinished">Линкоин</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of space available</source>
@@ -1339,8 +1339,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1450,7 +1450,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the lyncoin network, as detailed below.</source>
-        <translation type="unfinished">Последните трансакции все още не могат да се виждат и следователно балансът на портфейла ви може да бъде неправилен. Тази информация ще бъде правилна, след като портфейлът ви приключи синхронизирането с Bitcoin мрежата, както е подробно описано по-долу.</translation>
+        <translation type="unfinished">Последните трансакции все още не могат да се виждат и следователно балансът на портфейла ви може да бъде неправилен. Тази информация ще бъде правилна, след като портфейлът ви приключи синхронизирането с Lyncoin мрежата, както е подробно описано по-долу.</translation>
     </message>
     <message>
         <source>Attempting to spend lyncoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1500,12 +1500,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>Unknown. Syncing Headers (%1, %2%)…</source>
         <translation type="unfinished">Неизвестно. Синхронизиране на Глави (%1, %2%)...</translation>
     </message>
-    </context>
+    <message>
+        <source>Unknown. Pre-syncing Headers (%1, %2%)…</source>
+        <translation type="unfinished">Неизвестно. Предварителна синхронизация на хедъри (%1, %2%)…</translation>
+    </message>
+</context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open lyncoin URI</source>
-        <translation type="unfinished">Отвори bitcoin URI </translation>
+        <translation type="unfinished">Отвори lyncoin URI </translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -1661,7 +1665,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Автоматично отваряне на входящия Bitcoin порт. Работи само с рутери поддържащи UPnP.</translation>
+        <translation type="unfinished">Автоматично отваряне на входящия Lyncoin порт. Работи само с рутери поддържащи UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1736,10 +1740,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">Дали да покаже възможностите за контрол на монетите или не.</translation>
     </message>
     <message>
-        <source>Monospaced font in the Overview tab:</source>
-        <translation type="unfinished">Моноширинен шрифт в раздела Общ преглед:</translation>
-    </message>
-    <message>
         <source>&amp;OK</source>
         <translation type="unfinished">ОК</translation>
     </message>
@@ -1809,7 +1809,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Биткоин, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
+        <translation type="unfinished">Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Линкоин, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -2439,8 +2439,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -2539,7 +2539,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">Проверете съобщение, за да сте сигурни че е подписано с определен Биткоин адрес</translation>
+        <translation type="unfinished">Проверете съобщение, за да сте сигурни че е подписано с определен Линкоин адрес</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2657,8 +2657,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>

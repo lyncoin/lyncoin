@@ -59,7 +59,7 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Це ваші лінкоїн-адреси для надсилання платежів. Завжди перевіряйте суму та адресу одержувача перед відправленням монет.</translation>
+        <translation type="unfinished">Це ваші ЛІНКОЇН-адреси для надсилання платежів. Завжди перевіряйте суму та адресу одержувача перед відправленням монет.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
@@ -185,7 +185,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Пам’ятайте, що шифрування гаманця не може повністю захистити ваші лінкоїни від крадіжки, у випадку якщо ваш комп’ютер буде інфіковано шкідливими програмами.</translation>
+        <translation type="unfinished">Пам’ятайте, що шифрування гаманця не може повністю захистити ваші ЛІНКОЇНи від крадіжки, у випадку якщо ваш комп’ютер буде інфіковано шкідливими програмами.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -303,12 +303,24 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">невідомо</translation>
     </message>
     <message>
+        <source>Embedded "%1"</source>
+        <translation type="unfinished">Вбудований "%1"</translation>
+    </message>
+    <message>
+        <source>Default system font "%1"</source>
+        <translation type="unfinished">Системний шрифт за замовчуванням "%1"</translation>
+    </message>
+    <message>
+        <source>Custom…</source>
+        <translation type="unfinished">Настроюваний…</translation>
+    </message>
+    <message>
         <source>Amount</source>
         <translation type="unfinished">Кількість</translation>
     </message>
     <message>
         <source>Enter a Lyncoin address (e.g. %1)</source>
-        <translation type="unfinished">Введіть лінкоїн-адресу (наприклад, %1)</translation>
+        <translation type="unfinished">Введіть ЛІНКОЇН-адресу (наприклад, %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -547,7 +559,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>&amp;Backup Wallet…</source>
-        <translation type="unfinished">&amp;Резервне копіювання гаманця</translation>
+        <translation type="unfinished">&amp;Резервне копіювання гаманця…</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase…</source>
@@ -683,7 +695,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">Завантажити частково підписану лінкоїн-транзакцію (PSBT) з файлу</translation>
+        <translation type="unfinished">Завантажити частково підписану ЛІНКОЇН-транзакцію (PSBT) з файлу</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
@@ -691,7 +703,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">Завантажити частково підписану лінкоїн-транзакцію (PSBT) з буфера обміну</translation>
+        <translation type="unfinished">Завантажити частково підписану ЛІНКОЇН-транзакцію (PSBT) з буфера обміну</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -1131,7 +1143,7 @@ If this wallet contains any solvable but not watched scripts, a different and ne
 The migration process will create a backup of the wallet before migrating. This backup file will be named &lt;wallet name&gt;-&lt;timestamp&gt;.legacy.bak and can be found in the directory for this wallet. In the event of an incorrect migration, the backup can be restored with the "Restore Wallet" functionality.</source>
         <translation type="unfinished">Під час перенесення гаманця він буде перетворено на один або кілька гаманців з підтримкою дескрипторів. Необхідно буде створити нову резервну копію гаманця.
 Якщо цей гаманець містить будь-які скрипти "тільки для перегляду", буде створено новий гаманець, що містить такі скрипти.
-Якщо цей гаманець містить будь-які спроможні, але не спостережувані скрипти, буде створено інший новий гаманець, що містить такі скрипти.
+Якщо цей гаманець містить будь-які спроможні скрипти, але не "тільки для перегляду", буде створено інший новий гаманець, що містить такі скрипти.
 Процес перенесення створить резервну копію гаманця перед початком. Цей файл резервної копії буде названий &lt;wallet name&gt;-&lt;timestamp&gt;.legacy.bak і знаходитиметься в каталозі для цього гаманця. У випадку неправильного перенесення резервну копію можна відновити за допомогою функціоналу "Відновити гаманець".</translation>
     </message>
     <message>
@@ -1147,12 +1159,12 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">Гаманець '%1' був успішно перенесений.</translation>
     </message>
     <message>
-        <source> Watchonly scripts have been migrated to a new wallet named '%1'.</source>
-        <translation type="unfinished"> Скрипти "тільки для перегляду" були перенесені в новий гаманець під назвою  '%1'.</translation>
+        <source>Watchonly scripts have been migrated to a new wallet named '%1'.</source>
+        <translation type="unfinished">Скрипти "тільки для перегляду" були перенесені в новий гаманець під назвою  '%1'.</translation>
     </message>
     <message>
-        <source> Solvable but not watched scripts have been migrated to a new wallet named '%1'.</source>
-        <translation type="unfinished"> Спроможні, але не спостережувані скрипти були перенесені в новий гаманець під назвою '%1'.</translation>
+        <source>Solvable but not watched scripts have been migrated to a new wallet named '%1'.</source>
+        <translation type="unfinished">Спроможні скрипти, але не "тільки для перегляду", були перенесені в новий гаманець під назвою '%1'.</translation>
     </message>
     <message>
         <source>Migration failed</source>
@@ -1275,7 +1287,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Disable private keys for this wallet. Wallets with private keys disabled will have no private keys and cannot have an HD seed or imported private keys. This is ideal for watch-only wallets.</source>
-        <translation type="unfinished">Вимкнути приватні ключі для цього гаманця. Гаманці з вимкнутими приватними ключами не матимуть приватних ключів і не можуть мати набір HD або імпортовані приватні ключі. Це ідеально підходить для гаманців "тільки для перегляду".</translation>
+        <translation type="unfinished">Вимкнути приватні ключі для цього гаманця. Гаманці з вимкнутими приватними ключами не матимуть приватних ключів і не можуть мати набір HD або імпортовані приватні ключі. Це ідеально підходить для гаманців для спостереження.</translation>
     </message>
     <message>
         <source>Disable Private Keys</source>
@@ -1531,7 +1543,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Attempting to spend lyncoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">Спроба відправити лінкоїни, які ще не відображаються, не буде прийнята мережею.</translation>
+        <translation type="unfinished">Спроба відправити ЛІНКОЇНи, які ще не відображаються, не буде прийнята мережею.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1543,7 +1555,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>calculating…</source>
-        <translation type="unfinished">рахування…</translation>
+        <translation type="unfinished">підраховується…</translation>
     </message>
     <message>
         <source>Last block time</source>
@@ -1582,12 +1594,12 @@ The migration process will create a backup of the wallet before migrating. This 
     <name>OpenURIDialog</name>
     <message>
         <source>Open lyncoin URI</source>
-        <translation type="unfinished">Відкрити лінкоїн URI</translation>
+        <translation type="unfinished">Відкрити ЛІНКОЇН URI</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
         <extracomment>Tooltip text for button that allows you to paste an address that is in your clipboard.</extracomment>
-        <translation type="unfinished">Вставити адресу</translation>
+        <translation type="unfinished">Вставити адресу з буфера обміну</translation>
     </message>
 </context>
 <context>
@@ -1635,6 +1647,10 @@ The migration process will create a backup of the wallet before migrating. This 
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
         <translation type="unfinished">Згортати замість закриття. Якщо ця опція включена, програма закриється лише після вибору відповідного пункту в меню.</translation>
+    </message>
+    <message>
+        <source>Font in the Overview tab: </source>
+        <translation type="unfinished">Шрифт на вкладці Огляд:</translation>
     </message>
     <message>
         <source>Options set in this dialog are overridden by the command line:</source>
@@ -1733,7 +1749,7 @@ The migration process will create a backup of the wallet before migrating. This 
     <message>
         <source>Enable &amp;PSBT controls</source>
         <extracomment>An options window setting to enable PSBT controls.</extracomment>
-        <translation type="unfinished">Увімкнути функції &amp;частково підписаних лінкоїн-транзакцій (PSBT)</translation>
+        <translation type="unfinished">Увімкнути функції &amp;частково підписаних ЛІНКОЇН-транзакцій (PSBT)</translation>
     </message>
     <message>
         <source>Whether to show PSBT controls.</source>
@@ -1859,18 +1875,6 @@ The migration process will create a backup of the wallet before migrating. This 
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
         <translation type="unfinished">Використовувати окремий проксі-сервер SOCKS&amp;5, щоб дістатися до вузлів через сервіси Tor:</translation>
-    </message>
-    <message>
-        <source>Monospaced font in the Overview tab:</source>
-        <translation type="unfinished">Моноширинний шрифт на вкладці Огляд:</translation>
-    </message>
-    <message>
-        <source>embedded "%1"</source>
-        <translation type="unfinished">вбудований "%1"</translation>
-    </message>
-    <message>
-        <source>closest matching "%1"</source>
-        <translation type="unfinished">найбільш подібний "%1"</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
@@ -2103,15 +2107,15 @@ The migration process will create a backup of the wallet before migrating. This 
     <message>
         <source>Partially Signed Transaction (Binary)</source>
         <extracomment>Expanded name of the binary PSBT file format. See: BIP 174.</extracomment>
-        <translation type="unfinished">Частково підписана лінкоїн-транзакція (бінарний файл)</translation>
+        <translation type="unfinished">Частково підписана ЛІНКОЇН-транзакція (бінарний файл)</translation>
     </message>
     <message>
         <source>PSBT saved to disk.</source>
         <translation type="unfinished">PSBT-транзакцію збережено на диск.</translation>
     </message>
     <message>
-        <source> * Sends %1 to %2</source>
-        <translation type="unfinished"> * Надсилає від %1 до %2</translation>
+        <source>Sends %1 to %2</source>
+        <translation type="unfinished">Відправляє %1 до %2</translation>
     </message>
     <message>
         <source>own address</source>
@@ -2174,7 +2178,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Cannot start lyncoin: click-to-pay handler</source>
-        <translation type="unfinished">Не вдалося запустити лінкоїн: обробник "click-to-pay"</translation>
+        <translation type="unfinished">Не вдалося запустити ЛІНКОЇН: обробник "click-to-pay"</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2194,7 +2198,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Lyncoin address or malformed URI parameters.</source>
-        <translation type="unfinished">Не вдалося проаналізувати URI-адресу! Причиною цього може бути некоректна лінкоїн-адреса або неправильні параметри URI.</translation>
+        <translation type="unfinished">Не вдалося проаналізувати URI-адресу! Причиною цього може бути некоректна ЛІНКОЇН-адреса або неправильні параметри URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2709,6 +2713,10 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation type="unfinished">Виконання команди без гаманця</translation>
     </message>
     <message>
+        <source>Node window - [%1]</source>
+        <translation type="unfinished">Вікно вузла - [%1]</translation>
+    </message>
+    <message>
         <source>Executing command using "%1" wallet</source>
         <translation type="unfinished">Виконання команди з гаманцем "%1"</translation>
     </message>
@@ -3088,7 +3096,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for lyncoin transactions than the network can process.</source>
-        <translation type="unfinished">Якщо обсяг транзакцій менше, ніж простір у блоках, майнери, а також вузли ретрансляції можуть стягувати мінімальну плату. Сплата лише цієї мінімальної суми може призвести до ніколи не підтверджуваної транзакції, коли буде більше попиту на лінкоїн-транзакції, ніж мережа може обробити.</translation>
+        <translation type="unfinished">Якщо обсяг транзакцій менше, ніж простір у блоках, майнери, а також вузли ретрансляції можуть стягувати мінімальну плату. Сплата лише цієї мінімальної суми може призвести до ніколи не підтверджуваної транзакції, коли буде більше попиту на ЛІНКОЇН-транзакції, ніж мережа може обробити.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -3174,11 +3182,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Creates a Partially Signed Lyncoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation type="unfinished">Створює частково підписану лінкоїн-транзакцію (PSBT) для використання, наприклад, офлайн-гаманець %1 або гаманця, сумісного з PSBT.</translation>
-    </message>
-    <message>
-        <source> from wallet '%1'</source>
-        <translation type="unfinished"> з гаманця '%1'</translation>
+        <translation type="unfinished">Створює частково підписану ЛІНКОЇН-транзакцію (PSBT) для використання, наприклад, офлайн-гаманець %1 або гаманця, сумісного з PSBT.</translation>
     </message>
     <message>
         <source>%1 to '%2'</source>
@@ -3213,7 +3217,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Partially Signed Transaction (Binary)</source>
         <extracomment>Expanded name of the binary PSBT file format. See: BIP 174.</extracomment>
-        <translation type="unfinished">Частково підписана лінкоїн-транзакція (бінарний файл)</translation>
+        <translation type="unfinished">Частково підписана ЛІНКОЇН-транзакція (бінарний файл)</translation>
     </message>
     <message>
         <source>PSBT saved</source>
@@ -3235,7 +3239,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Please, review your transaction proposal. This will produce a Partially Signed Lyncoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">Перевірте запропоновану транзакцію. Буде сформована частково підписана лінкоїн-транзакція (PSBT), яку можна зберегти або скопіювати, а потім підписати з використанням, наприклад, офлайн гаманця %1 або апаратного PSBT-сумісного гаманця.</translation>
+        <translation type="unfinished">Перевірте запропоновану транзакцію. Буде сформована частково підписана ЛІНКОЇН-транзакція (PSBT), яку можна зберегти або скопіювати, а потім підписати з використанням, наприклад, офлайн гаманця %1 або апаратного PSBT-сумісного гаманця.</translation>
+    </message>
+    <message>
+        <source>%1 from wallet '%2'</source>
+        <translation type="unfinished">%1 з гаманця '%2'</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
@@ -3245,7 +3253,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Lyncoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">Перевірте транзакцію. Можливо створити та надіслати цю транзакцію або створити частково підписану лінкоїн-транзакцію (PSBT), яку можна зберегти або скопіювати, а потім підписати з використанням, наприклад, офлайн гаманця %1 або апаратного PSBT-сумісного гаманця.</translation>
+        <translation type="unfinished">Перевірте транзакцію. Можливо створити та надіслати цю транзакцію або створити частково підписану ЛІНКОЇН-транзакцію (PSBT), яку можна зберегти або скопіювати, а потім підписати з використанням, наприклад, офлайн гаманця %1 або апаратного PSBT-сумісного гаманця.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -3334,7 +3342,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">Увага: Неприпустима лінкоїн-адреса.</translation>
+        <translation type="unfinished">Увага: Неприпустима ЛІНКОЇН-адреса.</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3377,7 +3385,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Вставити адресу</translation>
+        <translation type="unfinished">Вставити адресу з буфера обміну</translation>
     </message>
     <message>
         <source>Remove this entry</source>
@@ -3389,7 +3397,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less lyncoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation type="unfinished">Комісію буде знято зі вказаної суми. До отримувача надійде менше лінкоїнів, ніж було вказано в полі кількості. Якщо ж отримувачів декілька - комісію буде розподілено між ними.</translation>
+        <translation type="unfinished">Комісію буде знято зі вказаної суми. До отримувача надійде менше ЛІНКОЇНів, ніж було вказано в полі кількості. Якщо ж отримувачів декілька - комісію буде розподілено між ними.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -3435,7 +3443,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive lyncoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">Ви можете підписувати повідомлення/угоди своїми адресами, щоб довести можливість отримання лінкоїнів, що будуть надіслані на них. Остерігайтеся підписувати будь-що нечітке чи неочікуване, так як за допомогою фішинг-атаки вас можуть спробувати ввести в оману для отримання вашого підпису під чужими словами. Підписуйте лише чіткі твердження, з якими ви повністю згодні.</translation>
+        <translation type="unfinished">Ви можете підписувати повідомлення/угоди своїми адресами, щоб довести можливість отримання ЛІНКОЇНів, що будуть надіслані на них. Остерігайтеся підписувати будь-що нечітке чи неочікуване, так як за допомогою фішинг-атаки вас можуть спробувати ввести в оману для отримання вашого підпису під чужими словами. Підписуйте лише чіткі твердження, з якими ви повністю згодні.</translation>
     </message>
     <message>
         <source>The Lyncoin address to sign the message with</source>
@@ -3447,7 +3455,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished">Вставити адресу</translation>
+        <translation type="unfinished">Вставити адресу з буфера обміну</translation>
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
@@ -3499,7 +3507,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">Перевірте повідомлення для впевненості, що воно підписано вказаною лінкоїн-адресою</translation>
+        <translation type="unfinished">Перевірте повідомлення для впевненості, що воно підписано вказаною ЛІНКОЇН-адресою</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3717,8 +3725,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">Вихідний індекс</translation>
     </message>
     <message>
-        <source> (Certificate was not verified)</source>
-        <translation type="unfinished"> (Сертифікат не підтверджено)</translation>
+        <source>%1 (Certificate was not verified)</source>
+        <translation type="unfinished">%1 (Сертифікат не підтверджено)</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -3939,7 +3947,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>&amp;Show transaction details</source>
-        <translation type="unfinished">&amp;Показати деталі транзакції</translation>
+        <translation type="unfinished">&amp;Показати подробиці транзакції</translation>
     </message>
     <message>
         <source>Increase transaction &amp;fee</source>
@@ -4048,7 +4056,7 @@ Go to File &gt; Open Wallet to load a wallet.
     </message>
     <message>
         <source>Partially Signed Transaction (*.psbt)</source>
-        <translation type="unfinished">Частково підписана лінкоїн-транзакція (* .psbt)</translation>
+        <translation type="unfinished">Частково підписана ЛІНКОЇН-транзакція (* .psbt)</translation>
     </message>
     <message>
         <source>PSBT file must be smaller than 100 MiB</source>
@@ -4549,6 +4557,10 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">Файл дампа %s не існує.</translation>
     </message>
     <message>
+        <source>Error committing db txn for wallet transactions removal</source>
+        <translation type="unfinished">Помилка при здійсненні транзакції БД для видалення транзакцій гаманця</translation>
+    </message>
+    <message>
         <source>Error creating %s</source>
         <translation type="unfinished">Помилка створення %s</translation>
     </message>
@@ -4597,16 +4609,12 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">Помилка зчитування наступного запису з бази даних гаманця</translation>
     </message>
     <message>
+        <source>Error starting db txn for wallet transactions removal</source>
+        <translation type="unfinished">Помилка при початку транзакції БД для видалення транзакцій гаманця</translation>
+    </message>
+    <message>
         <source>Error: Cannot extract destination from the generated scriptpubkey</source>
         <translation type="unfinished">Помилка: не вдається встановити призначення зі створеного сценарію scriptpubkey</translation>
-    </message>
-    <message>
-        <source>Error: Could not add watchonly tx to watchonly wallet</source>
-        <translation type="unfinished">Помилка: Не вдалося додати транзакцію "тільки для перегляду" до гаманця-для-перегляду</translation>
-    </message>
-    <message>
-        <source>Error: Could not delete watchonly transactions</source>
-        <translation type="unfinished">Помилка: Не вдалося видалити транзакції "тільки для перегляду"</translation>
     </message>
     <message>
         <source>Error: Couldn't create cursor into database</source>
@@ -4622,7 +4630,7 @@ Unable to restore backup of wallet.</source>
     </message>
     <message>
         <source>Error: Failed to create new watchonly wallet</source>
-        <translation type="unfinished">Помилка: Не вдалося створити новий гаманець "тільки для перегляду"</translation>
+        <translation type="unfinished">Помилка: Не вдалося створити новий гаманець для спостереження</translation>
     </message>
     <message>
         <source>Error: Got key that was not hex: %s</source>
@@ -4643,10 +4651,6 @@ Unable to restore backup of wallet.</source>
     <message>
         <source>Error: No %s addresses available.</source>
         <translation type="unfinished">Помилка:  Немає доступних %s адрес.</translation>
-    </message>
-    <message>
-        <source>Error: Not all watchonly txs could be deleted</source>
-        <translation type="unfinished">Помилка: Не всі транзакції "тільки для перегляду" вдалося видалити</translation>
     </message>
     <message>
         <source>Error: This wallet already uses SQLite</source>
@@ -4673,12 +4677,32 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">Помилка: Не вдалося зчитати всі записи бази даних</translation>
     </message>
     <message>
+        <source>Error: Unable to read wallet's best block locator record</source>
+        <translation type="unfinished">Помилка: Не вдалося прочитати запис гаманця про локатор найкращого блока</translation>
+    </message>
+    <message>
         <source>Error: Unable to remove watchonly address book data</source>
         <translation type="unfinished">Помилка: Не вдалося видалити дані "тільки для перегляду" з адресної книги</translation>
     </message>
     <message>
         <source>Error: Unable to write record to new wallet</source>
         <translation type="unfinished">Помилка: Не вдалося додати запис до нового гаманця</translation>
+    </message>
+    <message>
+        <source>Error: Unable to write solvable wallet best block locator record</source>
+        <translation type="unfinished">Помилка: Не вдалося записати запис спроможного гаманця про локатор найкращого блока</translation>
+    </message>
+    <message>
+        <source>Error: Unable to write watchonly wallet best block locator record</source>
+        <translation type="unfinished">Помилка: Не вдалося записати запис гаманця для спостереження про локатор найкращого блока</translation>
+    </message>
+    <message>
+        <source>Error: address book copy failed for wallet %s</source>
+        <translation type="unfinished">Помилка: копіювання адресної книги не вдалося для гаманця %s</translation>
+    </message>
+    <message>
+        <source>Error: database transaction cannot be executed for wallet %s</source>
+        <translation type="unfinished">Помилка: транзакцію бази даних не вдалося виконати для гаманця %s</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -4695,6 +4719,10 @@ Unable to restore backup of wallet.</source>
     <message>
         <source>Failed to verify database</source>
         <translation type="unfinished">Не вдалося перевірити базу даних</translation>
+    </message>
+    <message>
+        <source>Failure removing transaction: %s</source>
+        <translation type="unfinished">Помилка при видаленні транзакції: %s</translation>
     </message>
     <message>
         <source>Fee rate (%s) is lower than the minimum fee rate setting (%s)</source>
@@ -4917,6 +4945,10 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">Це транзакційна комісія, яку ви сплатите, якщо будете надсилати транзакцію.</translation>
     </message>
     <message>
+        <source>Transaction %s does not belong to this wallet</source>
+        <translation type="unfinished">Транзакція %s не належить до цього гаманця</translation>
+    </message>
+    <message>
         <source>Transaction amount too small</source>
         <translation type="unfinished">Сума транзакції занадто мала</translation>
     </message>
@@ -4927,10 +4959,6 @@ Unable to restore backup of wallet.</source>
     <message>
         <source>Transaction change output index out of range</source>
         <translation type="unfinished">У транзакції індекс виходу решти поза діапазоном</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">Транзакція має занадто довгий ланцюг у пулі транзакцій</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
@@ -5013,12 +5041,24 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">Непідтримуваний глобальний рівень журналювання %s=%s. Припустимі значення: %s.</translation>
     </message>
     <message>
+        <source>Wallet file creation failed: %s</source>
+        <translation type="unfinished">Помилка створення файлу гаманця: %s</translation>
+    </message>
+    <message>
         <source>acceptstalefeeestimates is not supported on %s chain.</source>
         <translation type="unfinished">acceptstalefeeestimates не підтримується для %s блокчейну.</translation>
     </message>
     <message>
         <source>Unsupported logging category %s=%s.</source>
         <translation type="unfinished">Непідтримувана категорія ведення журналу %s=%s.</translation>
+    </message>
+    <message>
+        <source>Error: Could not add watchonly tx %s to watchonly wallet</source>
+        <translation type="unfinished">Помилка: Не вдалося додати транзакцію "тільки для перегляду" %s до гаманця для спостереження</translation>
+    </message>
+    <message>
+        <source>Error: Could not delete watchonly transactions. </source>
+        <translation type="unfinished">Помилка: Не вдалося видалити транзакції "тільки для перегляду".</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>

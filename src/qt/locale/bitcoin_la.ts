@@ -188,43 +188,43 @@
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n second(s)</numerusform>
+            <numerusform>%n second(s)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n minute(s)</numerusform>
+            <numerusform>%n minute(s)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n hour(s)</numerusform>
+            <numerusform>%n hour(s)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n day(s)</numerusform>
+            <numerusform>%n day(s)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n week(s)</numerusform>
+            <numerusform>%n week(s)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n year(s)</numerusform>
+            <numerusform>%n year(s)</numerusform>
         </translation>
     </message>
     </context>
@@ -272,7 +272,7 @@
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Mitte nummos ad inscriptionem Bitcoin</translation>
+        <translation type="unfinished">Mitte nummos ad inscriptionem Lyncoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -296,11 +296,11 @@
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Signa nuntios cum tuis inscriptionibus Bitcoin ut demonstres te eas possidere</translation>
+        <translation type="unfinished">Signa nuntios cum tuis inscriptionibus Lyncoin ut demonstres te eas possidere</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Bitcoin</translation>
+        <translation type="unfinished">Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Lyncoin</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -325,8 +325,8 @@
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>Processed %n block(s) of transaction history.</numerusform>
+            <numerusform>Processed %n block(s) of transaction history.</numerusform>
         </translation>
     </message>
     <message>
@@ -361,8 +361,8 @@
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n active connection(s) to Lyncoin network.</numerusform>
+            <numerusform>%n active connection(s) to Lyncoin network.</numerusform>
         </translation>
     </message>
     <message>
@@ -448,7 +448,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">Inscriptio inserta "%1" non valida inscriptio Bitcoin est.</translation>
+        <translation type="unfinished">Inscriptio inserta "%1" non valida inscriptio Lyncoin est.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -464,30 +464,30 @@
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n GB of space available</numerusform>
+            <numerusform>%n GB of space available</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>(of %n GB needed)</numerusform>
+            <numerusform>(of %n GB needed)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>(%n GB needed for full chain)</numerusform>
+            <numerusform>(%n GB needed for full chain)</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>(sufficient to restore backups %n day(s) old)</numerusform>
+            <numerusform>(sufficient to restore backups %n day(s) old)</numerusform>
         </translation>
     </message>
     </context>
@@ -549,7 +549,7 @@
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Aperi per se portam clientis Bitcoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+        <translation type="unfinished">Aperi per se portam clientis Lyncoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -625,7 +625,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Bitcoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+        <translation type="unfinished">Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Lyncoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -647,7 +647,7 @@
     <name>PaymentServer</name>
     <message>
         <source>Cannot start lyncoin: click-to-pay handler</source>
-        <translation type="unfinished">Bitcoin incipere non potest: cliccare-ad-pensandum handler</translation>
+        <translation type="unfinished">Lyncoin incipere non potest: cliccare-ad-pensandum handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -872,8 +872,8 @@
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>Estimated to begin confirmation within %n block(s).</numerusform>
+            <numerusform>Estimated to begin confirmation within %n block(s).</numerusform>
         </translation>
     </message>
     <message>
@@ -932,7 +932,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Lyncoin address</source>
-        <translation type="unfinished">Signa nuntium ut demonstres hanc inscriptionem Bitcoin a te possessa esse</translation>
+        <translation type="unfinished">Signa nuntium ut demonstres hanc inscriptionem Lyncoin a te possessa esse</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -952,7 +952,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">Verifica nuntium ut cures signatum esse cum specifica inscriptione Bitcoin</translation>
+        <translation type="unfinished">Verifica nuntium ut cures signatum esse cum specifica inscriptione Lyncoin</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1066,8 +1066,8 @@
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>matures in %n more block(s)</numerusform>
+            <numerusform>matures in %n more block(s)</numerusform>
         </translation>
     </message>
     <message>

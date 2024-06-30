@@ -299,36 +299,36 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -338,8 +338,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -472,7 +472,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">கொடுப்பனவுகளை கோருதல் (QR குறியீடுகள் மற்றும் bitcoin உருவாக்குகிறது: URI கள்)</translation>
+        <translation type="unfinished">கொடுப்பனவுகளை கோருதல் (QR குறியீடுகள் மற்றும் lyncoin உருவாக்குகிறது: URI கள்)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -489,8 +489,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -564,7 +564,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Lyncoin command-line options</source>
-        <translation type="unfinished">சாத்தியமான Bitcoin கட்டளை-வரி விருப்பங்களைக் கொண்ட பட்டியலைப் பெற %1 உதவிச் செய்தியைக் காட்டு</translation>
+        <translation type="unfinished">சாத்தியமான Lyncoin கட்டளை-வரி விருப்பங்களைக் கொண்ட பட்டியலைப் பெற %1 உதவிச் செய்தியைக் காட்டு</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -607,8 +607,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -987,8 +987,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
@@ -1010,13 +1010,13 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Lyncoin block chain.</source>
-        <translation type="unfinished">Bitcoin தொகுதி சங்கிலியின் நகலை %1 பதிவிறக்கம் செய்து சேமித்து வைக்கும்.</translation>
+        <translation type="unfinished">Lyncoin தொகுதி சங்கிலியின் நகலை %1 பதிவிறக்கம் செய்து சேமித்து வைக்கும்.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1236,7 +1236,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">ரூட்டரில் Bitcoin கிளையன்ட் போர்ட் தானாக திறக்க. இது உங்கள் திசைவி UPnP ஐ ஆதரிக்கும் போது மட்டுமே இயங்குகிறது.</translation>
+        <translation type="unfinished">ரூட்டரில் Lyncoin கிளையன்ட் போர்ட் தானாக திறக்க. இது உங்கள் திசைவி UPnP ஐ ஆதரிக்கும் போது மட்டுமே இயங்குகிறது.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1252,7 +1252,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Connect to the Lyncoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Bitcoin பிணையத்துடன் SOCKS5 ப்ராக்ஸி மூலம் இணைக்கவும்.</translation>
+        <translation type="unfinished">Lyncoin பிணையத்துடன் SOCKS5 ப்ராக்ஸி மூலம் இணைக்கவும்.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1474,7 +1474,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Cannot start lyncoin: click-to-pay handler</source>
-        <translation type="unfinished">Bitcoin தொடங்க முடியாது: கிளிக் க்கு ஊதியம் கையாளுதல்</translation>
+        <translation type="unfinished">Lyncoin தொடங்க முடியாது: கிளிக் க்கு ஊதியம் கையாளுதல்</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1482,7 +1482,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>'lyncoin://' is not a valid URI. Use 'lyncoin:' instead.</source>
-        <translation type="unfinished">'bitcoin: //' சரியான URI அல்ல. அதற்கு பதிலாக 'பிட்கின்:' பயன்படுத்தவும்.</translation>
+        <translation type="unfinished">'lyncoin: //' சரியான URI அல்ல. அதற்கு பதிலாக 'பிட்கின்:' பயன்படுத்தவும்.</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Lyncoin address or malformed URI parameters.</source>
@@ -1836,7 +1836,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lyncoin network.</source>
-        <translation type="unfinished">கோரிக்கையை திறக்கும் போது காட்டப்படும் இது பணம் கோரிக்கை இணைக்க ஒரு விருப்ப செய்தி. குறிப்பு: Bitcoin நெட்வொர்க்கில் பணம் செலுத்தியவுடன் செய்தி அனுப்பப்படாது.</translation>
+        <translation type="unfinished">கோரிக்கையை திறக்கும் போது காட்டப்படும் இது பணம் கோரிக்கை இணைக்க ஒரு விருப்ப செய்தி. குறிப்பு: Lyncoin நெட்வொர்க்கில் பணம் செலுத்தியவுடன் செய்தி அனுப்பப்படாது.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2045,7 +2045,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for lyncoin transactions than the network can process.</source>
-        <translation type="unfinished">தொகுதிகள் உள்ள இடத்தை விட குறைவான பரிவர்த்தனை அளவு இருக்கும் போது, ​​சுரங்க தொழிலாளர்கள் மற்றும் ரிலேடிங் முனைகள் குறைந்தபட்ச கட்டணத்தைச் செயல்படுத்தலாம். இந்த குறைந்தபட்ச கட்டணத்தை மட்டும் செலுத்துவது நன்றாக உள்ளது, ஆனால் நெட்வொர்க்கில் செயல்படுவதை விட bitcoin பரிவர்த்தனைகளுக்கு இன்னும் கோரிக்கை தேவைப்பட்டால் இது ஒருபோதும் உறுதிப்படுத்தாத பரிவர்த்தனைக்கு காரணமாக இருக்கலாம்.</translation>
+        <translation type="unfinished">தொகுதிகள் உள்ள இடத்தை விட குறைவான பரிவர்த்தனை அளவு இருக்கும் போது, ​​சுரங்க தொழிலாளர்கள் மற்றும் ரிலேடிங் முனைகள் குறைந்தபட்ச கட்டணத்தைச் செயல்படுத்தலாம். இந்த குறைந்தபட்ச கட்டணத்தை மட்டும் செலுத்துவது நன்றாக உள்ளது, ஆனால் நெட்வொர்க்கில் செயல்படுவதை விட lyncoin பரிவர்த்தனைகளுக்கு இன்னும் கோரிக்கை தேவைப்பட்டால் இது ஒருபோதும் உறுதிப்படுத்தாத பரிவர்த்தனைக்கு காரணமாக இருக்கலாம்.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -2108,10 +2108,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">%1 (%2 ப்ளாக்ஸ்)</translation>
     </message>
     <message>
-        <source> from wallet '%1'</source>
-        <translation type="unfinished">வாலட்டில்  இருந்து '%1'</translation>
-    </message>
-    <message>
         <source>%1 to '%2'</source>
         <translation type="unfinished">%1 இருந்து '%2'</translation>
     </message>
@@ -2171,8 +2167,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -2469,8 +2465,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -2520,10 +2516,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Output index</source>
         <translation type="unfinished">வெளியீட்டு அட்டவணை</translation>
-    </message>
-    <message>
-        <source> (Certificate was not verified)</source>
-        <translation type="unfinished">(சான்றிதழ் சரிபார்க்கப்படவில்லை)</translation>
     </message>
     <message>
         <source>Merchant</source>

@@ -83,6 +83,14 @@
         <translation type="unfinished">Адбылася памылка падчас спробы захаваць адрас у %1. Паспрабуйце зноў.</translation>
     </message>
     <message>
+        <source>Sending addresses - %1</source>
+        <translation type="unfinished">Адрасы адпраўкі - %1</translation>
+    </message>
+    <message>
+        <source>Receiving addresses - %1</source>
+        <translation type="unfinished">Адрасы прымання - %1</translation>
+    </message>
+    <message>
         <source>Exporting Failed</source>
         <translation type="unfinished">Экспартаванне няўдалае</translation>
     </message>
@@ -157,6 +165,10 @@
         <translation type="unfinished">Гаманец зашыфраваны</translation>
     </message>
     <message>
+        <source>Wallet to be encrypted</source>
+        <translation type="unfinished">Гаманец будзе зашыфраваны</translation>
+    </message>
+    <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation type="unfinished">ВАЖНА: Усе папярэднія копіі гаманца варта замяніць новым зашыфраваным файлам. У мэтах бяспекі папярэднія копіі незашыфраванага файла-гаманца стануць неўжывальнымі, калі вы станеце карыстацца новым зашыфраваным гаманцом.</translation>
     </message>
@@ -202,41 +214,41 @@
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -246,9 +258,9 @@
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -349,9 +361,9 @@
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -386,9 +398,9 @@
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -587,34 +599,34 @@
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -812,9 +824,9 @@
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -879,9 +891,9 @@
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>

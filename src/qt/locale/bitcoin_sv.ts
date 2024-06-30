@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">Kopiera den markerade adressen till systemets Urklipp</translation>
+        <translation type="unfinished">Kopiera den tillfälligt markerade adressen till systemets urklippsfunktion</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -59,12 +59,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Detta är dina Bitcoin-adresser för att skicka betalningar. Kontrollera alltid belopp och mottagaradress innan du skickar bitcoin.</translation>
+        <translation type="unfinished">Detta är dina Lyncoin-adresser för att skicka betalningar. Kontrollera alltid belopp och mottagaradress innan du skickar lyncoin.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Detta är dina Bitcoinadresser för att ta emot betalningar. Använd knappen 'Skapa ny mottagaradress' i mottagsfliken för att skapa nya adresser. Signering är bara tillgänglig för adresser av typen 'legacy'</translation>
+        <translation type="unfinished">Detta är dina Lyncoinadresser för att ta emot betalningar. Använd knappen 'Skapa ny mottagaradress' i mottagsfliken för att skapa nya adresser. Signering är bara tillgänglig för adresser av typen 'legacy'</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -165,7 +165,7 @@ Försök igen.</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">VARNING: Om du krypterar din plånbok och glömmer din lösenfras, &lt;b&gt;FÖRLORAR DU ALLA DINA BITCOIN&lt;/b&gt;!</translation>
+        <translation type="unfinished">VARNING: Om du krypterar din plånbok och glömmer din lösenfras, &lt;b&gt;FÖRLORAR DU ALLA DINA LYNCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -185,7 +185,7 @@ Försök igen.</translation>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Kom ihåg att kryptering av din plånbok inte helt kan skydda dig från stöld av dina bitcoins om skadlig kod infekterat din dator.</translation>
+        <translation type="unfinished">Kom ihåg att kryptering av din plånbok inte helt kan skydda dig från stöld av dina lyncoins om skadlig kod infekterat din dator.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -308,7 +308,7 @@ Försök igen.</translation>
     </message>
     <message>
         <source>Enter a Lyncoin address (e.g. %1)</source>
-        <translation type="unfinished">Ange en Bitcoin-adress (t.ex. %1)</translation>
+        <translation type="unfinished">Ange en Lyncoin-adress (t.ex. %1)</translation>
     </message>
     <message>
         <source>Inbound</source>
@@ -341,36 +341,36 @@ Försök igen.</translation>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -380,8 +380,8 @@ Försök igen.</translation>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -454,7 +454,7 @@ Försök igen.</translation>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Skicka bitcoin till en Bitcoin-adress</translation>
+        <translation type="unfinished">Skicka lyncoin till en Lyncoin-adress</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -498,7 +498,7 @@ Försök igen.</translation>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Signera meddelanden med dina Bitcoin-adresser för att bevisa att du äger dem</translation>
+        <translation type="unfinished">Signera meddelanden med dina Lyncoin-adresser för att bevisa att du äger dem</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -506,7 +506,7 @@ Försök igen.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Verifiera meddelanden för att vara säker på att de signerades med angivna Bitcoin-adresser</translation>
+        <translation type="unfinished">Verifiera meddelanden för att vara säker på att de signerades med angivna Lyncoin-adresser</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -566,7 +566,7 @@ Försök igen.</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">Begär betalningar (skapar QR-koder och bitcoin: -URIer)</translation>
+        <translation type="unfinished">Begär betalningar (skapar QR-koder och lyncoin: -URIer)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -617,7 +617,7 @@ Försök igen.</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">Läs in Delvis signerad Bitcoin transaktion (PSBT)</translation>
+        <translation type="unfinished">Läs in Delvis signerad Lyncoin transaktion (PSBT)</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
@@ -625,7 +625,7 @@ Försök igen.</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">Läs in Delvis signerad Bitcoin transaktion (PSBT) från urklipp</translation>
+        <translation type="unfinished">Läs in Delvis signerad Lyncoin transaktion (PSBT) från urklipp</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -645,7 +645,7 @@ Försök igen.</translation>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">Öppna en bitcoin:-URI</translation>
+        <translation type="unfinished">Öppna en lyncoin:-URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -683,7 +683,7 @@ Försök igen.</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Lyncoin command-line options</source>
-        <translation type="unfinished">Visa %1 hjälpmeddelande för att få en lista med möjliga Bitcoin kommandoradsalternativ.</translation>
+        <translation type="unfinished">Visa %1 hjälpmeddelande för att få en lista med möjliga Lyncoin kommandoradsalternativ.</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -749,8 +749,8 @@ Försök igen.</translation>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n aktiva anslutningar till Bitcoin-nätverket.</numerusform>
-            <numerusform>%n aktiva anslutningar till Bitcoin-nätverket.</numerusform>
+            <numerusform>%n aktiva anslutningar till Lyncoin-nätverket.</numerusform>
+            <numerusform>%n aktiva anslutningar till Lyncoin-nätverket.</numerusform>
         </translation>
     </message>
     <message>
@@ -1079,10 +1079,6 @@ Om den här plånboken innehåller lösbara</translation>
         <translation type="unfinished">Migrering av plånboken ' %1 ' genomförd.</translation>
     </message>
     <message>
-        <source> Watchonly scripts have been migrated to a new wallet named '%1'.</source>
-        <translation type="unfinished">Watchonly-skript har migrerats till en ny plånbok med namnet '%1'.</translation>
-    </message>
-    <message>
         <source>Migration failed</source>
         <translation type="unfinished">Migrering misslyckades</translation>
     </message>
@@ -1138,7 +1134,12 @@ Om den här plånboken innehåller lösbara</translation>
         <extracomment>Title of message box which is displayed when the wallet is restored with some warning.</extracomment>
         <translation type="unfinished">Återställ plånboksvarning</translation>
     </message>
-    </context>
+    <message>
+        <source>Restore wallet message</source>
+        <extracomment>Title of message box which is displayed when the wallet is successfully restored.</extracomment>
+        <translation type="unfinished">Återskapa plånboksmeddelande</translation>
+    </message>
+</context>
 <context>
     <name>WalletController</name>
     <message>
@@ -1266,7 +1267,7 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">Den angivna adressen "%1" är inte en giltig Bitcoin-adress.</translation>
+        <translation type="unfinished">Den angivna adressen "%1" är inte en giltig Lyncoin-adress.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1353,7 +1354,7 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Lyncoin block chain.</source>
-        <translation type="unfinished">%1 kommer att ladda ner och lagra en kopia av Bitcoins blockkedja.</translation>
+        <translation type="unfinished">%1 kommer att ladda ner och lagra en kopia av Lyncoins blockkedja.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1394,6 +1395,10 @@ Om den här plånboken innehåller lösbara</translation>
     <message>
         <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
         <translation type="unfinished">Denna första synkronisering är väldigt krävande, och kan påvisa hårdvaruproblem hos din dator som tidigare inte visat sig. Varje gång du kör %1, kommer nerladdningen att fortsätta där den avslutades.</translation>
+    </message>
+    <message>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2 GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <translation type="unfinished">När du trycker OK kommer %1 att börja ladda ner och bearbeta den fullständiga %4-blockkedjan (%2 GB), med början vid de tidigaste transaktionerna %3 när %4 först startades.</translation>
     </message>
     <message>
         <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
@@ -1438,11 +1443,11 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the lyncoin network, as detailed below.</source>
-        <translation type="unfinished">Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserats med Bitcoin-nätverket enligt informationen nedan.</translation>
+        <translation type="unfinished">Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserats med Lyncoin-nätverket enligt informationen nedan.</translation>
     </message>
     <message>
         <source>Attempting to spend lyncoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">Att försöka spendera bitcoin som påverkas av transaktioner som ännu inte visas kommer inte accepteras av nätverket.</translation>
+        <translation type="unfinished">Att försöka spendera lyncoin som påverkas av transaktioner som ännu inte visas kommer inte accepteras av nätverket.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1480,12 +1485,20 @@ Om den här plånboken innehåller lösbara</translation>
         <source>%1 is currently syncing.  It will download headers and blocks from peers and validate them until reaching the tip of the block chain.</source>
         <translation type="unfinished">%1 synkroniserar. Den kommer att ladda ner metadata och block från noder och validera dem fram tills att toppen på blockkedjan är nådd.</translation>
     </message>
-    </context>
+    <message>
+        <source>Unknown. Syncing Headers (%1, %2%)…</source>
+        <translation type="unfinished">Okänd. Synkar huvuden (%1, %2%)...</translation>
+    </message>
+    <message>
+        <source>Unknown. Pre-syncing Headers (%1, %2%)…</source>
+        <translation type="unfinished">Okänd. För-synkar rubriker (%1, %2%)...</translation>
+    </message>
+</context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open lyncoin URI</source>
-        <translation type="unfinished">Öppna bitcoin-URI</translation>
+        <translation type="unfinished">Öppna lyncoin-URI</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -1512,12 +1525,20 @@ Om den här plånboken innehåller lösbara</translation>
         <translation type="unfinished">&amp;Starta %1 vid systemlogin</translation>
     </message>
     <message>
+        <source>Enabling pruning significantly reduces the disk space required to store transactions. All blocks are still fully validated. Reverting this setting requires re-downloading the entire blockchain.</source>
+        <translation type="unfinished">Aktivering av ansning reducerar diskutrymmet som behövs för att lagra transaktioner. Alla block är fortfarande fullt validerade. Inaktivering av denna funktion betyder att hela blockkedjan måste laddas ner på nytt.</translation>
+    </message>
+    <message>
         <source>Size of &amp;database cache</source>
         <translation type="unfinished">Storleken på &amp;databascache</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
         <translation type="unfinished">Antalet skript&amp;verifikationstrådar</translation>
+    </message>
+    <message>
+        <source>Full path to a %1 compatible script (e.g. C:\Downloads\hwi.exe or /Users/you/Downloads/hwi.py). Beware: malware can steal your coins!</source>
+        <translation type="unfinished">Hela sökvägen till ett %1 kompatibelt script (t,ex. C:\Downloads\hwi.exe eller /Users/du/Downloads/hwi.py). Varning: Skadlig programvara kan stjäla dina mynt!</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
@@ -1530,6 +1551,14 @@ Om den här plånboken innehåller lösbara</translation>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
         <translation type="unfinished">Minimera istället för att stänga programmet när fönstret stängs. När detta alternativ är aktiverat stängs programmet endast genom att välja Stäng i menyn.</translation>
+    </message>
+    <message>
+        <source>Font in the Overview tab: </source>
+        <translation type="unfinished">Typsnitt på översiktsfliken:</translation>
+    </message>
+    <message>
+        <source>Options set in this dialog are overridden by the command line:</source>
+        <translation type="unfinished">Alternativ som anges i denna dialog åsidosätts av kommandoraden:</translation>
     </message>
     <message>
         <source>Open the %1 configuration file from the working directory.</source>
@@ -1600,7 +1629,7 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Öppna automatiskt Bitcoin-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
+        <translation type="unfinished">Öppna automatiskt Lyncoin-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1608,7 +1637,7 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">Öppna automatiskt Bitcoin-klientens port på routern. Detta fungerar endast om din router stödjer NAT-PMP och det är är aktiverat. Den externa porten kan vara slumpmässig.</translation>
+        <translation type="unfinished">Öppna automatiskt Lyncoin-klientens port på routern. Detta fungerar endast om din router stödjer NAT-PMP och det är är aktiverat. Den externa porten kan vara slumpmässig.</translation>
     </message>
     <message>
         <source>Accept connections from outside.</source>
@@ -1620,7 +1649,7 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>Connect to the Lyncoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Anslut till Bitcoin-nätverket genom en SOCKS5-proxy.</translation>
+        <translation type="unfinished">Anslut till Lyncoin-nätverket genom en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1688,15 +1717,11 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>Connect to the Lyncoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Anslut till Bitcoin-nätverket genom en separat SOCKS5-proxy för onion-tjänster genom Tor.</translation>
+        <translation type="unfinished">Anslut till Lyncoin-nätverket genom en separat SOCKS5-proxy för onion-tjänster genom Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
         <translation type="unfinished">Använd en fristående SOCKS&amp;5 proxy för att  nå noder via Tor onion tjänster:</translation>
-    </message>
-    <message>
-        <source>closest matching "%1"</source>
-        <translation type="unfinished">närmast träff " %1 "</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
@@ -1773,7 +1798,7 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Bitcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <translation type="unfinished">Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Lyncoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1895,8 +1920,8 @@ Om den här plånboken innehåller lösbara</translation>
         <translation type="unfinished">PSBT sparad till disk.</translation>
     </message>
     <message>
-        <source> * Sends %1 to %2</source>
-        <translation type="unfinished">* Skickar %1 till %2</translation>
+        <source>Sends %1 to %2</source>
+        <translation type="unfinished">Skickar %1 till %2</translation>
     </message>
     <message>
         <source>own address</source>
@@ -1931,6 +1956,10 @@ Om den här plånboken innehåller lösbara</translation>
         <translation type="unfinished">Transaktionen behöver signatur(er).</translation>
     </message>
     <message>
+        <source>(But no wallet is loaded.)</source>
+        <translation type="unfinished">&lt;br&gt;(</translation>
+    </message>
+    <message>
         <source>(But this wallet cannot sign transactions.)</source>
         <translation type="unfinished">(Den här plånboken kan inte signera transaktioner.)</translation>
     </message>
@@ -1951,7 +1980,7 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>Cannot start lyncoin: click-to-pay handler</source>
-        <translation type="unfinished">Kan inte starta bitcoin: klicka-och-betala hanteraren</translation>
+        <translation type="unfinished">Kan inte starta lyncoin: klicka-och-betala hanteraren</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1959,11 +1988,11 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>'lyncoin://' is not a valid URI. Use 'lyncoin:' instead.</source>
-        <translation type="unfinished">'bitcoin://' är inte en accepterad URI. Använd 'bitcoin:' istället.</translation>
+        <translation type="unfinished">'lyncoin://' är inte en accepterad URI. Använd 'lyncoin:' istället.</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Lyncoin address or malformed URI parameters.</source>
-        <translation type="unfinished">URI kan inte parsas! Detta kan orsakas av en ogiltig Bitcoin-adress eller felaktiga URI-parametrar.</translation>
+        <translation type="unfinished">URI kan inte parsas! Detta kan orsakas av en ogiltig Lyncoin-adress eller felaktiga URI-parametrar.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2374,7 +2403,7 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lyncoin network.</source>
-        <translation type="unfinished">Ett valfritt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. Obs: Meddelandet kommer inte att sändas med betalningen över Bitcoin-nätverket.</translation>
+        <translation type="unfinished">Ett valfritt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. Obs: Meddelandet kommer inte att sändas med betalningen över Lyncoin-nätverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2535,7 +2564,7 @@ Om den här plånboken innehåller lösbara</translation>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Skicka Bitcoins</translation>
+        <translation type="unfinished">Skicka Lyncoins</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2631,7 +2660,7 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for lyncoin transactions than the network can process.</source>
-        <translation type="unfinished">När transaktionsvolymen är mindre än utrymmet i blocken kan både brytardatorer och relänoder kräva en minimiavgift. Det är okej att bara betala denna minimiavgift, men du ska vara medveten om att det kan leda till att en transaktion aldrig bekräftas så fort efterfrågan på bitcointransaktioner är större än vad nätverket kan hantera.</translation>
+        <translation type="unfinished">När transaktionsvolymen är mindre än utrymmet i blocken kan både brytardatorer och relänoder kräva en minimiavgift. Det är okej att bara betala denna minimiavgift, men du ska vara medveten om att det kan leda till att en transaktion aldrig bekräftas så fort efterfrågan på lyncointransaktioner är större än vad nätverket kan hantera.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -2703,11 +2732,7 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>Creates a Partially Signed Lyncoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation type="unfinished">Skapar en delvis signerad Bitcoin transaktion (PSBT) att använda vid t.ex. en offline %1 plånbok, eller en PSBT-kompatibel hårdvaruplånbok.</translation>
-    </message>
-    <message>
-        <source> from wallet '%1'</source>
-        <translation type="unfinished">från plånbok: '%1'</translation>
+        <translation type="unfinished">Skapar en delvis signerad Lyncoin transaktion (PSBT) att använda vid t.ex. en offline %1 plånbok, eller en PSBT-kompatibel hårdvaruplånbok.</translation>
     </message>
     <message>
         <source>%1 to '%2'</source>
@@ -2741,7 +2766,7 @@ Om den här plånboken innehåller lösbara</translation>
     <message>
         <source>Please, review your transaction proposal. This will produce a Partially Signed Lyncoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">Verifiera ditt transaktionsförslag. Det kommer skapas en delvis signerad Bitcoin transaktion (PSBT) som du kan spara eller kopiera och sen signera med t.ex. en offline %1 plånbok, eller en PSBT-kompatibel hårdvaruplånbok.</translation>
+        <translation type="unfinished">Verifiera ditt transaktionsförslag. Det kommer skapas en delvis signerad Lyncoin transaktion (PSBT) som du kan spara eller kopiera och sen signera med t.ex. en offline %1 plånbok, eller en PSBT-kompatibel hårdvaruplånbok.</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
@@ -2800,13 +2825,13 @@ Om den här plånboken innehåller lösbara</translation>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">Varning: Ogiltig Bitcoin-adress</translation>
+        <translation type="unfinished">Varning: Ogiltig Lyncoin-adress</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2845,7 +2870,7 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>The Lyncoin address to send the payment to</source>
-        <translation type="unfinished">Bitcoin-adress att sända betalning till</translation>
+        <translation type="unfinished">Lyncoin-adress att sända betalning till</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -2861,7 +2886,7 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less lyncoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation type="unfinished">Avgiften dras från beloppet som skickas. Mottagaren kommer att ta emot mindre bitcoin än du angivit i beloppsfältet. Om flera mottagare väljs kommer avgiften att fördelas jämt.</translation>
+        <translation type="unfinished">Avgiften dras från beloppet som skickas. Mottagaren kommer att ta emot mindre lyncoin än du angivit i beloppsfältet. Om flera mottagare väljs kommer avgiften att fördelas jämt.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2881,7 +2906,7 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>A message that was attached to the lyncoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lyncoin network.</source>
-        <translation type="unfinished">Ett meddelande som bifogades bitcoin: -URIn och som sparas med transaktionen som referens. Obs: Meddelandet sänds inte över Bitcoin-nätverket.</translation>
+        <translation type="unfinished">Ett meddelande som bifogades lyncoin: -URIn och som sparas med transaktionen som referens. Obs: Meddelandet sänds inte över Lyncoin-nätverket.</translation>
     </message>
 </context>
 <context>
@@ -2907,11 +2932,11 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive lyncoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot bitcoin som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
+        <translation type="unfinished">Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot lyncoin som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
     </message>
     <message>
         <source>The Lyncoin address to sign the message with</source>
-        <translation type="unfinished">Bitcoin-adress att signera meddelandet med</translation>
+        <translation type="unfinished">Lyncoin-adress att signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2935,7 +2960,7 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Lyncoin address</source>
-        <translation type="unfinished">Signera meddelandet för att bevisa att du äger denna Bitcoin-adress</translation>
+        <translation type="unfinished">Signera meddelandet för att bevisa att du äger denna Lyncoin-adress</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2959,7 +2984,7 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>The Lyncoin address the message was signed with</source>
-        <translation type="unfinished">Bitcoin-adress som meddelandet signerades med</translation>
+        <translation type="unfinished">Lyncoin-adress som meddelandet signerades med</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -2971,7 +2996,7 @@ Om den här plånboken innehåller lösbara</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">Verifiera meddelandet för att vara säker på att det signerades med angiven Bitcoin-adress</translation>
+        <translation type="unfinished">Verifiera meddelandet för att vara säker på att det signerades med angiven Lyncoin-adress</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3110,8 +3135,8 @@ Om den här plånboken innehåller lösbara</translation>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -3161,10 +3186,6 @@ Om den här plånboken innehåller lösbara</translation>
     <message>
         <source>Output index</source>
         <translation type="unfinished">Utmatningsindex</translation>
-    </message>
-    <message>
-        <source> (Certificate was not verified)</source>
-        <translation type="unfinished">(Certifikatet verifierades inte)</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -3476,7 +3497,7 @@ Gå till Fil &gt; Öppna plånbok för att läsa in en plånbok.
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Skicka Bitcoins</translation>
+        <translation type="unfinished">Skicka Lyncoins</translation>
     </message>
     <message>
         <source>Fee bump error</source>
@@ -3576,7 +3597,7 @@ Gå till Fil &gt; Öppna plånbok för att läsa in en plånbok.
     </message>
     <message>
         <source>%s corrupt. Try using the wallet tool lyncoin-wallet to salvage or restoring a backup.</source>
-        <translation type="unfinished">%s är korrupt. Testa att använda verktyget bitcoin-wallet för att rädda eller återställa en backup.</translation>
+        <translation type="unfinished">%s är korrupt. Testa att använda verktyget lyncoin-wallet för att rädda eller återställa en backup.</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
@@ -3784,7 +3805,7 @@ Gå till Fil &gt; Öppna plånbok för att läsa in en plånbok.
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation type="unfinished">Otillräckligt med bitcoins</translation>
+        <translation type="unfinished">Otillräckligt med lyncoins</translation>
     </message>
     <message>
         <source>Invalid -onion address or hostname: '%s'</source>
@@ -3933,10 +3954,6 @@ Gå till Fil &gt; Öppna plånbok för att läsa in en plånbok.
     <message>
         <source>Transaction amounts must not be negative</source>
         <translation type="unfinished">Transaktionsbelopp får ej vara negativt</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">Transaktionen har för lång mempool-kedja</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>

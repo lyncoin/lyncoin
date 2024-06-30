@@ -78,6 +78,37 @@
     </message>
     </context>
 <context>
+    <name>AskPassphraseDialog</name>
+    <message>
+        <source>Passphrase Dialog</source>
+        <translation type="unfinished">စကားဝှက် ဒိုင်ယာလော့ဂ်</translation>
+    </message>
+    <message>
+        <source>Enter passphrase</source>
+        <translation type="unfinished">စကားဝှက် ရိုက်ထည့်ရန်</translation>
+    </message>
+    <message>
+        <source>New passphrase</source>
+        <translation type="unfinished">စကားဝှက် အသစ်</translation>
+    </message>
+    <message>
+        <source>Repeat new passphrase</source>
+        <translation type="unfinished">စကားဝှက် အသစ်ပြန်ရိုက်ပါ</translation>
+    </message>
+    <message>
+        <source>Show passphrase</source>
+        <translation type="unfinished">စကားဝှက် ပြရန်</translation>
+    </message>
+    <message>
+        <source>Encrypt wallet</source>
+        <translation type="unfinished">ပိုက်ဆံအိတ် ကို ဝှက်စာပြုလုပ်ပါ</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation type="unfinished">ဤလုပ်ဆောင်ချက်သည် ပိုက်ဆံအိတ်ကို လော့ခ်ဖွင့်ရန် သင့်ပိုက်ဆံအိတ် စကားဝှက် လိုအပ်ပါသည်။</translation>
+    </message>
+    </context>
+<context>
     <name>QObject</name>
     <message>
         <source>Error: %1</source>
@@ -86,37 +117,37 @@
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -125,7 +156,7 @@
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -152,7 +183,7 @@
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -172,26 +203,26 @@
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -230,7 +261,7 @@
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -243,7 +274,7 @@
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     </context>

@@ -59,12 +59,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Ovo su vaše Bitcoin adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <translation type="unfinished">Ovo su vaše Lyncoin adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Ovo su vaše Bitcoin adrese za primanje sredstava. Koristite 'Kreiraj novu adresu za primanje' u tabu Primite kako biste kreirali nove adrese.
+        <translation type="unfinished">Ovo su vaše Lyncoin adrese za primanje sredstava. Koristite 'Kreiraj novu adresu za primanje' u tabu Primite kako biste kreirali nove adrese.
 Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
@@ -157,7 +157,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE BITCOINE!&lt;/b&gt;</translation>
+        <translation type="unfinished">Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE LYNCOINE!&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -177,7 +177,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše bitcoinove od zloćudnog softvera kojim se zarazi vaše računalo.</translation>
+        <translation type="unfinished">Zapamtite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše lyncoinove od zloćudnog softvera kojim se zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -284,7 +284,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>Enter a Lyncoin address (e.g. %1)</source>
-        <translation type="unfinished">Unesite Bitcoin adresu (npr. %1)</translation>
+        <translation type="unfinished">Unesite Lyncoin adresu (npr. %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -463,7 +463,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Pošaljite novac na Bitcoin adresu</translation>
+        <translation type="unfinished">Pošaljite novac na Lyncoin adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -507,7 +507,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Poruku potpišemo s Bitcoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
+        <translation type="unfinished">Poruku potpišemo s Lyncoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -515,7 +515,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Provjerite poruku da je potpisana s navedenom Bitcoin adresom</translation>
+        <translation type="unfinished">Provjerite poruku da je potpisana s navedenom Lyncoin adresom</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -575,7 +575,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">Zatražite uplatu (stvara QR kod i bitcoin: URI adresu)</translation>
+        <translation type="unfinished">Zatražite uplatu (stvara QR kod i lyncoin: URI adresu)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -631,7 +631,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">Učitaj djelomično potpisanu bitcoin transakciju</translation>
+        <translation type="unfinished">Učitaj djelomično potpisanu lyncoin transakciju</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
@@ -639,7 +639,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">Učitaj djelomično potpisanu bitcoin transakciju iz međuspremnika</translation>
+        <translation type="unfinished">Učitaj djelomično potpisanu lyncoin transakciju iz međuspremnika</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -659,7 +659,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">Otvori bitcoin: URI</translation>
+        <translation type="unfinished">Otvori lyncoin: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -737,7 +737,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
         <translation type="unfinished">
             <numerusform>%n active connection(s) to Lyncoin network.</numerusform>
             <numerusform>%n active connection(s) to Lyncoin network.</numerusform>
-            <numerusform>%n aktivnih veza s Bitcoin mrežom.</numerusform>
+            <numerusform>%n aktivnih veza s Lyncoin mrežom.</numerusform>
         </translation>
     </message>
     <message>
@@ -1161,7 +1161,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">Upisana adresa "%1" nije valjana Bitcoin adresa.</translation>
+        <translation type="unfinished">Upisana adresa "%1" nije valjana Lyncoin adresa.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1208,9 +1208,9 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
@@ -1248,7 +1248,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Lyncoin block chain.</source>
-        <translation type="unfinished">%1 preuzet će i pohraniti kopiju Bitcoinovog lanca blokova.</translation>
+        <translation type="unfinished">%1 preuzet će i pohraniti kopiju Lyncoinovog lanca blokova.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1333,11 +1333,11 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the lyncoin network, as detailed below.</source>
-        <translation type="unfinished">Nedavne transakcije možda još nisu vidljive pa vam stanje novčanika može biti netočno. Ove informacije bit će točne nakon što vaš novčanik dovrši sinkronizaciju s Bitcoinovom mrežom, kako je opisano dolje.</translation>
+        <translation type="unfinished">Nedavne transakcije možda još nisu vidljive pa vam stanje novčanika može biti netočno. Ove informacije bit će točne nakon što vaš novčanik dovrši sinkronizaciju s Lyncoinovom mrežom, kako je opisano dolje.</translation>
     </message>
     <message>
         <source>Attempting to spend lyncoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">Mreža neće prihvatiti pokušaje trošenja bitcoina koji su utjecani sa strane transakcija koje još nisu vidljive.</translation>
+        <translation type="unfinished">Mreža neće prihvatiti pokušaje trošenja lyncoina koji su utjecani sa strane transakcija koje još nisu vidljive.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1380,7 +1380,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     <name>OpenURIDialog</name>
     <message>
         <source>Open lyncoin URI</source>
-        <translation type="unfinished">Otvori bitcoin: URI</translation>
+        <translation type="unfinished">Otvori lyncoin: URI</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -1532,7 +1532,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Automatski otvori port Bitcoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <translation type="unfinished">Automatski otvori port Lyncoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1540,7 +1540,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">Automatski otvori port Bitcoin klijenta na ruteru. Ovo radi samo ako ruter podržava UPnP i ako je omogućen. Vanjski port može biti nasumičan.</translation>
+        <translation type="unfinished">Automatski otvori port Lyncoin klijenta na ruteru. Ovo radi samo ako ruter podržava UPnP i ako je omogućen. Vanjski port može biti nasumičan.</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -1556,7 +1556,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>Connect to the Lyncoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Spojite se na Bitcoin mrežu kroz SOCKS5 proxy.</translation>
+        <translation type="unfinished">Spojite se na Lyncoin mrežu kroz SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1628,7 +1628,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished">Izaberite željeni najmanji dio bitcoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
+        <translation type="unfinished">Izaberite željeni najmanji dio lyncoina koji će biti prikazan u sučelju i koji će se koristiti za plaćanje.</translation>
     </message>
     <message>
         <source>Third-party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1644,23 +1644,11 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>Connect to the Lyncoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Spojite se na Bitcoin mrežu kroz zaseban SOCKS5 proxy za povezivanje na Tor onion usluge.</translation>
+        <translation type="unfinished">Spojite se na Lyncoin mrežu kroz zaseban SOCKS5 proxy za povezivanje na Tor onion usluge.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
         <translation type="unfinished">Koristite zaseban SOCKS&amp;5 proxy kako biste dohvatili klijente preko Tora:</translation>
-    </message>
-    <message>
-        <source>Monospaced font in the Overview tab:</source>
-        <translation type="unfinished">Font fiksne širine u tabu Pregled:</translation>
-    </message>
-    <message>
-        <source>embedded "%1"</source>
-        <translation type="unfinished">ugrađen "%1"</translation>
-    </message>
-    <message>
-        <source>closest matching "%1"</source>
-        <translation type="unfinished">najbliže poklapanje "%1"</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1741,7 +1729,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Bitcoin mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
+        <translation type="unfinished">Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Lyncoin mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1888,10 +1876,6 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
         <translation type="unfinished">PBST spremljen na disk.</translation>
     </message>
     <message>
-        <source> * Sends %1 to %2</source>
-        <translation type="unfinished">* Šalje %1 %2</translation>
-    </message>
-    <message>
         <source>own address</source>
         <translation type="unfinished">vlastita adresa</translation>
     </message>
@@ -1960,7 +1944,7 @@ Potpisivanje je moguće samo sa 'legacy' adresama. </translation>
     </message>
     <message>
         <source>'lyncoin://' is not a valid URI. Use 'lyncoin:' instead.</source>
-        <translation type="unfinished">'bitcoin://' nije ispravan URI. Koristite 'bitcoin:' umjesto toga.</translation>
+        <translation type="unfinished">'lyncoin://' nije ispravan URI. Koristite 'lyncoin:' umjesto toga.</translation>
     </message>
     <message>
         <source>Cannot process payment request because BIP70 is not supported.
@@ -1972,7 +1956,7 @@ Ako imate ovu grešku, od trgovca zatražite URI koji je kompatibilan sa BIP21.<
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Lyncoin address or malformed URI parameters.</source>
-        <translation type="unfinished">Ne može se parsirati URI! Uzrok tomu može biti nevažeća Bitcoin adresa ili neispravni parametri kod URI-a.</translation>
+        <translation type="unfinished">Ne može se parsirati URI! Uzrok tomu može biti nevažeća Lyncoin adresa ili neispravni parametri kod URI-a.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2489,7 +2473,7 @@ Za više informacija o korištenju ove konzile, utipkajte %6.
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lyncoin network.</source>
-        <translation type="unfinished">Opcionalna poruka koja se može dodati kao privitak zahtjevu za plaćanje. Bit će prikazana kad je zahtjev otvoren. Napomena: Ova poruka neće biti poslana zajedno s uplatom preko Bitcoin mreže.</translation>
+        <translation type="unfinished">Opcionalna poruka koja se može dodati kao privitak zahtjevu za plaćanje. Bit će prikazana kad je zahtjev otvoren. Napomena: Ova poruka neće biti poslana zajedno s uplatom preko Lyncoin mreže.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2771,7 +2755,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
     </message>
     <message>
         <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for lyncoin transactions than the network can process.</source>
-        <translation type="unfinished">Kada je kapacitet transakcija manja od prostora u blokovima, rudari i čvorovi prenositelji mogu zatražiti minimalnu naknadu. Prihvatljivo je platiti samo ovu minimalnu naknadu, ali budite svjesni da ovime može nastati transakcija koja se nikad ne potvrđuje čim je potražnja za korištenjem Bitcoina veća nego što mreža može obraditi.</translation>
+        <translation type="unfinished">Kada je kapacitet transakcija manja od prostora u blokovima, rudari i čvorovi prenositelji mogu zatražiti minimalnu naknadu. Prihvatljivo je platiti samo ovu minimalnu naknadu, ali budite svjesni da ovime može nastati transakcija koja se nikad ne potvrđuje čim je potražnja za korištenjem Lyncoina veća nego što mreža može obraditi.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -2857,11 +2841,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
     </message>
     <message>
         <source>Creates a Partially Signed Lyncoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation type="unfinished">Stvara djelomično potpisanu Bitcoin transakciju (Partially Signed Bitcoin Transaction - PSBT) za upotrebu sa npr. novčanikom %1 koji nije povezan s mrežom ili sa PSBT kompatibilnim hardverskim novčanikom.</translation>
-    </message>
-    <message>
-        <source> from wallet '%1'</source>
-        <translation type="unfinished">iz novčanika '%1'</translation>
+        <translation type="unfinished">Stvara djelomično potpisanu Lyncoin transakciju (Partially Signed Lyncoin Transaction - PSBT) za upotrebu sa npr. novčanikom %1 koji nije povezan s mrežom ili sa PSBT kompatibilnim hardverskim novčanikom.</translation>
     </message>
     <message>
         <source>%1 to '%2'</source>
@@ -2918,7 +2898,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
     <message>
         <source>Please, review your transaction proposal. This will produce a Partially Signed Lyncoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">Molimo pregledajte svoj prijedlog transakcije. Ovo će stvoriti djelomično potpisanu Bitcoin transakciju (PBST) koju možete spremiti ili kopirati i zatim potpisati sa npr. novčanikom %1 koji nije povezan s mrežom ili sa PSBT kompatibilnim hardverskim novčanikom.</translation>
+        <translation type="unfinished">Molimo pregledajte svoj prijedlog transakcije. Ovo će stvoriti djelomično potpisanu Lyncoin transakciju (PBST) koju možete spremiti ili kopirati i zatim potpisati sa npr. novčanikom %1 koji nije povezan s mrežom ili sa PSBT kompatibilnim hardverskim novčanikom.</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
@@ -2928,7 +2908,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
     <message>
         <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Lyncoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">Molimo pregledajte svoju transakciju. Možete kreirarti i poslati ovu transakciju ili kreirati djelomično potpisanu Bitcoin transakciju (PBST) koju možete spremiti ili kopirati i zatim potpisati sa npr. novčanikom %1 koji nije povezan s mrežom ili sa PSBT kompatibilnim hardverskim novčanikom.</translation>
+        <translation type="unfinished">Molimo pregledajte svoju transakciju. Možete kreirarti i poslati ovu transakciju ili kreirati djelomično potpisanu Lyncoin transakciju (PBST) koju možete spremiti ili kopirati i zatim potpisati sa npr. novčanikom %1 koji nije povezan s mrežom ili sa PSBT kompatibilnim hardverskim novčanikom.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -2993,7 +2973,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">Upozorenje: Nevažeća Bitcoin adresa</translation>
+        <translation type="unfinished">Upozorenje: Nevažeća Lyncoin adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3032,7 +3012,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
     </message>
     <message>
         <source>The Lyncoin address to send the payment to</source>
-        <translation type="unfinished">Bitcoin adresa na koju ćete poslati uplatu</translation>
+        <translation type="unfinished">Lyncoin adresa na koju ćete poslati uplatu</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -3068,7 +3048,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
     </message>
     <message>
         <source>A message that was attached to the lyncoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lyncoin network.</source>
-        <translation type="unfinished">Poruka koja je dodana uplati: URI koji će biti spremljen s transakcijom za referencu. Napomena: Ova poruka neće biti poslana preko Bitcoin mreže.</translation>
+        <translation type="unfinished">Poruka koja je dodana uplati: URI koji će biti spremljen s transakcijom za referencu. Napomena: Ova poruka neće biti poslana preko Lyncoin mreže.</translation>
     </message>
 </context>
 <context>
@@ -3094,11 +3074,11 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive lyncoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">Možete potpisati poruke/dogovore svojim adresama kako biste dokazali da možete pristupiti bitcoinima poslanim na te adrese. Budite oprezni da ne potpisujte ništa nejasno ili nasumično, jer napadi phishingom vas mogu prevariti da prepišite svoj identitet njima. Potpisujte samo detaljno objašnjene izjave s kojima se slažete.</translation>
+        <translation type="unfinished">Možete potpisati poruke/dogovore svojim adresama kako biste dokazali da možete pristupiti lyncoinima poslanim na te adrese. Budite oprezni da ne potpisujte ništa nejasno ili nasumično, jer napadi phishingom vas mogu prevariti da prepišite svoj identitet njima. Potpisujte samo detaljno objašnjene izjave s kojima se slažete.</translation>
     </message>
     <message>
         <source>The Lyncoin address to sign the message with</source>
-        <translation type="unfinished">Bitcoin adresa pomoću koje ćete potpisati poruku</translation>
+        <translation type="unfinished">Lyncoin adresa pomoću koje ćete potpisati poruku</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3122,7 +3102,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
     </message>
     <message>
         <source>Sign the message to prove you own this Lyncoin address</source>
-        <translation type="unfinished">Potpišite poruku kako biste dokazali da posjedujete ovu Bitcoin adresu</translation>
+        <translation type="unfinished">Potpišite poruku kako biste dokazali da posjedujete ovu Lyncoin adresu</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3146,7 +3126,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
     </message>
     <message>
         <source>The Lyncoin address the message was signed with</source>
-        <translation type="unfinished">Bitcoin adresa kojom je poruka potpisana</translation>
+        <translation type="unfinished">Lyncoin adresa kojom je poruka potpisana</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -3158,7 +3138,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">Provjerite poruku da budete sigurni da je potpisana zadanom Bitcoin adresom</translation>
+        <translation type="unfinished">Provjerite poruku da budete sigurni da je potpisana zadanom Lyncoin adresom</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3353,10 +3333,6 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
     <message>
         <source>Output index</source>
         <translation type="unfinished">Indeks outputa</translation>
-    </message>
-    <message>
-        <source> (Certificate was not verified)</source>
-        <translation type="unfinished">(Certifikat nije bio ovjeren)</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -3805,7 +3781,7 @@ Idi na Datoteka &gt;  Otvori novčanik za učitanje novčanika.
     </message>
     <message>
         <source>%s corrupt. Try using the wallet tool lyncoin-wallet to salvage or restoring a backup.</source>
-        <translation type="unfinished">%s korumpirano. Pokušajte koristiti bitcoin-wallet alat za novčanike kako biste ga spasili ili pokrenuti sigurnosnu kopiju.</translation>
+        <translation type="unfinished">%s korumpirano. Pokušajte koristiti lyncoin-wallet alat za novčanike kako biste ga spasili ili pokrenuti sigurnosnu kopiju.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet from version %i to version %i. Wallet version unchanged.</source>
@@ -3837,7 +3813,7 @@ Idi na Datoteka &gt;  Otvori novčanik za učitanje novčanika.
     </message>
     <message>
         <source>Error: Dumpfile version is not supported. This version of lyncoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
-        <translation type="unfinished">Greška: Dumpfile verzija nije podržana. Ova bitcoin-wallet  verzija podržava  samo dumpfile verziju 1. Dobiven dumpfile s verzijom %s</translation>
+        <translation type="unfinished">Greška: Dumpfile verzija nije podržana. Ova lyncoin-wallet  verzija podržava  samo dumpfile verziju 1. Dobiven dumpfile s verzijom %s</translation>
     </message>
     <message>
         <source>Error: Legacy wallets only support the "legacy", "p2sh-segwit", and "bech32" address types</source>
@@ -4310,10 +4286,6 @@ Idi na Datoteka &gt;  Otvori novčanik za učitanje novčanika.
     <message>
         <source>Transaction change output index out of range</source>
         <translation type="unfinished">Indeks change outputa transakcije je izvan dometa</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">Transakcija ima prevelik lanac memorijskog bazena</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>

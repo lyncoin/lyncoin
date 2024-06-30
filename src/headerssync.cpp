@@ -5,8 +5,8 @@
 #include <headerssync.h>
 #include <logging.h>
 #include <pow.h>
-#include <timedata.h>
 #include <util/check.h>
+#include <util/time.h>
 #include <util/vector.h>
 
 // The two constants below are computed using the simulation script in
@@ -41,7 +41,7 @@ HeadersSyncState::HeadersSyncState(NodeId id, const Consensus::Params& consensus
     // exceeds this bound, because it's not possible for a consensus-valid
     // chain to be longer than this (at the current time -- in the future we
     // could try again, if necessary, to sync a longer chain).
-    m_max_commitments = 6*(Ticks<std::chrono::seconds>(GetAdjustedTime() - NodeSeconds{std::chrono::seconds{chain_start->GetMedianTimePast()}}) + MAX_FUTURE_BLOCK_TIME) / HEADER_COMMITMENT_PERIOD;
+    m_max_commitments = 6*(Ticks<std::chrono::seconds>(NodeClock::now() - NodeSeconds{std::chrono::seconds{chain_start->GetMedianTimePast()}}) + MAX_FUTURE_BLOCK_TIME) / HEADER_COMMITMENT_PERIOD;
 
     LogPrint(BCLog::NET, "Initial headers sync started with peer=%d: height=%i, max_commitments=%i, min_work=%s\n", m_id, m_current_height, m_max_commitments, m_minimum_required_work.ToString());
 }
@@ -188,7 +188,7 @@ bool HeadersSyncState::ValidateAndProcessSingleHeader(const CPureBlockHeader& cu
     // so don't let anyone give a chain that would violate the difficulty
     // adjustment maximum.
     if (!PermittedDifficultyTransition(m_consensus_params, next_height,
-                m_last_header_received.nBits, current.nBits)) {
+                m_last_header_received.nBits, current.nBits, m_last_header_received.nTime, current.nTime, m_last_header_received.nVersion, current.nVersion)) {
         LogPrint(BCLog::NET, "Initial headers sync aborted with peer=%d: invalid difficulty transition at height=%i (presync phase)\n", m_id, next_height);
         return false;
     }
@@ -229,14 +229,20 @@ bool HeadersSyncState::ValidateAndStoreRedownloadedHeader(const CBlockHeader& he
 
     // Check that the difficulty adjustments are within our tolerance:
     uint32_t previous_nBits{0};
+    uint32_t previous_nTime{0};
+    uint32_t previous_nVersion{0};
     if (!m_redownloaded_headers.empty()) {
         previous_nBits = m_redownloaded_headers.back().nBits;
+        previous_nTime = m_redownloaded_headers.back().nTime;
+        previous_nVersion = m_redownloaded_headers.back().nVersion;
     } else {
         previous_nBits = m_chain_start->nBits;
+        previous_nTime = m_chain_start->nTime;
+        previous_nVersion = m_chain_start->nVersion;
     }
 
     if (!PermittedDifficultyTransition(m_consensus_params, next_height,
-                previous_nBits, header.nBits)) {
+                previous_nBits, header.nBits, previous_nTime, header.nTime, previous_nVersion, header.nVersion)) {
         LogPrint(BCLog::NET, "Initial headers sync aborted with peer=%d: invalid difficulty transition at height=%i (redownload phase)\n", m_id, next_height);
         return false;
     }

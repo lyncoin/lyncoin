@@ -59,12 +59,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Estes son os teus enderezos de Bitcoin para enviar pagamentos. Asegurate sempre de comprobar a cantidade e maila dirección antes de enviar moedas.</translation>
+        <translation type="unfinished">Estes son os teus enderezos de Lyncoin para enviar pagamentos. Asegurate sempre de comprobar a cantidade e maila dirección antes de enviar moedas.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Estes son os teus enderezos de Bitcoin para recibir pagamentos. Emprega o botón 'Crear novo enderezo para recibir pagamentos' na solapa de recibir para crear novos enderezos.
+        <translation type="unfinished">Estes son os teus enderezos de Lyncoin para recibir pagamentos. Emprega o botón 'Crear novo enderezo para recibir pagamentos' na solapa de recibir para crear novos enderezos.
 Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
@@ -82,6 +82,11 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <message>
         <source>Export Address List</source>
         <translation type="unfinished">Exporta a Lista de Enderezos</translation>
+    </message>
+    <message>
+        <source>Comma separated file</source>
+        <extracomment>Expanded name of the CSV file format. See: https://en.wikipedia.org/wiki/Comma-separated_values.</extracomment>
+        <translation type="unfinished">Ficheiro separado por comas</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
@@ -123,10 +128,6 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation type="unfinished">Nova frase contrasinal</translation>
     </message>
     <message>
-        <source>Repeat new passphrase</source>
-        <translation type="unfinished">Repite a frase contrasinal</translation>
-    </message>
-    <message>
         <source>Show passphrase</source>
         <translation type="unfinished">Mostra frase contrasinal</translation>
     </message>
@@ -152,7 +153,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Aviso: Si encriptas a túa carteira e perdes a túa frase contrasinal, &lt;b&gt;PERDERÁS TODOS OS TEUS BITCOINS&lt;/b&gt;!</translation>
+        <translation type="unfinished">Aviso: Si encriptas a túa carteira e perdes a túa frase contrasinal, &lt;b&gt;PERDERÁS TODOS OS TEUS LYNCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -172,7 +173,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Recorda que encriptar a tua carteira non protexe completamente que os teus bitcoins poidan ser roubados por malware que afecte ó teu computador.</translation>
+        <translation type="unfinished">Recorda que encriptar a tua carteira non protexe completamente que os teus lyncoins poidan ser roubados por malware que afecte ó teu computador.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -211,8 +212,20 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation type="unfinished">A frase contrasinal introducida para o desencriptamento da carteira é incorrecto.</translation>
     </message>
     <message>
+        <source>The passphrase entered for the wallet decryption is incorrect. It contains a null character (ie - a zero byte). If the passphrase was set with a version of this software prior to 25.0, please try again with only the characters up to — but not including — the first null character. If this is successful, please set a new passphrase to avoid this issue in the future.</source>
+        <translation type="unfinished">A frase de acceso introducida para o descifrado da carteira é incorrecta. Contén un carácter nulo (é dicir, un byte cero). Se a frase de paso se estableceu cunha versión deste software anterior á 25.0, téntao de novo con só os caracteres ata, pero sen incluír, o primeiro carácter nulo. Se se realiza correctamente, establece unha nova frase de acceso para evitar este problema no futuro.</translation>
+    </message>
+    <message>
         <source>Wallet passphrase was successfully changed.</source>
         <translation type="unfinished">A frase contrasinal da carteira mudouse correctamente.</translation>
+    </message>
+    <message>
+        <source>Passphrase change failed</source>
+        <translation type="unfinished">Produciuse un erro no cambio de frase de contrasinal</translation>
+    </message>
+    <message>
+        <source>The old passphrase entered for the wallet decryption is incorrect. It contains a null character (ie - a zero byte). If the passphrase was set with a version of this software prior to 25.0, please try again with only the characters up to — but not including — the first null character.</source>
+        <translation type="unfinished">Produciuse un erro non cambio de frase de contrasinal</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -233,10 +246,22 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
 <context>
     <name>BitcoinApplication</name>
     <message>
+        <source>Runaway exception</source>
+        <translation type="unfinished">Excepción de fuga</translation>
+    </message>
+    <message>
+        <source>A fatal error occurred. %1 can no longer continue safely and will quit.</source>
+        <translation type="unfinished">Produciuse un erro fatal. %1 xa non pode continuar con seguridade e sairá.</translation>
+    </message>
+    <message>
         <source>Internal error</source>
         <translation type="unfinished">Erro interno</translation>
     </message>
-    </context>
+    <message>
+        <source>An internal error occurred. %1 will attempt to continue safely. This is an unexpected bug which can be reported as described below.</source>
+        <translation type="unfinished">Produciuse un erro interno. %1 tentará continuar con seguridade. Este é un erro inesperado que se pode informar como se describe a continuación.</translation>
+    </message>
+</context>
 <context>
     <name>QObject</name>
     <message>
@@ -246,43 +271,43 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -355,7 +380,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Envía moedas a un enderezo de Bitcoin</translation>
+        <translation type="unfinished">Envía moedas a un enderezo de Lyncoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -378,12 +403,24 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation type="unfinished">&amp;Opcións...</translation>
     </message>
     <message>
+        <source>&amp;Encrypt Wallet…</source>
+        <translation type="unfinished">&amp;Cifrar carteira...</translation>
+    </message>
+    <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation type="unfinished">Encripta as claves privadas que pertencen á túa carteira</translation>
     </message>
     <message>
+        <source>&amp;Backup Wallet…</source>
+        <translation type="unfinished">&amp;Copia de seguranza da carteira...</translation>
+    </message>
+    <message>
+        <source>&amp;Change Passphrase…</source>
+        <translation type="unfinished">&amp;Cambiar a frase de contrasinal...</translation>
+    </message>
+    <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Asina mensaxes cos teus enderezos de Bitcoin para probar que che pertencen</translation>
+        <translation type="unfinished">Asina mensaxes cos teus enderezos de Lyncoin para probar que che pertencen</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -391,7 +428,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Verifica mensaxes para asegurar que foron asinados cos enderezos de Bitcoin especificados</translation>
+        <translation type="unfinished">Verifica mensaxes para asegurar que foron asinados cos enderezos de Lyncoin especificados</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -411,7 +448,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">Solicita pagamentos (xera un código QR e bitcoin : URIs)</translation>
+        <translation type="unfinished">Solicita pagamentos (xera un código QR e lyncoin : URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -428,8 +465,8 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -474,7 +511,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">Abre una URI de Bitcoin</translation>
+        <translation type="unfinished">Abre una URI de Lyncoin</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -490,7 +527,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Lyncoin command-line options</source>
-        <translation type="unfinished">Mostra a %1 mensaxe de axuda para obter unha lista cas posibles opcións de línea de comando de Bitcoin </translation>
+        <translation type="unfinished">Mostra a %1 mensaxe de axuda para obter unha lista cas posibles opcións de línea de comando de Lyncoin </translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -521,8 +558,8 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -823,7 +860,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">O enderezo introducido "%1" non é un enderezo de Bitcoin válido.</translation>
+        <translation type="unfinished">O enderezo introducido "%1" non é un enderezo de Lyncoin válido.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -843,8 +880,8 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
@@ -865,8 +902,8 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -1016,8 +1053,8 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1034,8 +1071,8 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1063,6 +1100,11 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     <message>
         <source>&amp;Copy address</source>
         <translation type="unfinished">&amp;Copiar enderezo</translation>
+    </message>
+    <message>
+        <source>Comma separated file</source>
+        <extracomment>Expanded name of the CSV file format. See: https://en.wikipedia.org/wiki/Comma-separated_values.</extracomment>
+        <translation type="unfinished">Ficheiro separado por comas</translation>
     </message>
     <message>
         <source>Confirmed</source>

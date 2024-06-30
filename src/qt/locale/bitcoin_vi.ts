@@ -51,7 +51,7 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Các địa chỉ này là các địa chỉ Bitcoin dùng để thanh toán.Luôn luôn kiểm tra số dư và địa chỉ nhận trước khi gởi chuyển tiền ảo. </translation>
+        <translation type="unfinished">Các địa chỉ này là các địa chỉ Lyncoin dùng để thanh toán.Luôn luôn kiểm tra số dư và địa chỉ nhận trước khi gởi chuyển tiền ảo. </translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -69,7 +69,15 @@
         <source>Export Address List</source>
         <translation type="unfinished">Xuất danh sách địa chỉ</translation>
     </message>
-    </context>
+    <message>
+        <source>Sending addresses - %1</source>
+        <translation type="unfinished">Địa chỉ gửi%1</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation type="unfinished">Quá trình xuất dữ liệu đã thất bại</translation>
+    </message>
+</context>
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -129,7 +137,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Cảnh báo: Nếu bạn mã hóa ví và mất cụm mật khẩu, bạn sẽ &lt;b&gt;MẤT TẤT CẢ CÁC BITCOIN&lt;/b&gt;!</translation>
+        <translation type="unfinished">Cảnh báo: Nếu bạn mã hóa ví và mất cụm mật khẩu, bạn sẽ &lt;b&gt;MẤT TẤT CẢ CÁC LYNCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -149,7 +157,7 @@
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Xin lưu ý rằng mã hoá ví của bạn không thể bảo về hoàn toàn Bitcoin của bạn khỏi việc bị đánh cắp mới các phần mềm gián điệp nhiễm vào máy tính của bạn.</translation>
+        <translation type="unfinished">Xin lưu ý rằng mã hoá ví của bạn không thể bảo về hoàn toàn Lyncoin của bạn khỏi việc bị đánh cắp mới các phần mềm gián điệp nhiễm vào máy tính của bạn.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -352,7 +360,7 @@
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Gửi coin đến một địa chỉ Bitcoin</translation>
+        <translation type="unfinished">Gửi coin đến một địa chỉ Lyncoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -384,7 +392,7 @@
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Đăng ký lời nhắn với địa chỉ Bitcoin của bạn để chứng minh quyền sở hữu chúng</translation>
+        <translation type="unfinished">Đăng ký lời nhắn với địa chỉ Lyncoin của bạn để chứng minh quyền sở hữu chúng</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -392,7 +400,7 @@
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Xác minh lời nhắn để chắc chắn đã được đăng ký với địa chỉ Bitcoin xác định</translation>
+        <translation type="unfinished">Xác minh lời nhắn để chắc chắn đã được đăng ký với địa chỉ Lyncoin xác định</translation>
     </message>
     <message>
         <source>Close Wallet…</source>
@@ -445,8 +453,24 @@
         </translation>
     </message>
     <message>
+        <source>%1 behind</source>
+        <translation type="unfinished">%1 phía sau</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Lỗi</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation type="unfinished">Thông tin</translation>
+    </message>
+    <message>
+        <source>Up to date</source>
+        <translation type="unfinished">cập nhật</translation>
+    </message>
+    <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">Tải một phần giao dịch Bitcoin đã ký</translation>
+        <translation type="unfinished">Tải một phần giao dịch Lyncoin đã ký</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
@@ -454,7 +478,7 @@
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">Tải một phần giao dịch Bitcoin đã ký từ khay nhớ tạm</translation>
+        <translation type="unfinished">Tải một phần giao dịch Lyncoin đã ký từ khay nhớ tạm</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -474,7 +498,7 @@
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">Mở một bitcoin: URI</translation>
+        <translation type="unfinished">Mở một lyncoin: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -504,7 +528,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Lyncoin command-line options</source>
-        <translation type="unfinished">Hiển thị %1 tin nhắn hỗ trợ để nhận được danh sách Bitcoin command-line khả dụng</translation>
+        <translation type="unfinished">Hiển thị %1 tin nhắn hỗ trợ để nhận được danh sách Lyncoin command-line khả dụng</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -548,7 +572,7 @@
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%nkết nối đang hoạt động với mạng lưới Bitcoin</numerusform>
+            <numerusform>%nkết nối đang hoạt động với mạng lưới Lyncoin</numerusform>
         </translation>
     </message>
     <message>
@@ -953,6 +977,10 @@
         <source>Continue</source>
         <translation type="unfinished">Tiếp tục</translation>
     </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Lỗi</translation>
+    </message>
     </context>
 <context>
     <name>OptionsModel</name>
@@ -1106,7 +1134,7 @@
     <message>
         <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Lyncoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">Vui lòng xem lại giao dịch của bạn. Bạn có thể tạo và gửi giao dịch này hoặc tạo Giao dịch Bitcoin được ký một phần (PSBT), bạn có thể lưu hoặc sao chép và sau đó ký bằng, ví dụ: ví %1 ngoại tuyến hoặc ví phần cứng tương thích với PSBT.</translation>
+        <translation type="unfinished">Vui lòng xem lại giao dịch của bạn. Bạn có thể tạo và gửi giao dịch này hoặc tạo Giao dịch Lyncoin được ký một phần (PSBT), bạn có thể lưu hoặc sao chép và sau đó ký bằng, ví dụ: ví %1 ngoại tuyến hoặc ví phần cứng tương thích với PSBT.</translation>
     </message>
     <message>
         <source>Unsigned Transaction</source>
@@ -1210,12 +1238,20 @@
         <source>Address</source>
         <translation type="unfinished">Địa chỉ</translation>
     </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation type="unfinished">Quá trình xuất dữ liệu đã thất bại</translation>
+    </message>
     </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>Create a new wallet</source>
         <translation type="unfinished">Tạo một ví mới</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation type="unfinished">Lỗi</translation>
     </message>
     </context>
 <context>
@@ -1326,20 +1362,8 @@ Không thể khôi phục bản sao lưu của ví.</translation>
         <translation type="unfinished">Lỗi: Không thể trích xuất điểm đến trong mã khóa công khai đã tạo</translation>
     </message>
     <message>
-        <source>Error: Could not add watchonly tx to watchonly wallet</source>
-        <translation type="unfinished">Lỗi: Không thể thêm giao dịch chỉ xem vào ví chỉ xem</translation>
-    </message>
-    <message>
-        <source>Error: Could not delete watchonly transactions</source>
-        <translation type="unfinished">Lỗi: Không thể xóa các giao dịch chỉ xem</translation>
-    </message>
-    <message>
         <source>Error: Failed to create new watchonly wallet</source>
         <translation type="unfinished">Lỗi: Tạo ví chỉ xem mới thất bại</translation>
-    </message>
-    <message>
-        <source>Error: Not all watchonly txs could be deleted</source>
-        <translation type="unfinished">Lỗi: Không phải giao dịch chỉ xem nào cũng xóa được</translation>
     </message>
     <message>
         <source>Error: This wallet already uses SQLite</source>

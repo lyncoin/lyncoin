@@ -59,7 +59,7 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Tukej sōm adresy Bitcoin na kere posyłŏsz płaty. Dycki wybaduj wielość i adresã ôdbiyrŏcza przed posłaniym mōnet.</translation>
+        <translation type="unfinished">Tukej sōm adresy Lyncoin na kere posyłŏsz płaty. Dycki wybaduj wielość i adresã ôdbiyrŏcza przed posłaniym mōnet.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -142,7 +142,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Pozōr: jeźli zaszyfrujesz swōj portmanyj i stracisz hasło &lt;b&gt;STRACISZ WSZYJSKE SWOJE BITCOINY&lt;/b&gt;!</translation>
+        <translation type="unfinished">Pozōr: jeźli zaszyfrujesz swōj portmanyj i stracisz hasło &lt;b&gt;STRACISZ WSZYJSKE SWOJE LYNCOINY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -212,7 +212,7 @@
     </message>
     <message>
         <source>Enter a Lyncoin address (e.g. %1)</source>
-        <translation type="unfinished">Wkludź adresã Bitcoin (bp. %1)</translation>
+        <translation type="unfinished">Wkludź adresã Lyncoin (bp. %1)</translation>
     </message>
     <message>
         <source>Inbound</source>
@@ -227,37 +227,37 @@
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -322,7 +322,7 @@
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Poślij mōnety na adresã Bitcoin</translation>
+        <translation type="unfinished">Poślij mōnety na adresã Lyncoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -350,7 +350,7 @@
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Zweryfikuj wiadōmość, coby wejzdrzeć sie, iże ôstała podpisanŏ podanōm adresōm Bitcoin.</translation>
+        <translation type="unfinished">Zweryfikuj wiadōmość, coby wejzdrzeć sie, iże ôstała podpisanŏ podanōm adresōm Lyncoin.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -370,7 +370,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">Żōndej płatu (gyneruje kod QR jak tyż URI bitcoin:)</translation>
+        <translation type="unfinished">Żōndej płatu (gyneruje kod QR jak tyż URI lyncoin:)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -387,7 +387,7 @@
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -442,7 +442,7 @@
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -671,7 +671,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">Wkludzōnŏ adresa "%1" niyma nŏleżnōm adresōm Bitcoin.</translation>
+        <translation type="unfinished">Wkludzōnŏ adresa "%1" niyma nŏleżnōm adresōm Lyncoin.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -714,7 +714,7 @@
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
@@ -726,7 +726,7 @@
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -741,12 +741,12 @@
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Lyncoin block chain.</source>
-        <translation type="unfinished">%1 sebiere i spamiyntŏ kopijõ kety blokōw Bitcoin.</translation>
+        <translation type="unfinished">%1 sebiere i spamiyntŏ kopijõ kety blokōw Lyncoin.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -812,11 +812,11 @@
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the lyncoin network, as detailed below.</source>
-        <translation type="unfinished">Świyże transakcyje mogōm niy być jeszcze widzialne, a tedyć saldo portmanyja może być niynŏleżne. Te detale bydōm nŏleżne, kej portmanyj zakōńczy synchrōnizacyjõ z necym bitcoin, zgodnie z miyniōnym ôpisym.</translation>
+        <translation type="unfinished">Świyże transakcyje mogōm niy być jeszcze widzialne, a tedyć saldo portmanyja może być niynŏleżne. Te detale bydōm nŏleżne, kej portmanyj zakōńczy synchrōnizacyjõ z necym lyncoin, zgodnie z miyniōnym ôpisym.</translation>
     </message>
     <message>
         <source>Attempting to spend lyncoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">Prōba wydaniŏ bitcoinōw kere niy sōm jeszcze wyświytlōne za transakcyjŏ ôstanie ôdciepniyntŏ bez nec.</translation>
+        <translation type="unfinished">Prōba wydaniŏ lyncoinōw kere niy sōm jeszcze wyświytlōne za transakcyjŏ ôstanie ôdciepniyntŏ bez nec.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -931,7 +931,7 @@
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Autōmatycznie ôdewrzij port klijynta Bitcoin na routerze. Ta ôpcyjŏ funguje ino jeźli twōj router podpiyrŏ UPnP i je ôno zapuszczone.</translation>
+        <translation type="unfinished">Autōmatycznie ôdewrzij port klijynta Lyncoin na routerze. Ta ôpcyjŏ funguje ino jeźli twōj router podpiyrŏ UPnP i je ôno zapuszczone.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -947,7 +947,7 @@
     </message>
     <message>
         <source>Connect to the Lyncoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Skupluj sie z necym Bitcoin bez SOCKS5 proxy.</translation>
+        <translation type="unfinished">Skupluj sie z necym Lyncoin bez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1003,7 +1003,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Wyświytlanŏ informacyjŏ może być niyterŏźnŏ. Twōj portmanyj synchrōnizuje sie autōmatycznie z necym bitcoin zarŏz po tym, jak zrychtowane je skuplowanie, ale proces tyn niy ôstoł jeszcze skōńczōny.</translation>
+        <translation type="unfinished">Wyświytlanŏ informacyjŏ może być niyterŏźnŏ. Twōj portmanyj synchrōnizuje sie autōmatycznie z necym lyncoin zarŏz po tym, jak zrychtowane je skuplowanie, ale proces tyn niy ôstoł jeszcze skōńczōny.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1045,7 +1045,7 @@
     </message>
     <message>
         <source>'lyncoin://' is not a valid URI. Use 'lyncoin:' instead.</source>
-        <translation type="unfinished">'bitcoin://' to niyma nŏleżne URI. Użyj 'bitcoin:'.</translation>
+        <translation type="unfinished">'lyncoin://' to niyma nŏleżne URI. Użyj 'lyncoin:'.</translation>
     </message>
     </context>
 <context>
@@ -1213,7 +1213,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lyncoin network.</source>
-        <translation type="unfinished">Ôpcyjōnalnŏ wiadōmość do prziwstōniŏ do żōndaniŏ płatu, kerŏ bydzie wyświytlanŏ, kej żōndanie ôstanie ôdewrzōne. Napōmniynie: wiadōmość ta niy ôstanie wysłanŏ z płatym w nec Bitcoin.</translation>
+        <translation type="unfinished">Ôpcyjōnalnŏ wiadōmość do prziwstōniŏ do żōndaniŏ płatu, kerŏ bydzie wyświytlanŏ, kej żōndanie ôstanie ôdewrzōne. Napōmniynie: wiadōmość ta niy ôstanie wysłanŏ z płatym w nec Lyncoin.</translation>
     </message>
     <message>
         <source>Clear</source>
@@ -1375,12 +1375,12 @@
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">Pozōr: niynŏleżnŏ adresa Bitcoin</translation>
+        <translation type="unfinished">Pozōr: niynŏleżnŏ adresa Lyncoin</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1399,7 +1399,7 @@
     </message>
     <message>
         <source>The Lyncoin address to send the payment to</source>
-        <translation type="unfinished">Adresa Bitcoin, na kerõ chcesz posłać płat</translation>
+        <translation type="unfinished">Adresa Lyncoin, na kerõ chcesz posłać płat</translation>
     </message>
     <message>
         <source>Use available balance</source>
@@ -1411,7 +1411,7 @@
     </message>
     <message>
         <source>A message that was attached to the lyncoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lyncoin network.</source>
-        <translation type="unfinished">Wiadōmość, kerŏ ôstała prziwstōnŏ do URI bitcoin:, kerŏ bydzie przechowowanŏ z transakcyjōm w cylach informacyjnych. Napōmniynie: Ta wiadōmość niy bydzie rozszyrzowanŏ w necu Bitcoin.</translation>
+        <translation type="unfinished">Wiadōmość, kerŏ ôstała prziwstōnŏ do URI lyncoin:, kerŏ bydzie przechowowanŏ z transakcyjōm w cylach informacyjnych. Napōmniynie: Ta wiadōmość niy bydzie rozszyrzowanŏ w necu Lyncoin.</translation>
     </message>
 </context>
 <context>
@@ -1478,7 +1478,7 @@
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>

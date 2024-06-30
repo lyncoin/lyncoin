@@ -97,7 +97,8 @@ public:
     int nIndex = 0;
 
     /* Data from the coinbase transaction as Merkle tx.  */
-    READWRITE (obj.coinbaseTx, hashBlock, obj.vMerkleBranch, nIndex);
+    READWRITE (TX_WITH_WITNESS (obj.coinbaseTx), hashBlock,
+               obj.vMerkleBranch, nIndex);
 
     /* Additional data for the auxpow itself.  */
     READWRITE (obj.vChainMerkleBranch, obj.nChainIndex, obj.parentBlock);
@@ -116,12 +117,24 @@ public:
               const Consensus::Params& params) const;
 
   /**
-   * Returns the parent block hash.  This is used to validate the PoW.
+   * Returns the parent block hash.
    */
   inline uint256
   getParentBlockHash () const
   {
     return parentBlock.GetHash ();
+  }
+
+  /**
+   * Return parent block.  This is only used for the temporary parentblock
+   * auxpow version check.
+   * @return The parent block.
+   */
+  /* FIXME: Remove after the hardfork.  */
+  inline const CPureBlockHeader&
+  getParentBlock () const
+  {
+    return parentBlock;
   }
 
   /**

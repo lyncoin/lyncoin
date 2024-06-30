@@ -2,34 +2,6 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation type="unfinished">انقر بالزر الايمن لتعديل العنوان</translation>
-    </message>
-    <message>
-        <source>Create a new address</source>
-        <translation type="unfinished">أنشئ عنوان جديد</translation>
-    </message>
-    <message>
-        <source>&amp;New</source>
-        <translation type="unfinished">&amp;جديد</translation>
-    </message>
-    <message>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">‫انسخ العنوان المحدد للحافظة‬</translation>
-    </message>
-    <message>
-        <source>&amp;Copy</source>
-        <translation type="unfinished">&amp;نسخ</translation>
-    </message>
-    <message>
-        <source>C&amp;lose</source>
-        <translation type="unfinished">ا&amp;غلاق</translation>
-    </message>
-    <message>
-        <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">احذف العنوان المحدد من القائمة</translation>
-    </message>
-    <message>
         <source>Enter address or label to search</source>
         <translation type="unfinished">أدخل عنوانا أو مذكرة للبحث</translation>
     </message>
@@ -42,62 +14,10 @@
         <translation type="unfinished">&amp;تصدير</translation>
     </message>
     <message>
-        <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;حذف</translation>
-    </message>
-    <message>
-        <source>Choose the address to send coins to</source>
-        <translation type="unfinished">اختر العنوان الذي ترغب بارسال بتكوين اليه</translation>
-    </message>
-    <message>
         <source>Choose the address to receive coins with</source>
-        <translation type="unfinished">اختر العنوان الذي ترغب باستلام البتكوين فيه</translation>
+        <translation type="unfinished">اختر العنوان الذي ترغب باستلام لين كوين اليه</translation>
     </message>
-    <message>
-        <source>C&amp;hoose</source>
-        <translation type="unfinished">ا&amp;ختر</translation>
-    </message>
-    <message>
-        <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">‫هذه عناوين البتكوين الخاصة بك لإرسال المدفوعات. تأكد دائما من القيم المدخلة ومن العنوان المستلم قبل الارسال.‬</translation>
-    </message>
-    <message>
-        <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
-Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">هذه عناوين البتكوين الخاصة بك لاستلام المدفوعات. قم بالنقر على زر انشاء عنوان استلام جديد لإنشاء عناوين جديدة.
-التوقيع ممكن باستخدام العناوين القديمة "Legacy" فقط.</translation>
-    </message>
-    <message>
-        <source>&amp;Copy Address</source>
-        <translation type="unfinished">&amp;نسخ العنوان</translation>
-    </message>
-    <message>
-        <source>Copy &amp;Label</source>
-        <translation type="unfinished">نسخ &amp;المذكرة</translation>
-    </message>
-    <message>
-        <source>&amp;Edit</source>
-        <translation type="unfinished">&amp;تحرير</translation>
-    </message>
-    <message>
-        <source>Export Address List</source>
-        <translation type="unfinished">تصدير قائمة العناوين</translation>
-    </message>
-    <message>
-        <source>Comma separated file</source>
-        <extracomment>Expanded name of the CSV file format. See: https://en.wikipedia.org/wiki/Comma-separated_values.</extracomment>
-        <translation type="unfinished">ملف القيم المفصولة بفاصلة</translation>
-    </message>
-    <message>
-        <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <extracomment>An error message. %1 is a stand-in argument for the name of the file we attempted to save to.</extracomment>
-        <translation type="unfinished">حدث خطأ أثناء محاولة حفظ قائمة العناوين في %1. يرجى معاودة المحاولة. </translation>
-    </message>
-    <message>
-        <source>Exporting Failed</source>
-        <translation type="unfinished">فشل التصدير</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AddressTableModel</name>
     <message>
@@ -157,7 +77,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">تحذير: إذا قمت بتشفير المحفظة وأضعت الكلمة السرية؛ &lt;b&gt;ستفقد كل البتكوين&lt;/b&gt;!</translation>
+        <translation type="unfinished">تحذير: إذا قمت بتشفير المحفظة وأضعت الكلمة السرية؛ &lt;b&gt;ستفقد كل اللين كوين&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -216,20 +136,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">‫عبارة المرور التي تم إدخالها لفك تشفير المحفظة غير صحيحة.‬</translation>
     </message>
     <message>
-        <source>The passphrase entered for the wallet decryption is incorrect. It contains a null character (ie - a zero byte). If the passphrase was set with a version of this software prior to 25.0, please try again with only the characters up to — but not including — the first null character. If this is successful, please set a new passphrase to avoid this issue in the future.</source>
-        <translation type="unfinished">العبارة المدخلة لفك تشفير المحفظة غير صحيحة: تحتوي على خانة فارغة. إذا تم تعيين هذه العبارة في نسخة سابقة لـ 25.0، يرجى المحاولة مجددا بإدخال جميع الخانات السابقة للخانة الفارغة والتوقف عند الخانة الفارغة دون إدخال الفراغ. إذا نجحت المحاولة، يرجى تغيير العبارة لتفادي هذه المشكلة مستقبلا.</translation>
-    </message>
-    <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation type="unfinished">لقد تم تغير عبارة مرور المحفظة بنجاح</translation>
-    </message>
-    <message>
-        <source>Passphrase change failed</source>
-        <translation type="unfinished">فشل تغيير العبارة </translation>
-    </message>
-    <message>
-        <source>The old passphrase entered for the wallet decryption is incorrect. It contains a null character (ie - a zero byte). If the passphrase was set with a version of this software prior to 25.0, please try again with only the characters up to — but not including — the first null character.</source>
-        <translation type="unfinished">العبارة السابقة المدخلة لفك تشفير المحفظة غير صحيحة: تحتوي على خانة فارغة. إذا تم تعيين هذه العبارة في نسخة سابقة لـ 25.0، يرجى المحاولة مجددا بإدخال جميع الخانات السابقة للخانة الفارغة والتوقف عند الخانة الفارغة دون إدخال الفراغ.</translation>
+        <translation type="unfinished">‫لقد تم تغيير عبارة المرور بنجاح.‬</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -300,7 +208,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Enter a Lyncoin address (e.g. %1)</source>
-        <translation type="unfinished">ادخل عنوان محفطة البتكوين (مثال %1)</translation>
+        <translation type="unfinished">ادخل عنوان محفطة اللين كوين (مثال %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -517,11 +425,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation type="unfinished">%1 اتصال نشط بشبكة اللينكوين</translation>
+        <translation type="unfinished">%1 اتصال نشط بشبكة البيتكوين</translation>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">ارسل عملات الى عنوان لينكوين</translation>
+        <translation type="unfinished">ارسل عملات الى عنوان بيتكوين</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -565,7 +473,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">وقَع الرسائل بواسطة ال: Bitcoin الخاص بك لإثبات امتلاكك لهم</translation>
+        <translation type="unfinished">وقَع الرسائل بواسطة ال: Lyncoin الخاص بك لإثبات امتلاكك لهم</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -573,7 +481,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">تحقق من الرسائل للتأكد من أنَها وُقعت برسائل Bitcoin محدَدة</translation>
+        <translation type="unfinished">تحقق من الرسائل للتأكد من أنَها وُقعت برسائل Lyncoin محدَدة</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -625,19 +533,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Connecting to peers…</source>
-        <translation type="unfinished">الاتصال بالأقران ...</translation>
+        <translation type="unfinished">‫الاتصال بالأقران…‬</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">أطلب دفعات (يولد كودات الرمز المربع ولين كوين: العناوين المعطاة)</translation>
+        <translation type="unfinished">‫أطلب مدفوعات (أنشئ رموز استجابة (QR Codes) وعناوين لين كوين)‬</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation type="unfinished">عرض قائمة عناوين الإرسال المستخدمة والملصقات</translation>
+        <translation type="unfinished">‫عرض قائمة العناوين المرسِلة والمذكرات (المستخدمة سابقا)‬</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation type="unfinished">عرض قائمة عناوين الإستقبال المستخدمة والملصقات</translation>
+        <translation type="unfinished">‫عرض قائمة العناوين المستلمة والمذكرات (المستخدمة سابقا)‬</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -660,7 +568,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Catching up…</source>
-        <translation type="unfinished">يمسك…</translation>
+        <translation type="unfinished">‫يجري التدارك…‬</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
@@ -688,11 +596,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">تحميل معاملة بتكوين الموقعة جزئيًا</translation>
+        <translation type="unfinished">تحميل معاملة لين كوين الموقعة جزئيًا</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">تحميل معاملة بتكوين الموقعة جزئيًا من الحافظة</translation>
+        <translation type="unfinished">تحميل معاملة لين كوين الموقعة جزئيًا من الحافظة</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -712,7 +620,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">افتح عملة لينكوين: URI</translation>
+        <translation type="unfinished">افتح عملة بيتكوين: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -742,7 +650,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Lyncoin command-line options</source>
-        <translation type="unfinished">‫اعرض %1 رسالة المساعدة للحصول على قائمة من خيارات سطر أوامر البتكوين المحتملة‬</translation>
+        <translation type="unfinished">‫اعرض %1 رسالة المساعدة للحصول على قائمة من خيارات سطر أوامر اللين كوين المحتملة‬</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -813,7 +721,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
             <numerusform>%n active connection(s) to Lyncoin network.</numerusform>
             <numerusform>%n active connection(s) to Lyncoin network.</numerusform>
             <numerusform>%n active connection(s) to Lyncoin network.</numerusform>
-            <numerusform>%n اتصال نشط بشبكة البتكوين.</numerusform>
+            <numerusform>%n اتصال نشط بشبكة اللين كوين.</numerusform>
         </translation>
     </message>
     <message>
@@ -928,7 +836,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation type="unfinished">اختيار وحدات البتكوين</translation>
+        <translation type="unfinished">اختيار وحدات اللين كوين</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -1100,7 +1008,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>default wallet</source>
-        <translation type="unfinished">المحفظة الإفتراضية</translation>
+        <translation type="unfinished">‫محفظة افتراضية‬</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -1204,7 +1112,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Use an external signing device such as a hardware wallet. Configure the external signer script in wallet preferences first.</source>
-        <translation type="unfinished">استخدم جهاز توقيع خارجي مثل محفظة الأجهزة.  قم بتكوين البرنامج النصي للموقِّع الخارجي في تفضيلات المحفظة أولاً.</translation>
+        <translation type="unfinished">استخدم جهاز توقيع خارجي مثل محفظة الأجهزة.  قم لين كوين البرنامج النصي للموقِّع الخارجي في تفضيلات المحفظة أولاً.</translation>
     </message>
     <message>
         <source>External signer</source>
@@ -1256,7 +1164,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">العنوان المدخل "%1" ليس عنوان لين كوين صحيح.</translation>
+        <translation type="unfinished">العنوان المدخل "%1" ليس عنوان بيت كوين صحيح.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1302,7 +1210,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>Intro</name>
     <message>
         <source>Lyncoin</source>
-        <translation type="unfinished">بتكوين</translation>
+        <translation type="unfinished">لين كوين</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of space available</source>
@@ -1359,7 +1267,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>%1 will download and store a copy of the Lyncoin block chain.</source>
-        <translation type="unfinished">سيقوم %1 بتنزيل نسخة من سلسلة كتل بتكوين وتخزينها.</translation>
+        <translation type="unfinished">سيقوم %1 بتنزيل نسخة من سلسلة كتل لين كوين وتخزينها.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1452,11 +1360,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the lyncoin network, as detailed below.</source>
-        <translation type="unfinished">قد لا تكون المعاملات الأخيرة مرئية بعد، وبالتالي قد يكون رصيد محفظتك غير صحيح. ستكون هذه المعلومات صحيحة بمجرد الانتهاء من محفظتك مع شبكة اللينكوين، كما هو مفصل أدناه.</translation>
+        <translation type="unfinished">قد لا تكون المعاملات الأخيرة مرئية بعد، وبالتالي قد يكون رصيد محفظتك غير صحيح. ستكون هذه المعلومات صحيحة بمجرد الانتهاء من محفظتك مع شبكة البيتكوين، كما هو مفصل أدناه.</translation>
     </message>
     <message>
         <source>Attempting to spend lyncoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">لن تقبل الشبكة محاولة إنفاق البتكوين المتأثرة بالمعاملات التي لم يتم عرضها بعد.</translation>
+        <translation type="unfinished">لن تقبل الشبكة محاولة إنفاق اللين كوين المتأثرة بالمعاملات التي لم يتم عرضها بعد.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1507,7 +1415,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>OpenURIDialog</name>
     <message>
         <source>Open lyncoin URI</source>
-        <translation type="unfinished">‫افتح رابط بتكوين (URI)‬</translation>
+        <translation type="unfinished">‫افتح رابط لين كوين (URI)‬</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -1635,7 +1543,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation type="unfinished">‫تفعيل ميزة &amp;التحكم بوحدات البتكوين‬</translation>
+        <translation type="unfinished">‫تفعيل ميزة &amp;التحكم بوحدات اللين كوين‬</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
@@ -1651,11 +1559,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">‫تفعيل التحكم ب &amp;المعاملات الموقعة جزئيا‬</translation>
     </message>
     <message>
-        <source>Whether to show PSBT controls.</source>
-        <extracomment>Tooltip text for options window setting that enables PSBT controls.</extracomment>
-        <translation type="unfinished">‫خيار عرض التحكم بالمعاملات الموقعة جزئيا.‬</translation>
-    </message>
-    <message>
         <source>External Signer (e.g. hardware wallet)</source>
         <translation type="unfinished">‫جهاز التوقيع الخارجي (مثل المحفظة الخارجية)‬</translation>
     </message>
@@ -1665,7 +1568,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">‫فتح منفذ عميل البتكوين تلقائيا على الموجه. يعمل فقط عندما يكون الموجه الخاص بك يدعم UPnP ومفعل ايضا.‬</translation>
+        <translation type="unfinished">‫فتح منفذ عميل اللين كوين تلقائيا على الموجه. يعمل فقط عندما يكون الموجه الخاص بك يدعم UPnP ومفعل ايضا.‬</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1673,7 +1576,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">‫افتح منفذ عميل بتكوين تلقائيًا على جهاز التوجيه. يعمل هذا فقط عندما يدعم جهاز التوجيه الخاص بك NAT-PMP ويتم تمكينه. يمكن أن يكون المنفذ الخارجي عشوائيًا.‬</translation>
+        <translation type="unfinished">‫افتح منفذ عميل لين كوين تلقائيًا على جهاز التوجيه. يعمل هذا فقط عندما يدعم جهاز التوجيه الخاص بك NAT-PMP ويتم تمكينه. يمكن أن يكون المنفذ الخارجي عشوائيًا.‬</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -1689,7 +1592,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Connect to the Lyncoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">الاتصال بشبكة البتكوين عبر وكيل SOCKS5.</translation>
+        <translation type="unfinished">الاتصال بشبكة اللين كوين عبر وكيل SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1757,7 +1660,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished">‫اختر وحدة التقسيم الفرعية الافتراضية للعرض في الواجهة وعند إرسال البتكوين.‬</translation>
+        <translation type="unfinished">‫اختر وحدة التقسيم الفرعية الافتراضية للعرض في الواجهة وعند إرسال اللين كوين.‬</translation>
     </message>
     <message>
         <source>Third-party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1769,27 +1672,15 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation type="unfinished">‫ما اذا أردت إظهار ميزات التحكم في وحدات البتكوين أم لا.‬</translation>
+        <translation type="unfinished">‫ما اذا أردت إظهار ميزات التحكم في وحدات اللين كوين أم لا.‬</translation>
     </message>
     <message>
         <source>Connect to the Lyncoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">اتصل بشبكة بتكوين من خلال وكيل SOCKS5 منفصل لخدمات Tor onion.</translation>
+        <translation type="unfinished">اتصل بشبكة لين كوين من خلال وكيل SOCKS5 منفصل لخدمات Tor onion.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
         <translation type="unfinished">استخدم بروكسي SOCKS5 منفصل للوصول إلى الأقران عبر خدمات Tor onion:</translation>
-    </message>
-    <message>
-        <source>Monospaced font in the Overview tab:</source>
-        <translation type="unfinished">الخط أحادي المسافة في علامة التبويب "نظرة عامة":</translation>
-    </message>
-    <message>
-        <source>embedded "%1"</source>
-        <translation type="unfinished">‫مضمنة "%1"‬</translation>
-    </message>
-    <message>
-        <source>closest matching "%1"</source>
-        <translation type="unfinished">‫أقرب تطابق "%1"</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1882,7 +1773,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">قد تكون المعلومات المعروضة قديمة. تتزامن محفظتك تلقائيًا مع شبكة البتكوين بعد إنشاء الاتصال، ولكن هذه العملية لم تكتمل بعد.</translation>
+        <translation type="unfinished">قد تكون المعلومات المعروضة قديمة. تتزامن محفظتك تلقائيًا مع شبكة اللين كوين بعد إنشاء الاتصال، ولكن هذه العملية لم تكتمل بعد.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -2029,10 +1920,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">‫تم حفظ المعاملة الموقعة جزئيا على وحدة التخزين.‬</translation>
     </message>
     <message>
-        <source> * Sends %1 to %2</source>
-        <translation type="unfinished">* يرسل %1 إلى %2</translation>
-    </message>
-    <message>
         <source>own address</source>
         <translation type="unfinished">عنوانه</translation>
     </message>
@@ -2093,7 +1980,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Cannot start lyncoin: click-to-pay handler</source>
-        <translation type="unfinished">لا يمكن تشغيل بتكوين: معالج النقر للدفع</translation>
+        <translation type="unfinished">لا يمكن تشغيل لين كوين: معالج النقر للدفع</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2101,7 +1988,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>'lyncoin://' is not a valid URI. Use 'lyncoin:' instead.</source>
-        <translation type="unfinished">'bitcoin://' هو ليس عنوان URL صالح. استعمل 'bitcoin:' بدلا من ذلك.</translation>
+        <translation type="unfinished">'lyncoin://' هو ليس عنوان URL صالح. استعمل 'lyncoin:' بدلا من ذلك.</translation>
     </message>
     <message>
         <source>Cannot process payment request because BIP70 is not supported.
@@ -2113,7 +2000,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Lyncoin address or malformed URI parameters.</source>
-        <translation type="unfinished">‫لا يمكن تحليل العنوان (URI)! يمكن أن يحدث هذا بسبب عنوان بتكوين غير صالح أو محددات عنوان غير صحيحة.‬</translation>
+        <translation type="unfinished">‫لا يمكن تحليل العنوان (URI)! يمكن أن يحدث هذا بسبب عنوان لين كوين غير صالح أو محددات عنوان غير صحيحة.‬</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2651,7 +2538,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lyncoin network.</source>
-        <translation type="unfinished">‫رسالة اختيارية لإرفاقها بطلب الدفع، والتي سيتم عرضها عند فتح الطلب. ملاحظة: لن يتم إرسال الرسالة مع العملية عبر شبكة البتكوين.‬</translation>
+        <translation type="unfinished">‫رسالة اختيارية لإرفاقها بطلب الدفع، والتي سيتم عرضها عند فتح الطلب. ملاحظة: لن يتم إرسال الرسالة مع العملية عبر شبكة اللين كوين.‬</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2824,11 +2711,11 @@ If you are receiving this error you should request the merchant provide a BIP21 
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">‫إرسال وحدات البتكوين‬</translation>
+        <translation type="unfinished">‫إرسال وحدات اللين كوين‬</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation type="unfinished">‫ميزات التحكم بوحدات البتكوين‬</translation>
+        <translation type="unfinished">‫ميزات التحكم بوحدات اللين كوين‬</translation>
     </message>
     <message>
         <source>automatically selected</source>
@@ -2932,7 +2819,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for lyncoin transactions than the network can process.</source>
-        <translation type="unfinished">‫قد يفرض المعدنون والأنواد الموصلة حدا أدنى للرسوم عندما يكون عدد العمليات قليل نسبة لسعة الطوابق. يمكنك دفع الحد الأدنى ولكن كن على دراية بأن العملية قد لا تنفذ في حالة أن الطلب على عمليات البتكوين فاق قدرة الشبكة على المعالجة.‬</translation>
+        <translation type="unfinished">‫قد يفرض المعدنون والأنواد الموصلة حدا أدنى للرسوم عندما يكون عدد العمليات قليل نسبة لسعة الطوابق. يمكنك دفع الحد الأدنى ولكن كن على دراية بأن العملية قد لا تنفذ في حالة أن الطلب على عمليات اللين كوين فاق قدرة الشبكة على المعالجة.‬</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -3017,10 +2904,6 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">‫إن&amp;شاء من غير توقيع‬</translation>
     </message>
     <message>
-        <source> from wallet '%1'</source>
-        <translation type="unfinished">من المحفظة '%1'</translation>
-    </message>
-    <message>
         <source>%1 to '%2'</source>
         <translation type="unfinished">%1 الى "%2"</translation>
     </message>
@@ -3075,7 +2958,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Please, review your transaction proposal. This will produce a Partially Signed Lyncoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">‫رجاء، راجع معاملتك. هذا ينشئ معاملة بتكوين موقعة جزئيا (PSBT) ويمكنك حفظها أو نسخها و التوقيع مع محفظة %1 غير متصلة بالشبكة، أو محفظة خارجية متوافقة مع الـPSBT.‬</translation>
+        <translation type="unfinished">‫رجاء، راجع معاملتك. هذا ينشئ معاملة لين كوين موقعة جزئيا (PSBT) ويمكنك حفظها أو نسخها و التوقيع مع محفظة %1 غير متصلة بالشبكة، أو محفظة خارجية متوافقة مع الـPSBT.‬</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
@@ -3085,7 +2968,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Lyncoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">‫رجاء، راجع معاملتك.تستطيع انشاء وارسال هذه العملية أو انشاء معاملة بتكوين موقعة جزئيا (PSBT) ويمكنك حفظها أو نسخها و التوقيع مع محفظة %1 غير متصلة بالشبكة، أو محفظة خارجية متوافقة مع الـPSBT.‬</translation>
+        <translation type="unfinished">‫رجاء، راجع معاملتك.تستطيع انشاء وارسال هذه العملية أو انشاء معاملة لين كوين موقعة جزئيا (PSBT) ويمكنك حفظها أو نسخها و التوقيع مع محفظة %1 غير متصلة بالشبكة، أو محفظة خارجية متوافقة مع الـPSBT.‬</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -3106,7 +2989,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation type="unfinished">‫تأكيد ارسال وحدات البتكوين‬</translation>
+        <translation type="unfinished">‫تأكيد ارسال وحدات اللين كوين‬</translation>
     </message>
     <message>
         <source>Watch-only balance:</source>
@@ -3153,7 +3036,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">تحذير: عنوان بتكوين غير صالح</translation>
+        <translation type="unfinished">تحذير: عنوان لين كوين غير صالح</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3192,7 +3075,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The Lyncoin address to send the payment to</source>
-        <translation type="unfinished">‫عنوان البتكوين لارسال الدفعة له‬</translation>
+        <translation type="unfinished">‫عنوان اللين كوين لارسال الدفعة له‬</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -3208,7 +3091,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less lyncoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation type="unfinished">‫سيتم خصم الرسوم من المبلغ الذي يتم إرساله. لذا سوف يتلقى المستلم قيمة أقل من البتكوين المدخل في حقل القيمة. في حالة تحديد عدة مستلمين، يتم تقسيم الرسوم بالتساوي.‬</translation>
+        <translation type="unfinished">‫سيتم خصم الرسوم من المبلغ الذي يتم إرساله. لذا سوف يتلقى المستلم قيمة أقل من اللين كوين المدخل في حقل القيمة. في حالة تحديد عدة مستلمين، يتم تقسيم الرسوم بالتساوي.‬</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -3228,7 +3111,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>A message that was attached to the lyncoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lyncoin network.</source>
-        <translation type="unfinished">‫الرسالة يتم إرفاقها مع البتكوين: الرابط سيتم تخزينه مع العملية لك للرجوع إليه. ملاحظة: لن يتم إرسال هذه الرسالة عبر شبكة البتكوين.‬</translation>
+        <translation type="unfinished">‫الرسالة يتم إرفاقها مع اللين كوين: الرابط سيتم تخزينه مع العملية لك للرجوع إليه. ملاحظة: لن يتم إرسال هذه الرسالة عبر شبكة اللين كوين.‬</translation>
     </message>
 </context>
 <context>
@@ -3254,11 +3137,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive lyncoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">‫تستطيع توقيع رسائل/اتفاقيات من عناوينك لإثبات أنه بإمكانك استلام بتكوين مرسل لهذه العناوين. كن حذرا من توقيع أي شيء غامض أو عشوائي، هجمات التصيد قد تحاول خداعك وانتحال هويتك. وقع البيانات الواضحة بالكامل والتي توافق عليها فقط.‬</translation>
+        <translation type="unfinished">‫تستطيع توقيع رسائل/اتفاقيات من عناوينك لإثبات أنه بإمكانك استلام لين كوين مرسل لهذه العناوين. كن حذرا من توقيع أي شيء غامض أو عشوائي، هجمات التصيد قد تحاول خداعك وانتحال هويتك. وقع البيانات الواضحة بالكامل والتي توافق عليها فقط.‬</translation>
     </message>
     <message>
         <source>The Lyncoin address to sign the message with</source>
-        <translation type="unfinished">عنوان البتكوين لتوقيع الرسالة منه</translation>
+        <translation type="unfinished">عنوان اللين كوين لتوقيع الرسالة منه</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3282,7 +3165,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Sign the message to prove you own this Lyncoin address</source>
-        <translation type="unfinished">‫وقع الرسالة لتثبت انك تملك عنوان البتكوين هذا‬</translation>
+        <translation type="unfinished">‫وقع الرسالة لتثبت انك تملك عنوان اللين كوين هذا‬</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3306,7 +3189,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The Lyncoin address the message was signed with</source>
-        <translation type="unfinished">عنوان البتكوين الذي تم توقيع الرسالة منه</translation>
+        <translation type="unfinished">عنوان اللين كوين الذي تم توقيع الرسالة منه</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -3318,7 +3201,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">‫تحقق من الرسالة للتأكد أنه تم توقيعها من عنوان البتكوين المحدد‬</translation>
+        <translation type="unfinished">‫تحقق من الرسالة للتأكد أنه تم توقيعها من عنوان اللين كوين المحدد‬</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3521,10 +3404,6 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Output index</source>
         <translation type="unfinished">مؤشر المخرجات</translation>
-    </message>
-    <message>
-        <source> (Certificate was not verified)</source>
-        <translation type="unfinished">(لم يتم التحقق من الشهادة)</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -3865,7 +3744,7 @@ Go to File &gt; Open Wallet to load a wallet.
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">‫إرسال وحدات البتكوين‬</translation>
+        <translation type="unfinished">‫إرسال وحدات اللين كوين‬</translation>
     </message>
     <message>
         <source>Fee bump error</source>
@@ -3918,7 +3797,7 @@ Go to File &gt; Open Wallet to load a wallet.
     </message>
     <message>
         <source>default wallet</source>
-        <translation type="unfinished">المحفظة الإفتراضية</translation>
+        <translation type="unfinished">‫محفظة افتراضية‬</translation>
     </message>
 </context>
 <context>
@@ -3969,7 +3848,7 @@ Go to File &gt; Open Wallet to load a wallet.
     </message>
     <message>
         <source>%s corrupt. Try using the wallet tool lyncoin-wallet to salvage or restoring a backup.</source>
-        <translation type="unfinished">‫‫%s مشكل. حاول استخدام أداة محفظة البتكوين للاصلاح أو استعادة نسخة احتياطية.‬</translation>
+        <translation type="unfinished">‫‫%s مشكل. حاول استخدام أداة محفظة اللين كوين للاصلاح أو استعادة نسخة احتياطية.‬</translation>
     </message>
     <message>
         <source>%s failed to validate the -assumeutxo snapshot state. This indicates a hardware problem, or a bug in the software, or a bad software modification that allowed an invalid snapshot to be loaded. As a result of this, the node will shut down and stop using any state that was built on the snapshot, resetting the chain height from %d to %d. On the next restart, the node will resume syncing from %d without using any snapshot data. Please report this incident to %s, including how you obtained the snapshot. The invalid snapshot chainstate will be left on disk in case it is helpful in diagnosing the issue that caused this error.</source>
@@ -4154,14 +4033,6 @@ Go to File &gt; Open Wallet to load a wallet.
     <message>
         <source>Error reading next record from wallet database</source>
         <translation type="unfinished">خطأ قراءة السجل التالي من قاعدة بيانات المحفظة</translation>
-    </message>
-    <message>
-        <source>Error: Could not add watchonly tx to watchonly wallet</source>
-        <translation type="unfinished">‫خطأ: لا يمكن اضافة عملية المراقبة فقط لمحفظة المراقبة‬</translation>
-    </message>
-    <message>
-        <source>Error: Could not delete watchonly transactions</source>
-        <translation type="unfinished">‫خطأ: لا يمكن حذف عمليات المراقبة فقط‬</translation>
     </message>
     <message>
         <source>Error: Couldn't create cursor into database</source>

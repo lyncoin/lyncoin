@@ -61,7 +61,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Ini adalah alamat Bitcoin anda untuk pembayaran. Periksa jumlah dan alamat penerima sebelum membuat penghantaran koin sentiasa.</translation>
+        <translation type="unfinished">Ini adalah alamat Lyncoin anda untuk pembayaran. Periksa jumlah dan alamat penerima sebelum membuat penghantaran koin sentiasa.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -79,6 +79,10 @@ Alihkan fail data ke dalam tab semasa</translation>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
         <extracomment>An error message. %1 is a stand-in argument for the name of the file we attempted to save to.</extracomment>
         <translation type="unfinished">Terdapat ralat semasa cubaan menyimpan senarai alamat kepada %1. Sila cuba lagi.</translation>
+    </message>
+    <message>
+        <source>Receiving addresses - %1</source>
+        <translation type="unfinished">Alamat Terima - %1</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
@@ -136,7 +140,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Amaran: Jika anda enkripkan dompet anda dan hilangkan frasa laluan, anda akan &lt;b&gt;ANDA AKAN HILANGKAN SEMUA BITCOIN ANDA&lt;/b&gt;!</translation>
+        <translation type="unfinished">Amaran: Jika anda enkripkan dompet anda dan hilangkan frasa laluan, anda akan &lt;b&gt;ANDA AKAN HILANGKAN SEMUA LYNCOIN ANDA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -191,37 +195,37 @@ Alihkan fail data ke dalam tab semasa</translation>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -282,7 +286,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Menghantar koin kepada alamat Bitcoin</translation>
+        <translation type="unfinished">Menghantar koin kepada alamat Lyncoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -306,11 +310,11 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">sahkan mesej bersama alamat bitcoin anda untuk menunjukkan alamat ini anda punya</translation>
+        <translation type="unfinished">sahkan mesej bersama alamat lyncoin anda untuk menunjukkan alamat ini anda punya</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Sahkan mesej untuk memastikan mereka telah ditandatangani dengan alamat Bitcoin yang ditentukan</translation>
+        <translation type="unfinished">Sahkan mesej untuk memastikan mereka telah ditandatangani dengan alamat Lyncoin yang ditentukan</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -342,7 +346,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -378,7 +382,7 @@ Alihkan fail data ke dalam tab semasa</translation>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -432,7 +436,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
@@ -451,7 +455,7 @@ Alihkan fail data ke dalam tab semasa</translation>
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -501,7 +505,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -514,7 +518,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     </context>

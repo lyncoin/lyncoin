@@ -59,12 +59,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Tölegleri ibermek üçin siziň Bitkoin salgylaryňyz şulardyr. Teňňeleri ibermezden ozal hemişe möçberi we kabul edýän salgyny barlaň.</translation>
+        <translation type="unfinished">Tölegleri ibermek üçin siziň Leenkoin salgylaryňyz şulardyr. Teňňeleri ibermezden ozal hemişe möçberi we kabul edýän salgyny barlaň.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Tölegleri kabul etmek üçin siziň Bitkoin salgylaryňyz şulardyr. Täze salgylary döretmek üçin kabul etmek bölüminde "Täze kabul ediji salgyny döret" düwmesini ulan.
+        <translation type="unfinished">Tölegleri kabul etmek üçin siziň Leenkoin salgylaryňyz şulardyr. Täze salgylary döretmek üçin kabul etmek bölüminde "Täze kabul ediji salgyny döret" düwmesini ulan.
 Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
@@ -157,7 +157,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Duýduryş: Eger gapjygyňy şifrleseň we parol sözlemiňi ýitirseň, sen &lt;b&gt;ÄHLI BITKOINLERIŇI ÝITIRERSIŇ&lt;/b&gt;!</translation>
+        <translation type="unfinished">Duýduryş: Eger gapjygyňy şifrleseň we parol sözlemiňi ýitirseň, sen &lt;b&gt;ÄHLI LEENKOINLERIŇI ÝITIRERSIŇ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -177,7 +177,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Gapjygyňy şifrlemek kompýuteriňe zyýanly programma ýokuşmak arkaly bitkoinleriň ogurlanmagyndan doly gorap bilmejekdigini ýatdan çykarma.</translation>
+        <translation type="unfinished">Gapjygyňy şifrlemek kompýuteriňe zyýanly programma ýokuşmak arkaly leenkoinleriň ogurlanmagyndan doly gorap bilmejekdigini ýatdan çykarma.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -296,7 +296,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Enter a Lyncoin address (e.g. %1)</source>
-        <translation type="unfinished">(Bitkoin salgysyny giriziň (meselem, %1)</translation>
+        <translation type="unfinished">(Leenkoin salgysyny giriziň (meselem, %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -469,7 +469,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Bitkoin salgysyna teňňeleri iber</translation>
+        <translation type="unfinished">Leenkoin salgysyna teňňeleri iber</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -513,7 +513,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Bitkoin salgylarynyň eýesidigini subut etmek üçin habarlara öz Bitkoin salgylaryň bilen gol çek</translation>
+        <translation type="unfinished">Leenkoin salgylarynyň eýesidigini subut etmek üçin habarlara öz Leenkoin salgylaryň bilen gol çek</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -521,7 +521,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Habarlaryň görkezilen Bitkoin salgylary bilen gol çekilendigini kepillendirmek üçin habarlary tassykla</translation>
+        <translation type="unfinished">Habarlaryň görkezilen Leenkoin salgylary bilen gol çekilendigini kepillendirmek üçin habarlary tassykla</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -581,7 +581,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">Tölegleri sora (QR kodlary we bitkoin: URIleri döredýär)</translation>
+        <translation type="unfinished">Tölegleri sora (QR kodlary we leenkoin: URIleri döredýär)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -636,7 +636,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">Bölekleýýin gol çekilen bitkoin amalyny (BGÇBA) ýükle</translation>
+        <translation type="unfinished">Bölekleýýin gol çekilen leenkoin amalyny (BGÇBA) ýükle</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
@@ -644,7 +644,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">Bölekleýin gol çekilen bitkoin amalyny alyş-çalyş panelinden ýükle</translation>
+        <translation type="unfinished">Bölekleýin gol çekilen leenkoin amalyny alyş-çalyş panelinden ýükle</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -664,7 +664,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">Bitkoin aç: URI</translation>
+        <translation type="unfinished">Leenkoin aç: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -694,7 +694,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Lyncoin command-line options</source>
-        <translation type="unfinished">Mümkin bolan Bitkoin buýruk setiri opsiýalarynyň sanawyny görmek üçin %1 goldaw habaryny görkez</translation>
+        <translation type="unfinished">Mümkin bolan Leenkoin buýruk setiri opsiýalarynyň sanawyny görmek üçin %1 goldaw habaryny görkez</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -760,8 +760,8 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>Bitkoin toruna %n işjeň arabaglanyşyk.</numerusform>
-            <numerusform>Bitkoin ulgamyna %n işjeň arabaglanyşyk.</numerusform>
+            <numerusform>Leenkoin toruna %n işjeň arabaglanyşyk.</numerusform>
+            <numerusform>Leenkoin ulgamyna %n işjeň arabaglanyşyk.</numerusform>
         </translation>
     </message>
     <message>
@@ -1221,7 +1221,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">Ýazylan salgy %1 ýaly Bitkoin salgysy ýok.</translation>
+        <translation type="unfinished">Ýazylan salgy %1 ýaly Leenkoin salgysy ýok.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1267,7 +1267,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     <name>Intro</name>
     <message>
         <source>Lyncoin</source>
-        <translation type="unfinished">Bitkoin</translation>
+        <translation type="unfinished">Leenkoin</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of space available</source>
@@ -1312,7 +1312,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Lyncoin block chain.</source>
-        <translation type="unfinished">%1 Bitkoin blok zynjyrynyň nusgasyny ýükläp alar we göçürer.</translation>
+        <translation type="unfinished">%1 Leenkoin blok zynjyrynyň nusgasyny ýükläp alar we göçürer.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1405,11 +1405,11 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the lyncoin network, as detailed below.</source>
-        <translation type="unfinished">Soňky geleşikler entek görünmän biler, şonuň üçin gapjygyňyzdaky galyndy nädogry bolup biler. Bu maglumat aşakda beýan edilişi ýaly gapjygyňyz bitkoin tory bilen utgaşmagy tamamlanda dogry bolar.</translation>
+        <translation type="unfinished">Soňky geleşikler entek görünmän biler, şonuň üçin gapjygyňyzdaky galyndy nädogry bolup biler. Bu maglumat aşakda beýan edilişi ýaly gapjygyňyz leenkoin tory bilen utgaşmagy tamamlanda dogry bolar.</translation>
     </message>
     <message>
         <source>Attempting to spend lyncoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">Entek görkezilmedik geleşikleriň täsirine düşen bitkoinleri sarp etmek synanyşygy ulgam tarapyndan kabul edilmez.</translation>
+        <translation type="unfinished">Entek görkezilmedik geleşikleriň täsirine düşen leenkoinleri sarp etmek synanyşygy ulgam tarapyndan kabul edilmez.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1460,7 +1460,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     <name>OpenURIDialog</name>
     <message>
         <source>Open lyncoin URI</source>
-        <translation type="unfinished">Bitkoin URI aç</translation>
+        <translation type="unfinished">Leenkoin URI aç</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -1624,7 +1624,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Bitkoin müşderi portuny routerde awtomatik usulda aç. Bu diňe routeriňiz UPnP goldaýan bolsa we ol işjeň bolsa işleýär.</translation>
+        <translation type="unfinished">Leenkoin müşderi portuny routerde awtomatik usulda aç. Bu diňe routeriňiz UPnP goldaýan bolsa we ol işjeň bolsa işleýär.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1632,7 +1632,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">Bitkoin müşderi portuny routerde awtomatik usulda açýar. Bu diňe routeriňiz NAT-PMP goldaýan we ol işjeňleşdirilen bolsa işleýär. Daşarky router tötänleýin bolup biler.</translation>
+        <translation type="unfinished">Leenkoin müşderi portuny routerde awtomatik usulda açýar. Bu diňe routeriňiz NAT-PMP goldaýan we ol işjeňleşdirilen bolsa işleýär. Daşarky router tötänleýin bolup biler.</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -1648,7 +1648,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Connect to the Lyncoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">SOCKS5 proksi arkaly Bitkoin toruna baglan.</translation>
+        <translation type="unfinished">SOCKS5 proksi arkaly Leenkoin toruna baglan.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1724,23 +1724,11 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Connect to the Lyncoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Tor onion hyzmatlary üçin aýratyn SOCKS5 proksi arkaly Bitkoin toruna baglan.</translation>
+        <translation type="unfinished">Tor onion hyzmatlary üçin aýratyn SOCKS5 proksi arkaly Leenkoin toruna baglan.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
         <translation type="unfinished">Tor onion hyzmatlary arkaly düwünlere aralaşmak üçin SOCKS&amp;5 proksisini ulan:</translation>
-    </message>
-    <message>
-        <source>Monospaced font in the Overview tab:</source>
-        <translation type="unfinished">Gözden geçir sahypasynda monoaralykly harp görnüşi:</translation>
-    </message>
-    <message>
-        <source>embedded "%1"</source>
-        <translation type="unfinished">içine gurnalan "%1"</translation>
-    </message>
-    <message>
-        <source>closest matching "%1"</source>
-        <translation type="unfinished">iň meňzeş gabat gelme "%1"</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
@@ -1829,7 +1817,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Görkezilýän maglumat könelen bolup biler. birikme ýerine ýetirilenden soň siziň gapjygyňyz awtomatiki usulda Bitkoin tory bilen sinhronlaşar, ýöne bu iş entäk gutarmady.</translation>
+        <translation type="unfinished">Görkezilýän maglumat könelen bolup biler. birikme ýerine ýetirilenden soň siziň gapjygyňyz awtomatiki usulda Leenkoin tory bilen sinhronlaşar, ýöne bu iş entäk gutarmady.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1980,10 +1968,6 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
         <translation type="unfinished">PSBT diskde ýatda saklandy.</translation>
     </message>
     <message>
-        <source> * Sends %1 to %2</source>
-        <translation type="unfinished"> * %2-ä %1 iberilýär</translation>
-    </message>
-    <message>
         <source>Unable to calculate transaction fee or total transaction amount.</source>
         <translation type="unfinished">Amal pajyny ýa-da jemi amal bahasyny hasaplap bolanok.</translation>
     </message>
@@ -2040,7 +2024,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>Cannot start lyncoin: click-to-pay handler</source>
-        <translation type="unfinished">Bitkoini başlap bolanok: click-to-pay işleýjisi</translation>
+        <translation type="unfinished">Leenkoini başlap bolanok: click-to-pay işleýjisi</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2048,7 +2032,7 @@ Diňe "miras" görnüşli salgylar bilen gol çekmek mümkin.</translation>
     </message>
     <message>
         <source>'lyncoin://' is not a valid URI. Use 'lyncoin:' instead.</source>
-        <translation type="unfinished">'bitcoin://' dogry URI däl. Onuň ýerine 'bitcoin:' ulanyň.</translation>
+        <translation type="unfinished">'lyncoin://' dogry URI däl. Onuň ýerine 'lyncoin:' ulanyň.</translation>
     </message>
     <message>
         <source>Cannot process payment request because BIP70 is not supported.
@@ -2060,7 +2044,7 @@ Size bu ýalňyşlyk gelýän bolsa, siz täjirden BIP21-e gabat gelýän URI-ni
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Lyncoin address or malformed URI parameters.</source>
-        <translation type="unfinished">URI-ni işläp bolmady! Munuň sebäbi nädogry Bitkoin salgysy ýa-da ýalňyş emele getirilen URI parametrleri bolup biler.</translation>
+        <translation type="unfinished">URI-ni işläp bolmady! Munuň sebäbi nädogry Leenkoin salgysy ýa-da ýalňyş emele getirilen URI parametrleri bolup biler.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2466,8 +2450,8 @@ Size bu ýalňyşlyk gelýän bolsa, siz täjirden BIP21-e gabat gelýän URI-ni
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -2510,8 +2494,8 @@ Size bu ýalňyşlyk gelýän bolsa, siz täjirden BIP21-e gabat gelýän URI-ni
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>

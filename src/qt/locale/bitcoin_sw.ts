@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation type="unfinished">Bonyeza kitufe cha kulia kufanya mabadiliko kwenye anuani au chapa</translation>
+        <translation type="unfinished">Bonyeza kulia ili kuhariri anwani au lebo</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -59,12 +59,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Hizi ndizo anwani zako za kutuma malipo ya sarafu ya Bitcoin. Hakikisha kila wakati kiwango na anwani ya kupokea kabla ya kutuma sarafu.</translation>
+        <translation type="unfinished">Hizi ndizo anwani zako za kutuma malipo ya sarafu ya Lyncoin. Hakikisha kila wakati kiwango na anwani ya kupokea kabla ya kutuma sarafu.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Hizi ndizo anwani zako za Bitcoin za kupokea malipo. Tumia kitufe cha 'Unda anwani mpya ya kupokea' kwenye kichupo cha kupokea ili kuunda anwani mpya.
+        <translation type="unfinished">Hizi ndizo anwani zako za Lyncoin za kupokea malipo. Tumia kitufe cha 'Unda anwani mpya ya kupokea' kwenye kichupo cha kupokea ili kuunda anwani mpya.
 Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
     </message>
     <message>
@@ -157,7 +157,7 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Ilani: Ikiwa utasimba pochi yako na ukapoteza nenosiri lako, &lt;b&gt; UTAPOTEZA BITCOIN ZAKO ZOTE &lt;/b&gt;!</translation>
+        <translation type="unfinished">Ilani: Ikiwa utasimba pochi yako na ukapoteza nenosiri lako, &lt;b&gt; UTAPOTEZA LYNCOIN ZAKO ZOTE &lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -177,7 +177,7 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Kumbuka kwamba usimbaji fiche wa mkoba wako hauwezi kulinda bitcoins zako zisiibiwe na programu hasidi kuambukiza kompyuta yako.</translation>
+        <translation type="unfinished">Kumbuka kwamba usimbaji fiche wa mkoba wako hauwezi kulinda lyncoins zako zisiibiwe na programu hasidi kuambukiza kompyuta yako.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -282,43 +282,43 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -383,7 +383,7 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Tuma sarafu kwa anwani ya Bitcoin</translation>
+        <translation type="unfinished">Tuma sarafu kwa anwani ya Lyncoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -415,11 +415,11 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Saini ujumbe na anwani zako za Bitcoin ili kuthibitisha umiliki wao.</translation>
+        <translation type="unfinished">Saini ujumbe na anwani zako za Lyncoin ili kuthibitisha umiliki wao.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Hakikisha ujumbe umethibitishwa kuwa ulisainiwa na anwani za Bitcoin zilizotajwa</translation>
+        <translation type="unfinished">Hakikisha ujumbe umethibitishwa kuwa ulisainiwa na anwani za Lyncoin zilizotajwa</translation>
     </message>
     <message>
         <source>Open &amp;URI…</source>
@@ -475,7 +475,7 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">Omba malipo (huzalisha nambari za QR na bitcoin: URIs)</translation>
+        <translation type="unfinished">Omba malipo (huzalisha nambari za QR na lyncoin: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -492,8 +492,8 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -505,8 +505,8 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -631,30 +631,30 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -727,8 +727,8 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -756,8 +756,8 @@ Kutia sahihi kunawezekana tu kwa anwani za aina ya 'urithi'.</translation>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>

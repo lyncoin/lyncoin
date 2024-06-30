@@ -339,22 +339,22 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -364,8 +364,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -434,7 +434,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">მონეტების გაგზავნა Bitcoin-მისამართზე</translation>
+        <translation type="unfinished">მონეტების გაგზავნა Lyncoin-მისამართზე</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -478,7 +478,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">მესიჯებზე ხელმოწერა თქვენი Bitcoin-მისამართებით იმის დასტურად, რომ ის თქვენია</translation>
+        <translation type="unfinished">მესიჯებზე ხელმოწერა თქვენი Lyncoin-მისამართებით იმის დასტურად, რომ ის თქვენია</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -486,7 +486,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">შეამოწმეთ, რომ მესიჯები ხელმოწერილია მითითებული Bitcoin-მისამართით</translation>
+        <translation type="unfinished">შეამოწმეთ, რომ მესიჯები ხელმოწერილია მითითებული Lyncoin-მისამართით</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -542,7 +542,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">გადახდის მოთხოვნა (შეიქმნება QR-კოდები და bitcoin: ბმულები)</translation>
+        <translation type="unfinished">გადახდის მოთხოვნა (შეიქმნება QR-კოდები და lyncoin: ბმულები)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -559,8 +559,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -688,8 +688,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1010,7 +1010,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">შეყვანილი მისამართი "%1" არ არის ვალიდური Bitcoin-მისამართი.</translation>
+        <translation type="unfinished">შეყვანილი მისამართი "%1" არ არის ვალიდური Lyncoin-მისამართი.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1049,22 +1049,22 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1253,7 +1253,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">როუტერში Bitcoin-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
+        <translation type="unfinished">როუტერში Lyncoin-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1363,7 +1363,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება Bitcoin-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
+        <translation type="unfinished">ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება Lyncoin-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1534,7 +1534,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Cannot start lyncoin: click-to-pay handler</source>
-        <translation type="unfinished">ვერ გაიშვა bitcoin: click-to-pay</translation>
+        <translation type="unfinished">ვერ გაიშვა lyncoin: click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1542,11 +1542,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>'lyncoin://' is not a valid URI. Use 'lyncoin:' instead.</source>
-        <translation type="unfinished">„bitcoin://“ არ არის სწორი URI. ამის ნაცვლად გამოიყენეთ „bitcoin:“.</translation>
+        <translation type="unfinished">„lyncoin://“ არ არის სწორი URI. ამის ნაცვლად გამოიყენეთ „lyncoin:“.</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Lyncoin address or malformed URI parameters.</source>
-        <translation type="unfinished">URI შეუძლებელია გაანალიზდეს! ეს შეიძლება გამოწვეული იყოს არასწორი Bitcoin მისამართით ან ცუდად ფორმირებული URI პარამეტრებით.</translation>
+        <translation type="unfinished">URI შეუძლებელია გაანალიზდეს! ეს შეიძლება გამოწვეული იყოს არასწორი Lyncoin მისამართით ან ცუდად ფორმირებული URI პარამეტრებით.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2187,13 +2187,13 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">ყურადღება: არასწორია Bitcoin-მისამართი</translation>
+        <translation type="unfinished">ყურადღება: არასწორია Lyncoin-მისამართი</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2310,7 +2310,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Bitcoin-მისამართით</translation>
+        <translation type="unfinished">შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Lyncoin-მისამართით</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2439,8 +2439,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>

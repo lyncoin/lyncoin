@@ -56,12 +56,12 @@ Right-click to edit address or label</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Ko ēnei ngā whakamāoritanga mō ō whakamahi Bitcoin hei tuku moni. Tirohia i te moni me te wāhi whiwhi i mua i te tuku i ngā moni.</translation>
+        <translation type="unfinished">Ko ēnei ngā whakamāoritanga mō ō whakamahi Lyncoin hei tuku moni. Tirohia i te moni me te wāhi whiwhi i mua i te tuku i ngā moni.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Ko ēnei ngā whakamāoritanga mō ō whakaaetanga Bitcoin hei whiwhi utu. Whakamahi i te pātene 'Waihanga whakaaronga hōu' i te pae whiwhi ki te whakapūmau i ngā whakaaronga hōu.
+        <translation type="unfinished">Ko ēnei ngā whakamāoritanga mō ō whakaaetanga Lyncoin hei whiwhi utu. Whakamahi i te pātene 'Waihanga whakaaronga hōu' i te pae whiwhi ki te whakapūmau i ngā whakaaronga hōu.
 Ko te whakakī i ēnei whakaaronga e taea ana anake ki ngā whakararuraru o te momo 'tawhito'.</translation>
     </message>
     <message>
@@ -146,7 +146,7 @@ Ko te whakakī i ēnei whakaaronga e taea ana anake ki ngā whakararuraru o te m
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Whakatūpato: Ki te whakakino i tō pēke moni me te ngaro i tō kupuhipa, ka &lt;b&gt;NGARO KATOA ŌU PĪNIHA BITCOIN&lt;/b&gt;!</translation>
+        <translation type="unfinished">Whakatūpato: Ki te whakakino i tō pēke moni me te ngaro i tō kupuhipa, ka &lt;b&gt;NGARO KATOA ŌU PĪNIHA LYNCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -264,49 +264,49 @@ Ko te whakakī i ēnei whakaaronga e taea ana anake ki ngā whakararuraru o te m
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -315,18 +315,18 @@ Ko te whakakī i ēnei whakaaronga e taea ana anake ki ngā whakararuraru o te m
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -335,34 +335,34 @@ Ko te whakakī i ēnei whakaaronga e taea ana anake ki ngā whakararuraru o te m
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -386,9 +386,9 @@ Ko te whakakī i ēnei whakaaronga e taea ana anake ki ngā whakararuraru o te m
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -397,9 +397,9 @@ Ko te whakakī i ēnei whakaaronga e taea ana anake ki ngā whakararuraru o te m
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -618,10 +618,6 @@ Ko te whakakī i ēnei whakaaronga e taea ana anake ki ngā whakararuraru o te m
     <message>
         <source>Transaction change output index out of range</source>
         <translation type="unfinished">He whakawhitiwhitinga whakaputanga hōputu whakararuraru te tūnga</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">He whakawhitiwhitinga whakapau kaha te whakapau kaha o te whakapau kaha.</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>

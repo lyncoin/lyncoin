@@ -59,12 +59,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">ទាំងនេះ​គឺជាអាសយដ្ឋាន Bitcoin របស់អ្នកសម្រាប់ធ្វើការផ្ញើការបង់ប្រាក់។ តែងតែពិនិត្យមើលចំនួនប្រាក់ និងអាសយដ្ឋានដែលទទួល មុនពេលផ្ញើប្រាក់។</translation>
+        <translation type="unfinished">ទាំងនេះ​គឺជាអាសយដ្ឋាន Lyncoin របស់អ្នកសម្រាប់ធ្វើការផ្ញើការបង់ប្រាក់។ តែងតែពិនិត្យមើលចំនួនប្រាក់ និងអាសយដ្ឋានដែលទទួល មុនពេលផ្ញើប្រាក់។</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">ទាំងនេះគឺជាអាសយដ្ឋាន Bitcoin របស់អ្នកសម្រាប់ការទទួលការទូទាត់។ ប្រើប៊ូតុង 'បង្កើតអាសយដ្ឋានទទួលថ្មី' នៅក្នុងផ្ទាំងទទួល ដើម្បីបង្កើតអាសយដ្ឋានថ្មី។ 
+        <translation type="unfinished">ទាំងនេះគឺជាអាសយដ្ឋាន Lyncoin របស់អ្នកសម្រាប់ការទទួលការទូទាត់។ ប្រើប៊ូតុង 'បង្កើតអាសយដ្ឋានទទួលថ្មី' នៅក្នុងផ្ទាំងទទួល ដើម្បីបង្កើតអាសយដ្ឋានថ្មី។ 
 ការចុះហត្ថលេខាគឺអាចធ្វើទៅបានតែជាមួយអាសយដ្ឋាននៃប្រភេទ 'legacy' ប៉ុណ្ណោះ។</translation>
     </message>
     <message>
@@ -165,7 +165,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">ការព្រមាន៖ ប្រសិនបើអ្នកអ៊ិនគ្រីបកាបូបចល័តរបស់អ្នក ហើយអ្នកភ្លេចបាត់ឃ្លាសម្ងាត់ នោះអ្នកនិង &lt;b&gt;បាត់បង់ BITCOINS របស់អ្នកទាំងអស់&lt;/b&gt;!</translation>
+        <translation type="unfinished">ការព្រមាន៖ ប្រសិនបើអ្នកអ៊ិនគ្រីបកាបូបចល័តរបស់អ្នក ហើយអ្នកភ្លេចបាត់ឃ្លាសម្ងាត់ នោះអ្នកនិង &lt;b&gt;បាត់បង់ LYNCOINS របស់អ្នកទាំងអស់&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -185,7 +185,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">សូមចងចាំថាការអ៊ិនគ្រីបកាបូបរបស់អ្នកមិនអាចការពារបានពេញលេញនូវ bitcoins របស់អ្នកពីការលួចដោយមេរោគដែលឆ្លងកុំព្យូទ័ររបស់អ្នក។</translation>
+        <translation type="unfinished">សូមចងចាំថាការអ៊ិនគ្រីបកាបូបរបស់អ្នកមិនអាចការពារបានពេញលេញនូវ lyncoins របស់អ្នកពីការលួចដោយមេរោគដែលឆ្លងកុំព្យូទ័ររបស់អ្នក។</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -330,42 +330,42 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>%n second(s)</source>
         <translation type="unfinished">
             <numerusform>%n(ច្រើន)វិនាទី</numerusform>
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
             <numerusform>%n(ច្រើន)នាទី</numerusform>
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
             <numerusform>%n(ច្រើន)ម៉ោង</numerusform>
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
             <numerusform>%n(ច្រើន)</numerusform>
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
             <numerusform>%n(ច្រើន)</numerusform>
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
             <numerusform>%n(ច្រើន)</numerusform>
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -434,7 +434,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">ផ្ញើកាក់ទៅកាន់ អាសយដ្ឋាន Bitcoin មួយ</translation>
+        <translation type="unfinished">ផ្ញើកាក់ទៅកាន់ អាសយដ្ឋាន Lyncoin មួយ</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -564,7 +564,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
             <numerusform>បានដំណើរការ %n ប្លុកនៃប្រវត្តិប្រត្តិបត្តិការ។</numerusform>
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -681,8 +681,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n ការតភ្ជាប់សកម្មទៅបណ្តាញ Bitcoin ។</numerusform>
-            <numerusform />
+            <numerusform>%n ការតភ្ជាប់សកម្មទៅបណ្តាញ Lyncoin ។</numerusform>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1133,21 +1133,21 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>%n GB of space available</source>
         <translation type="unfinished">
             <numerusform>%nGB នៃកន្លែងទំនេរ</numerusform>
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation type="unfinished">
             <numerusform>(នៃ%n GB ដែលត្រូវការ)</numerusform>
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
             <numerusform>(%n GB ត្រូវការសម្រាប់ខ្សែសង្វាក់ពេញលេញ)</numerusform>
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
@@ -1155,7 +1155,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
             <numerusform>(គ្រប់គ្រាន់ដើម្បីស្ដារការបម្រុងទុក%nថ្ងៃចាស់)</numerusform>
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1384,7 +1384,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">បើកច្រកម៉ាស៊ីនភ្ញៀវ Bitcoin ដោយស្វ័យប្រវត្តិនៅលើរ៉ោតទ័រ។ វាដំណើរការតែនៅពេលដែលរ៉ោតទ័ររបស់អ្នកគាំទ្រ NAT-PMP ហើយវាត្រូវបានបើក។ ច្រកខាងក្រៅអាចជាចៃដន្យ។</translation>
+        <translation type="unfinished">បើកច្រកម៉ាស៊ីនភ្ញៀវ Lyncoin ដោយស្វ័យប្រវត្តិនៅលើរ៉ោតទ័រ។ វាដំណើរការតែនៅពេលដែលរ៉ោតទ័ររបស់អ្នកគាំទ្រ NAT-PMP ហើយវាត្រូវបានបើក។ ច្រកខាងក្រៅអាចជាចៃដន្យ។</translation>
     </message>
     <message>
         <source>Accept connections from outside.</source>
@@ -2233,10 +2233,6 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">ចម្លងតម្លៃ</translation>
     </message>
     <message>
-        <source>Copy change</source>
-        <translation type="unfinished">ចម្លងការផ្លាស់ប្តូរ</translation>
-    </message>
-    <message>
         <source>Sign on device</source>
         <extracomment>"device" usually means a hardware wallet.</extracomment>
         <translation type="unfinished">ចុះហត្ថលេខាលើឧបករណ៍</translation>
@@ -2302,7 +2298,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Lyncoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">សូមពិនិត្យមើលប្រតិបត្តិការរបស់អ្នក។ អ្នកអាចបង្កើត និងផ្ញើប្រតិបត្តិការនេះ ឬបង្កើតប្រតិបត្តិការ Bitcoin ដែលបានចុះហត្ថលេខាដោយផ្នែក (PSBT) ដែលអ្នកអាចរក្សាទុក ឬចម្លងហើយបន្ទាប់មកចុះហត្ថលេខាជាមួយ ឧ. %1កាបូបក្រៅបណ្តាញ ឬកាបូបហាដវែដែលត្រូវគ្នាជាមួយ PSBT ។</translation>
+        <translation type="unfinished">សូមពិនិត្យមើលប្រតិបត្តិការរបស់អ្នក។ អ្នកអាចបង្កើត និងផ្ញើប្រតិបត្តិការនេះ ឬបង្កើតប្រតិបត្តិការ Lyncoin ដែលបានចុះហត្ថលេខាដោយផ្នែក (PSBT) ដែលអ្នកអាចរក្សាទុក ឬចម្លងហើយបន្ទាប់មកចុះហត្ថលេខាជាមួយ ឧ. %1កាបូបក្រៅបណ្តាញ ឬកាបូបហាដវែដែលត្រូវគ្នាជាមួយ PSBT ។</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -2349,7 +2345,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
             <numerusform>ប៉ាន់ស្មានដើម្បីចាប់ផ្តើមការបញ្ជាក់នៅក្នុង%n(ច្រើន)ប្លុក។</numerusform>
-            <numerusform />
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -2591,8 +2587,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -3015,10 +3011,6 @@ Go to File &gt; Open Wallet to load a wallet.
     <message>
         <source>Transaction amounts must not be negative</source>
         <translation type="unfinished">ចំនួនប្រត្តិបត្តិការ មិនអាចអវិជ្ជមានបានទេ</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">ប្រត្តិបត្តិការមានខ្សែចង្វាក់រងចាំដើម្បីធ្វើការផ្ទៀងផ្ទាត់វែង</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>

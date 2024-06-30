@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation type="unfinished">Mynda nýggja adressu</translation>
+        <translation type="unfinished">Stovna adressu</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -66,7 +66,7 @@
     <message>
         <source>Do you want to reset settings to default values, or to abort without making changes?</source>
         <extracomment>Explanatory text shown on startup when the settings file cannot be read. Prompts user to make a choice between resetting or aborting.</extracomment>
-        <translation type="unfinished">Ynskir tú at endurstilla stillingar til sjálvsettar, ella at avbróta uttan at hava broytt stillingar?</translation>
+        <translation type="unfinished">Ynskir tú at endurstilla stillingar til upprunaligar stillingar, ella at avlýsa broytingar?</translation>
     </message>
     <message>
         <source>Error: %1</source>
@@ -78,7 +78,7 @@
     </message>
     <message>
         <source>Enter a Lyncoin address (e.g. %1)</source>
-        <translation type="unfinished">Inntøppa eina Bitcoin adressu (t.d. %1)</translation>
+        <translation type="unfinished">Inntøppa eina Lyncoin adressu (t.d. %1)</translation>
     </message>
     <message>
         <source>Ctrl+W</source>
@@ -173,7 +173,7 @@
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation type="unfinished">Broyt uppsetan fyri %1</translation>
+        <translation type="unfinished">Broyt uppsetanarstillingar fyri %1</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
@@ -181,16 +181,20 @@
         <translation type="unfinished">Net-virksemi óvirkijað.</translation>
     </message>
     <message>
+        <source>&amp;Receive</source>
+        <translation type="unfinished">&amp;Móttak</translation>
+    </message>
+    <message>
         <source>Sign &amp;message…</source>
-        <translation type="unfinished">&amp;Undirskriva  boðini</translation>
+        <translation type="unfinished">&amp;Undirrita  boð</translation>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Undirskriva boðini við tíni Bitcoin-adressu til tess at prógva at tey eru tíni</translation>
+        <translation type="unfinished">Undirrita boðini við tíni Lyncoin-adressu fyri at prógva at tey eru tíni</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation type="unfinished">&amp;Fíl</translation>
+        <translation type="unfinished">&amp;Fíla</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
@@ -203,8 +207,8 @@
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -239,8 +243,8 @@
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n virkið samband til Bitcoin netið.</numerusform>
-            <numerusform>%n virkin sambond til Bitcoin netið.</numerusform>
+            <numerusform>%n virkið samband til Lyncoin netið.</numerusform>
+            <numerusform>%n virkin sambond til Lyncoin netið.</numerusform>
         </translation>
     </message>
     <message>
@@ -397,8 +401,8 @@
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -409,8 +413,8 @@
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -574,10 +578,6 @@
     <message>
         <source>Save…</source>
         <translation type="unfinished">Goym...</translation>
-    </message>
-    <message>
-        <source> * Sends %1 to %2</source>
-        <translation type="unfinished">* Sendir %1 til %2</translation>
     </message>
     <message>
         <source>own address</source>
@@ -950,13 +950,13 @@
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">Ávaring: Ógildig Bitcoin adressa</translation>
+        <translation type="unfinished">Ávaring: Ógildig Lyncoin adressa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1006,11 +1006,11 @@
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive lyncoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">Tú kann skriva undir boð/sáttmálar við tínum adressum, fyri at prógva at tú kanst móttaka bitcoin sendar til tær. Ver ansin so tú ikki skrivar undir nakað ógreitt ella tilvildarligt, tí fysking-álop kunnu royna at snýta teg til at latað tín samleika til tey. Undirrita einans nágreiniligar útsagnir ið tú tekur undir við.</translation>
+        <translation type="unfinished">Tú kann skriva undir boð/sáttmálar við tínum adressum, fyri at prógva at tú kanst móttaka lyncoin sendar til tær. Ver ansin so tú ikki skrivar undir nakað ógreitt ella tilvildarligt, tí fysking-álop kunnu royna at snýta teg til at latað tín samleika til tey. Undirrita einans nágreiniligar útsagnir ið tú tekur undir við.</translation>
     </message>
     <message>
         <source>The Lyncoin address to sign the message with</source>
-        <translation type="unfinished">Bitcoin adressan at undirskriva boðini við</translation>
+        <translation type="unfinished">Lyncoin adressan at undirskriva boðini við</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1034,7 +1034,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Lyncoin address</source>
-        <translation type="unfinished">Undirskriva boðini fyri at prógva at Bitcoin-adressan er tín</translation>
+        <translation type="unfinished">Undirskriva boðini fyri at prógva at Lyncoin-adressan er tín</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1046,7 +1046,7 @@
     </message>
     <message>
         <source>The Lyncoin address the message was signed with</source>
-        <translation type="unfinished">Bitcoin-adressan ið undirskrivaði boðini</translation>
+        <translation type="unfinished">Lyncoin-adressan ið undirskrivaði boðini</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -1106,8 +1106,8 @@
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1310,7 +1310,7 @@
     </message>
     <message>
         <source>Error: Got value that was not hex: %s</source>
-        <translation type="unfinished">Villa: Læs virði ið ikki er sekstandatal: %s</translation>
+        <translation type="unfinished">Villa: Fekk virði ið ikki er sekstandatal: %s</translation>
     </message>
     <message>
         <source>Error: No %s addresses available.</source>
@@ -1318,7 +1318,7 @@
     </message>
     <message>
         <source>Error: Unable to begin reading all records in the database</source>
-        <translation type="unfinished">Villa: Bar ikki til at byrja at lesa allar skrásetingar í dátugrunninum</translation>
+        <translation type="unfinished">Villa: Bar ikki til at byrja at innlesa skrásetingar í dátugrunninum</translation>
     </message>
     <message>
         <source>Error: Unable to parse version %u as a uint32_t</source>
@@ -1326,11 +1326,11 @@
     </message>
     <message>
         <source>Error: Unable to read all records in the database</source>
-        <translation type="unfinished">Villa: Bar ikki til at lesa allar skrásetingar í dátugrunninum</translation>
+        <translation type="unfinished">Villa: Bar ikki til at innlesa allar skrásetingar í dátugrunninum</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished">Miseydnaðist at lurta á portri. Brúka -listen=0 um tú ynskir hetta.</translation>
+        <translation type="unfinished">Miseydnaðist at lurta á nøkrum portri. Brúka -listen=0 um tú ikki ynskir at lurta á nøkrum portri.</translation>
     </message>
     <message>
         <source>Listening for incoming connections failed (listen returned error %s)</source>
@@ -1354,7 +1354,7 @@
     </message>
     <message>
         <source>Settings file could not be read</source>
-        <translation type="unfinished">Lesing av uppsetanarfílu miseydnaðist.</translation>
+        <translation type="unfinished">Lesing av uppsetanarfílu miseydnaðist</translation>
     </message>
     <message>
         <source>Settings file could not be written</source>

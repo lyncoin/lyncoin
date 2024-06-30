@@ -10,9 +10,48 @@
 
 uint256 CPureBlockHeader::GetHash() const
 {
-    return (HashWriter{} << *this).GetHash();
+    if(nVersion & 0x8000) {
+        return (Hash3Writer{} << *this).GetHash();
+    } else {
+        return (HashWriter{} << *this).GetHash();
+    }
 }
 
+uint256 CPureBlockHeader::GetHash(int32_t nBlockVersion) const
+{
+    if(nBlockVersion & 0x8000) {
+        return (Hash3Writer{} << *this).GetHash();
+    } else {
+        return (HashWriter{} << *this).GetHash();
+    }
+}
+
+uint256 CPureBlockHeader::GetHash2() const
+{
+    return (Hash4Writer{} << *this).GetHash();
+}
+
+uint256 CPureBlockHeader::GetPoWHash() const
+{
+    uint256 hash;
+    if(nVersion & 0x8000) {
+        hash = GetHash2();
+    } else {
+        hash = GetHash();
+    }
+    return hash;
+}
+
+uint256 CPureBlockHeader::GetPoWHash(int32_t nBlockVersion) const
+{
+    uint256 hash;
+    if(nBlockVersion & 0x8000) {
+        hash = GetHash2();
+    } else {
+        hash = GetHash(nBlockVersion);
+    }
+    return hash;
+}
 void CPureBlockHeader::SetBaseVersion(int32_t nBaseVersion, int32_t nChainId)
 {
     assert(nBaseVersion >= 1 && nBaseVersion < VERSION_AUXPOW);

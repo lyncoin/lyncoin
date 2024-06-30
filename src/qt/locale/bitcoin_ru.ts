@@ -165,7 +165,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Предупреждение: если вы зашифруете кошелёк и потеряете парольную фразу, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ БИТКОИНЫ&lt;/b&gt;!</translation>
+        <translation type="unfinished">Предупреждение: если вы зашифруете кошелёк и потеряете парольную фразу, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ ЛИНКОИНЫ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -515,7 +515,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Отправить средства на Биткоин адрес</translation>
+        <translation type="unfinished">Отправить средства на Линкоин адрес</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -559,7 +559,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Подписать сообщения своими Биткоин кошельками, что-бы доказать, что вы ими владеете</translation>
+        <translation type="unfinished">Подписать сообщения своими Линкоин кошельками, что-бы доказать, что вы ими владеете</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -1148,12 +1148,12 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">Кошелек '%1' был успешно перенесён.</translation>
     </message>
     <message>
-        <source> Watchonly scripts have been migrated to a new wallet named '%1'.</source>
-        <translation type="unfinished"> Скрипты Watchonly были перенесены на новый кошелек под названием '%1'.</translation>
+        <source>Watchonly scripts have been migrated to a new wallet named '%1'.</source>
+        <translation type="unfinished">Скрипты Watchonly были перенесены в новый кошелек под названием  '%1'.</translation>
     </message>
     <message>
-        <source> Solvable but not watched scripts have been migrated to a new wallet named '%1'.</source>
-        <translation type="unfinished"> Решаемые, но не наблюдаемые сценарии были перенесены на новый кошелек под названием '%1'.</translation>
+        <source>Solvable but not watched scripts have been migrated to a new wallet named '%1'.</source>
+        <translation type="unfinished">Решаемые, но не наблюдаемые сценарии были перенесены в новый кошелек под названием  '%1'.</translation>
     </message>
     <message>
         <source>Migration failed</source>
@@ -1339,7 +1339,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">Введенный адрес "%1" недействителен в сети Биткоин.</translation>
+        <translation type="unfinished">Введенный адрес "%1" недействителен в сети Линкоин.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1861,18 +1861,6 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">Использовать &amp;отдельный прокси SOCKS5 для соединения с узлами через скрытые сервисы Tor:</translation>
     </message>
     <message>
-        <source>Monospaced font in the Overview tab:</source>
-        <translation type="unfinished">Моноширинный шрифт на вкладке Обзор:</translation>
-    </message>
-    <message>
-        <source>embedded "%1"</source>
-        <translation type="unfinished">встроенный "%1"</translation>
-    </message>
-    <message>
-        <source>closest matching "%1"</source>
-        <translation type="unfinished">самый похожий системный "%1"</translation>
-    </message>
-    <message>
         <source>&amp;OK</source>
         <translation type="unfinished">&amp;ОК</translation>
     </message>
@@ -2107,10 +2095,6 @@ The migration process will create a backup of the wallet before migrating. This 
     <message>
         <source>PSBT saved to disk.</source>
         <translation type="unfinished">PSBT сохранена на диск.</translation>
-    </message>
-    <message>
-        <source> * Sends %1 to %2</source>
-        <translation type="unfinished"> * Отправляет %1 на %2</translation>
     </message>
     <message>
         <source>own address</source>
@@ -3172,10 +3156,6 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">Создает частично подписанную линкоин-транзакцию (PSBT), чтобы использовать её, например, с офлайновым кошельком %1, или PSBT-совместимым аппаратным кошельком.</translation>
     </message>
     <message>
-        <source> from wallet '%1'</source>
-        <translation type="unfinished"> с кошелька "%1"</translation>
-    </message>
-    <message>
         <source>%1 to '%2'</source>
         <translation type="unfinished">%1 на "%2"</translation>
     </message>
@@ -3358,7 +3338,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The Lyncoin address to send the payment to</source>
-        <translation type="unfinished">Биткоин-адрес, на который нужно отправить платёж</translation>
+        <translation type="unfinished">Линкоин-адрес, на который нужно отправить платёж</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -3424,7 +3404,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The Lyncoin address to sign the message with</source>
-        <translation type="unfinished">Биткоин-адрес, которым подписать сообщение</translation>
+        <translation type="unfinished">Линкоин-адрес, которым подписать сообщение</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3472,7 +3452,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The Lyncoin address the message was signed with</source>
-        <translation type="unfinished">Биткоин-адрес, которым было подписано сообщение</translation>
+        <translation type="unfinished">Линкоин-адрес, которым было подписано сообщение</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -3700,10 +3680,6 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Output index</source>
         <translation type="unfinished">Индекс выхода</translation>
-    </message>
-    <message>
-        <source> (Certificate was not verified)</source>
-        <translation type="unfinished"> (Сертификат не был проверен)</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -4586,14 +4562,6 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">Ошибка: не удалось извлечь получателя из сгенерированного scriptpubkey</translation>
     </message>
     <message>
-        <source>Error: Could not add watchonly tx to watchonly wallet</source>
-        <translation type="unfinished">Ошибка: не удалось добавить транзакцию для наблюдения в кошелёк для наблюдения</translation>
-    </message>
-    <message>
-        <source>Error: Could not delete watchonly transactions</source>
-        <translation type="unfinished">Ошибка: транзакции только для наблюдения не удаляются</translation>
-    </message>
-    <message>
         <source>Error: Couldn't create cursor into database</source>
         <translation type="unfinished">Ошибка: не удалось создать курсор в базе данных</translation>
     </message>
@@ -4628,10 +4596,6 @@ Unable to restore backup of wallet.</source>
     <message>
         <source>Error: No %s addresses available.</source>
         <translation type="unfinished">Ошибка: нет %s доступных адресов.</translation>
-    </message>
-    <message>
-        <source>Error: Not all watchonly txs could be deleted</source>
-        <translation type="unfinished">Ошибка: не все наблюдаемые транзакции могут быть удалены</translation>
     </message>
     <message>
         <source>Error: This wallet already uses SQLite</source>
@@ -4912,10 +4876,6 @@ Unable to restore backup of wallet.</source>
     <message>
         <source>Transaction change output index out of range</source>
         <translation type="unfinished">Индекс получателя адреса сдачи вне диапазона</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">У транзакции слишком длинная цепочка в пуле в памяти</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>

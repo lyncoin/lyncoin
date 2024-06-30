@@ -162,6 +162,8 @@ struct Params {
     uint64_t n2023Height2;
     uint64_t n2023Bits2;
     int nSubsidyHalvingInterval2;
+    uint64_t nFlexhashHeight;
+    uint32_t nFlexhashBits;
 
     /**
      * Check whether or not to allow legacy blocks at the given height.

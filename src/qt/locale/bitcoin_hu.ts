@@ -59,12 +59,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Ezek az Ön Bitcoin címei kifizetések küldéséhez. Mindig ellenőrizze az összeget és a fogadó címet mielőtt érméket küldene.</translation>
+        <translation type="unfinished">Ezek az Ön Lyncoin címei kifizetések küldéséhez. Mindig ellenőrizze az összeget és a fogadó címet mielőtt érméket küldene.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Ezek az Ön Bitcoin címei amelyeken fogadni tud Bitcoin utalásokat. Az "Új cím létrehozása" gombbal tud új címet létrehozni.
+        <translation type="unfinished">Ezek az Ön Lyncoin címei amelyeken fogadni tud Lyncoin utalásokat. Az "Új cím létrehozása" gombbal tud új címet létrehozni.
 Aláírni csak régi típusú, egyessel kezdődő címekkel lehet.</translation>
     </message>
     <message>
@@ -165,7 +165,7 @@ Aláírni csak régi típusú, egyessel kezdődő címekkel lehet.</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Figyelmeztetés: Ha titkosítja a tárcáját és elveszíti a jelmondatát, akkor &lt;b&gt;AZ ÖSSZES BITCOINJA ELVÉSZ&lt;/b&gt;!</translation>
+        <translation type="unfinished">Figyelmeztetés: Ha titkosítja a tárcáját és elveszíti a jelmondatát, akkor &lt;b&gt;AZ ÖSSZES LYNCOINJA ELVÉSZ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -303,12 +303,20 @@ Aláírni csak régi típusú, egyessel kezdődő címekkel lehet.</translation>
         <translation type="unfinished">ismeretlen</translation>
     </message>
     <message>
+        <source>Embedded "%1"</source>
+        <translation type="unfinished">Beágyazva "%1"</translation>
+    </message>
+    <message>
+        <source>Default system font "%1"</source>
+        <translation type="unfinished">Alapértelmezett betűtípus "%1"</translation>
+    </message>
+    <message>
         <source>Amount</source>
         <translation type="unfinished">Összeg</translation>
     </message>
     <message>
         <source>Enter a Lyncoin address (e.g. %1)</source>
-        <translation type="unfinished">Adjon meg egy Bitcoin címet (pl: %1)</translation>
+        <translation type="unfinished">Adjon meg egy Lyncoin címet (pl: %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -483,7 +491,7 @@ Aláírni csak régi típusú, egyessel kezdődő címekkel lehet.</translation>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Bitcoin küldése megadott címre</translation>
+        <translation type="unfinished">Lyncoin küldése megadott címre</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -527,7 +535,7 @@ Aláírni csak régi típusú, egyessel kezdődő címekkel lehet.</translation>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Üzenetek aláírása a Bitcoin-címeivel, amivel bizonyíthatja, hogy az Öné</translation>
+        <translation type="unfinished">Üzenetek aláírása a Lyncoin-címeivel, amivel bizonyíthatja, hogy az Öné</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -535,7 +543,7 @@ Aláírni csak régi típusú, egyessel kezdődő címekkel lehet.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Üzenetek ellenőrzése, hogy valóban a megjelölt Bitcoin-címekkel vannak-e aláírva</translation>
+        <translation type="unfinished">Üzenetek ellenőrzése, hogy valóban a megjelölt Lyncoin-címekkel vannak-e aláírva</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -595,7 +603,7 @@ Aláírni csak régi típusú, egyessel kezdődő címekkel lehet.</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">Fizetési kérelem (QR-kódot és "bitcoin:" URI azonosítót hoz létre)</translation>
+        <translation type="unfinished">Fizetési kérelem (QR-kódot és "lyncoin:" URI azonosítót hoz létre)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -649,7 +657,7 @@ Aláírni csak régi típusú, egyessel kezdődő címekkel lehet.</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">Részlegesen aláírt Bitcoin tranzakció (PSBT) betöltése</translation>
+        <translation type="unfinished">Részlegesen aláírt Lyncoin tranzakció (PSBT) betöltése</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
@@ -657,7 +665,7 @@ Aláírni csak régi típusú, egyessel kezdődő címekkel lehet.</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">Részlegesen aláírt Bitcoin tranzakció (PSBT) betöltése vágólapról</translation>
+        <translation type="unfinished">Részlegesen aláírt Lyncoin tranzakció (PSBT) betöltése vágólapról</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -677,7 +685,7 @@ Aláírni csak régi típusú, egyessel kezdődő címekkel lehet.</translation>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">Bitcoin URI megnyitása</translation>
+        <translation type="unfinished">Lyncoin URI megnyitása</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -707,7 +715,7 @@ Aláírni csak régi típusú, egyessel kezdődő címekkel lehet.</translation>
     </message>
     <message>
         <source>Migrate Wallet</source>
-        <translation type="unfinished">Tárca Migrálása</translation>
+        <translation type="unfinished">Tárca migrálása</translation>
     </message>
     <message>
         <source>Migrate a wallet</source>
@@ -715,7 +723,7 @@ Aláírni csak régi típusú, egyessel kezdődő címekkel lehet.</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Lyncoin command-line options</source>
-        <translation type="unfinished">A %1 súgó megjelenítése a Bitcoin lehetséges parancssori kapcsolóinak listájával</translation>
+        <translation type="unfinished">A %1 súgó megjelenítése a Lyncoin lehetséges parancssori kapcsolóinak listájával</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -781,7 +789,7 @@ Aláírni csak régi típusú, egyessel kezdődő címekkel lehet.</translation>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n aktív kapcsolat a Bitcoin hálózathoz.</numerusform>
+            <numerusform>%n aktív kapcsolat a Lyncoin hálózathoz.</numerusform>
         </translation>
     </message>
     <message>
@@ -1101,22 +1109,22 @@ A migrációs folyamat készít biztonsági mentést a tárcáról migrálás el
     </message>
     <message>
         <source>Migrate Wallet</source>
-        <translation type="unfinished">Tárca Migrálása</translation>
+        <translation type="unfinished">Tárca migrálása</translation>
     </message>
     <message>
         <source>Migrating Wallet &lt;b&gt;%1&lt;/b&gt;…</source>
-        <translation type="unfinished">A &lt;b&gt;%1&lt;/b&gt; Tárca Migrálása Folyamatban...</translation>
+        <translation type="unfinished">A &lt;b&gt;%1&lt;/b&gt; tárca migrálása folyamatban...</translation>
     </message>
     <message>
         <source>The wallet '%1' was migrated successfully.</source>
         <translation type="unfinished">A '%1' tárca sikeresen migrálva lett.</translation>
     </message>
     <message>
-        <source> Watchonly scripts have been migrated to a new wallet named '%1'.</source>
+        <source>Watchonly scripts have been migrated to a new wallet named '%1'.</source>
         <translation type="unfinished">Figyelő szkriptek az új '%1' nevű tárcába lettek migrálva.</translation>
     </message>
     <message>
-        <source> Solvable but not watched scripts have been migrated to a new wallet named '%1'.</source>
+        <source>Solvable but not watched scripts have been migrated to a new wallet named '%1'.</source>
         <translation type="unfinished">Megoldható de nem megfigyelt szkriptek az új '%1' nevű tárcába lettek migrálva.</translation>
     </message>
     <message>
@@ -1125,7 +1133,7 @@ A migrációs folyamat készít biztonsági mentést a tárcáról migrálás el
     </message>
     <message>
         <source>Migration Successful</source>
-        <translation type="unfinished">Migrálás Sikeres</translation>
+        <translation type="unfinished">Migrálás sikeres</translation>
     </message>
 </context>
 <context>
@@ -1168,7 +1176,7 @@ A migrációs folyamat készít biztonsági mentést a tárcáról migrálás el
     <message>
         <source>Restore wallet failed</source>
         <extracomment>Title of message box which is displayed when the wallet could not be restored.</extracomment>
-        <translation type="unfinished">Tárca helyreállítása sikertelen</translation>
+        <translation type="unfinished">Tárca visszaállítása sikertelen</translation>
     </message>
     <message>
         <source>Restore wallet warning</source>
@@ -1308,7 +1316,7 @@ A migrációs folyamat készít biztonsági mentést a tárcáról migrálás el
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">A megadott "%1" cím nem egy érvényes Bitcoin-cím.</translation>
+        <translation type="unfinished">A megadott "%1" cím nem egy érvényes Lyncoin-cím.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1391,7 +1399,7 @@ A migrációs folyamat készít biztonsági mentést a tárcáról migrálás el
     </message>
     <message>
         <source>%1 will download and store a copy of the Lyncoin block chain.</source>
-        <translation type="unfinished">%1 fog letöltődni és a Bitcoin blokklánc egy másolatát fogja tárolni.</translation>
+        <translation type="unfinished">%1 fog letöltődni és a Lyncoin blokklánc egy másolatát fogja tárolni.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1484,11 +1492,11 @@ A migrációs folyamat készít biztonsági mentést a tárcáról migrálás el
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the lyncoin network, as detailed below.</source>
-        <translation type="unfinished">A legutóbbi tranzakciók még lehet, hogy nem láthatók emiatt előfordulhat, hogy a tárca egyenlege helytelen. A tárca azon nyomban az aktuális egyenleget fogja mutatni, amint befejezte a bitcoin hálózattal történő szinkronizációt, amely alább van részletezve.</translation>
+        <translation type="unfinished">A legutóbbi tranzakciók még lehet, hogy nem láthatók emiatt előfordulhat, hogy a tárca egyenlege helytelen. A tárca azon nyomban az aktuális egyenleget fogja mutatni, amint befejezte a lyncoin hálózattal történő szinkronizációt, amely alább van részletezve.</translation>
     </message>
     <message>
         <source>Attempting to spend lyncoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">A hálózat nem fogadja el azoknak a bitcoinoknak az elköltését, amelyek érintettek a még nem látszódó tranzakciókban.</translation>
+        <translation type="unfinished">A hálózat nem fogadja el azoknak a lyncoinoknak az elköltését, amelyek érintettek a még nem látszódó tranzakciókban.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1543,7 +1551,7 @@ A migrációs folyamat készít biztonsági mentést a tárcáról migrálás el
     <name>OpenURIDialog</name>
     <message>
         <source>Open lyncoin URI</source>
-        <translation type="unfinished">Bitcoin URI megnyitása</translation>
+        <translation type="unfinished">Lyncoin URI megnyitása</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -1703,7 +1711,7 @@ A migrációs folyamat készít biztonsági mentést a tárcáról migrálás el
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">A Bitcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a router támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
+        <translation type="unfinished">A Lyncoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a router támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1711,7 +1719,7 @@ A migrációs folyamat készít biztonsági mentést a tárcáról migrálás el
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">A Bitcoin kliens port automatikus megnyitása a routeren. Ez csak akkor működik ha a router támogatja a NAT-PMP-t és ez engedélyezve is van. A külső port lehet véletlenszerűen választott.</translation>
+        <translation type="unfinished">A Lyncoin kliens port automatikus megnyitása a routeren. Ez csak akkor működik ha a router támogatja a NAT-PMP-t és ez engedélyezve is van. A külső port lehet véletlenszerűen választott.</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -1727,7 +1735,7 @@ A migrációs folyamat készít biztonsági mentést a tárcáról migrálás el
     </message>
     <message>
         <source>Connect to the Lyncoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Csatlakozás a Bitcoin hálózatához SOCKS5 proxyn keresztül</translation>
+        <translation type="unfinished">Csatlakozás a Lyncoin hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1799,23 +1807,11 @@ A migrációs folyamat készít biztonsági mentést a tárcáról migrálás el
     </message>
     <message>
         <source>Connect to the Lyncoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Csatlakozás a Bitcoin hálózathoz külön SOCKS5 proxy használatával a Tor rejtett szolgáltatásainak eléréséhez.</translation>
+        <translation type="unfinished">Csatlakozás a Lyncoin hálózathoz külön SOCKS5 proxy használatával a Tor rejtett szolgáltatásainak eléréséhez.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
         <translation type="unfinished">Külön SOCKS&amp;5 proxy használata a partnerek Tor hálózaton keresztüli eléréséhez:</translation>
-    </message>
-    <message>
-        <source>Monospaced font in the Overview tab:</source>
-        <translation type="unfinished">Fix szélességű betűtípus használata az áttekintés fülön:</translation>
-    </message>
-    <message>
-        <source>embedded "%1"</source>
-        <translation type="unfinished">beágyazott "%1"</translation>
-    </message>
-    <message>
-        <source>closest matching "%1"</source>
-        <translation type="unfinished">legjobb találat "%1"</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
@@ -1904,7 +1900,7 @@ A migrációs folyamat készít biztonsági mentést a tárcáról migrálás el
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">A kijelzett információ lehet, hogy elavult. A kapcsolat létrehozatalát követően tárcája automatikusan szinkronba kerül a Bitcoin hálózattal, de ez a folyamat még nem fejeződött be.</translation>
+        <translation type="unfinished">A kijelzett információ lehet, hogy elavult. A kapcsolat létrehozatalát követően tárcája automatikusan szinkronba kerül a Lyncoin hálózattal, de ez a folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -2055,8 +2051,8 @@ A migrációs folyamat készít biztonsági mentést a tárcáról migrálás el
         <translation type="unfinished">PSBT lemezre mentve.</translation>
     </message>
     <message>
-        <source> * Sends %1 to %2</source>
-        <translation type="unfinished"> * Küldés %1 to %2</translation>
+        <source>Sends %1 to %2</source>
+        <translation type="unfinished">Küldés innen: %1 ide: %2</translation>
     </message>
     <message>
         <source>own address</source>
@@ -2119,7 +2115,7 @@ A migrációs folyamat készít biztonsági mentést a tárcáról migrálás el
     </message>
     <message>
         <source>Cannot start lyncoin: click-to-pay handler</source>
-        <translation type="unfinished">A bitcoin nem tud elindulni: click-to-pay kezelő</translation>
+        <translation type="unfinished">A lyncoin nem tud elindulni: click-to-pay kezelő</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2127,7 +2123,7 @@ A migrációs folyamat készít biztonsági mentést a tárcáról migrálás el
     </message>
     <message>
         <source>'lyncoin://' is not a valid URI. Use 'lyncoin:' instead.</source>
-        <translation type="unfinished">'bitcoin://' nem érvényes egységes erőforrás azonosító (URI). Használja helyette a 'bitcoin:'-t.</translation>
+        <translation type="unfinished">'lyncoin://' nem érvényes egységes erőforrás azonosító (URI). Használja helyette a 'lyncoin:'-t.</translation>
     </message>
     <message>
         <source>Cannot process payment request because BIP70 is not supported.
@@ -2137,7 +2133,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Lyncoin address or malformed URI parameters.</source>
-        <translation type="unfinished">Nem sikerült az URI értelmezése! Ezt okozhatja érvénytelen Bitcoin cím, vagy rossz URI paraméterezés.</translation>
+        <translation type="unfinished">Nem sikerült az URI értelmezése! Ezt okozhatja érvénytelen Lyncoin cím, vagy rossz URI paraméterezés.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2346,7 +2342,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>Session ID</source>
-        <translation type="unfinished">Munkamenet Azonosító</translation>
+        <translation type="unfinished">Munkamenet azonosító</translation>
     </message>
     <message>
         <source>Version</source>
@@ -2724,7 +2720,7 @@ Gépeljen %5 az elérhető parancsok áttekintéséhez. Több információért a
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lyncoin network.</source>
-        <translation type="unfinished">Egy opcionális üzenet csatolása a fizetési kérelemhez, amely megjelenik a kérelem megnyitásakor. Megjegyzés: Az üzenet nem lesz elküldve a fizetséggel a Bitcoin hálózaton keresztül.</translation>
+        <translation type="unfinished">Egy opcionális üzenet csatolása a fizetési kérelemhez, amely megjelenik a kérelem megnyitásakor. Megjegyzés: Az üzenet nem lesz elküldve a fizetséggel a Lyncoin hálózaton keresztül.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -3111,11 +3107,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>Creates a Partially Signed Lyncoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation type="unfinished">Létrehoz egy Részlegesen Aláírt Bitcoin Tranzakciót (PSBT) melyet offline %1 tárcával vagy egy PSBT kompatibilis hardver tárcával használhat.</translation>
-    </message>
-    <message>
-        <source> from wallet '%1'</source>
-        <translation type="unfinished"> '%1' tárcából</translation>
+        <translation type="unfinished">Létrehoz egy Részlegesen Aláírt Lyncoin Tranzakciót (PSBT) melyet offline %1 tárcával vagy egy PSBT kompatibilis hardver tárcával használhat.</translation>
     </message>
     <message>
         <source>%1 to '%2'</source>
@@ -3172,7 +3164,11 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     <message>
         <source>Please, review your transaction proposal. This will produce a Partially Signed Lyncoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">Kérjük nézze át a tranzakciós javaslatot. Ez létrehoz egy részlegesen aláírt bitcoin tranzakciót (PSBT) amit elmenthet vagy kimásolhat amit később aláírhatja offline %1 tárcával vagy egy PSBT kompatibilis hardvertárcával.</translation>
+        <translation type="unfinished">Kérjük nézze át a tranzakciós javaslatot. Ez létrehoz egy részlegesen aláírt lyncoin tranzakciót (PSBT) amit elmenthet vagy kimásolhat amit később aláírhatja offline %1 tárcával vagy egy PSBT kompatibilis hardvertárcával.</translation>
+    </message>
+    <message>
+        <source>%1 from wallet '%2'</source>
+        <translation type="unfinished">%1 ebből a tárcából: '%2'</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
@@ -3182,7 +3178,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     <message>
         <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Lyncoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">Kérjük nézze át a tranzakció részleteit. Véglegesítheti és elküldheti ezt a tranzakciót vagy létrehozhat egy részlegesen aláírt bitcoin tranzakciót (PSBT) amit elmentve vagy átmásolva aláírhat egy offline %1 tárcával, vagy PSBT-t támogató hardvertárcával.</translation>
+        <translation type="unfinished">Kérjük nézze át a tranzakció részleteit. Véglegesítheti és elküldheti ezt a tranzakciót vagy létrehozhat egy részlegesen aláírt lyncoin tranzakciót (PSBT) amit elmentve vagy átmásolva aláírhat egy offline %1 tárcával, vagy PSBT-t támogató hardvertárcával.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -3259,7 +3255,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">Figyelmeztetés: Érvénytelen Bitcoin cím</translation>
+        <translation type="unfinished">Figyelmeztetés: Érvénytelen Lyncoin cím</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3298,7 +3294,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>The Lyncoin address to send the payment to</source>
-        <translation type="unfinished">Erre a Bitcoin címre küldje az összeget</translation>
+        <translation type="unfinished">Erre a Lyncoin címre küldje az összeget</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -3314,7 +3310,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less lyncoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation type="unfinished">A díj le lesz vonva a küldött teljes összegből. A címzett kevesebb bitcoint fog megkapni, mint amennyit az összeg mezőben megadott. Amennyiben több címzett van kiválasztva, az illeték egyenlő mértékben lesz elosztva.</translation>
+        <translation type="unfinished">A díj le lesz vonva a küldött teljes összegből. A címzett kevesebb lyncoint fog megkapni, mint amennyit az összeg mezőben megadott. Amennyiben több címzett van kiválasztva, az illeték egyenlő mértékben lesz elosztva.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -3334,7 +3330,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>A message that was attached to the lyncoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lyncoin network.</source>
-        <translation type="unfinished">Egy üzenet a bitcoin: URI-hoz csatolva, amely a tranzakciócal együtt lesz eltárolva az Ön számára. Megjegyzés: Ez az üzenet nem kerül elküldésre a Bitcoin hálózaton keresztül.</translation>
+        <translation type="unfinished">Egy üzenet a lyncoin: URI-hoz csatolva, amely a tranzakciócal együtt lesz eltárolva az Ön számára. Megjegyzés: Ez az üzenet nem kerül elküldésre a Lyncoin hálózaton keresztül.</translation>
     </message>
 </context>
 <context>
@@ -3360,11 +3356,11 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive lyncoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">Címeivel aláírhatja az üzeneteket/egyezményeket, amivel bizonyíthatja, hogy át tudja venni az ezekre a címekre küldött bitcoin-t. Vigyázzon, hogy ne írjon alá semmi félreérthetőt, mivel adathalász támadásokkal megpróbálhatják becsapni, hogy az azonosságát átírja másokra. Csak olyan részletes állításokat írjon alá, amivel egyetért.</translation>
+        <translation type="unfinished">Címeivel aláírhatja az üzeneteket/egyezményeket, amivel bizonyíthatja, hogy át tudja venni az ezekre a címekre küldött lyncoin-t. Vigyázzon, hogy ne írjon alá semmi félreérthetőt, mivel adathalász támadásokkal megpróbálhatják becsapni, hogy az azonosságát átírja másokra. Csak olyan részletes állításokat írjon alá, amivel egyetért.</translation>
     </message>
     <message>
         <source>The Lyncoin address to sign the message with</source>
-        <translation type="unfinished">Bitcoin cím, amivel alá kívánja írni az üzenetet</translation>
+        <translation type="unfinished">Lyncoin cím, amivel alá kívánja írni az üzenetet</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3388,7 +3384,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>Sign the message to prove you own this Lyncoin address</source>
-        <translation type="unfinished">Üzenet aláírása, ezzel bizonyítva, hogy Öné ez a Bitcoin cím</translation>
+        <translation type="unfinished">Üzenet aláírása, ezzel bizonyítva, hogy Öné ez a Lyncoin cím</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3412,7 +3408,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>The Lyncoin address the message was signed with</source>
-        <translation type="unfinished">Bitcoin cím, amivel aláírta az üzenetet</translation>
+        <translation type="unfinished">Lyncoin cím, amivel aláírta az üzenetet</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -3424,7 +3420,7 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">Ellenőrizze az üzenetet, hogy valóban a megjelölt Bitcoin címmel van-e aláírva</translation>
+        <translation type="unfinished">Ellenőrizze az üzenetet, hogy valóban a megjelölt Lyncoin címmel van-e aláírva</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3633,8 +3629,8 @@ Megjegyzés: Mivel a díj bájtonként van kiszámítva, egy "100 satoshi kvB-nk
         <translation type="unfinished">Kimeneti index</translation>
     </message>
     <message>
-        <source> (Certificate was not verified)</source>
-        <translation type="unfinished">(A tanúsítvány nem ellenőrzött)</translation>
+        <source>%1 (Certificate was not verified)</source>
+        <translation type="unfinished">%1 (A tanúsítvány nem ellenőrzött)</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -4092,7 +4088,7 @@ A "Fájl &gt; Tárca megnyitása" menüben tölthet be egyet.
     </message>
     <message>
         <source>%s corrupt. Try using the wallet tool lyncoin-wallet to salvage or restoring a backup.</source>
-        <translation type="unfinished">%s sérült. Próbálja meg a bitcoint-wallet tárca mentő eszközt használni, vagy állítsa helyre egy biztonsági mentésből.</translation>
+        <translation type="unfinished">%s sérült. Próbálja meg a lyncoint-wallet tárca mentő eszközt használni, vagy állítsa helyre egy biztonsági mentésből.</translation>
     </message>
     <message>
         <source>%s failed to validate the -assumeutxo snapshot state. This indicates a hardware problem, or a bug in the software, or a bad software modification that allowed an invalid snapshot to be loaded. As a result of this, the node will shut down and stop using any state that was built on the snapshot, resetting the chain height from %d to %d. On the next restart, the node will resume syncing from %d without using any snapshot data. Please report this incident to %s, including how you obtained the snapshot. The invalid snapshot chainstate will be left on disk in case it is helpful in diagnosing the issue that caused this error.</source>
@@ -4140,7 +4136,7 @@ A "Fájl &gt; Tárca megnyitása" menüben tölthet be egyet.
     </message>
     <message>
         <source>Error: Dumpfile version is not supported. This version of lyncoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
-        <translation type="unfinished">Hiba: A dump fájl verziója nem támogatott. A bitcoin-wallet ez a kiadása csak 1-es verziójú dump fájlokat támogat. A talált dump fájl verziója %s.</translation>
+        <translation type="unfinished">Hiba: A dump fájl verziója nem támogatott. A lyncoin-wallet ez a kiadása csak 1-es verziójú dump fájlokat támogat. A talált dump fájl verziója %s.</translation>
     </message>
     <message>
         <source>Error: Legacy wallets only support the "legacy", "p2sh-segwit", and "bech32" address types</source>
@@ -4517,14 +4513,6 @@ A tárca biztonsági mentésének visszaállítása sikertelen.</translation>
         <translation type="unfinished">Hiba: Nem lehet kinyerni a célt az előállított scriptpubkey-ből</translation>
     </message>
     <message>
-        <source>Error: Could not add watchonly tx to watchonly wallet</source>
-        <translation type="unfinished">Hiba: Nem sikerült figyelő tranzakció hozzáadása a figyelő tárcához</translation>
-    </message>
-    <message>
-        <source>Error: Could not delete watchonly transactions</source>
-        <translation type="unfinished">Hiba: Nem sikerült a figyelő tranzakciók törlése</translation>
-    </message>
-    <message>
         <source>Error: Couldn't create cursor into database</source>
         <translation type="unfinished">Hiba: Kurzor létrehozása az adatbázisba sikertelen.</translation>
     </message>
@@ -4561,10 +4549,6 @@ A tárca biztonsági mentésének visszaállítása sikertelen.</translation>
         <translation type="unfinished">Hiba: Nem áll rendelkezésre %s cím.</translation>
     </message>
     <message>
-        <source>Error: Not all watchonly txs could be deleted</source>
-        <translation type="unfinished">Hiba: Nem minden figyelő tranzakció törlése sikerült</translation>
-    </message>
-    <message>
         <source>Error: This wallet already uses SQLite</source>
         <translation type="unfinished">Hiba: Ez a tárca már használja az SQLite-t</translation>
     </message>
@@ -4589,12 +4573,24 @@ A tárca biztonsági mentésének visszaállítása sikertelen.</translation>
         <translation type="unfinished">Hiba: Nem sikerült beolvasni minden bejegyzést az adatbázisban.</translation>
     </message>
     <message>
+        <source>Error: Unable to read wallet's best block locator record</source>
+        <translation type="unfinished">Hiba: Nem lehet beolvasni a tárca legfelső blokkját megadó rekordot</translation>
+    </message>
+    <message>
         <source>Error: Unable to remove watchonly address book data</source>
         <translation type="unfinished">Hiba: Nem sikerült a figyelő címjegyzék adat eltávolítása</translation>
     </message>
     <message>
         <source>Error: Unable to write record to new wallet</source>
         <translation type="unfinished">Hiba: Nem sikerült rekordot írni az új tárcába</translation>
+    </message>
+    <message>
+        <source>Error: Unable to write solvable wallet best block locator record</source>
+        <translation type="unfinished">Hiba: Nem lehet írni a megoldható tárca legfelső blokkját megadó rekordot</translation>
+    </message>
+    <message>
+        <source>Error: Unable to write watchonly wallet best block locator record</source>
+        <translation type="unfinished">Hiba: Nem lehet írni a figyelő tárca legfelső blokkját megadó rekordot</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -4845,10 +4841,6 @@ A tárca biztonsági mentésének visszaállítása sikertelen.</translation>
         <translation type="unfinished">Tartományon kívüli tranzakciós kimenet index</translation>
     </message>
     <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">A tranzakcóhoz tartozó mempool elődlánc túl hosszú</translation>
-    </message>
-    <message>
         <source>Transaction must have at least one recipient</source>
         <translation type="unfinished">Legalább egy címzett kell a tranzakcióhoz</translation>
     </message>
@@ -4929,12 +4921,20 @@ A tárca biztonsági mentésének visszaállítása sikertelen.</translation>
         <translation type="unfinished">Nem támogatott globális naplózási szint %s=%s. Lehetséges értékek: %s.</translation>
     </message>
     <message>
+        <source>Wallet file creation failed: %s</source>
+        <translation type="unfinished">Tárca fájl létrehozása sikertelen: %s</translation>
+    </message>
+    <message>
         <source>acceptstalefeeestimates is not supported on %s chain.</source>
         <translation type="unfinished">acceptstalefeeestimates nem támogatott ezen a láncon: %s</translation>
     </message>
     <message>
         <source>Unsupported logging category %s=%s.</source>
         <translation type="unfinished">Nem támogatott naplózási kategória %s=%s</translation>
+    </message>
+    <message>
+        <source>Error: Could not add watchonly tx %s to watchonly wallet</source>
+        <translation type="unfinished">Hiba: Nem sikerült hozzáadni a megfigyelt %s tranzakciót a figyelő tárcához</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>

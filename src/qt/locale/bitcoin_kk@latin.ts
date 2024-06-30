@@ -59,7 +59,7 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Бұл сіздің төлем жіберетін Bitcoin мекенжайларыңыз. Тиын жібермес бұрын, әрқашан сома мен алушы мекенжайды тексеріңіз.</translation>
+        <translation type="unfinished">Бұл сіздің төлем жіберетін Lyncoin мекенжайларыңыз. Тиын жібермес бұрын, әрқашан сома мен алушы мекенжайды тексеріңіз.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -151,7 +151,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Ескерту: әмияныңызды шифрлап, құпиясөйлеміңізден айырылып қалсаңыз, &lt;b&gt;БАРЛЫҚ BITCOIN-ІҢІЗДЕН ДЕ АЙЫРЫЛАСЫЗ&lt;/b&gt;!</translation>
+        <translation type="unfinished">Ескерту: әмияныңызды шифрлап, құпиясөйлеміңізден айырылып қалсаңыз, &lt;b&gt;БАРЛЫҚ LYNCOIN-ІҢІЗДЕН ДЕ АЙЫРЫЛАСЫЗ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -171,7 +171,7 @@
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Шифрлау биткоиніңізді компьютер жұқтырған зиянды БЖ-дан толығымен қорғай алмайтынын есіңізде сақтаңыз.</translation>
+        <translation type="unfinished">Шифрлау линкоиніңізді компьютер жұқтырған зиянды БЖ-дан толығымен қорғай алмайтынын есіңізде сақтаңыз.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -249,36 +249,36 @@
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -288,8 +288,8 @@
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -358,7 +358,7 @@
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Bitcoin мекенжайына тиын жіберу</translation>
+        <translation type="unfinished">Lyncoin мекенжайына тиын жіберу</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -402,7 +402,7 @@
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Хатқа Bitcoin мекенжайларын қосып, олар сізге тиесілі екенін дәлелдеу</translation>
+        <translation type="unfinished">Хатқа Lyncoin мекенжайларын қосып, олар сізге тиесілі екенін дәлелдеу</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -410,7 +410,7 @@
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Хат тексеріп, берілген Bitcoin мекенжайлары қосылғанына көз жеткізу</translation>
+        <translation type="unfinished">Хат тексеріп, берілген Lyncoin мекенжайлары қосылғанына көз жеткізу</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -462,7 +462,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">Төлем талап ету (QR кодтары мен биткоин құрады: URI)</translation>
+        <translation type="unfinished">Төлем талап ету (QR кодтары мен линкоин құрады: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -475,8 +475,8 @@
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -523,8 +523,8 @@
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -600,40 +600,40 @@
     <name>Intro</name>
     <message>
         <source>Lyncoin</source>
-        <translation type="unfinished">Биткоин</translation>
+        <translation type="unfinished">Линкоин</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Lyncoin block chain.</source>
-        <translation type="unfinished">%1 Bitcoin блокчейнінің көшірмесін жүктеп сақтайды.</translation>
+        <translation type="unfinished">%1 Lyncoin блокчейнінің көшірмесін жүктеп сақтайды.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -759,8 +759,8 @@
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -795,8 +795,8 @@
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>

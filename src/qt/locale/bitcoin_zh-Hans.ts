@@ -59,12 +59,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">您可以给这些比林币地址付款。在付款之前，务必要检查金额和收款地址是否正确。</translation>
+        <translation type="unfinished">您可以给这些林币地址付款。在付款之前，务必要检查金额和收款地址是否正确。</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">这是您用来收款的比林币地址。使用“接收”标签页中的“创建新收款地址”按钮来创建新的收款地址。
+        <translation type="unfinished">这是您用来收款的林币地址。使用“接收”标签页中的“创建新收款地址”按钮来创建新的收款地址。
 只有“旧式（legacy）”类型的地址支持签名。</translation>
     </message>
     <message>
@@ -165,7 +165,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">警告: 如果把钱包加密后又忘记密码，你就会从此&lt;b&gt;失去其中所有的比林币了&lt;/b&gt;！</translation>
+        <translation type="unfinished">警告: 如果把钱包加密后又忘记密码，你就会从此&lt;b&gt;失去其中所有的林币了&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -185,7 +185,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">请注意，当您的计算机感染恶意软件时，加密钱包并不能完全规避您的比林币被偷窃的可能。</translation>
+        <translation type="unfinished">请注意，当您的计算机感染恶意软件时，加密钱包并不能完全规避您的林币被偷窃的可能。</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -303,12 +303,24 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">未知</translation>
     </message>
     <message>
+        <source>Embedded "%1"</source>
+        <translation type="unfinished">嵌入的 "%1"</translation>
+    </message>
+    <message>
+        <source>Default system font "%1"</source>
+        <translation type="unfinished">默认系统字体 "%1"</translation>
+    </message>
+    <message>
+        <source>Custom…</source>
+        <translation type="unfinished">自定义...</translation>
+    </message>
+    <message>
         <source>Amount</source>
         <translation type="unfinished">金额</translation>
     </message>
     <message>
         <source>Enter a Lyncoin address (e.g. %1)</source>
-        <translation type="unfinished">请输入一个比林币地址 (例如 %1)</translation>
+        <translation type="unfinished">请输入一个林币地址 (例如 %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -491,7 +503,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">向一个比林币地址发币</translation>
+        <translation type="unfinished">向一个林币地址发币</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -535,7 +547,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">用比林币地址关联的私钥为消息签名，以证明您拥有这个比林币地址</translation>
+        <translation type="unfinished">用林币地址关联的私钥为消息签名，以证明您拥有这个林币地址</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -543,7 +555,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">校验消息，确保该消息是由指定的比林币地址所有者签名的</translation>
+        <translation type="unfinished">校验消息，确保该消息是由指定的林币地址所有者签名的</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -657,7 +669,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">加载部分签名比林币交易（PSBT）</translation>
+        <translation type="unfinished">加载部分签名林币交易（PSBT）</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
@@ -665,7 +677,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">从剪贴板中加载部分签名比林币交易（PSBT）</translation>
+        <translation type="unfinished">从剪贴板中加载部分签名林币交易（PSBT）</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -789,7 +801,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n 条到比林币网络的活动连接</numerusform>
+            <numerusform>%n 条到林币网络的活动连接</numerusform>
         </translation>
     </message>
     <message>
@@ -1120,12 +1132,12 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">已成功迁移钱包 '%1' 。</translation>
     </message>
     <message>
-        <source> Watchonly scripts have been migrated to a new wallet named '%1'.</source>
-        <translation type="unfinished"> 仅观察脚本已被迁移至名为 '%1' 的新钱包中。</translation>
+        <source>Watchonly scripts have been migrated to a new wallet named '%1'.</source>
+        <translation type="unfinished">仅观察脚本已经被迁移到被命名为“%1”的新钱包中。</translation>
     </message>
     <message>
-        <source> Solvable but not watched scripts have been migrated to a new wallet named '%1'.</source>
-        <translation type="unfinished"> 可解但又未被监视的脚本已被迁移至名为 '%1' 的新钱包中。</translation>
+        <source>Solvable but not watched scripts have been migrated to a new wallet named '%1'.</source>
+        <translation type="unfinished">可解决但未被观察到的脚本已经被迁移到被命名为“%1”的新钱包。</translation>
     </message>
     <message>
         <source>Migration failed</source>
@@ -1316,7 +1328,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">输入的地址 %1 并不是有效的比林币地址。</translation>
+        <translation type="unfinished">输入的地址 %1 并不是有效的林币地址。</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1362,7 +1374,7 @@ The migration process will create a backup of the wallet before migrating. This 
     <name>Intro</name>
     <message>
         <source>Lyncoin</source>
-        <translation type="unfinished">比林币</translation>
+        <translation type="unfinished">林币</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of space available</source>
@@ -1403,7 +1415,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>%1 will download and store a copy of the Lyncoin block chain.</source>
-        <translation type="unfinished">%1 将会下载并存储比林币区块链。</translation>
+        <translation type="unfinished">%1 将会下载并存储林币区块链。</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1492,7 +1504,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the lyncoin network, as detailed below.</source>
-        <translation type="unfinished">近期交易可能尚未显示，因此当前余额可能不准确。以上信息将在与比林币网络完全同步后更正。详情如下</translation>
+        <translation type="unfinished">近期交易可能尚未显示，因此当前余额可能不准确。以上信息将在与林币网络完全同步后更正。详情如下</translation>
     </message>
     <message>
         <source>Attempting to spend lyncoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1547,7 +1559,7 @@ The migration process will create a backup of the wallet before migrating. This 
     <name>OpenURIDialog</name>
     <message>
         <source>Open lyncoin URI</source>
-        <translation type="unfinished">打开比林币URI</translation>
+        <translation type="unfinished">打开林币URI</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -1600,6 +1612,10 @@ The migration process will create a backup of the wallet before migrating. This 
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
         <translation type="unfinished">窗口被关闭时最小化程序而不是退出。当此选项启用时，只有在菜单中选择“退出”时才会让程序退出。</translation>
+    </message>
+    <message>
+        <source>Font in the Overview tab: </source>
+        <translation type="unfinished">在概览标签页的字体:</translation>
     </message>
     <message>
         <source>Options set in this dialog are overridden by the command line:</source>
@@ -1707,7 +1723,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">自动在路由器中为比林币客户端打开端口。只有当您的路由器开启了 UPnP 选项时此功能才会有用。</translation>
+        <translation type="unfinished">自动在路由器中为林币客户端打开端口。只有当您的路由器开启了 UPnP 选项时此功能才会有用。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1715,7 +1731,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">自动在路由器中为比林币客户端打开端口。只有当您的路由器支持 NAT-PMP 功能并开启它，这个功能才会正常工作。外边端口可以是随机的。</translation>
+        <translation type="unfinished">自动在路由器中为林币客户端打开端口。只有当您的路由器支持 NAT-PMP 功能并开启它，这个功能才会正常工作。外边端口可以是随机的。</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -1731,7 +1747,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Connect to the Lyncoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">通过 SOCKS5 代理连接比林币网络。</translation>
+        <translation type="unfinished">通过 SOCKS5 代理连接林币网络。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1791,11 +1807,11 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation type="unfinished">比林币金额单位(&amp;U):</translation>
+        <translation type="unfinished">林币金额单位(&amp;U):</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished">选择显示及发送比林币时使用的最小单位。</translation>
+        <translation type="unfinished">选择显示及发送林币时使用的最小单位。</translation>
     </message>
     <message>
         <source>Third-party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1811,23 +1827,11 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Connect to the Lyncoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">连接比林币网络时专门为Tor onion服务使用另一个 SOCKS5 代理。</translation>
+        <translation type="unfinished">连接林币网络时专门为Tor onion服务使用另一个 SOCKS5 代理。</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
         <translation type="unfinished">连接Tor onion服务节点时使用另一个SOCKS&amp;5代理：</translation>
-    </message>
-    <message>
-        <source>Monospaced font in the Overview tab:</source>
-        <translation type="unfinished">在概览标签页的等宽字体:</translation>
-    </message>
-    <message>
-        <source>embedded "%1"</source>
-        <translation type="unfinished">嵌入的 "%1"</translation>
-    </message>
-    <message>
-        <source>closest matching "%1"</source>
-        <translation type="unfinished">与 "%1" 最接近的匹配</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1920,7 +1924,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">现在显示的消息可能是过期的。在连接上比林币网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成。</translation>
+        <translation type="unfinished">现在显示的消息可能是过期的。在连接上林币网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -2071,8 +2075,8 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">PSBT已保存到硬盘</translation>
     </message>
     <message>
-        <source> * Sends %1 to %2</source>
-        <translation type="unfinished"> * 发送 %1 至 %2</translation>
+        <source>Sends %1 to %2</source>
+        <translation type="unfinished">将“%1”发送到“%2”</translation>
     </message>
     <message>
         <source>own address</source>
@@ -2155,7 +2159,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Lyncoin address or malformed URI parameters.</source>
-        <translation type="unfinished">无法解析 URI 地址！可能是因为比林币地址无效，或是 URI 参数格式错误。</translation>
+        <translation type="unfinished">无法解析 URI 地址！可能是因为林币地址无效，或是 URI 参数格式错误。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2665,6 +2669,10 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation type="unfinished">不使用任何钱包执行命令</translation>
     </message>
     <message>
+        <source>Node window - [%1]</source>
+        <translation type="unfinished">节点窗口 - [%1]</translation>
+    </message>
+    <message>
         <source>Executing command using "%1" wallet</source>
         <translation type="unfinished">使用“%1”钱包执行命令</translation>
     </message>
@@ -2743,7 +2751,7 @@ For more information on using this console, type %6.
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lyncoin network.</source>
-        <translation type="unfinished">可在支付请求上备注一条信息，在打开支付请求时可以看到。注意:该消息不是通过比林币网络传送。</translation>
+        <translation type="unfinished">可在支付请求上备注一条信息，在打开支付请求时可以看到。注意:该消息不是通过林币网络传送。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -3044,7 +3052,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for lyncoin transactions than the network can process.</source>
-        <translation type="unfinished">当交易量小于可用区块空间时，矿工和中继节点可能会执行最低手续费率限制。按照这个最低费率来支付手续费也是可以的，但请注意，一旦交易需求超出比林币网络能处理的限度，你的交易可能永远也无法确认。</translation>
+        <translation type="unfinished">当交易量小于可用区块空间时，矿工和中继节点可能会执行最低手续费率限制。按照这个最低费率来支付手续费也是可以的，但请注意，一旦交易需求超出林币网络能处理的限度，你的交易可能永远也无法确认。</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -3130,11 +3138,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Creates a Partially Signed Lyncoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation type="unfinished">创建一个“部分签名比林币交易”（PSBT），以用于诸如离线%1钱包，或是兼容PSBT的硬件钱包这类用途。</translation>
-    </message>
-    <message>
-        <source> from wallet '%1'</source>
-        <translation type="unfinished">从钱包%1</translation>
+        <translation type="unfinished">创建一个“部分签名林币交易”（PSBT），以用于诸如离线%1钱包，或是兼容PSBT的硬件钱包这类用途。</translation>
     </message>
     <message>
         <source>%1 to '%2'</source>
@@ -3191,7 +3195,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Please, review your transaction proposal. This will produce a Partially Signed Lyncoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">请务必仔细检查您的交易请求。这会产生一个部分签名比林币交易(PSBT)，可以把保存下来或复制出去，然后就可以对它进行签名，比如用离线%1钱包，或是用兼容PSBT的硬件钱包。</translation>
+        <translation type="unfinished">请务必仔细检查您的交易请求。这会产生一个部分签名林币交易(PSBT)，可以把保存下来或复制出去，然后就可以对它进行签名，比如用离线%1钱包，或是用兼容PSBT的硬件钱包。</translation>
+    </message>
+    <message>
+        <source>%1 from wallet '%2'</source>
+        <translation type="unfinished">%1 来自钱包 “%2”</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
@@ -3201,7 +3209,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Lyncoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">请务必仔细检查您的交易。你可以创建并发送这笔交易；也可以创建一个“部分签名比林币交易(PSBT)”，它可以被保存下来或被复制出去，然后就可以对它进行签名，比如用离线%1钱包，或是用兼容PSBT的硬件钱包。</translation>
+        <translation type="unfinished">请务必仔细检查您的交易。你可以创建并发送这笔交易；也可以创建一个“部分签名林币交易(PSBT)”，它可以被保存下来或被复制出去，然后就可以对它进行签名，比如用离线%1钱包，或是用兼容PSBT的硬件钱包。</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -3278,7 +3286,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">警告: 比林币地址无效</translation>
+        <translation type="unfinished">警告: 林币地址无效</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3333,7 +3341,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less lyncoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation type="unfinished">交易费将从发送金额中扣除。接收人收到的比林币将会比您在金额框中输入的更少。如果选中了多个收件人，交易费平分。</translation>
+        <translation type="unfinished">交易费将从发送金额中扣除。接收人收到的林币将会比您在金额框中输入的更少。如果选中了多个收件人，交易费平分。</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -3353,7 +3361,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>A message that was attached to the lyncoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lyncoin network.</source>
-        <translation type="unfinished">lyncoin: URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过比林币网络传输。</translation>
+        <translation type="unfinished">lyncoin: URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过林币网络传输。</translation>
     </message>
 </context>
 <context>
@@ -3379,7 +3387,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive lyncoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">您可以用你的地址对消息/协议进行签名，以证明您可以接收发送到该地址的比林币。注意不要对任何模棱两可或者随机的消息进行签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
+        <translation type="unfinished">您可以用你的地址对消息/协议进行签名，以证明您可以接收发送到该地址的林币。注意不要对任何模棱两可或者随机的消息进行签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
     </message>
     <message>
         <source>The Lyncoin address to sign the message with</source>
@@ -3443,7 +3451,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">验证消息，确保消息是由指定的比林币地址签名过的。</translation>
+        <translation type="unfinished">验证消息，确保消息是由指定的林币地址签名过的。</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3652,8 +3660,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">输出索引</translation>
     </message>
     <message>
-        <source> (Certificate was not verified)</source>
-        <translation type="unfinished">(证书未被验证)</translation>
+        <source>%1 (Certificate was not verified)</source>
+        <translation type="unfinished">%1（证书未被验证）</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -3661,7 +3669,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished">新挖出的比林币在可以使用前必须经过 %1 个区块确认的成熟过程。当您挖出此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，在另一个节点比你早几秒钟成功挖出一个区块时就会这样。</translation>
+        <translation type="unfinished">新挖出的林币在可以使用前必须经过 %1 个区块确认的成熟过程。当您挖出此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，在另一个节点比你早几秒钟成功挖出一个区块时就会这样。</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -4480,6 +4488,10 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">转储文件 %s 不存在</translation>
     </message>
     <message>
+        <source>Error committing db txn for wallet transactions removal</source>
+        <translation type="unfinished">在提交删除钱包交易的数据库事务时出错</translation>
+    </message>
+    <message>
         <source>Error creating %s</source>
         <translation type="unfinished">创建%s时出错</translation>
     </message>
@@ -4528,16 +4540,12 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">从钱包数据库读取下一条记录时出错</translation>
     </message>
     <message>
+        <source>Error starting db txn for wallet transactions removal</source>
+        <translation type="unfinished">在开始删除钱包交易的数据库事务时出错</translation>
+    </message>
+    <message>
         <source>Error: Cannot extract destination from the generated scriptpubkey</source>
         <translation type="unfinished">错误: 无法从生成的scriptpubkey提取目标</translation>
-    </message>
-    <message>
-        <source>Error: Could not add watchonly tx to watchonly wallet</source>
-        <translation type="unfinished">错误：无法添加仅观察交易至仅观察钱包</translation>
-    </message>
-    <message>
-        <source>Error: Could not delete watchonly transactions</source>
-        <translation type="unfinished">错误：无法删除仅观察交易</translation>
     </message>
     <message>
         <source>Error: Couldn't create cursor into database</source>
@@ -4576,10 +4584,6 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">错误: 没有可用的%s地址。</translation>
     </message>
     <message>
-        <source>Error: Not all watchonly txs could be deleted</source>
-        <translation type="unfinished">错误：有些仅观察交易无法被删除</translation>
-    </message>
-    <message>
         <source>Error: This wallet already uses SQLite</source>
         <translation type="unfinished">错误：此钱包已经在使用SQLite</translation>
     </message>
@@ -4604,12 +4608,32 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">错误：无法读取这个数据库中的所有记录</translation>
     </message>
     <message>
+        <source>Error: Unable to read wallet's best block locator record</source>
+        <translation type="unfinished">错误：无法读取钱包最佳区块定位器记录</translation>
+    </message>
+    <message>
         <source>Error: Unable to remove watchonly address book data</source>
         <translation type="unfinished">错误：无法移除仅观察地址簿数据</translation>
     </message>
     <message>
         <source>Error: Unable to write record to new wallet</source>
         <translation type="unfinished">错误: 无法写入记录到新钱包</translation>
+    </message>
+    <message>
+        <source>Error: Unable to write solvable wallet best block locator record</source>
+        <translation type="unfinished">错误：无法写入可解决钱包最佳区块定位器记录</translation>
+    </message>
+    <message>
+        <source>Error: Unable to write watchonly wallet best block locator record</source>
+        <translation type="unfinished">错误：无法写入仅观察钱包最佳区块定位器记录</translation>
+    </message>
+    <message>
+        <source>Error: address book copy failed for wallet %s</source>
+        <translation type="unfinished">错误: 复制钱包%s的地址本时失败</translation>
+    </message>
+    <message>
+        <source>Error: database transaction cannot be executed for wallet %s</source>
+        <translation type="unfinished">错误: 钱包%s的数据库事务无法被执行</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -4626,6 +4650,10 @@ Unable to restore backup of wallet.</source>
     <message>
         <source>Failed to verify database</source>
         <translation type="unfinished">校验数据库失败</translation>
+    </message>
+    <message>
+        <source>Failure removing transaction: %s</source>
+        <translation type="unfinished">删除交易时失败: %s</translation>
     </message>
     <message>
         <source>Fee rate (%s) is lower than the minimum fee rate setting (%s)</source>
@@ -4848,6 +4876,10 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">如果发送交易，这将是你要支付的手续费。</translation>
     </message>
     <message>
+        <source>Transaction %s does not belong to this wallet</source>
+        <translation type="unfinished">交易%s不属于这个钱包</translation>
+    </message>
+    <message>
         <source>Transaction amount too small</source>
         <translation type="unfinished">交易金额太小</translation>
     </message>
@@ -4858,10 +4890,6 @@ Unable to restore backup of wallet.</source>
     <message>
         <source>Transaction change output index out of range</source>
         <translation type="unfinished">交易找零输出项编号超出范围</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">此交易在内存池中的存在过长的链条</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
@@ -4944,12 +4972,24 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">不支持的全局日志等级 %s=%s。有效数值: %s 。</translation>
     </message>
     <message>
+        <source>Wallet file creation failed: %s</source>
+        <translation type="unfinished">钱包文件创建失败：%s</translation>
+    </message>
+    <message>
         <source>acceptstalefeeestimates is not supported on %s chain.</source>
         <translation type="unfinished">%s链上 acceptstalefeeestimates 不受支持。</translation>
     </message>
     <message>
         <source>Unsupported logging category %s=%s.</source>
         <translation type="unfinished">不支持的日志分类 %s=%s。</translation>
+    </message>
+    <message>
+        <source>Error: Could not add watchonly tx %s to watchonly wallet</source>
+        <translation type="unfinished">错误：无法添加仅观察交易%s到仅观察钱包</translation>
+    </message>
+    <message>
+        <source>Error: Could not delete watchonly transactions. </source>
+        <translation type="unfinished">错误: 无法删除仅观察交易。</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>

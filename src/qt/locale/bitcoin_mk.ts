@@ -11,7 +11,7 @@
     </message>
     <message>
         <source>&amp;New</source>
-        <translation type="unfinished">&amp;Нова</translation>
+        <translation type="unfinished">Нова</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
@@ -19,15 +19,15 @@
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation type="unfinished">&amp;Копирај</translation>
+        <translation type="unfinished">Копирај</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation type="unfinished">З&amp;атвори</translation>
+        <translation type="unfinished">Затвори</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">Избриши ја избраната адреса од листата</translation>
+        <translation type="unfinished">Избриши ја избраната адреса од списокот</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -35,19 +35,19 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">Експортирај ги податоците од активното јазиче во датотека</translation>
+        <translation type="unfinished">Извези ги податоците од активното јазиче во датотека</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp;Експорт</translation>
+        <translation type="unfinished">Извези</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">&amp;Избриши</translation>
+        <translation type="unfinished">Избриши</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation type="unfinished">Извези ги податоците во избраниот дел кон датотека</translation>
+        <translation type="unfinished">Избери адреса на која ќе испратиш монети</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
@@ -59,12 +59,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Ова се вашите Bitcoin-адреси за испраќање плаќања. Секогаш проверувајте ја количината и адресите за примање пред да испраќате монети.</translation>
+        <translation type="unfinished">Ова се вашите Lyncoin-адреси за испраќање плаќања. Секогаш проверувајте ја количината и адресите за примање пред да испраќате монети.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Ова се вашите биткоин-адреси за примање плаќања. Користете го копчето „Создавање нови адреси“ во јазичето за примање за да создадете нови адреси. Потпишувањето е можно само со „наследни“ адреси.</translation>
+        <translation type="unfinished">Ова се вашите линкоин-адреси за примање плаќања. Користете го копчето „Создавање нови адреси“ во јазичето за примање за да создадете нови адреси. Потпишувањето е можно само со „наследни“ адреси.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -120,19 +120,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">Внеси тајна фраза</translation>
+        <translation type="unfinished">Внеси лозинка</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation type="unfinished">Нова тајна фраза</translation>
+        <translation type="unfinished">Нова лозинка</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation type="unfinished">Повторете ја новата тајна фраза</translation>
+        <translation type="unfinished">Повтори ја лозинката</translation>
     </message>
     <message>
         <source>Show passphrase</source>
-        <translation type="unfinished">Покажи ја лозинката</translation>
+        <translation type="unfinished">Покажување на лозинката</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
@@ -156,7 +156,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">ВНИМАНИЕ: Ако го шифрирате вашиот паричник и ја изгубите лозинката, &lt;b&gt;ЌЕ ГИ ИЗГУБИТЕ СИТЕ БИТКОИНИ&lt;/b&gt;!</translation>
+        <translation type="unfinished">ВНИМАНИЕ: Ако го шифрирате вашиот паричник и ја изгубите лозинката, &lt;b&gt;ЌЕ ГИ ИЗГУБИТЕ СИТЕ ЛИНКОИНИ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -176,7 +176,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Запомнете дека шифрирањето на вашиот паричник не може целосно да ги заштити вашите биткоини од кражба од злонамерен софтвер, заразувајќи го вашиот сметач.</translation>
+        <translation type="unfinished">Запомнете дека шифрирањето на вашиот паричник не може целосно да ги заштити вашите линкоини од кражба од злонамерен софтвер, заразувајќи го вашиот сметач.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -216,7 +216,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation type="unfinished">Лозинката за паричник е успешно променета.</translation>
+        <translation type="unfinished">Лозинката за паричникот е успешно променета.</translation>
     </message>
     <message>
         <source>Passphrase change failed</source>
@@ -235,7 +235,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Banned Until</source>
-        <translation type="unfinished">Блокиран до:</translation>
+        <translation type="unfinished">Блокиран до</translation>
     </message>
 </context>
 <context>
@@ -304,41 +304,41 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -348,9 +348,9 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -370,7 +370,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>BitcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
-        <translation type="unfinished">&amp;Преглед</translation>
+        <translation type="unfinished">Преглед</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -378,19 +378,19 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation type="unfinished">&amp;Трансакции</translation>
+        <translation type="unfinished">Трансакции</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation type="unfinished">Преглед на историјата на трансакции</translation>
+        <translation type="unfinished">Разгледај ја историјата на трансакциите</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation type="unfinished">И&amp;злез</translation>
+        <translation type="unfinished">Излез</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation type="unfinished">Напушти ја апликацијата</translation>
+        <translation type="unfinished">Излез од примената</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -402,7 +402,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished">За &amp;Qt</translation>
+        <translation type="unfinished">За Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
@@ -435,7 +435,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Испрати биткоини на Биткоин адреса</translation>
+        <translation type="unfinished">Испрати линкоини на линкоин-адреса</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -447,11 +447,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation type="unfinished">&amp;Испрати</translation>
+        <translation type="unfinished">Испрати</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation type="unfinished">&amp;Прими</translation>
+        <translation type="unfinished">Прими</translation>
     </message>
     <message>
         <source>&amp;Options…</source>
@@ -463,7 +463,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished">Криптирај ги приватните клучеви кои припаѓаат на твојот паричник</translation>
+        <translation type="unfinished">Шифрирање на личните клучеви што припаѓаат на вашиот паричник</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet…</source>
@@ -479,7 +479,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Напишете пораки со вашата биткоин-адреса за да докажете дека е ваша.</translation>
+        <translation type="unfinished">Напишете пораки со вашата линкоин-адреса за да докажете дека е ваша.</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -487,7 +487,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Потврдување на пораките за да се знае дека се напишани со дадените биткоин-адреси.</translation>
+        <translation type="unfinished">Потврдување на пораките за да се знае дека се напишани со дадените линкоин-адреси.</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -515,7 +515,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation type="unfinished">&amp;Подесувања</translation>
+        <translation type="unfinished">&amp;Поставки</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -527,7 +527,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Syncing Headers (%1%)…</source>
-        <translation type="unfinished">Синхронизација на заглавијата (%1 %)</translation>
+        <translation type="unfinished">Синхронизација на заглавијата (%1 %)...</translation>
     </message>
     <message>
         <source>Synchronizing with network…</source>
@@ -539,7 +539,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Processing blocks on disk…</source>
-        <translation type="unfinished">Обработување сектори на дискови...</translation>
+        <translation type="unfinished">Обработување блокови на дискови...</translation>
     </message>
     <message>
         <source>Connecting to peers…</source>
@@ -547,7 +547,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">Барање за плаќања (создава QR-кодови и биткоин: URI)</translation>
+        <translation type="unfinished">Барање за плаќања (создава QR-кодови и линкоин: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -564,14 +564,14 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation type="unfinished">%1 позади</translation>
+        <translation type="unfinished">%1 зад</translation>
     </message>
     <message>
         <source>Catching up…</source>
@@ -591,7 +591,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished">Предупредување</translation>
+        <translation type="unfinished">Внимание</translation>
     </message>
     <message>
         <source>Information</source>
@@ -603,15 +603,15 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">Вчитајте делумно потпишана биткоин-трансакција</translation>
+        <translation type="unfinished">Вчитајте делумно потпишана линкоин-трансакција</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
-        <translation type="unfinished">Вчитај PSBT од &amp;клипбордот...</translation>
+        <translation type="unfinished">Вчитајте PSBT од &amp;клипбордот...</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">Вчитајте делумно потпишана биткоин-трансакција од клипбордот</translation>
+        <translation type="unfinished">Вчитајте делумно потпишана линкоин-трансакција од клипбордот</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -631,11 +631,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">Отвори биткоин: URI</translation>
+        <translation type="unfinished">Отвори линкоин: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
-        <translation type="unfinished">Отвори паричник</translation>
+        <translation type="unfinished">Отвори го паричникот</translation>
     </message>
     <message>
         <source>Open a wallet</source>
@@ -661,7 +661,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Lyncoin command-line options</source>
-        <translation type="unfinished">Прикажи %1 помошна порака за да добиеш список на можни биткоин-команди.</translation>
+        <translation type="unfinished">Прикажи %1 помошна порака за да добиеш список на можни линкоин-команди.</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -727,9 +727,9 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -959,39 +959,39 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>Intro</name>
     <message>
         <source>Lyncoin</source>
-        <translation type="unfinished">Биткоин</translation>
+        <translation type="unfinished">Линкоин</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1211,9 +1211,9 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1245,9 +1245,9 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1352,11 +1352,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">&amp;Експорт</translation>
+        <translation type="unfinished">Извези</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">Експортирај ги податоците од активното јазиче во датотека</translation>
+        <translation type="unfinished">Извези ги податоците од активното јазиче во датотека</translation>
     </message>
     <message>
         <source>Wallet Data</source>

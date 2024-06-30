@@ -55,12 +55,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">這些是你要發送過去的 比特幣地址。在發送幣之前，務必要檢查金額和接收地址是否正確。</translation>
+        <translation type="unfinished">這些是你要發送過去的 林幣地址。在發送幣之前，務必要檢查金額和接收地址是否正確。</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">這些是您的比特幣接收地址。使用“接收”標籤中的“產生新的接收地址”按鈕產生新的地址。只能使用“傳統”類型的地址進行簽名。</translation>
+        <translation type="unfinished">這些是您的林幣接收地址。使用“接收”標籤中的“產生新的接收地址”按鈕產生新的地址。只能使用“傳統”類型的地址進行簽名。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -298,12 +298,24 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">未知</translation>
     </message>
     <message>
+        <source>Embedded "%1"</source>
+        <translation type="unfinished">嵌入的 "%1"</translation>
+    </message>
+    <message>
+        <source>Default system font "%1"</source>
+        <translation type="unfinished">默认系统字体 "%1"</translation>
+    </message>
+    <message>
+        <source>Custom…</source>
+        <translation type="unfinished">自定义...</translation>
+    </message>
+    <message>
         <source>Amount</source>
         <translation type="unfinished">金額</translation>
     </message>
     <message>
         <source>Enter a Lyncoin address (e.g. %1)</source>
-        <translation type="unfinished">輸入 比特幣地址 (比如說 %1)</translation>
+        <translation type="unfinished">輸入 林幣地址 (比如說 %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -320,6 +332,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">傳出</translation>
     </message>
     <message>
+        <source>Full Relay</source>
+        <extracomment>Peer connection type that relays all network information.</extracomment>
+        <translation type="unfinished">完整转发</translation>
+    </message>
+    <message>
         <source>Block Relay</source>
         <extracomment>Peer connection type that relays network information about blocks and not transactions or addresses.</extracomment>
         <translation type="unfinished">區塊轉發</translation>
@@ -328,6 +345,16 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>Manual</source>
         <extracomment>Peer connection type established manually through one of several methods.</extracomment>
         <translation type="unfinished">手冊</translation>
+    </message>
+    <message>
+        <source>Feeler</source>
+        <extracomment>Short-lived peer connection type that tests the aliveness of known addresses.</extracomment>
+        <translation type="unfinished">触须</translation>
+    </message>
+    <message>
+        <source>Address Fetch</source>
+        <extracomment>Short-lived peer connection type that solicits known addresses from a peer.</extracomment>
+        <translation type="unfinished">地址取回</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -475,7 +502,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">發送幣給一個比特幣地址</translation>
+        <translation type="unfinished">發送幣給一個林幣地址</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -519,7 +546,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">用比特幣地址簽名訊息來證明位址是你的</translation>
+        <translation type="unfinished">用林幣地址簽名訊息來證明位址是你的</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -528,7 +555,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">驗證訊息是用來確定訊息是用指定的比特幣地址簽名的</translation>
+        <translation type="unfinished">驗證訊息是用來確定訊息是用指定的林幣地址簽名的</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -642,7 +669,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">載入部分簽名的比特幣交易</translation>
+        <translation type="unfinished">載入部分簽名的林幣交易</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
@@ -650,7 +677,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">從剪貼簿載入部分簽名的比特幣交易</translation>
+        <translation type="unfinished">從剪貼簿載入部分簽名的林幣交易</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -670,7 +697,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">打開一個比特幣：URI</translation>
+        <translation type="unfinished">打開一個林幣：URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -1092,12 +1119,12 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">已成功遷移錢包 '%1' 。</translation>
     </message>
     <message>
-        <source> Watchonly scripts have been migrated to a new wallet named '%1'.</source>
-        <translation type="unfinished">僅觀察腳本(watch-only)已被移轉到名為 '%1' 的新錢包中。</translation>
+        <source>Watchonly scripts have been migrated to a new wallet named '%1'.</source>
+        <translation type="unfinished">仅观察脚本已经被迁移到被命名为“%1”的新钱包中。</translation>
     </message>
     <message>
-        <source> Solvable but not watched scripts have been migrated to a new wallet named '%1'.</source>
-        <translation type="unfinished">可解但又未被監視的腳本已被遷移至名為 '%1' 的新錢包中。</translation>
+        <source>Solvable but not watched scripts have been migrated to a new wallet named '%1'.</source>
+        <translation type="unfinished">可解决但未被观察到的脚本已经被迁移到被命名为“%1”的新钱包。</translation>
     </message>
     <message>
         <source>Migration failed</source>
@@ -1266,7 +1293,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">輸入的地址 %1 並不是有效的比特幣地址。</translation>
+        <translation type="unfinished">輸入的地址 %1 並不是有效的林幣地址。</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book with label "%2".</source>
@@ -1438,7 +1465,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Attempting to spend lyncoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">使用還沒顯示出來的交易所影響到的 Lyncoin 可能會不被網路所接受。</translation>
+        <translation type="unfinished">使用還沒顯示出來的交易所影響到的 lyncoin 可能會不被網路所接受。</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1489,7 +1516,7 @@ The migration process will create a backup of the wallet before migrating. This 
     <name>OpenURIDialog</name>
     <message>
         <source>Open lyncoin URI</source>
-        <translation type="unfinished">打開比特幣URI</translation>
+        <translation type="unfinished">打開林幣URI</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -1542,6 +1569,10 @@ The migration process will create a backup of the wallet before migrating. This 
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
         <translation type="unfinished">當視窗關閉時，把應用程式縮到最小，而不是結束。當勾選這個選項時，只能夠用選單中的結束來關掉應用程式。</translation>
+    </message>
+    <message>
+        <source>Font in the Overview tab: </source>
+        <translation type="unfinished">在概览标签页的字体:</translation>
     </message>
     <message>
         <source>Options set in this dialog are overridden by the command line:</source>
@@ -1660,6 +1691,14 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">用 &amp;UPnP 設定通訊埠對應</translation>
     </message>
     <message>
+        <source>Automatically open the Lyncoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation type="unfinished">自动在路由器中为林币客户端打开端口。只有当您的路由器支持 NAT-PMP 功能并开启它，这个功能才会正常工作。外边端口可以是随机的。</translation>
+    </message>
+    <message>
+        <source>Map port using NA&amp;T-PMP</source>
+        <translation type="unfinished">使用 NA&amp;T-PMP 映射端口</translation>
+    </message>
+    <message>
         <source>Accept connections from outside.</source>
         <translation type="unfinished">接受外來連線</translation>
     </message>
@@ -1694,6 +1733,14 @@ The migration process will create a backup of the wallet before migrating. This 
     <message>
         <source>&amp;Window</source>
         <translation type="unfinished">&amp;視窗</translation>
+    </message>
+    <message>
+        <source>Show the icon in the system tray.</source>
+        <translation type="unfinished">在通知区域显示图标。</translation>
+    </message>
+    <message>
+        <source>&amp;Show tray icon</source>
+        <translation type="unfinished">显示通知区域图标(&amp;S)</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
@@ -1741,19 +1788,11 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Connect to the Lyncoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">通過用於Tor洋蔥服務個別的SOCKS5代理連接到比特幣網路。</translation>
+        <translation type="unfinished">通過用於Tor洋蔥服務個別的SOCKS5代理連接到林幣網路。</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
         <translation type="unfinished">使用個別的SOCKS＆5代理介由Tor onion服務到達peers：</translation>
-    </message>
-    <message>
-        <source>Monospaced font in the Overview tab:</source>
-        <translation type="unfinished">在概览标签页的等宽字体:</translation>
-    </message>
-    <message>
-        <source>embedded "%1"</source>
-        <translation type="unfinished">嵌入的 "%1"</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1977,6 +2016,10 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">PSBT已儲存到磁碟。</translation>
     </message>
     <message>
+        <source>Sends %1 to %2</source>
+        <translation type="unfinished">将“%1”发送到“%2”</translation>
+    </message>
+    <message>
         <source>own address</source>
         <translation type="unfinished">自己的地址</translation>
     </message>
@@ -2053,7 +2096,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Lyncoin address or malformed URI parameters.</source>
-        <translation type="unfinished">沒辦法解析 URI ！可能是因為無效比特幣地址，或是 URI 參數格式錯誤。</translation>
+        <translation type="unfinished">沒辦法解析 URI ！可能是因為無效林幣地址，或是 URI 參數格式錯誤。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2115,19 +2158,19 @@ If you are receiving this error you should request the merchant provide a BIP21 
     <message>
         <source>Inbound</source>
         <extracomment>An Inbound Connection from a Peer.</extracomment>
-        <translation type="unfinished">進來</translation>
+        <translation type="unfinished">傳入</translation>
     </message>
     <message>
         <source>Outbound</source>
         <extracomment>An Outbound Connection to a Peer.</extracomment>
-        <translation type="unfinished">出去</translation>
+        <translation type="unfinished">傳出</translation>
     </message>
 </context>
 <context>
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image…</source>
-        <translation type="unfinished">保存圖片(&amp;S)...</translation>
+        <translation type="unfinished">儲存圖片(&amp;S)...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
@@ -2535,6 +2578,10 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation type="unfinished">1 小時(&amp;H)</translation>
     </message>
     <message>
+        <source>1 d&amp;ay</source>
+        <translation type="unfinished">1 天(&amp;A)</translation>
+    </message>
+    <message>
         <source>1 &amp;week</source>
         <translation type="unfinished">1 星期(&amp;W)</translation>
     </message>
@@ -2558,6 +2605,10 @@ If you are receiving this error you should request the merchant provide a BIP21 
     <message>
         <source>Executing command without any wallet</source>
         <translation type="unfinished">不使用任何錢包來執行指令</translation>
+    </message>
+    <message>
+        <source>Node window - [%1]</source>
+        <translation type="unfinished">节点窗口 - [%1]</translation>
     </message>
     <message>
         <source>Executing command using "%1" wallet</source>
@@ -2584,6 +2635,10 @@ For more information on using this console, type %6.
         <source>Executing…</source>
         <extracomment>A console message indicating an entered command is currently being executed.</extracomment>
         <translation type="unfinished">執行中……</translation>
+    </message>
+    <message>
+        <source>(peer: %1)</source>
+        <translation type="unfinished">(节点: %1)</translation>
     </message>
     <message>
         <source>via %1</source>
@@ -2694,11 +2749,11 @@ For more information on using this console, type %6.
     </message>
     <message>
         <source>&amp;Copy address</source>
-        <translation type="unfinished">&amp;复制地址</translation>
+        <translation type="unfinished">&amp;複製地址</translation>
     </message>
     <message>
         <source>Copy &amp;label</source>
-        <translation type="unfinished">複製和標籤</translation>
+        <translation type="unfinished">複製 &amp;label</translation>
     </message>
     <message>
         <source>Copy &amp;message</source>
@@ -2766,6 +2821,14 @@ For more information on using this console, type %6.
     <message>
         <source>Copy &amp;Address</source>
         <translation type="unfinished">複製 &amp;地址</translation>
+    </message>
+    <message>
+        <source>&amp;Verify</source>
+        <translation type="unfinished">验证(&amp;V)</translation>
+    </message>
+    <message>
+        <source>Verify this address on e.g. a hardware wallet screen</source>
+        <translation type="unfinished">在像是硬件钱包屏幕的地方检验这个地址</translation>
     </message>
     <message>
         <source>&amp;Save Image…</source>
@@ -2902,6 +2965,10 @@ For more information on using this console, type %6.
         <translation type="unfinished">把表單中的所有欄位清空。</translation>
     </message>
     <message>
+        <source>Inputs…</source>
+        <translation type="unfinished">输入...</translation>
+    </message>
+    <message>
         <source>Choose…</source>
         <translation type="unfinished">選擇...</translation>
     </message>
@@ -2910,8 +2977,16 @@ For more information on using this console, type %6.
         <translation type="unfinished">隱藏交易手續費設定</translation>
     </message>
     <message>
+        <source>Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.
+
+Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satoshis per kvB" for a transaction size of 500 virtual bytes (half of 1 kvB) would ultimately yield a fee of only 50 satoshis.</source>
+        <translation type="unfinished">指定交易虚拟大小的每kB (1,000字节) 自定义费率。
+
+附注：因为矿工费是按字节计费的，所以如果费率是“每kvB支付100聪”，那么对于一笔500虚拟字节 (1kvB的一半) 的交易，最终将只会产生50聪的矿工费。（译注：这里就是提醒单位是字节，而不是千字节，如果搞错的话，矿工费会过低，导致交易长时间无法确认，或者压根无法发出）</translation>
+    </message>
+    <message>
         <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for lyncoin transactions than the network can process.</source>
-        <translation type="unfinished">當交易量小於可用區塊空間時，礦工和節點可能會執行最低手續費率限制。 以這個最低費率來支付手續費也是可以的，但請注意，一旦交易需求超出比特幣網路能處理的限度，你的交易可能永遠無法確認。</translation>
+        <translation type="unfinished">當交易量小於可用區塊空間時，礦工和節點可能會執行最低手續費率限制。 以這個最低費率來支付手續費也是可以的，但請注意，一旦交易需求超出林幣網路能處理的限度，你的交易可能永遠無法確認。</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -2996,10 +3071,6 @@ For more information on using this console, type %6.
         <translation type="unfinished">Cr＆eate未簽名</translation>
     </message>
     <message>
-        <source> from wallet '%1'</source>
-        <translation type="unfinished">從錢包 %1</translation>
-    </message>
-    <message>
         <source>%1 to '%2'</source>
         <translation type="unfinished">%1 到 '%2'</translation>
     </message>
@@ -3048,6 +3119,10 @@ For more information on using this console, type %6.
         <translation type="unfinished">你可以之後再提高手續費(有 BIP-125 手續費追加的標記)</translation>
     </message>
     <message>
+        <source>%1 from wallet '%2'</source>
+        <translation type="unfinished">%1 来自钱包 “%2”</translation>
+    </message>
+    <message>
         <source>Do you want to create this transaction?</source>
         <extracomment>Message displayed when attempting to create a transaction. Cautionary text to prompt the user to verify that the displayed transaction details represent the transaction the user intends to create.</extracomment>
         <translation type="unfinished">要創建這筆交易嗎？</translation>
@@ -3055,7 +3130,7 @@ For more information on using this console, type %6.
     <message>
         <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Lyncoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">請務必仔細檢查您的交易。 你可以創建並發送這筆交易；也可以創建一個“部分簽名比特幣交易(PSBT)”，它可以被保存下來或被複製出去，然後就可以對它進行簽名，比如用離線%1錢包，或 是用相容PSBT的硬體錢包。</translation>
+        <translation type="unfinished">請務必仔細檢查您的交易。 你可以創建並發送這筆交易；也可以創建一個“部分簽名林幣交易(PSBT)”，它可以被保存下來或被複製出去，然後就可以對它進行簽名，比如用離線%1錢包，或 是用相容PSBT的硬體錢包。</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -3132,7 +3207,7 @@ For more information on using this console, type %6.
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">警告: 比特幣地址無效</translation>
+        <translation type="unfinished">警告: 林幣地址無效</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3171,7 +3246,7 @@ For more information on using this console, type %6.
     </message>
     <message>
         <source>The Lyncoin address to send the payment to</source>
-        <translation type="unfinished">將支付發送到的比特幣地址給</translation>
+        <translation type="unfinished">將支付發送到的林幣地址給</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -3233,11 +3308,11 @@ For more information on using this console, type %6.
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive lyncoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">您可以使用您的地址簽名訊息/協議，以證明您可以接收發送給他們的比特幣。但是請小心，不要簽名語意含糊不清，或隨機產生的內容，因為釣魚式詐騙可能會用騙你簽名的手法來冒充是你。只有簽名您同意的詳細內容。</translation>
+        <translation type="unfinished">您可以使用您的地址簽名訊息/協議，以證明您可以接收發送給他們的林幣。但是請小心，不要簽名語意含糊不清，或隨機產生的內容，因為釣魚式詐騙可能會用騙你簽名的手法來冒充是你。只有簽名您同意的詳細內容。</translation>
     </message>
     <message>
         <source>The Lyncoin address to sign the message with</source>
-        <translation type="unfinished">用來簽名訊息的 比特幣地址</translation>
+        <translation type="unfinished">用來簽名訊息的 林幣地址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3261,7 +3336,7 @@ For more information on using this console, type %6.
     </message>
     <message>
         <source>Sign the message to prove you own this Lyncoin address</source>
-        <translation type="unfinished">簽名這個訊息來證明這個比特幣地址是你的</translation>
+        <translation type="unfinished">簽名這個訊息來證明這個林幣地址是你的</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3285,7 +3360,7 @@ For more information on using this console, type %6.
     </message>
     <message>
         <source>The Lyncoin address the message was signed with</source>
-        <translation type="unfinished">簽名這個訊息的 比特幣地址</translation>
+        <translation type="unfinished">簽名這個訊息的 林幣地址</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -3297,7 +3372,7 @@ For more information on using this console, type %6.
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">驗證這個訊息來確定是用指定的比特幣地址簽名的</translation>
+        <translation type="unfinished">驗證這個訊息來確定是用指定的林幣地址簽名的</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3506,8 +3581,8 @@ For more information on using this console, type %6.
         <translation type="unfinished">輸出索引</translation>
     </message>
     <message>
-        <source> (Certificate was not verified)</source>
-        <translation type="unfinished">（證書未驗證）</translation>
+        <source>%1 (Certificate was not verified)</source>
+        <translation type="unfinished">%1（证书未被验证）</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -3921,7 +3996,7 @@ Go to File &gt; Open Wallet to load a wallet.
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished">匯出 &amp;E</translation>
+        <translation type="unfinished">&amp;匯出</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
@@ -4002,6 +4077,10 @@ Go to File &gt; Open Wallet to load a wallet.
     <message>
         <source>Error: Dumpfile format record is incorrect. Got "%s", expected "format".</source>
         <translation type="unfinished">錯誤: 轉儲文件格式不正確。 得到是"%s"，而預期本應得到的是 "format"。</translation>
+    </message>
+    <message>
+        <source>Error: Dumpfile identifier record is incorrect. Got "%s", expected "%s".</source>
+        <translation type="unfinished">错误: 转储文件标识符记录不正确。得到的是 "%s"，而预期本应得到的是 "%s"。</translation>
     </message>
     <message>
         <source>Error: Dumpfile version is not supported. This version of lyncoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
@@ -4326,6 +4405,10 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">轉儲文件 %s 不存在</translation>
     </message>
     <message>
+        <source>Error committing db txn for wallet transactions removal</source>
+        <translation type="unfinished">在提交删除钱包交易的数据库事务时出错</translation>
+    </message>
+    <message>
         <source>Error creating %s</source>
         <translation type="unfinished">創建%s時出錯</translation>
     </message>
@@ -4374,16 +4457,12 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">從錢包資料庫讀取下一筆記錄時出錯</translation>
     </message>
     <message>
+        <source>Error starting db txn for wallet transactions removal</source>
+        <translation type="unfinished">在开始删除钱包交易的数据库事务时出错</translation>
+    </message>
+    <message>
         <source>Error: Cannot extract destination from the generated scriptpubkey</source>
         <translation type="unfinished">錯誤: 無法從產生的scriptpubkey提取目標</translation>
-    </message>
-    <message>
-        <source>Error: Could not add watchonly tx to watchonly wallet</source>
-        <translation type="unfinished">錯誤：無法新增僅觀察交易至僅觀察錢包</translation>
-    </message>
-    <message>
-        <source>Error: Could not delete watchonly transactions</source>
-        <translation type="unfinished">錯誤：無法刪除僅觀察交易</translation>
     </message>
     <message>
         <source>Error: Couldn't create cursor into database</source>
@@ -4400,10 +4479,6 @@ Unable to restore backup of wallet.</source>
     <message>
         <source>Error: Keypool ran out, please call keypoolrefill first</source>
         <translation type="unfinished">錯誤：keypool已用完，請先重新呼叫keypoolrefill</translation>
-    </message>
-    <message>
-        <source>Error: Not all watchonly txs could be deleted</source>
-        <translation type="unfinished">錯誤：有些僅觀察交易無法刪除</translation>
     </message>
     <message>
         <source>Error: This wallet already uses SQLite</source>
@@ -4430,12 +4505,32 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">錯誤：無法讀取這個資料庫中的所有記錄</translation>
     </message>
     <message>
+        <source>Error: Unable to read wallet's best block locator record</source>
+        <translation type="unfinished">错误：无法读取钱包最佳区块定位器记录</translation>
+    </message>
+    <message>
         <source>Error: Unable to remove watchonly address book data</source>
         <translation type="unfinished">錯誤：無法移除僅觀察地址簿數據</translation>
     </message>
     <message>
         <source>Error: Unable to write record to new wallet</source>
         <translation type="unfinished">錯誤: 無法寫入記錄到新錢包</translation>
+    </message>
+    <message>
+        <source>Error: Unable to write solvable wallet best block locator record</source>
+        <translation type="unfinished">错误：无法写入可解决钱包最佳区块定位器记录</translation>
+    </message>
+    <message>
+        <source>Error: Unable to write watchonly wallet best block locator record</source>
+        <translation type="unfinished">错误：无法写入仅观察钱包最佳区块定位器记录</translation>
+    </message>
+    <message>
+        <source>Error: address book copy failed for wallet %s</source>
+        <translation type="unfinished">错误: 复制钱包%s的地址本时失败</translation>
+    </message>
+    <message>
+        <source>Error: database transaction cannot be executed for wallet %s</source>
+        <translation type="unfinished">错误: 钱包%s的数据库事务无法被执行</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
@@ -4452,6 +4547,10 @@ Unable to restore backup of wallet.</source>
     <message>
         <source>Failed to verify database</source>
         <translation type="unfinished">無法驗證資料庫</translation>
+    </message>
+    <message>
+        <source>Failure removing transaction: %s</source>
+        <translation type="unfinished">%s删除交易时失败: </translation>
     </message>
     <message>
         <source>Fee rate (%s) is lower than the minimum fee rate setting (%s)</source>
@@ -4654,6 +4753,10 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">這是你交易付款時所要付的手續費。</translation>
     </message>
     <message>
+        <source>Transaction %s does not belong to this wallet</source>
+        <translation type="unfinished">交易%s不属于这个钱包</translation>
+    </message>
+    <message>
         <source>Transaction amount too small</source>
         <translation type="unfinished">交易金額太小</translation>
     </message>
@@ -4664,10 +4767,6 @@ Unable to restore backup of wallet.</source>
     <message>
         <source>Transaction change output index out of range</source>
         <translation type="unfinished">交易尋找零輸出項超出範圍</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">交易造成記憶池中的交易鏈太長</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
@@ -4750,12 +4849,24 @@ Unable to restore backup of wallet.</source>
         <translation type="unfinished">不支持的全局日志等级 %s=%s。有效数值: %s.</translation>
     </message>
     <message>
+        <source>Wallet file creation failed: %s</source>
+        <translation type="unfinished">钱包文件创建失败：1%s</translation>
+    </message>
+    <message>
         <source>acceptstalefeeestimates is not supported on %s chain.</source>
         <translation type="unfinished">%s链上acceptstalefeeestimates 不受支持。</translation>
     </message>
     <message>
         <source>Unsupported logging category %s=%s.</source>
         <translation type="unfinished">不支援的紀錄類別 %s=%s。</translation>
+    </message>
+    <message>
+        <source>Error: Could not add watchonly tx %s to watchonly wallet</source>
+        <translation type="unfinished">错误：无法添加仅观察交易%s到仅观察钱包</translation>
+    </message>
+    <message>
+        <source>Error: Could not delete watchonly transactions. </source>
+        <translation type="unfinished">错误: 无法删除仅观察交易。</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>

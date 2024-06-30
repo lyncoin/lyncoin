@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation type="unfinished">पते या लेबल में बदलाव करने के लिए राइट-क्लिक करें</translation>
+        <translation type="unfinished">पता या लेबल संपादित करने के लिए राइट-क्लिक करें</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation type="unfinished">चुने गए मौजूदा पते को सिस्टम क्लिपबोर्ड पर कॉपी करें</translation>
+        <translation type="unfinished">मौजूदा चयनित पते को सिस्टम क्लिपबोर्ड पर कॉपी करें</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -27,7 +27,7 @@
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished">सूची से अभी चुना गया पता डिलीट करें</translation>
+        <translation type="unfinished">सूची से मौजूदा चयनित पता हटाएं</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
@@ -35,7 +35,7 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">मौजूदा टैब में डेटा को फ़ाइल में एक्सपोर्ट करें</translation>
+        <translation type="unfinished">मौजूदा टैब में डेटा को फ़ाइल में निर्यात करें</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -43,7 +43,7 @@
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished">डिलीट करें</translation>
+        <translation type="unfinished">मिटाना</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
@@ -55,33 +55,33 @@
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation type="unfinished">&amp;चुनें</translation>
+        <translation type="unfinished">&amp;चुज़</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">भुगतान भेजने के लिए ये आपके बिटकॉइन पते हैं। कॉइन्स भेजने से पहले हमेशा राशि और प्राप्त करने वाले पते की जांच करें।</translation>
+        <translation type="unfinished">भुगतान भेजने के लिए ये आपके लिनकॉइन पते हैं। कॉइन्स भेजने से पहले हमेशा राशि और प्राप्त करने वाले पते की जांच करें।</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">भुगतान प्राप्त करने के लिए ये आपके बिटकॉइन पते हैं। नए पते बनाने के लिए रिसिव टैब में 'नया प्राप्तकर्ता पता बनाएं' बटन का उपयोग करें।
+        <translation type="unfinished">भुगतान प्राप्त करने के लिए ये आपके लिनकॉइन पते हैं। नए पते बनाने के लिए रिसिव टैब में 'नया प्राप्तकर्ता पता बनाएं' बटन का उपयोग करें।
 हस्ताक्षर केवल 'लेगसी' प्रकार के पते के साथ ही संभव है।</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation type="unfinished">&amp;पता कॉपी करें</translation>
+        <translation type="unfinished">&amp;कॉपी पता</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation type="unfinished">&amp;लेबल कॉपी करें</translation>
+        <translation type="unfinished">कॉपी और लेबल</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation type="unfinished">&amp;बदलाव करें</translation>
+        <translation type="unfinished">&amp;एडीट</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation type="unfinished">पते की सूची को एक्सपोर्ट करें</translation>
+        <translation type="unfinished">पता की सूची को निर्यात करें</translation>
     </message>
     <message>
         <source>Comma separated file</source>
@@ -94,12 +94,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation type="unfinished">पता सूची को %1यहां सहेजने का प्रयास करते समय एक त्रुटि हुई . कृपया पुन: प्रयास करें।</translation>
     </message>
     <message>
-        <source>Sending addresses - %1</source>
-        <translation type="unfinished">पते भेजे जा रहे हैं - %1</translation>
-    </message>
-    <message>
         <source>Exporting Failed</source>
-        <translation type="unfinished">एक्सपोर्ट नहीं हो पाया</translation>
+        <translation type="unfinished">निर्यात विफल हो गया है</translation>
     </message>
 </context>
 <context>
@@ -125,7 +121,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation type="unfinished">पासफ्रेज़ दर्ज करें</translation>
+        <translation type="unfinished">पासफ़्रेज़ मे प्रवेश करें</translation>
     </message>
     <message>
         <source>New passphrase</source>
@@ -161,7 +157,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">चेतावनी: यदि आप अपना वॉलेट एन्क्रिप्ट करते हैं और अपना पासफ़्रेज़ खो देते हैं, तो आपअपने सभी बिटकॉइन &lt;b&gt; खो देंगे&lt;/b&gt; !</translation>
+        <translation type="unfinished">चेतावनी: यदि आप अपना वॉलेट एन्क्रिप्ट करते हैं और अपना पासफ़्रेज़ खो देते हैं, तो आपअपने सभी लिनकॉइन &lt;b&gt; खो देंगे&lt;/b&gt; !</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -181,7 +177,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">याद रखें कि आपके वॉलेट को एन्क्रिप्ट करने से आपके बिटकॉइन को आपके कंप्यूटर को संक्रमित करने वाले मैलवेयर द्वारा चोरी होने से पूरी तरह से सुरक्षित नहीं किया जा सकता है।</translation>
+        <translation type="unfinished">याद रखें कि आपके वॉलेट को एन्क्रिप्ट करने से आपके लिनकॉइन को आपके कंप्यूटर को संक्रमित करने वाले मैलवेयर द्वारा चोरी होने से पूरी तरह से सुरक्षित नहीं किया जा सकता है।</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -402,7 +398,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">बिटकॉइन पते पर कॉइन्स भेजें</translation>
+        <translation type="unfinished">लिनकॉइन पते पर कॉइन्स भेजें</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -447,7 +443,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">अपने बिटकॉइन पतों के साथ संदेशों पर हस्ताक्षर करके साबित करें कि वे आपके हैं |</translation>
+        <translation type="unfinished">अपने लिनकॉइन पतों के साथ संदेशों पर हस्ताक्षर करके साबित करें कि वे आपके हैं |</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -455,7 +451,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">यह सुनिश्चित करने के लिए संदेशों को सत्यापित करें कि वे निर्दिष्ट बिटकॉइन पते के साथ हस्ताक्षरित थे |</translation>
+        <translation type="unfinished">यह सुनिश्चित करने के लिए संदेशों को सत्यापित करें कि वे निर्दिष्ट लिनकॉइन पते के साथ हस्ताक्षरित थे |</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -1228,7 +1224,7 @@ For more information on using this console, type %6.
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lyncoin network.</source>
-        <translation type="unfinished">भुगतान अनुरोध के साथ संलग्न करने के लिए एक वैकल्पिक संदेश, जिसे अनुरोध खोले जाने पर प्रदर्शित किया जाएगा। नोट: बिटकॉइन नेटवर्क पर भुगतान के साथ संदेश नहीं भेजा जाएगा।</translation>
+        <translation type="unfinished">भुगतान अनुरोध के साथ संलग्न करने के लिए एक वैकल्पिक संदेश, जिसे अनुरोध खोले जाने पर प्रदर्शित किया जाएगा। नोट: लिनकॉइन नेटवर्क पर भुगतान के साथ संदेश नहीं भेजा जाएगा।</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1501,7 +1497,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for lyncoin transactions than the network can process.</source>
-        <translation type="unfinished">जब ब्लॉक में स्थान की तुलना में कम लेन-देन की मात्रा होती है, तो खनिकों के साथ-साथ रिलेइंग नोड्स न्यूनतम शुल्क लागू कर सकते हैं। केवल इस न्यूनतम शुल्क का भुगतान करना ठीक है, लेकिन ध्यान रखें कि नेटवर्क की प्रक्रिया की तुलना में बिटकॉइन लेनदेन की अधिक मांग होने पर इसका परिणाम कभी भी पुष्टिकरण लेनदेन में नहीं हो सकता है।</translation>
+        <translation type="unfinished">जब ब्लॉक में स्थान की तुलना में कम लेन-देन की मात्रा होती है, तो खनिकों के साथ-साथ रिलेइंग नोड्स न्यूनतम शुल्क लागू कर सकते हैं। केवल इस न्यूनतम शुल्क का भुगतान करना ठीक है, लेकिन ध्यान रखें कि नेटवर्क की प्रक्रिया की तुलना में लिनकॉइन लेनदेन की अधिक मांग होने पर इसका परिणाम कभी भी पुष्टिकरण लेनदेन में नहीं हो सकता है।</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -1560,10 +1556,6 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">कॉपी बाइट्स</translation>
     </message>
     <message>
-        <source>Copy change</source>
-        <translation type="unfinished">कॉपी चैंज</translation>
-    </message>
-    <message>
         <source>%1 (%2 blocks)</source>
         <translation type="unfinished">%1 (%2 ब्लाकस)</translation>
     </message>
@@ -1587,11 +1579,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Creates a Partially Signed Lyncoin Transaction (PSBT) for use with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
-        <translation type="unfinished">उदाहरण के लिए उपयोग के लिए आंशिक रूप से हस्ताक्षरित बिटकॉइन लेनदेन (PSBT) बनाता है। एक ऑफ़लाइन% 1 %1  वॉलेट, या एक PSBT-संगत हार्डवेयर वॉलेट।</translation>
-    </message>
-    <message>
-        <source> from wallet '%1'</source>
-        <translation type="unfinished">वॉलिट से '%1'</translation>
+        <translation type="unfinished">उदाहरण के लिए उपयोग के लिए आंशिक रूप से हस्ताक्षरित लिनकॉइन लेनदेन (PSBT) बनाता है। एक ऑफ़लाइन% 1 %1  वॉलेट, या एक PSBT-संगत हार्डवेयर वॉलेट।</translation>
     </message>
     <message>
         <source>%1 to '%2'</source>
@@ -1649,7 +1637,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Please, review your transaction proposal. This will produce a Partially Signed Lyncoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">कृपया, अपने लेनदेन प्रस्ताव की समीक्षा करें। यह एक आंशिक रूप से हस्ताक्षरित बिटकॉइन लेनदेन (PSBT) का उत्पादन करेगा जिसे आप सहेज सकते हैं या कॉपी कर सकते हैं और फिर उदा। एक ऑफ़लाइन %1  वॉलेट, या एक PSBT-संगत हार्डवेयर वॉलेट।</translation>
+        <translation type="unfinished">कृपया, अपने लेनदेन प्रस्ताव की समीक्षा करें। यह एक आंशिक रूप से हस्ताक्षरित लिनकॉइन लेनदेन (PSBT) का उत्पादन करेगा जिसे आप सहेज सकते हैं या कॉपी कर सकते हैं और फिर उदा। एक ऑफ़लाइन %1  वॉलेट, या एक PSBT-संगत हार्डवेयर वॉलेट।</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
@@ -1659,7 +1647,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Lyncoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
-        <translation type="unfinished">कृपया, अपने लेन-देन की समीक्षा करें। आप इस लेन-देन को बना और भेज सकते हैं या आंशिक रूप से हस्ताक्षरित बिटकॉइन लेनदेन (पीएसबीटी) बना सकते हैं, जिसे आप सहेज सकते हैं या कॉपी कर सकते हैं और फिर हस्ताक्षर कर सकते हैं, उदाहरण के लिए, ऑफ़लाइन %1 वॉलेट, या पीएसबीटी-संगत हार्डवेयर वॉलेट।</translation>
+        <translation type="unfinished">कृपया, अपने लेन-देन की समीक्षा करें। आप इस लेन-देन को बना और भेज सकते हैं या आंशिक रूप से हस्ताक्षरित लिनकॉइन लेनदेन (पीएसबीटी) बना सकते हैं, जिसे आप सहेज सकते हैं या कॉपी कर सकते हैं और फिर हस्ताक्षर कर सकते हैं, उदाहरण के लिए, ऑफ़लाइन %1 वॉलेट, या पीएसबीटी-संगत हार्डवेयर वॉलेट।</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -1730,7 +1718,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">चेतावनी: अमान्य बिटकॉइन पता</translation>
+        <translation type="unfinished">चेतावनी: अमान्य लिनकॉइन पता</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1769,7 +1757,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The Lyncoin address to send the payment to</source>
-        <translation type="unfinished">भुगतान भेजने के लिए बिटकॉइन पता</translation>
+        <translation type="unfinished">भुगतान भेजने के लिए लिनकॉइन पता</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1793,7 +1781,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less lyncoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation type="unfinished">भेजी जाने वाली राशि से शुल्क की कटौती की जाएगी। प्राप्तकर्ता को आपके द्वारा राशि फ़ील्ड में दर्ज किए जाने से कम बिटकॉइन प्राप्त होंगे। यदि कई प्राप्तकर्ताओं का चयन किया जाता है, तो शुल्क समान रूप से विभाजित किया जाता है।</translation>
+        <translation type="unfinished">भेजी जाने वाली राशि से शुल्क की कटौती की जाएगी। प्राप्तकर्ता को आपके द्वारा राशि फ़ील्ड में दर्ज किए जाने से कम लिनकॉइन प्राप्त होंगे। यदि कई प्राप्तकर्ताओं का चयन किया जाता है, तो शुल्क समान रूप से विभाजित किया जाता है।</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -1813,7 +1801,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>A message that was attached to the lyncoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lyncoin network.</source>
-        <translation type="unfinished">एक संदेश जो बिटकॉइन से जुड़ा था: यूआरआई जो आपके संदर्भ के लिए लेनदेन के साथ संग्रहीत किया जाएगा। नोट: यह संदेश बिटकॉइन नेटवर्क पर नहीं भेजा जाएगा।</translation>
+        <translation type="unfinished">एक संदेश जो लिनकॉइन से जुड़ा था: यूआरआई जो आपके संदर्भ के लिए लेनदेन के साथ संग्रहीत किया जाएगा। नोट: यह संदेश लिनकॉइन नेटवर्क पर नहीं भेजा जाएगा।</translation>
     </message>
 </context>
 <context>
@@ -1839,11 +1827,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive lyncoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">आप अपने पते के साथ संदेशों/समझौतों पर हस्ताक्षर करके यह साबित कर सकते हैं कि आप उन्हें भेजे गए बिटकॉइन प्राप्त कर सकते हैं। सावधान रहें कि कुछ भी अस्पष्ट या यादृच्छिक पर हस्ताक्षर न करें, क्योंकि फ़िशिंग हमले आपको अपनी पहचान पर हस्ताक्षर करने के लिए छल करने का प्रयास कर सकते हैं। केवल पूरी तरह से विस्तृत बयानों पर हस्ताक्षर करें जिनसे आप सहमत हैं।</translation>
+        <translation type="unfinished">आप अपने पते के साथ संदेशों/समझौतों पर हस्ताक्षर करके यह साबित कर सकते हैं कि आप उन्हें भेजे गए लिनकॉइन प्राप्त कर सकते हैं। सावधान रहें कि कुछ भी अस्पष्ट या यादृच्छिक पर हस्ताक्षर न करें, क्योंकि फ़िशिंग हमले आपको अपनी पहचान पर हस्ताक्षर करने के लिए छल करने का प्रयास कर सकते हैं। केवल पूरी तरह से विस्तृत बयानों पर हस्ताक्षर करें जिनसे आप सहमत हैं।</translation>
     </message>
     <message>
         <source>The Lyncoin address to sign the message with</source>
-        <translation type="unfinished">संदेश पर हस्ताक्षर करने के लिए बिटकॉइन पता</translation>
+        <translation type="unfinished">संदेश पर हस्ताक्षर करने के लिए लिनकॉइन पता</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1875,7 +1863,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Sign the message to prove you own this Lyncoin address</source>
-        <translation type="unfinished">यह साबित करने के लिए संदेश पर हस्ताक्षर करें कि आप इस बिटकॉइन पते के स्वामी हैं</translation>
+        <translation type="unfinished">यह साबित करने के लिए संदेश पर हस्ताक्षर करें कि आप इस लिनकॉइन पते के स्वामी हैं</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1899,7 +1887,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The Lyncoin address the message was signed with</source>
-        <translation type="unfinished">संदेश के साथ हस्ताक्षर किए गए बिटकॉइन पते</translation>
+        <translation type="unfinished">संदेश के साथ हस्ताक्षर किए गए लिनकॉइन पते</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -1911,7 +1899,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">यह सुनिश्चित करने के लिए संदेश सत्यापित करें कि यह निर्दिष्ट बिटकॉइन पते के साथ हस्ताक्षरित था</translation>
+        <translation type="unfinished">यह सुनिश्चित करने के लिए संदेश सत्यापित करें कि यह निर्दिष्ट लिनकॉइन पते के साथ हस्ताक्षरित था</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2117,10 +2105,6 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Output index</source>
         <translation type="unfinished">आउटपुट इंडेक्स</translation>
-    </message>
-    <message>
-        <source> (Certificate was not verified)</source>
-        <translation type="unfinished">(प्रमाणपत्र सत्यापित नहीं किया गया था)</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -2346,7 +2330,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation type="unfinished">निर्यात विफल हो गया है</translation>
+        <translation type="unfinished">एक्सपोर्ट नहीं हो पाया</translation>
     </message>
     </context>
 <context>
@@ -2376,7 +2360,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished">मौजूदा टैब में डेटा को फ़ाइल में निर्यात करें</translation>
+        <translation type="unfinished">मौजूदा टैब में डेटा को फ़ाइल में एक्सपोर्ट करें</translation>
     </message>
     </context>
 <context>

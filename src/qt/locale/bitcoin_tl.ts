@@ -59,12 +59,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Ito ang mga ♦address♦ ng ♦Bitcoin♦ mo para pagpapadala ng mga bayad. Palaging suriin mo ang halaga at address kung saan tatanggap bago magpadala ka ng mga ♦coin.</translation>
+        <translation type="unfinished">Ito ang mga ♦address♦ ng ♦Lyncoin♦ mo para pagpapadala ng mga bayad. Palaging suriin mo ang halaga at address kung saan tatanggap bago magpadala ka ng mga ♦coin.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Ito ang mga address ng ♦Bitcoin♦ para sa pagtanggap ng mga baya. Gamitin ang 'Create new receiving address' na button sa receive tab para gumawa ng bagong mga address. Ang pag-sign ay posible lamang sa uri ng mga address na 'legacy'.</translation>
+        <translation type="unfinished">Ito ang mga address ng ♦Lyncoin♦ para sa pagtanggap ng mga baya. Gamitin ang 'Create new receiving address' na button sa receive tab para gumawa ng bagong mga address. Ang pag-sign ay posible lamang sa uri ng mga address na 'legacy'.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -156,7 +156,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Babala: IKung i-encrypt mo ang iyong pitaka at mawawala ang ♦passphrase♦,  &lt;b&gt;MAWAWALA MO ANG LAHAT NG IYONG MGA BITCOIN&lt;/b&gt;!</translation>
+        <translation type="unfinished">Babala: IKung i-encrypt mo ang iyong pitaka at mawawala ang ♦passphrase♦,  &lt;b&gt;MAWAWALA MO ANG LAHAT NG IYONG MGA LYNCOIN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -176,7 +176,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Tandaan na ang pag-encrypt sa iyong pitaka ay hindi ganap na mapoprotektahan ang mga ♦bitcoin♦ sa pagnanakaw ng ♦malware♦ na makakahawa sa iyong kompyuter.</translation>
+        <translation type="unfinished">Tandaan na ang pag-encrypt sa iyong pitaka ay hindi ganap na mapoprotektahan ang mga ♦lyncoin♦ sa pagnanakaw ng ♦malware♦ na makakahawa sa iyong kompyuter.</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -280,43 +280,43 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     </context>
@@ -381,7 +381,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Magpadala ng mga ♦coin♦ sa ♦address♦ ng Bitcoin</translation>
+        <translation type="unfinished">Magpadala ng mga ♦coin♦ sa ♦address♦ ng Lyncoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -425,7 +425,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Tanda na mga mensahe sa mga ♦address♦ ng iyong ♦Bitcoin♦ para patunayan na pagmamay-ari mo sila</translation>
+        <translation type="unfinished">Tanda na mga mensahe sa mga ♦address♦ ng iyong ♦Lyncoin♦ para patunayan na pagmamay-ari mo sila</translation>
     </message>
     <message>
         <source>&amp;Verify message…</source>
@@ -433,7 +433,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Patunayan ang mga mensahe para matiyak na sila ay napirmahan ng may tinukoy na mga ♦Bitcoin address♦</translation>
+        <translation type="unfinished">Patunayan ang mga mensahe para matiyak na sila ay napirmahan ng may tinukoy na mga ♦Lyncoin address♦</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -493,7 +493,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">Humiling ng mga bayad (gumagawa ng ♦QR codes♦ at ♦bitcoin: URIs♦)</translation>
+        <translation type="unfinished">Humiling ng mga bayad (gumagawa ng ♦QR codes♦ at ♦lyncoin: URIs♦)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -510,8 +510,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -548,11 +548,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">Ang ♦Load♦ ay Bahagyang Napirmahan na Transaksyon sa ♦Bitcoin♦</translation>
+        <translation type="unfinished">Ang ♦Load♦ ay Bahagyang Napirmahan na Transaksyon sa ♦Lyncoin♦</translation>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">Ang ♦Load♦ ay Bahagyang Napirmahan na Transaksyon sa ♦Bitcoin♦ mula sa ♦clipboard♦</translation>
+        <translation type="unfinished">Ang ♦Load♦ ay Bahagyang Napirmahan na Transaksyon sa ♦Lyncoin♦ mula sa ♦clipboard♦</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -572,7 +572,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">Buksan ang ♦bitcoin: URI♦</translation>
+        <translation type="unfinished">Buksan ang ♦lyncoin: URI♦</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -592,7 +592,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Lyncoin command-line options</source>
-        <translation type="unfinished">Ipakita ang %1 tumulong sa mensahe na kumuha ng listahan ng posibleng ♦Bitcoin command-line♦ na mga pagpipilian</translation>
+        <translation type="unfinished">Ipakita ang %1 tumulong sa mensahe na kumuha ng listahan ng posibleng ♦Lyncoin command-line♦ na mga pagpipilian</translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -639,8 +639,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>%n aktibo na mga ♦connection(s)♦ sa ♦Bitcoin network♦.</numerusform>
-            <numerusform>%n na aktibong mga koneksyon sa ♦Bitcoin network♦</numerusform>
+            <numerusform>%n aktibo na mga ♦connection(s)♦ sa ♦Lyncoin network♦.</numerusform>
+            <numerusform>%n na aktibong mga koneksyon sa ♦Lyncoin network♦</numerusform>
         </translation>
     </message>
     <message>
@@ -1048,7 +1048,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">Ang naipasok na ♦address♦ "%1" ay hindi wasto na ♦Bitcoin address♦.</translation>
+        <translation type="unfinished">Ang naipasok na ♦address♦ "%1" ay hindi wasto na ♦Lyncoin address♦.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1094,27 +1094,27 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>Intro</name>
     <message>
         <source>Lyncoin</source>
-        <translation type="unfinished">♦Bitcoin♦</translation>
+        <translation type="unfinished">♦Lyncoin♦</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1125,8 +1125,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1346,8 +1346,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -1364,8 +1364,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>

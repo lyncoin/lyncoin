@@ -10,11 +10,12 @@
 #include <crypto/common.h>
 #include <crypto/ripemd160.h>
 #include <crypto/sha256.h>
+#include <crypto/sha3iuf.h>
+#include <crypto/flex/flex.h>
 #include <prevector.h>
 #include <serialize.h>
 #include <span.h>
 #include <uint256.h>
-#include <version.h>
 
 #include <string>
 #include <vector>
@@ -146,20 +147,85 @@ public:
     }
 };
 
-class CHashWriter : public HashWriter
+/** A writer stream (for serialization) that computes a 256-bit hash. */
+class Hash3Writer
 {
 private:
-    const int nVersion;
+    sha3_context ctx;
 
 public:
-    CHashWriter(int nVersionIn) : nVersion{nVersionIn} {}
 
-    int GetVersion() const { return nVersion; }
+    Hash3Writer() {
+        sha3_Init256(&ctx);
+    }
 
-    template<typename T>
-    CHashWriter& operator<<(const T& obj) {
+    void write(Span<const std::byte> src)
+    {
+        sha3_Update(&ctx, UCharCast(src.data()), src.size());
+    }
+
+    /** Compute the double-SHA256 hash of all data written to this object.
+     *
+     * Invalidates this object.
+     */
+    uint256 GetHash() {
+        uint8_t *result;
+        result = sha3_Finalize(&ctx);
+
+        uint8_t *result2;
+        sha3_context ctx2;
+        sha3_Init256(&ctx2);
+        sha3_Update(&ctx2, result, 32);
+        result2 = sha3_Finalize(&ctx2);
+
+        char result3[65];
+        result3[64] = 0;
+        for (int i=0; i<32; i++) {
+            sprintf(result3+i*2, "%02x", result2[31-i]);
+        }
+        return uint256S(result3);
+    }
+
+    template <typename T>
+    Hash3Writer& operator<<(const T& obj)
+    {
         ::Serialize(*this, obj);
-        return (*this);
+        return *this;
+    }
+};
+
+/** A writer stream (for serialization) that computes a 256-bit hash. */
+class Hash4Writer
+{
+private:
+    char buffer[80] = {0};
+    int pos = 0;
+
+public:
+
+    void write(Span<const std::byte> src)
+    {
+        for(size_t i = 0; i < src.size(); i++) {
+            buffer[pos] = (char)src.data()[i];
+            pos += 1;
+        }
+    }
+
+    /** Compute the double-SHA256 hash of all data written to this object.
+     *
+     * Invalidates this object.
+     */
+    uint256 GetHash() {
+        uint256 result;
+        flex_hash(buffer, result.begin());
+        return result;
+    }
+
+    template <typename T>
+    Hash4Writer& operator<<(const T& obj)
+    {
+        ::Serialize(*this, obj);
+        return *this;
     }
 };
 

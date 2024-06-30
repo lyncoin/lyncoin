@@ -2,10 +2,6 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Create a new address</source>
-        <translation type="unfinished">Δημιουργία νέας διεύθυνσης </translation>
-    </message>
-    <message>
         <source>&amp;New</source>
         <translation type="unfinished">&amp;Νέo</translation>
     </message>
@@ -55,12 +51,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Αυτές είναι οι Bitcoin διευθύνσεις σας για να στέλνετε πληρωμές. Να ελέγχετε πάντα το ποσό, καθώς και τη διεύθυνση παραλήπτη πριν στείλετε νομίσματα.</translation>
+        <translation type="unfinished">Αυτές είναι οι Lyncoin διευθύνσεις σας για να στέλνετε πληρωμές. Να ελέγχετε πάντα το ποσό, καθώς και τη διεύθυνση παραλήπτη πριν στείλετε νομίσματα.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Αυτές είναι οι Bitcoin διευθύνσεις για τη λήψη πληρωμών. Χρησιμοποιήστε το κουμπί  'Δημιουργία νέας διεύθυνσης λήψεων' στο παράθυρο λήψεων για τη δημιουργία νέας διεύθυνσης.
+        <translation type="unfinished">Αυτές είναι οι Lyncoin διευθύνσεις για τη λήψη πληρωμών. Χρησιμοποιήστε το κουμπί  'Δημιουργία νέας διεύθυνσης λήψεων' στο παράθυρο λήψεων για τη δημιουργία νέας διεύθυνσης.
 Η υπογραφή είναι διαθέσιμη μόνο σε διευθύνσεις 'παλαιού τύπου'.</translation>
     </message>
     <message>
@@ -88,10 +84,6 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
         <extracomment>An error message. %1 is a stand-in argument for the name of the file we attempted to save to.</extracomment>
         <translation type="unfinished">Σφάλμα κατά την προσπάθεια αποθήκευσης της λίστας διευθύνσεων στο %1. Παρακαλώ δοκιμάστε ξανά.</translation>
-    </message>
-    <message>
-        <source>Receiving addresses - %1</source>
-        <translation type="unfinished">Διευθύνσεις λήψης - %1</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
@@ -157,7 +149,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Προσοχή! Εάν κρυπτογραφήσετε το πορτοφόλι σας και χάσετε τη φράση πρόσβασης, θα &lt;b&gt; ΧΑΣΕΤΕ ΟΛΑ ΤΑ BITCOIN ΣΑΣ&lt;/b&gt;!</translation>
+        <translation type="unfinished">Προσοχή! Εάν κρυπτογραφήσετε το πορτοφόλι σας και χάσετε τη φράση πρόσβασης, θα &lt;b&gt; ΧΑΣΕΤΕ ΟΛΑ ΤΑ LYNCOIN ΣΑΣ&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -177,7 +169,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Remember that encrypting your wallet cannot fully protect your lyncoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished">Θυμίσου ότι το να κρυπτογραφείς το πορτοφόλι σου δεν μπορεί να προστατέψει πλήρως τα bitcoins σου από κλοπή από  κακόβουλο λογισμικό που έχει μολύνει τον υπολογιστή σου</translation>
+        <translation type="unfinished">Θυμίσου ότι το να κρυπτογραφείς το πορτοφόλι σου δεν μπορεί να προστατέψει πλήρως τα lyncoins σου από κλοπή από  κακόβουλο λογισμικό που έχει μολύνει τον υπολογιστή σου</translation>
     </message>
     <message>
         <source>Wallet to be encrypted</source>
@@ -229,7 +221,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>The old passphrase entered for the wallet decryption is incorrect. It contains a null character (ie - a zero byte). If the passphrase was set with a version of this software prior to 25.0, please try again with only the characters up to — but not including — the first null character.</source>
-        <translation type="unfinished">Ο παλιός κωδικός που εισήχθη για την αποκρυπτογράφηση του πορτοφολιού είναι εσφαλμένος. Περιέχει έναν χαρακτήρα null (δηλαδή, ένα μηδενικό byte). Εάν ο κωδικός ορίστηκε πριν από την έκδοση 25.0 του λογισμικού, δοκιμάστε πάλι μόνο με τους χαρακτήρες έως τον πρώτο χαρακτήρα null — αλλά χωρίς αυτόν.</translation>
+        <translation type="unfinished">Ο παλιός κωδικός που εισήχθη για την αποκρυπτογράφηση του πορτοφολιού είναι εσφαλμένος. Περιέχει έναν χαρακτήρα null (δηλαδή, ένα μηδενικό byte). Εάν ο κωδικός ορίστηκε πριν από την έκδοση 25.0 του λογισμικού, δοκιμάστε ξανά εισαγάγοντας μόνο τους χαρακτήρες έως τον πρώτο χαρακτήρα null — αλλά όχι αυτόν.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -296,7 +288,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Enter a Lyncoin address (e.g. %1)</source>
-        <translation type="unfinished">Εισάγετε μια διεύθυνση Bitcoin (π.χ. %1)</translation>
+        <translation type="unfinished">Εισάγετε μια διεύθυνση Lyncoin (π.χ. %1)</translation>
     </message>
     <message>
         <source>Unroutable</source>
@@ -467,7 +459,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Στείλε νομίσματα σε μια διεύθυνση bitcoin</translation>
+        <translation type="unfinished">Στείλε νομίσματα σε μια διεύθυνση lyncoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -519,7 +511,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Ελέγξτε τα μηνύματα για να βεβαιωθείτε ότι υπογράφηκαν με τις καθορισμένες διευθύνσεις Bitcoin</translation>
+        <translation type="unfinished">Ελέγξτε τα μηνύματα για να βεβαιωθείτε ότι υπογράφηκαν με τις καθορισμένες διευθύνσεις Lyncoin</translation>
     </message>
     <message>
         <source>&amp;Load PSBT from file…</source>
@@ -579,7 +571,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Request payments (generates QR codes and lyncoin: URIs)</source>
-        <translation type="unfinished">Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις bitcoin: )</translation>
+        <translation type="unfinished">Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις lyncoin: )</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -634,7 +626,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction</source>
-        <translation type="unfinished">Φόρτωση συναλλαγής Partially Signed Bitcoin</translation>
+        <translation type="unfinished">Φόρτωση συναλλαγής Partially Signed Lyncoin</translation>
     </message>
     <message>
         <source>Load PSBT from &amp;clipboard…</source>
@@ -642,7 +634,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Load Partially Signed Lyncoin Transaction from clipboard</source>
-        <translation type="unfinished">Φόρτωση συναλλαγής Partially Signed Bitcoin από το πρόχειρο</translation>
+        <translation type="unfinished">Φόρτωση συναλλαγής Partially Signed Lyncoin από το πρόχειρο</translation>
     </message>
     <message>
         <source>Node window</source>
@@ -662,7 +654,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Open a lyncoin: URI</source>
-        <translation type="unfinished">Ανοίξτε ένα bitcoin: URI</translation>
+        <translation type="unfinished">Ανοίξτε ένα lyncoin: URI</translation>
     </message>
     <message>
         <source>Open Wallet</source>
@@ -692,15 +684,15 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Migrate Wallet</source>
-        <translation type="unfinished">Μετεγκατάσταση Πορτοφολιού</translation>
+        <translation type="unfinished">Μεταφορά Πορτοφολιού</translation>
     </message>
     <message>
         <source>Migrate a wallet</source>
-        <translation type="unfinished">Μετεγκατάσταση ενός πορτοφολιού</translation>
+        <translation type="unfinished">Μεταφορά ενός πορτοφολιού</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Lyncoin command-line options</source>
-        <translation type="unfinished">Εμφάνισε το %1 βοηθητικό μήνυμα για λήψη μιας λίστας με διαθέσιμες επιλογές για Bitcoin εντολές </translation>
+        <translation type="unfinished">Εμφάνισε το %1 βοηθητικό μήνυμα για λήψη μιας λίστας με διαθέσιμες επιλογές για Lyncoin εντολές </translation>
     </message>
     <message>
         <source>&amp;Mask values</source>
@@ -766,8 +758,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform>1%n  ενεργές συνδέσεις στο δίκτυο Bitcoin.</numerusform>
-            <numerusform>%n ενεργές συνδέσεις στο δίκτυο Bitcoin.</numerusform>
+            <numerusform>1%n  ενεργές συνδέσεις στο δίκτυο Lyncoin.</numerusform>
+            <numerusform>%n ενεργές συνδέσεις στο δίκτυο Lyncoin.</numerusform>
         </translation>
     </message>
     <message>
@@ -1063,11 +1055,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>MigrateWalletActivity</name>
     <message>
         <source>Migrate wallet</source>
-        <translation type="unfinished">Μεταφορά πορτοφολιού</translation>
+        <translation type="unfinished">Μετεγκατάσταση πορτοφολιού</translation>
     </message>
     <message>
         <source>Are you sure you wish to migrate the wallet &lt;i&gt;%1&lt;/i&gt;?</source>
-        <translation type="unfinished">Είστε σίγουρος/η ότι θέλετε να μεταφέρετε το πορτοφόλι σας; &lt;i&gt;%1&lt;/i&gt;;</translation>
+        <translation type="unfinished">Είστε σίγουρος/η ότι θέλετε να μετεγκαταστήσετε το πορτοφόλι σας; &lt;i&gt;%1&lt;/i&gt;;</translation>
     </message>
     <message>
         <source>Migrating the wallet will convert this wallet to one or more descriptor wallets. A new wallet backup will need to be made.
@@ -1083,7 +1075,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Migrate Wallet</source>
-        <translation type="unfinished">Μεταφορά Πορτοφολιού</translation>
+        <translation type="unfinished">Μετεγκατάσταση Πορτοφολιού</translation>
     </message>
     <message>
         <source>Migrating Wallet &lt;b&gt;%1&lt;/b&gt;…</source>
@@ -1094,8 +1086,16 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation type="unfinished">Το πορτοφόλι '%1' μετεγκαταστάθηκε επιτυχώς.</translation>
     </message>
     <message>
+        <source>Watchonly scripts have been migrated to a new wallet named '%1'.</source>
+        <translation type="unfinished">Τα σενάρια παρακολούθησης μόνο μετεγκαταστάθηκαν σε νέο πορτοφόλι ονόματι '%1'.</translation>
+    </message>
+    <message>
+        <source>Solvable but not watched scripts have been migrated to a new wallet named '%1'.</source>
+        <translation type="unfinished">Τα επιλύσιμα αλλά όχι για παρακολούθηση σενάρια μετεγκαταστάθηκαν σε νέο πορτοφόλι ονόματι '%1'.</translation>
+    </message>
+    <message>
         <source>Migration failed</source>
-        <translation type="unfinished">Η μετεγκατάσταση απέτυχε</translation>
+        <translation type="unfinished">Αποτυχία μετεγκατάστασης</translation>
     </message>
     <message>
         <source>Migration Successful</source>
@@ -1282,7 +1282,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">Η διεύθυνση "%1" δεν είναι έγκυρη Bitcoin διεύθυνση.</translation>
+        <translation type="unfinished">Η διεύθυνση "%1" δεν είναι έγκυρη Lyncoin διεύθυνση.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -1369,7 +1369,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>%1 will download and store a copy of the Lyncoin block chain.</source>
-        <translation type="unfinished">Το %1 θα κατεβάσει και θα αποθηκεύσει ένα αντίγραφο της αλυσίδας μπλοκ Bitcoin.</translation>
+        <translation type="unfinished">Το %1 θα κατεβάσει και θα αποθηκεύσει ένα αντίγραφο της αλυσίδας μπλοκ Lyncoin.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1454,11 +1454,11 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the lyncoin network, as detailed below.</source>
-        <translation type="unfinished">Οι πρόσφατες συναλλαγές ενδέχεται να μην είναι ακόμα ορατές και επομένως η ισορροπία του πορτοφολιού σας μπορεί να είναι εσφαλμένη. Αυτές οι πληροφορίες θα είναι σωστές όταν ολοκληρωθεί το συγχρονισμό του πορτοφολιού σας με το δίκτυο Bitcoin, όπως περιγράφεται παρακάτω.</translation>
+        <translation type="unfinished">Οι πρόσφατες συναλλαγές ενδέχεται να μην είναι ακόμα ορατές και επομένως η ισορροπία του πορτοφολιού σας μπορεί να είναι εσφαλμένη. Αυτές οι πληροφορίες θα είναι σωστές όταν ολοκληρωθεί το συγχρονισμό του πορτοφολιού σας με το δίκτυο Lyncoin, όπως περιγράφεται παρακάτω.</translation>
     </message>
     <message>
         <source>Attempting to spend lyncoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation type="unfinished">Η προσπάθεια να δαπανήσετε bitcoins που επηρεάζονται από τις μη εμφανιζόμενες ακόμη συναλλαγές δεν θα γίνει αποδεκτή από το δίκτυο.</translation>
+        <translation type="unfinished">Η προσπάθεια να δαπανήσετε lyncoins που επηρεάζονται από τις μη εμφανιζόμενες ακόμη συναλλαγές δεν θα γίνει αποδεκτή από το δίκτυο.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1513,7 +1513,7 @@ The migration process will create a backup of the wallet before migrating. This 
     <name>OpenURIDialog</name>
     <message>
         <source>Open lyncoin URI</source>
-        <translation type="unfinished">Ανοίξτε το bitcoin URI</translation>
+        <translation type="unfinished">Ανοίξτε το lyncoin URI</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -1677,7 +1677,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Αυτόματο άνοιγμα των θυρών Bitcoin στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
+        <translation type="unfinished">Αυτόματο άνοιγμα των θυρών Lyncoin στον δρομολογητή. Λειτουργεί μόνο αν ο δρομολογητής σας υποστηρίζει τη λειτουργία UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1685,7 +1685,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation type="unfinished">Ανοίξτε αυτόματα τη πόρτα του Bitcoin client στο router. Αυτό λειτουργεί μόνο όταν το router σας υποστηρίζει NAT-PMP και είναι ενεργοποιημένο. Η εξωτερική πόρτα μπορεί να είναι τυχαία.</translation>
+        <translation type="unfinished">Ανοίξτε αυτόματα τη πόρτα του Lyncoin client στο router. Αυτό λειτουργεί μόνο όταν το router σας υποστηρίζει NAT-PMP και είναι ενεργοποιημένο. Η εξωτερική πόρτα μπορεί να είναι τυχαία.</translation>
     </message>
     <message>
         <source>Map port using NA&amp;T-PMP</source>
@@ -1701,7 +1701,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Connect to the Lyncoin network through a SOCKS5 proxy.</source>
-        <translation type="unfinished">Σύνδεση στο δίκτυο Bitcoin μέσω διαμεσολαβητή SOCKS5.</translation>
+        <translation type="unfinished">Σύνδεση στο δίκτυο Lyncoin μέσω διαμεσολαβητή SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1781,23 +1781,11 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Connect to the Lyncoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation type="unfinished">Συνδεθείτε στο δίκτυο Bitcoin μέσω ενός ξεχωριστού διακομιστή μεσολάβησης SOCKS5 για τις onion υπηρεσίες του Tor.</translation>
+        <translation type="unfinished">Συνδεθείτε στο δίκτυο Lyncoin μέσω ενός ξεχωριστού διακομιστή μεσολάβησης SOCKS5 για τις onion υπηρεσίες του Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor onion services:</source>
         <translation type="unfinished">Χρησιμοποιήστε ξεχωριστό διακομιστή μεσολάβησης SOCKS&amp;5 για σύνδεση με αποδέκτες μέσω των υπηρεσιών onion του Tor:</translation>
-    </message>
-    <message>
-        <source>Monospaced font in the Overview tab:</source>
-        <translation type="unfinished">Monospaced Γραμματοσειρά στην καρτέλα Επισκόπησης:</translation>
-    </message>
-    <message>
-        <source>embedded "%1"</source>
-        <translation type="unfinished">ενσωματωμένο "%1"</translation>
-    </message>
-    <message>
-        <source>closest matching "%1"</source>
-        <translation type="unfinished">πλησιέστερη αντιστοίχιση "%1"</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1891,7 +1879,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο Bitcoin μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί.</translation>
+        <translation type="unfinished">Οι πληροφορίες που εμφανίζονται μπορεί να είναι ξεπερασμένες. Το πορτοφόλι σας συγχρονίζεται αυτόματα με το δίκτυο Lyncoin μετά από μια σύνδεση, αλλά αυτή η διαδικασία δεν έχει ακόμη ολοκληρωθεί.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -2043,8 +2031,8 @@ ID Συναλλαγής: %1</translation>
         <translation type="unfinished">PSBT αποθηκεύτηκε στο δίσκο.</translation>
     </message>
     <message>
-        <source> * Sends %1 to %2</source>
-        <translation type="unfinished">* Στέλνει %1 προς  %2</translation>
+        <source>Sends %1 to %2</source>
+        <translation type="unfinished">Αποστέλλει %1 στο %2</translation>
     </message>
     <message>
         <source>own address</source>
@@ -2107,7 +2095,7 @@ ID Συναλλαγής: %1</translation>
     </message>
     <message>
         <source>Cannot start lyncoin: click-to-pay handler</source>
-        <translation type="unfinished">Δεν είναι δυνατή η εκκίνηση του bitcoin: χειριστής click-to-pay</translation>
+        <translation type="unfinished">Δεν είναι δυνατή η εκκίνηση του lyncoin: χειριστής click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2115,7 +2103,7 @@ ID Συναλλαγής: %1</translation>
     </message>
     <message>
         <source>'lyncoin://' is not a valid URI. Use 'lyncoin:' instead.</source>
-        <translation type="unfinished">Το 'bitcoin://' δεν είναι έγκυρο URI. Αντ' αυτού χρησιμοποιήστε το 'bitcoin:'.</translation>
+        <translation type="unfinished">Το 'lyncoin://' δεν είναι έγκυρο URI. Αντ' αυτού χρησιμοποιήστε το 'lyncoin:'.</translation>
     </message>
     <message>
         <source>Cannot process payment request because BIP70 is not supported.
@@ -2127,7 +2115,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Lyncoin address or malformed URI parameters.</source>
-        <translation type="unfinished">Δεν είναι δυνατή η ανάλυση του URI! Αυτό μπορεί να προκληθεί από μη έγκυρη διεύθυνση Bitcoin ή παραμορφωμένες παραμέτρους URI.</translation>
+        <translation type="unfinished">Δεν είναι δυνατή η ανάλυση του URI! Αυτό μπορεί να προκληθεί από μη έγκυρη διεύθυνση Lyncoin ή παραμορφωμένες παραμέτρους URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2331,8 +2319,20 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation type="unfinished">Η συμβολοσειρά αναγνωριστικού περιόδου σύνδεσης BIP324 σε δεκαεξαδική μορφή, εάν υπάρχει.</translation>
     </message>
     <message>
+        <source>Session ID</source>
+        <translation type="unfinished">Αναγνωριστικό περιόδου σύνδεσης</translation>
+    </message>
+    <message>
         <source>Version</source>
         <translation type="unfinished">Έκδοση</translation>
+    </message>
+    <message>
+        <source>Whether we relay transactions to this peer.</source>
+        <translation type="unfinished">Είτε αναμεταδίδουμε συναλλαγές σε αυτόν τον ομότιμο.</translation>
+    </message>
+    <message>
+        <source>Transaction Relay</source>
+        <translation type="unfinished">Αναμετάδοση Συναλλαγής</translation>
     </message>
     <message>
         <source>Starting Block</source>
@@ -2357,6 +2357,36 @@ If you are receiving this error you should request the merchant provide a BIP21 
     <message>
         <source>Mapped AS</source>
         <translation type="unfinished">Χαρτογραφημένο ως</translation>
+    </message>
+    <message>
+        <source>Whether we relay addresses to this peer.</source>
+        <extracomment>Tooltip text for the Address Relay field in the peer details area, which displays whether we relay addresses to this peer (Yes/No).</extracomment>
+        <translation type="unfinished">Είτε αναμεταδίδουμε διευθύνσεις σε αυτόν τον ομότιμο.</translation>
+    </message>
+    <message>
+        <source>Address Relay</source>
+        <extracomment>Text title for the Address Relay field in the peer details area, which displays whether we relay addresses to this peer (Yes/No).</extracomment>
+        <translation type="unfinished">Αναμετάδοση Διεύθυνσης</translation>
+    </message>
+    <message>
+        <source>The total number of addresses received from this peer that were processed (excludes addresses that were dropped due to rate-limiting).</source>
+        <extracomment>Tooltip text for the Addresses Processed field in the peer details area, which displays the total number of addresses received from this peer that were processed (excludes addresses that were dropped due to rate-limiting).</extracomment>
+        <translation type="unfinished">Ο συνολικός αριθμός των διευθύνσεων που ελήφθησαν από αυτόν τον ομότιμο και υποβλήθηκαν σε επεξεργασία (εξαιρούνται οι διευθύνσεις που απορρίφθηκαν λόγω περιορισμού ποσοστού).</translation>
+    </message>
+    <message>
+        <source>The total number of addresses received from this peer that were dropped (not processed) due to rate-limiting.</source>
+        <extracomment>Tooltip text for the Addresses Rate-Limited field in the peer details area, which displays the total number of addresses received from this peer that were dropped (not processed) due to rate-limiting.</extracomment>
+        <translation type="unfinished">Ο συνολικός αριθμός των διευθύνσεων που ελήφθησαν από αυτόν τον ομότιμο και απορρίφθηκαν (δεν υποβλήθηκαν σε επεξεργασία) λόγω περιορισμού ποσοστού.</translation>
+    </message>
+    <message>
+        <source>Addresses Processed</source>
+        <extracomment>Text title for the Addresses Processed field in the peer details area, which displays the total number of addresses received from this peer that were processed (excludes addresses that were dropped due to rate-limiting).</extracomment>
+        <translation type="unfinished">Επεξεργασμένες Διευθύνσεις </translation>
+    </message>
+    <message>
+        <source>Addresses Rate-Limited</source>
+        <extracomment>Text title for the Addresses Rate-Limited field in the peer details area, which displays the total number of addresses received from this peer that were dropped (not processed) due to rate-limiting.</extracomment>
+        <translation type="unfinished">Περιορισμένου Ποσοστού Διευθύνσεις </translation>
     </message>
     <message>
         <source>User Agent</source>
@@ -2391,8 +2421,16 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation type="unfinished">Κατεύθυνση/Τύπος</translation>
     </message>
     <message>
+        <source>The network protocol this peer is connected through: IPv4, IPv6, Onion, I2P, or CJDNS.</source>
+        <translation type="unfinished">Το πρωτόκολλο δικτύου αυτού του ομότιμου συνδέεται μέσω: IPv4, IPv6, Onion, I2P ή CJDNS.</translation>
+    </message>
+    <message>
         <source>Services</source>
         <translation type="unfinished">Υπηρεσίες</translation>
+    </message>
+    <message>
+        <source>High bandwidth BIP152 compact block relay: %1</source>
+        <translation type="unfinished">Αναμετάδοση υψηλού εύρους ζώνης BIP152 συμπαγούς μπλοκ: %1</translation>
     </message>
     <message>
         <source>High Bandwidth</source>
@@ -2403,8 +2441,17 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation type="unfinished">Χρόνος σύνδεσης</translation>
     </message>
     <message>
+        <source>Elapsed time since a novel block passing initial validity checks was received from this peer.</source>
+        <translation type="unfinished">Ο χρόνος που έχει παρέλθει από τη λήψη ενός νέου μπλοκ που περνούσε τους αρχικούς ελέγχους εγκυρότητας ελήφθη από αυτόν τον ομότιμο.</translation>
+    </message>
+    <message>
         <source>Last Block</source>
         <translation type="unfinished">Τελευταίο Block</translation>
+    </message>
+    <message>
+        <source>Elapsed time since a novel transaction accepted into our mempool was received from this peer.</source>
+        <extracomment>Tooltip text for the Last Transaction field in the peer details area.</extracomment>
+        <translation type="unfinished">Ο χρόνος που έχει παρέλθει από τη λήψη μιας νέας συναλλαγής που έγινε αποδεκτή στο υπόμνημά μας από αυτόν τον ομότιμο.</translation>
     </message>
     <message>
         <source>Last Send</source>
@@ -2476,8 +2523,56 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation type="unfinished">Εισερχόμενo: Ξεκίνησε από peer</translation>
     </message>
     <message>
+        <source>Outbound Full Relay: default</source>
+        <extracomment>Explanatory text for an outbound peer connection that relays all network information. This is the default behavior for outbound connections.</extracomment>
+        <translation type="unfinished">Πλήρες Εξερχόμενη Αναμετάδοση: προεπιλογή</translation>
+    </message>
+    <message>
+        <source>Outbound Block Relay: does not relay transactions or addresses</source>
+        <extracomment>Explanatory text for an outbound peer connection that relays network information about blocks and not transactions or addresses.</extracomment>
+        <translation type="unfinished">Μπλοκ Εξερχόμενης Αναμετάδοσης: δεν αναμεταδίδει συναλλαγές ή διευθύνσεις</translation>
+    </message>
+    <message>
+        <source>Outbound Manual: added using RPC %1 or %2/%3 configuration options</source>
+        <extracomment>Explanatory text for an outbound peer connection that was established manually through one of several methods. The numbered arguments are stand-ins for the methods available to establish manual connections.</extracomment>
+        <translation type="unfinished">Εγχειρίδιο Εξερχόμενων: προστέθηκε χρησιμοποιώντας RPC %1ή %2/%3επιλογές διαμόρφωσης</translation>
+    </message>
+    <message>
+        <source>Outbound Feeler: short-lived, for testing addresses</source>
+        <extracomment>Explanatory text for a short-lived outbound peer connection that is used to test the aliveness of known addresses.</extracomment>
+        <translation type="unfinished">Εξερχόμενων Ελλείψεων: βραχύβια, για δοκιμή διευθύνσεων</translation>
+    </message>
+    <message>
+        <source>Outbound Address Fetch: short-lived, for soliciting addresses</source>
+        <extracomment>Explanatory text for a short-lived outbound peer connection that is used to request addresses from a peer.</extracomment>
+        <translation type="unfinished">Ανάκτηση Εξερχόμενης Διεύθυνσης: βραχύβια, για την αναζήτηση διευθύνσεων</translation>
+    </message>
+    <message>
+        <source>detecting: peer could be v1 or v2</source>
+        <extracomment>Explanatory text for "detecting" transport type.</extracomment>
+        <translation type="unfinished">ανίχνευση: ο ομότιμος μπορεί να είναι v1 ή v2</translation>
+    </message>
+    <message>
+        <source>v1: unencrypted, plaintext transport protocol</source>
+        <extracomment>Explanatory text for v1 transport type.</extracomment>
+        <translation type="unfinished">v1: πρωτόκολλο μεταφοράς μη κρυπτογραφημένου απλού κειμένου</translation>
+    </message>
+    <message>
+        <source>v2: BIP324 encrypted transport protocol</source>
+        <extracomment>Explanatory text for v2 transport type.</extracomment>
+        <translation type="unfinished">v2: Κρυπτογραφημένο πρωτόκολλο μεταφοράς BIP324</translation>
+    </message>
+    <message>
+        <source>we selected the peer for high bandwidth relay</source>
+        <translation type="unfinished">επιλέξαμε τον ομότιμο για αναμετάδοση υψηλού εύρους ζώνης</translation>
+    </message>
+    <message>
         <source>the peer selected us for high bandwidth relay</source>
         <translation type="unfinished">ο ομότιμος μας επέλεξε για υψηλής ταχύτητας αναμετάδοση </translation>
+    </message>
+    <message>
+        <source>no high bandwidth relay selected</source>
+        <translation type="unfinished">δεν επιλέχθηκε υψηλού εύρους ζώνη αναμετάδοσης</translation>
     </message>
     <message>
         <source>&amp;Copy address</source>
@@ -2525,6 +2620,23 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <source>Executing command using "%1" wallet</source>
         <translation type="unfinished"> 
 Εκτελέστε εντολή χρησιμοποιώντας το πορτοφόλι "%1"</translation>
+    </message>
+    <message>
+        <source>Welcome to the %1 RPC console.
+Use up and down arrows to navigate history, and %2 to clear screen.
+Use %3 and %4 to increase or decrease the font size.
+Type %5 for an overview of available commands.
+For more information on using this console, type %6.
+
+%7WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.%8</source>
+        <extracomment>RPC console welcome message. Placeholders %7 and %8 are style tags for the warning content, and they are not space separated from the rest of the text intentionally.</extracomment>
+        <translation type="unfinished">Καλώς ήρθατε στην%1κονσόλα RPC.
+Χρησιμοποιήστε τα πάνω και τα κάτω βέλη για πλοήγηση στο ιστορικό και%2εκκαθάριση της οθόνης.
+Χρησιμοποιήστε%3και%4για να αυξήσετε ή να μειώσετε το μέγεθος της γραμματοσειράς.
+Πληκτρολογήστε%5για επισκόπηση των διαθέσιμων εντολών.
+Για περισσότερες πληροφορίες σχετικά με τη χρήση αυτής της κονσόλας, πληκτρολογήστε%6.
+
+%7ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Οι σκάμερς είναι ενεργοί, λέγοντας στους χρήστες να πληκτρολογούν εντολές εδώ, κλέβοντας το περιεχόμενο του πορτοφολιού τους. Μην χρησιμοποιείτε αυτήν την κονσόλα χωρίς να κατανοήσετε πλήρως τις συνέπειες μιας εντολής.%8</translation>
     </message>
     <message>
         <source>Executing…</source>
@@ -2584,7 +2696,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Lyncoin network.</source>
-        <translation type="unfinished">Ένα προαιρετικό μήνυμα που επισυνάπτεται στο αίτημα πληρωμής, το οποίο θα εμφανιστεί όταν το αίτημα ανοίξει. Σημείωση: Το μήνυμα δεν θα αποσταλεί με την πληρωμή μέσω του δικτύου Bitcoin.</translation>
+        <translation type="unfinished">Ένα προαιρετικό μήνυμα που επισυνάπτεται στο αίτημα πληρωμής, το οποίο θα εμφανιστεί όταν το αίτημα ανοίξει. Σημείωση: Το μήνυμα δεν θα αποσταλεί με την πληρωμή μέσω του δικτύου Lyncoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2657,6 +2769,26 @@ If you are receiving this error you should request the merchant provide a BIP21 
     <message>
         <source>Copy &amp;amount</source>
         <translation type="unfinished">Αντιγραφή &amp;ποσού</translation>
+    </message>
+    <message>
+        <source>Base58 (Legacy)</source>
+        <translation type="unfinished">Base58 (Παλαιού τύπου)</translation>
+    </message>
+    <message>
+        <source>Not recommended due to higher fees and less protection against typos.</source>
+        <translation type="unfinished">Δεν συνιστάται λόγω υψηλότερων χρεώσεων και μικρότερης προστασίας έναντι τυπογραφικών σφαλμάτων.</translation>
+    </message>
+    <message>
+        <source>Generates an address compatible with older wallets.</source>
+        <translation type="unfinished">Παράγει μια διεύθυνση συμβατή με παλαιότερα πορτοφόλια.</translation>
+    </message>
+    <message>
+        <source>Generates a native segwit address (BIP-173). Some old wallets don't support it.</source>
+        <translation type="unfinished">Δημιουργεί μια εγγενή διεύθυνση segwit (BIP-173). Ορισμένα παλιά πορτοφόλια δεν το υποστηρίζουν.</translation>
+    </message>
+    <message>
+        <source>Bech32m (BIP-350) is an upgrade to Bech32, wallet support is still limited.</source>
+        <translation type="unfinished">Το Bech32m (BIP-350) είναι μια αναβάθμιση στο Bech32, η υποστήριξη πορτοφολιού εξακολουθεί να είναι περιορισμένη.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -2862,7 +2994,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for lyncoin transactions than the network can process.</source>
-        <translation type="unfinished">Όταν υπάρχει λιγότερος όγκος συναλλαγών από το χώρο στα μπλοκ, οι ανθρακωρύχοι καθώς και οι κόμβοι αναμετάδοσης μπορούν να επιβάλουν ένα ελάχιστο τέλος. Η πληρωμή μόνο αυτού του ελάχιστου τέλους είναι μια χαρά, αλλά γνωρίζετε ότι αυτό μπορεί να οδηγήσει σε μια συναλλαγή που δεν επιβεβαιώνει ποτέ τη στιγμή που υπάρχει μεγαλύτερη ζήτηση για συναλλαγές bitcoin από ό, τι μπορεί να επεξεργαστεί το δίκτυο.</translation>
+        <translation type="unfinished">Όταν υπάρχει λιγότερος όγκος συναλλαγών από το χώρο στα μπλοκ, οι ανθρακωρύχοι καθώς και οι κόμβοι αναμετάδοσης μπορούν να επιβάλουν ένα ελάχιστο τέλος. Η πληρωμή μόνο αυτού του ελάχιστου τέλους είναι μια χαρά, αλλά γνωρίζετε ότι αυτό μπορεί να οδηγήσει σε μια συναλλαγή που δεν επιβεβαιώνει ποτέ τη στιγμή που υπάρχει μεγαλύτερη ζήτηση για συναλλαγές lyncoin από ό, τι μπορεί να επεξεργαστεί το δίκτυο.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
@@ -2938,12 +3070,13 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation type="unfinished">Συνδέστε πρώτα τη συσκευή πορτοφολιού σας.</translation>
     </message>
     <message>
-        <source>Cr&amp;eate Unsigned</source>
-        <translation type="unfinished">Δη&amp;μιουργία Ανυπόγραφου</translation>
+        <source>Set external signer script path in Options -&gt; Wallet</source>
+        <extracomment>"External signer" means using devices such as hardware wallets.</extracomment>
+        <translation type="unfinished">Ορίστε τη διαδρομή σεναρίου εξωτερικού υπογράφοντος στις Επιλογές -&gt; Πορτοφόλι</translation>
     </message>
     <message>
-        <source> from wallet '%1'</source>
-        <translation type="unfinished">από πορτοφόλι '%1'</translation>
+        <source>Cr&amp;eate Unsigned</source>
+        <translation type="unfinished">Δη&amp;μιουργία Ανυπόγραφου</translation>
     </message>
     <message>
         <source>%1 to '%2'</source>
@@ -2965,6 +3098,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <source>External signer not found</source>
         <extracomment>"External signer" means using devices such as hardware wallets.</extracomment>
         <translation type="unfinished">Δεν βρέθηκε ο εξωτερικός υπογράφων</translation>
+    </message>
+    <message>
+        <source>External signer failure</source>
+        <extracomment>"External signer" means using devices such as hardware wallets.</extracomment>
+        <translation type="unfinished">Αποτυχία εξωτερικού υπογράφοντος</translation>
     </message>
     <message>
         <source>Save Transaction Data</source>
@@ -2995,12 +3133,17 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Please, review your transaction proposal. This will produce a Partially Signed Lyncoin Transaction (PSBT) which you can save or copy and then sign with e.g. an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
         <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can only create a PSBT. This string is displayed when private keys are disabled and an external signer is not available.</extracomment>
-        <translation type="unfinished">Παρακαλούμε, ελέγξτε την πρόταση συναλλαγής. Θα παραχθεί μια συναλλαγή Bitcoin με μερική υπογραφή (PSBT), την οποία μπορείτε να αντιγράψετε και στη συνέχεια να υπογράψετε με π.χ. ένα πορτοφόλι %1 εκτός σύνδεσης ή ένα πορτοφόλι υλικού συμβατό με το PSBT.</translation>
+        <translation type="unfinished">Παρακαλούμε, ελέγξτε την πρόταση συναλλαγής. Θα παραχθεί μια συναλλαγή Lyncoin με μερική υπογραφή (PSBT), την οποία μπορείτε να αντιγράψετε και στη συνέχεια να υπογράψετε με π.χ. ένα πορτοφόλι %1 εκτός σύνδεσης ή ένα πορτοφόλι υλικού συμβατό με το PSBT.</translation>
     </message>
     <message>
         <source>Do you want to create this transaction?</source>
         <extracomment>Message displayed when attempting to create a transaction. Cautionary text to prompt the user to verify that the displayed transaction details represent the transaction the user intends to create.</extracomment>
         <translation type="unfinished">Θέλετε να δημιουργήσετε αυτήν τη συναλλαγή;</translation>
+    </message>
+    <message>
+        <source>Please, review your transaction. You can create and send this transaction or create a Partially Signed Lyncoin Transaction (PSBT), which you can save or copy and then sign with, e.g., an offline %1 wallet, or a PSBT-compatible hardware wallet.</source>
+        <extracomment>Text to inform a user attempting to create a transaction of their current options. At this stage, a user can send their transaction or create a PSBT. This string is displayed when both private keys and PSBT controls are enabled.</extracomment>
+        <translation type="unfinished">Παρακαλώ, ελέγξτε τη συναλλαγή σας. Μπορείτε να δημιουργήσετε και να στείλετε αυτήν τη συναλλαγή ή να δημιουργήσετε μια μερικώς υπογεγραμμένη συναλλαγή Lyncoin (PSBT), την οποία μπορείτε να αποθηκεύσετε ή να αντιγράψετε και στη συνέχεια να υπογράψετε, π.χ. με ένα πορτοφόλι εκτός σύνδεσης%1ή ένα πορτοφόλι υλικού συμβατό με PSBT.</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
@@ -3019,6 +3162,20 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Total Amount</source>
         <translation type="unfinished">Συνολικό ποσό</translation>
+    </message>
+    <message>
+        <source>Unsigned Transaction</source>
+        <comment>PSBT copied</comment>
+        <extracomment>Caption of "PSBT has been copied" messagebox</extracomment>
+        <translation type="unfinished">Ανυπόγραφη Συναλλαγή</translation>
+    </message>
+    <message>
+        <source>The PSBT has been copied to the clipboard. You can also save it.</source>
+        <translation type="unfinished">Το PSBT αντιγράφηκε στο πρόχειρο. Μπορείτε, επίσης, να το αποθηκεύσετε.</translation>
+    </message>
+    <message>
+        <source>PSBT saved to disk</source>
+        <translation type="unfinished">Το PSBT αποθηκεύτηκε στον δίσκο</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
@@ -3059,13 +3216,13 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>Estimated to begin confirmation within %n block(s).</numerusform>
+            <numerusform>Estimated to begin confirmation within %n block(s).</numerusform>
         </translation>
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">Προειδοποίηση: Μη έγκυρη διεύθυνση Bitcoin</translation>
+        <translation type="unfinished">Προειδοποίηση: Μη έγκυρη διεύθυνση Lyncoin</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3104,7 +3261,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The Lyncoin address to send the payment to</source>
-        <translation type="unfinished">Η διεύθυνση Bitcoin που θα σταλεί η πληρωμή</translation>
+        <translation type="unfinished">Η διεύθυνση Lyncoin που θα σταλεί η πληρωμή</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -3120,7 +3277,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less lyncoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation type="unfinished">Το τέλος θα αφαιρεθεί από το ποσό που αποστέλλεται. Ο παραλήπτης θα λάβει λιγότερα bitcoins από ό,τι εισάγετε στο πεδίο ποσό. Εάν επιλεγούν πολλοί παραλήπτες, το έξοδο διαιρείται εξίσου.</translation>
+        <translation type="unfinished">Το τέλος θα αφαιρεθεί από το ποσό που αποστέλλεται. Ο παραλήπτης θα λάβει λιγότερα lyncoins από ό,τι εισάγετε στο πεδίο ποσό. Εάν επιλεγούν πολλοί παραλήπτες, το έξοδο διαιρείται εξίσου.</translation>
     </message>
     <message>
         <source>Use available balance</source>
@@ -3136,7 +3293,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>A message that was attached to the lyncoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Lyncoin network.</source>
-        <translation type="unfinished">Ένα μήνυμα που επισυνάφθηκε στο bitcoin: URI το οποίο θα αποθηκευτεί με τη συναλλαγή για αναφορά. Σημείωση: Αυτό το μήνυμα δεν θα σταλεί μέσω του δικτύου Bitcoin.</translation>
+        <translation type="unfinished">Ένα μήνυμα που επισυνάφθηκε στο lyncoin: URI το οποίο θα αποθηκευτεί με τη συναλλαγή για αναφορά. Σημείωση: Αυτό το μήνυμα δεν θα σταλεί μέσω του δικτύου Lyncoin.</translation>
     </message>
 </context>
 <context>
@@ -3162,11 +3319,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive lyncoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished">Μπορείτε να υπογράψετε μηνύματα/συμφωνίες με τις διευθύνσεις σας για να αποδείξετε ότι μπορείτε να λάβετε τα bitcoins που τους αποστέλλονται. Προσέξτε να μην υπογράψετε τίποτα ασαφές ή τυχαίο, καθώς οι επιθέσεις ηλεκτρονικού "ψαρέματος" ενδέχεται να σας εξαπατήσουν να υπογράψετε την ταυτότητά σας σε αυτούς. Υπογράψτε μόνο πλήρως λεπτομερείς δηλώσεις που συμφωνείτε.</translation>
+        <translation type="unfinished">Μπορείτε να υπογράψετε μηνύματα/συμφωνίες με τις διευθύνσεις σας για να αποδείξετε ότι μπορείτε να λάβετε τα lyncoins που τους αποστέλλονται. Προσέξτε να μην υπογράψετε τίποτα ασαφές ή τυχαίο, καθώς οι επιθέσεις ηλεκτρονικού "ψαρέματος" ενδέχεται να σας εξαπατήσουν να υπογράψετε την ταυτότητά σας σε αυτούς. Υπογράψτε μόνο πλήρως λεπτομερείς δηλώσεις που συμφωνείτε.</translation>
     </message>
     <message>
         <source>The Lyncoin address to sign the message with</source>
-        <translation type="unfinished">Διεύθυνση Bitcoin που θα σταλεί το μήνυμα</translation>
+        <translation type="unfinished">Διεύθυνση Lyncoin που θα σταλεί το μήνυμα</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3190,7 +3347,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Sign the message to prove you own this Lyncoin address</source>
-        <translation type="unfinished">Υπογράψτε το μήνυμα για να αποδείξετε πως σας ανήκει η συγκεκριμένη διεύθυνση Bitcoin</translation>
+        <translation type="unfinished">Υπογράψτε το μήνυμα για να αποδείξετε πως σας ανήκει η συγκεκριμένη διεύθυνση Lyncoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3214,7 +3371,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>The Lyncoin address the message was signed with</source>
-        <translation type="unfinished">Διεύθυνση Bitcoin με την οποία έχει υπογραφεί το μήνυμα</translation>
+        <translation type="unfinished">Διεύθυνση Lyncoin με την οποία έχει υπογραφεί το μήνυμα</translation>
     </message>
     <message>
         <source>The signed message to verify</source>
@@ -3226,7 +3383,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">Επαληθεύστε το μήνυμα για να αποδείξετε πως υπογράφθηκε από τη συγκεκριμένη διεύθυνση Bitcoin</translation>
+        <translation type="unfinished">Επαληθεύστε το μήνυμα για να αποδείξετε πως υπογράφθηκε από τη συγκεκριμένη διεύθυνση Lyncoin</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3373,8 +3530,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>ωριμάζει σε %n περισσότερα μπλοκ</numerusform>
+            <numerusform>ωριμάζει σε %n περισσότερα κομμάτια</numerusform>
         </translation>
     </message>
     <message>
@@ -3424,10 +3581,6 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     <message>
         <source>Output index</source>
         <translation type="unfinished">Δείκτης εξόδου</translation>
-    </message>
-    <message>
-        <source> (Certificate was not verified)</source>
-        <translation type="unfinished">(Το πιστοποιητικό δεν επαληθεύτηκε)</translation>
     </message>
     <message>
         <source>Merchant</source>
@@ -3871,7 +4024,7 @@ Go to File &gt; Open Wallet to load a wallet.
     </message>
     <message>
         <source>%s corrupt. Try using the wallet tool lyncoin-wallet to salvage or restoring a backup.</source>
-        <translation type="unfinished">%s κατεστραμμένο. Δοκιμάστε να το επισκευάσετε με το εργαλείο πορτοφολιού bitcoin-wallet, ή επαναφέρετε κάποιο αντίγραφο ασφαλείας.</translation>
+        <translation type="unfinished">%s κατεστραμμένο. Δοκιμάστε να το επισκευάσετε με το εργαλείο πορτοφολιού lyncoin-wallet, ή επαναφέρετε κάποιο αντίγραφο ασφαλείας.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet from version %i to version %i. Wallet version unchanged.</source>
@@ -3891,7 +4044,7 @@ Go to File &gt; Open Wallet to load a wallet.
     </message>
     <message>
         <source>Error: Dumpfile version is not supported. This version of lyncoin-wallet only supports version 1 dumpfiles. Got dumpfile with version %s</source>
-        <translation type="unfinished">Σφάλμα: Η έκδοση του αρχείου dump δεν υποστηρίζεται. Αυτή η έκδοση του bitcoin-wallet υποστηρίζει αρχεία dump μόνο της έκδοσης 1. Δόθηκε αρχείο dump έκδοσης %s.</translation>
+        <translation type="unfinished">Σφάλμα: Η έκδοση του αρχείου dump δεν υποστηρίζεται. Αυτή η έκδοση του lyncoin-wallet υποστηρίζει αρχεία dump μόνο της έκδοσης 1. Δόθηκε αρχείο dump έκδοσης %s.</translation>
     </message>
     <message>
         <source>File %s already exists. If you are sure this is what you want, move it out of the way first.</source>
@@ -3980,6 +4133,18 @@ Go to File &gt; Open Wallet to load a wallet.
     <message>
         <source>Cannot write to data directory '%s'; check permissions.</source>
         <translation type="unfinished">Αδύνατη η εγγραφή στον κατάλογο δεδομένων '%s'. Ελέγξτε τα δικαιώματα.</translation>
+    </message>
+    <message>
+        <source>%s is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation type="unfinished">%s είναι καταχωρημένο πολύ υψηλά! Έξοδα τόσο υψηλά μπορούν να πληρωθούν σε μια ενιαία συναλλαγή.</translation>
+    </message>
+    <message>
+        <source>Error reading %s! All keys read correctly, but transaction data or address metadata may be missing or incorrect.</source>
+        <translation type="unfinished">Σφάλμα κατά την ανάγνωση %s! Όλα τα κλειδιά διαβάζονται σωστά, αλλά τα δεδομένα των συναλλαγών ή οι καταχωρίσεις του βιβλίου διευθύνσεων ενδέχεται να λείπουν ή να είναι εσφαλμένα.</translation>
+    </message>
+    <message>
+        <source>Fee estimation failed. Fallbackfee is disabled. Wait a few blocks or enable %s.</source>
+        <translation type="unfinished">Η αποτίμηση του τέλους απέτυχε. Το Fallbackfee είναι απενεργοποιημένο. Περιμένετε λίγα τετράγωνα ή ενεργοποιήστε το %s.</translation>
     </message>
     <message>
         <source>Config setting for %s only applied on %s network when in [%s] section.</source>
@@ -4130,6 +4295,10 @@ Go to File &gt; Open Wallet to load a wallet.
         <translation type="unfinished">Μη έγκυρη μάσκα δικτύου που καθορίζεται στο -whitelist: '%s'</translation>
     </message>
     <message>
+        <source>Listening for incoming connections failed (listen returned error %s)</source>
+        <translation type="unfinished">Η ακρόαση για εισερχόμενες συνδέσεις απέτυχε (ακούστε επιστραμμένο σφάλμα %s)</translation>
+    </message>
+    <message>
         <source>Loading P2P addresses…</source>
         <translation type="unfinished">Φόρτωση διευθύνσεων P2P...</translation>
     </message>
@@ -4210,6 +4379,10 @@ Go to File &gt; Open Wallet to load a wallet.
         <translation type="unfinished">Δεν υπάρχει κατάλογος καθορισμένων μπλοκ "%s".</translation>
     </message>
     <message>
+        <source>Specified data directory "%s" does not exist.</source>
+        <translation type="unfinished">Ο ορισμένος κατάλογος δεδομένων "%s" δεν υπάρχει.</translation>
+    </message>
+    <message>
         <source>Starting network threads…</source>
         <translation type="unfinished">Εκκίνηση των threads δικτύου...</translation>
     </message>
@@ -4248,10 +4421,6 @@ Go to File &gt; Open Wallet to load a wallet.
     <message>
         <source>Transaction amounts must not be negative</source>
         <translation type="unfinished">Τα ποσά των συναλλαγών δεν πρέπει να είναι αρνητικά</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation type="unfinished">Η συναλλαγή έχει πολύ μακρά αλυσίδα mempool</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>

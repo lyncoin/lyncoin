@@ -59,12 +59,12 @@
     </message>
     <message>
         <source>These are your Lyncoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished">Jen viaj Linmon-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
+        <translation type="unfinished">Jen viaj Leenmon-adresoj por sendi pagojn. Zorge kontrolu la sumon kaj la alsendan adreson antaŭ ol sendi.</translation>
     </message>
     <message>
         <source>These are your Lyncoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation type="unfinished">Jen viaj linmonaj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
+        <translation type="unfinished">Jen viaj leenmonaj adresoj por ricevi pagojn. Estas konsilinde uzi apartan ricevan adreson por ĉiu transakcio.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -156,7 +156,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LYNCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished">Atentu! Se vi ĉifras vian monujon kaj perdas la pasfrazon, vi &lt;b&gt;PERDOS LA TUTON DE VIA LINMONO&lt;b&gt;!</translation>
+        <translation type="unfinished">Atentu! Se vi ĉifras vian monujon kaj perdas la pasfrazon, vi &lt;b&gt;PERDOS LA TUTON DE VIA LEENMONO&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -258,36 +258,36 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n sekundo</numerusform>
+            <numerusform>%n sekundoj</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n minuto</numerusform>
+            <numerusform>%n minutoj</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n horo</numerusform>
+            <numerusform>%n horoj</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n tago</numerusform>
+            <numerusform>%n tagoj</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n semajno</numerusform>
+            <numerusform>%n semajnoj</numerusform>
         </translation>
     </message>
     <message>
@@ -297,8 +297,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n jaro</numerusform>
+            <numerusform>%n jaroj</numerusform>
         </translation>
     </message>
     </context>
@@ -363,7 +363,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Send coins to a Lyncoin address</source>
-        <translation type="unfinished">Sendi monon al Linmon-adreso</translation>
+        <translation type="unfinished">Sendi monon al Leenmon-adreso</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -387,11 +387,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Sign messages with your Lyncoin addresses to prove you own them</source>
-        <translation type="unfinished">Subskribi mesaĝojn per via Linmon-adresoj por pravigi, ke vi estas la posedanto</translation>
+        <translation type="unfinished">Subskribi mesaĝojn per via Leenmon-adresoj por pravigi, ke vi estas la posedanto</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Lyncoin addresses</source>
-        <translation type="unfinished">Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Linmon-adresoj</translation>
+        <translation type="unfinished">Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Leenmon-adresoj</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -428,8 +428,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -501,8 +501,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <source>%n active connection(s) to Lyncoin network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -791,7 +791,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Lyncoin address.</source>
-        <translation type="unfinished">La adreso enigita "%1" ne estas valida Linmon-adreso.</translation>
+        <translation type="unfinished">La adreso enigita "%1" ne estas valida Leenmon-adreso.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -829,35 +829,35 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>Intro</name>
     <message>
         <source>Lyncoin</source>
-        <translation type="unfinished">Linmono</translation>
+        <translation type="unfinished">Leenmono</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of space available</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform>%n gigabajto de libera loko disponeble</numerusform>
+            <numerusform>%n gigabajtoj de libera loko disponebla.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(%n GB needed for full chain)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message numerus="yes">
         <source>(sufficient to restore backups %n day(s) old)</source>
         <extracomment>Explanatory text on the capability of the current prune target.</extracomment>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -938,7 +938,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>OpenURIDialog</name>
     <message>
         <source>Open lyncoin URI</source>
-        <translation type="unfinished">Malfermi na la URI de linmono</translation>
+        <translation type="unfinished">Malfermi na la URI de leenmono</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -998,7 +998,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Automatically open the Lyncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished">Aŭtomate malfermi la kursilan pordon por Linmono. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
+        <translation type="unfinished">Aŭtomate malfermi la kursilan pordon por Leenmono. Tio funkcias nur se via kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1046,7 +1046,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished">Elekti la defaŭltan manieron por montri linmonajn sumojn en la interfaco, kaj kiam vi sendos linmonon.</translation>
+        <translation type="unfinished">Elekti la defaŭltan manieron por montri leenmonajn sumojn en la interfaco, kaj kiam vi sendos leenmonon.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1090,7 +1090,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Lyncoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished">Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la linmona reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
+        <translation type="unfinished">Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la leenmona reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1459,7 +1459,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Sendi Linmonon</translation>
+        <translation type="unfinished">Sendi Leenmonon</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1571,7 +1571,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation type="unfinished">Konfirmi sendon de Linmono</translation>
+        <translation type="unfinished">Konfirmi sendon de leenmono</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
@@ -1592,13 +1592,13 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
         <source>Warning: Invalid Lyncoin address</source>
-        <translation type="unfinished">Averto: Nevalida Linmon-adreso</translation>
+        <translation type="unfinished">Averto: Nevalida Leenmon-adreso</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1679,7 +1679,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Sign the message to prove you own this Lyncoin address</source>
-        <translation type="unfinished">Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Linmon-adreso</translation>
+        <translation type="unfinished">Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Leenmon-adreso</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1699,7 +1699,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Lyncoin address</source>
-        <translation type="unfinished">Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Linmon-adreso</translation>
+        <translation type="unfinished">Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Leenmon-adreso</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1817,8 +1817,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
         <translation type="unfinished">
-            <numerusform />
-            <numerusform />
+            <numerusform/>
+            <numerusform/>
         </translation>
     </message>
     <message>
@@ -2055,7 +2055,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation type="unfinished">Sendi Linmonon</translation>
+        <translation type="unfinished">Sendi Leenmonon</translation>
     </message>
     <message>
         <source>default wallet</source>
@@ -2142,6 +2142,10 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     <message>
         <source>Signing transaction failed</source>
         <translation type="unfinished">Subskriba transakcio fiaskis</translation>
+    </message>
+    <message>
+        <source>Specified data directory "%s" does not exist.</source>
+        <translation type="unfinished">la elektita dosierujo por datumoj "%s" ne ekzistas.</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
