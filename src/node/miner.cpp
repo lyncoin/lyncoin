@@ -171,7 +171,11 @@ std::unique_ptr<CBlockTemplate> BlockAssembler::CreateNewBlock(const CScript& sc
     coinbaseTx.vout.resize(2);
     coinbaseTx.vout[0].scriptPubKey = scriptPubKeyIn;
     coinbaseTx.vout[0].nValue = minerReward;
-    coinbaseTx.vout[1].scriptPubKey = CScript() << OP_0 << ParseHex("e278645407a9c322b0becef0b31762f32ec03a66");
+    if(chainparams.GetChainType() == ChainType::TESTNET) {
+        coinbaseTx.vout[1].scriptPubKey = CScript() << OP_0 << ParseHex("e5bcbecfc77c35e44309828adb0260961adbe7a1");
+    } else {
+        coinbaseTx.vout[1].scriptPubKey = CScript() << OP_0 << ParseHex("e278645407a9c322b0becef0b31762f32ec03a66");
+    }
     coinbaseTx.vout[1].nValue = devReward;
     coinbaseTx.vin[0].scriptSig = CScript() << nHeight << OP_0;
     pblock->vtx[0] = MakeTransactionRef(std::move(coinbaseTx));

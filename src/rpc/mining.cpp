@@ -940,8 +940,17 @@ static RPCHelpMan getblocktemplate()
 
     UniValue devreward(UniValue::VOBJ);
     devreward.pushKV("value", (int64_t)pblock->vtx[0]->vout[1].nValue);
-    devreward.pushKV("address", "lc1qufuxg4q848pj9v97emctx9mz7vhvqwnxzxvywj");
-    devreward.pushKV("scriptpubkey", "0014e278645407a9c322b0becef0b31762f32ec03a66");
+    CScript devScript;
+    if(chainman.GetParams().GetChainType() == ChainType::TESTNET) {
+        devScript = CScript() << OP_0 << ParseHex("e5bcbecfc77c35e44309828adb0260961adbe7a1");
+    } else {
+        devScript = CScript() << OP_0 << ParseHex("e278645407a9c322b0becef0b31762f32ec03a66");
+    }
+    CTxDestination devAddress;
+    ExtractDestination(devScript, devAddress);
+
+    devreward.pushKV("scriptpubkey", HexStr(devScript));
+    devreward.pushKV("address", EncodeDestination(devAddress));
     result.pushKV("coinbasedevreward", devreward);
 
     result.pushKV("longpollid", active_chain.Tip()->GetBlockHash().GetHex() + ToString(nTransactionsUpdatedLast));

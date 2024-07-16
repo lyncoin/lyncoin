@@ -2550,7 +2550,12 @@ bool Chainstate::ConnectBlock(const CBlock& block, BlockValidationState& state, 
     const Consensus::Params& consensusParams = params.GetConsensus();
     if ( pindex->nHeight >= consensusParams.n2023Height) {
        CTransactionRef cb = block.vtx[0];
-       CScript devScript = CScript() << OP_0 << ParseHex("e278645407a9c322b0becef0b31762f32ec03a66");
+       CScript devScript;
+       if(params.GetChainType() == ChainType::TESTNET) {
+           devScript = CScript() << OP_0 << ParseHex("e5bcbecfc77c35e44309828adb0260961adbe7a1");
+       } else {
+           devScript = CScript() << OP_0 << ParseHex("e278645407a9c322b0becef0b31762f32ec03a66");
+       }
        int64_t nDevOutCount = 0;
        for (int i = 0; i < cb->vout.size(); ++i) {
            if ((cb->vout[i].scriptPubKey == devScript)) {
