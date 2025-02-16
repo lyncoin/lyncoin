@@ -34,10 +34,19 @@ uint256 CPureBlockHeader::GetHash2() const
 uint256 CPureBlockHeader::GetPoWHash() const
 {
     uint256 hash;
+    uint256 hash2;
+    std::string result;
+    hash = GetHash();
     if(nVersion & 0x8000) {
-        hash = GetHash2();
-    } else {
-        hash = GetHash();
+        SQLiteCache cache("cache.db");
+        result = cache.get(hash.ToString());
+        if(result == "") {
+            hash2 = GetHash2();
+            cache.set(hash.ToString(), hash2.ToString());
+        } else {
+            hash2 = uint256S(result);
+        }
+        return hash2;
     }
     return hash;
 }
@@ -45,13 +54,23 @@ uint256 CPureBlockHeader::GetPoWHash() const
 uint256 CPureBlockHeader::GetPoWHash(int32_t nBlockVersion) const
 {
     uint256 hash;
+    uint256 hash2;
+    std::string result;
+    hash = GetHash(nBlockVersion);
     if(nBlockVersion & 0x8000) {
-        hash = GetHash2();
-    } else {
-        hash = GetHash(nBlockVersion);
+        SQLiteCache cache("cache.db");
+        result = cache.get(hash.ToString());
+        if(result == "") {
+            hash2 = GetHash2();
+            cache.set(hash.ToString(), hash2.ToString());
+        } else {
+            hash2 = uint256S(result);
+        }
+        return hash2;
     }
     return hash;
 }
+
 void CPureBlockHeader::SetBaseVersion(int32_t nBaseVersion, int32_t nChainId)
 {
     assert(nBaseVersion >= 1 && nBaseVersion < VERSION_AUXPOW);

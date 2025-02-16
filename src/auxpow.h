@@ -12,6 +12,7 @@
 #include <primitives/transaction.h>
 #include <serialize.h>
 #include <uint256.h>
+#include <util/result.h>
 
 #include <cassert>
 #include <memory>
@@ -113,7 +114,7 @@ public:
    * @param params Consensus parameters.
    * @return True if the auxpow is valid.
    */
-  bool check (const uint256& hashAuxBlock, int nChainId,
+  util::Result<bool> check (const uint256& hashAuxBlock, int nChainId,
               const Consensus::Params& params) const;
 
   /**

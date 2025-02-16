@@ -23,7 +23,7 @@
 namespace
 {
 
-using node::BlockAssembler;
+using interfaces::Mining;
 
 void auxMiningCheck(const node::NodeContext& node)
 {
@@ -52,7 +52,7 @@ void auxMiningCheck(const node::NodeContext& node)
 }  // anonymous namespace
 
 const CBlock*
-AuxpowMiner::getCurrentBlock (const ChainstateManager& chainman,
+AuxpowMiner::getCurrentBlock (ChainstateManager& chainman, Mining& miner,
                               const CTxMemPool& mempool,
                               const CScript& scriptPubKey, uint256& target)
 {
@@ -81,8 +81,7 @@ AuxpowMiner::getCurrentBlock (const ChainstateManager& chainman,
 
         /* Create new block with nonce = 0 and extraNonce = 1.  */
         std::unique_ptr<node::CBlockTemplate> newBlock
-            = BlockAssembler (chainman.ActiveChainstate (), &mempool)
-                .CreateNewBlock (scriptPubKey);
+            = miner.createNewBlock (scriptPubKey);
         if (newBlock == nullptr)
           throw JSONRPCError (RPC_OUT_OF_MEMORY, "out of memory");
 
@@ -125,8 +124,7 @@ AuxpowMiner::lookupSavedBlock (const std::string& hashHex) const
 {
   AssertLockHeld (cs);
 
-  uint256 hash;
-  hash.SetHex (hashHex);
+  uint256 hash = uint256S(hashHex);
 
   const auto iter = blocks.find (hash);
   if (iter == blocks.end ())
@@ -144,10 +142,12 @@ AuxpowMiner::createAuxBlock (const JSONRPCRequest& request,
   const auto& node = EnsureAnyNodeContext (request);
   auxMiningCheck (node);
   const auto& mempool = EnsureMemPool (node);
-  const auto& chainman = EnsureChainman (node);
+  auto& chainman = EnsureChainman (node);
+  auto& mining = EnsureMining (node);
 
   uint256 target;
-  const CBlock* pblock = getCurrentBlock (chainman, mempool, scriptPubKey, target);
+  const CBlock* pblock = getCurrentBlock (chainman, mining, mempool,
+                                          scriptPubKey, target);
 
   UniValue result(UniValue::VOBJ);
   result.pushKV ("hash", pblock->GetHash ().GetHex ());

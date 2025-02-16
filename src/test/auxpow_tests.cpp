@@ -533,7 +533,8 @@ public:
   const CBlock*
   getCurrentBlock (const CScript& scriptPubKey, uint256& target)
   {
-    return AuxpowMiner::getCurrentBlock (*node.chainman, *node.mempool,
+    return AuxpowMiner::getCurrentBlock (*node.chainman, *node.mining,
+                                         *node.mempool,
                                          scriptPubKey, target);
   }
 

@@ -6,6 +6,7 @@
 #ifndef BITCOIN_PRIMITIVES_PUREHEADER_H
 #define BITCOIN_PRIMITIVES_PUREHEADER_H
 
+#include <pow_cache.h>
 #include <serialize.h>
 #include <uint256.h>
 #include <util/time.h>

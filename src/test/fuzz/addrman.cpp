@@ -124,7 +124,7 @@ public:
     explicit AddrManDeterministic(const NetGroupManager& netgroupman, FuzzedDataProvider& fuzzed_data_provider)
         : AddrMan(netgroupman, /*deterministic=*/true, GetCheckRatio())
     {
-        WITH_LOCK(m_impl->cs, m_impl->insecure_rand = FastRandomContext{ConsumeUInt256(fuzzed_data_provider)});
+        WITH_LOCK(m_impl->cs, m_impl->insecure_rand.Reseed(ConsumeUInt256(fuzzed_data_provider)));
     }
 
     /**
@@ -186,7 +186,7 @@ public:
             return false;
         }
 
-        auto IdsReferToSameAddress = [&](int id, int other_id) EXCLUSIVE_LOCKS_REQUIRED(m_impl->cs, other.m_impl->cs) {
+        auto IdsReferToSameAddress = [&](nid_type id, nid_type other_id) EXCLUSIVE_LOCKS_REQUIRED(m_impl->cs, other.m_impl->cs) {
             if (id == -1 && other_id == -1) {
                 return true;
             }
